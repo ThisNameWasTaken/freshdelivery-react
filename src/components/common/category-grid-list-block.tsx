@@ -5,7 +5,7 @@ import Alert from '@components/ui/alert';
 import CategoryListCard from '@components/cards/category-list-card';
 import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from 'swiper/react';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
 

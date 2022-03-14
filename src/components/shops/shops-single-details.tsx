@@ -11,7 +11,7 @@ import ShopSidebar from '@components/shops/shop-sidebar';
 import ShopSidebarDrawer from '@components/shops/shop-sidebar-drawer';
 import AllProductFeed from '@components/product/feeds/all-products-feed';
 import { useTranslation } from 'next-i18next';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 
 const ShopsSingleDetails: React.FC = () => {
   const {

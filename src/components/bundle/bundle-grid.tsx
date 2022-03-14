@@ -1,5 +1,5 @@
 import BundleCard from '@components/cards/bundle-card';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import cn from 'classnames';
 import dynamic from 'next/dynamic';
 import { SwiperSlide } from '@components/ui/carousel/slider';

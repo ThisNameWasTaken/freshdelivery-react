@@ -6,7 +6,7 @@ import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import { ROUTES } from '@utils/routes';
 import Alert from '@components/ui/alert';
 import { SwiperSlide } from 'swiper/react';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import { LIMITS } from '@framework/utils/limits';
 const Carousel = dynamic(() => import('@components/ui/carousel/carousel'), {
   ssr: false,

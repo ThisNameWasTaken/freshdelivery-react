@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import { Attachment } from '@framework/types';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import Breadcrumb from '@components/ui/breadcrumb';
 import cn from 'classnames';
 

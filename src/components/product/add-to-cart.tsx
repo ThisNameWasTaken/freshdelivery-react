@@ -2,7 +2,7 @@ import Counter from '@components/ui/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
 import PlusIcon from '@components/icons/plus-icon';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 
 interface Props {
   data: any;

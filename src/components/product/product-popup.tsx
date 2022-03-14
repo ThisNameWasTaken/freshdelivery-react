@@ -22,7 +22,7 @@ import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import SocialShareBox from '@components/ui/social-share-box';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import { toast } from 'react-toastify';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import {
   useModalAction,
   useModalState,

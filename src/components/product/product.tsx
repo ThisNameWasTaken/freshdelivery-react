@@ -3,7 +3,7 @@ import Button from '@components/ui/button';
 import Counter from '@components/ui/counter';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import { useProductQuery } from '@framework/product/get-product';
 import { getVariations } from '@framework/utils/get-variations';
 import usePrice from '@framework/product/use-price';

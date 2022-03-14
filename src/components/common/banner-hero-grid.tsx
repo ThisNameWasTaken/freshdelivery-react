@@ -1,5 +1,5 @@
 import BannerCard from '@components/cards/banner-card';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from '@components/ui/carousel/slider';
 

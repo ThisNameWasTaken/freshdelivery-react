@@ -1,7 +1,7 @@
 import CollectionCard from '@components/cards/collection-card';
 import SectionHeader from '@components/common/section-header';
 import Container from '@components/ui/container';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from '@components/ui/carousel/slider';
 import { ROUTES } from '@utils/routes';

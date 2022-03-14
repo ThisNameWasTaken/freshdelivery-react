@@ -3,7 +3,7 @@ import Image from '@components/ui/image';
 import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import { useModalAction } from '@components/common/modal/modal.context';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import PlusIcon from '@components/icons/plus-icon';
 import { useCart } from '@contexts/cart/cart.context';
 import { AddToCart } from '@components/product/add-to-cart';

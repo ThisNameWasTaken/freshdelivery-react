@@ -5,7 +5,7 @@ import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from '@components/ui/carousel/slider';
 import Alert from '@components/ui/alert';
 import SeeAll from '@components/ui/see-all';
-import useWindowSize from '@utils/use-window-size';
+import { useWindowSize } from 'react-use';
 import ProductCardLoader from '@components/ui/loaders/product-card-loader';
 import cn from 'classnames';
 import { useRouter } from 'next/router';
