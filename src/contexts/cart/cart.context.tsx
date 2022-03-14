@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { cartReducer, State, initialState } from './cart.reducer';
 import { Item, getItem, inStock } from './cart.utils';
-import { useLocalStorage } from '@utils/use-local-storage';
+import { useLocalStorage } from 'react-use';
 interface CartProviderState extends State {
   addItemToCart: (item: Item, quantity: number) => void;
   removeItemFromCart: (id: Item['id']) => void;
