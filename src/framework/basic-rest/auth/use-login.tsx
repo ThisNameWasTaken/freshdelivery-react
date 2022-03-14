@@ -1,3 +1,4 @@
+import { useModalAction } from '@components/common/modal/modal.context';
 import { useUI } from '@contexts/ui.context';
 import Cookies from 'js-cookie';
 import { useMutation } from 'react-query';
@@ -13,7 +14,9 @@ async function login(input: LoginInputType) {
   };
 }
 export const useLoginMutation = () => {
-  const { authorize, closeModal } = useUI();
+  const { authorize } = useUI();
+  const { closeModal } = useModalAction();
+
   return useMutation((input: LoginInputType) => login(input), {
     onSuccess: (data) => {
       Cookies.set('auth_token', data.token);
