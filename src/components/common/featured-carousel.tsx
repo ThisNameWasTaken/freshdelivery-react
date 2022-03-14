@@ -1,5 +1,3 @@
-import ReferFriendsIcon from '@components/icons/featured/refer-friends-icon';
-import DeliveryIcon from '@components/icons/featured/delivery-icon';
 import ChatIcon from '@components/icons/featured/chat-icon';
 import FeedbackIcon from '@components/icons/featured/feedback-icon';
 import CalendarIcon from '@components/icons/featured/calendar-icon';

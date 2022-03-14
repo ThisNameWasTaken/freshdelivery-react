@@ -26,48 +26,6 @@ export const siteSettings = {
     menu: [
       {
         id: 1,
-        path: '/',
-        label: 'menu-demos',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-modern',
-          },
-          {
-            id: 2,
-            path: '/classic',
-            label: 'menu-classic',
-          },
-          {
-            id: 3,
-            path: '/vintage',
-            label: 'menu-vintage',
-          },
-          {
-            id: 4,
-            path: '/standard',
-            label: 'menu-standard',
-          },
-          {
-            id: 5,
-            path: '/minimal',
-            label: 'menu-minimal',
-          },
-          {
-            id: 6,
-            path: '/trendy',
-            label: 'menu-trendy',
-          },
-          {
-            id: 7,
-            path: '/elegant',
-            label: 'menu-elegant',
-          },
-        ],
-      },
-      {
-        id: 2,
         path: '/search',
         label: 'menu-categories',
         subMenu: [
@@ -99,7 +57,7 @@ export const siteSettings = {
         ],
       },
       {
-        id: 3,
+        id: 2,
         path: '/search',
         label: 'menu-dietary',
         subMenu: [
@@ -126,17 +84,17 @@ export const siteSettings = {
         ],
       },
       {
-        id: 4,
+        id: 3,
         path: '/search/',
         label: 'menu-search',
       },
       {
-        id: 5,
+        id: 4,
         path: '/shops/',
         label: 'menu-shops',
       },
       {
-        id: 6,
+        id: 5,
         path: '/',
         label: 'menu-pages',
         subMenu: [
