@@ -12,7 +12,32 @@
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
     "test-all": "yarn check-format && yarn lint && yarn check-types && yarn build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "find:unused": "next-unused"
+  },
+  "next-unused": {
+    "include": [
+      "src/components",
+      "src/containers",
+      "src/framework/basic-rest",
+      "src/settings",
+      "src/utils",
+      "src/assets",
+      "src/pages"
+    ],
+    "entrypoints": [
+      "src/pages"
+    ],
+    "alias": {
+      "@components": "src/components",
+      "@containers": "src/containers",
+      "@contexts": "src/contexts",
+      "@framework": "src/framework/basic-rest",
+      "@settings": "src/settings",
+      "@styles": "src/styles",
+      "@utils": "src/utils",
+      "@assets": "src/assets"
+    }
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
@@ -62,12 +87,13 @@
     "autoprefixer": "^10.3.7",
     "eslint": "^8.11.0",
     "eslint-config-next": "^12.1.0",
+    "husky": "^7.0.4",
+    "next-unused": "^0.0.6",
     "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^2.2.17",
     "tailwindcss-rtl": "^0.7.3",
-    "typescript": "^4.4.4",
-    "husky": "^7.0.4",
-    "prettier": "^2.4.1",
-    "rimraf": "^3.0.2"
+    "typescript": "^4.4.4"
   }
 }
