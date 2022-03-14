@@ -4,8 +4,8 @@ import HighlightedBar from '@components/common/highlighted-bar';
 import Countdown from '@components/common/countdown';
 import Header from '@components/layout/header/header';
 import Footer from '@components/layout/footer/footer';
-import MobileNavigation from '@components/layout/mobile-navigation/mobile-navigation';
 import { useTranslation } from 'next-i18next';
+import MobileNavigation from '@components/layout/mobile-navigation/mobile-navigation';
 
 const Layout: React.FC = ({ children }) => {
   const { t } = useTranslation('common');
@@ -15,7 +15,7 @@ const Layout: React.FC = ({ children }) => {
   );
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       {highlightedBar !== 'true' && (
         <HighlightedBar onClose={() => setHighlightedBar('true')}>
           <div className="flex items-center">
