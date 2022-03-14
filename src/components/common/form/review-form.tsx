@@ -7,7 +7,7 @@ import { useTranslation } from 'next-i18next';
 import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
 import cn from 'classnames';
-import StarRatingComponent from 'react-star-rating-component';
+// import StarRatingComponent from 'react-star-rating-component';
 import StarIcon from '@components/icons/star-icon';
 
 interface ReviewFormProps {
@@ -60,7 +60,7 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ className = '' }) => {
             <label className="flex-shrink-0 block text-skin-base text-sm md:text-15px leading-none cursor-pointer pe-3">
               {t('forms:label-your-rating')}
             </label>
-            <StarRatingComponent
+            {/* <StarRatingComponent
               name="app3"
               starCount={5}
               value={rating_custom_icon}
@@ -70,7 +70,7 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ className = '' }) => {
               renderStarIcon={() => (
                 <StarIcon className="w-3.5 lg:w-4 h-3.5 lg:h-4" />
               )}
-            />
+            /> */}
           </div>
           <Input
             label={t('forms:label-name-star')}
