@@ -5,7 +5,7 @@ import {
   Navigation,
   Thumbs,
 } from '@components/ui/carousel/slider';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { useRef, useState } from 'react';
 import cn from 'classnames';
 import { productGalleryPlaceholder } from '@assets/placeholders';

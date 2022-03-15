@@ -1,4 +1,4 @@
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import Link from '@components/ui/link';
 import { ROUTES } from '@utils/routes';
 import { searchProductPlaceholder } from '@assets/placeholders';

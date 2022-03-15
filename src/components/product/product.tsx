@@ -14,7 +14,7 @@ import isEmpty from 'lodash/isEmpty';
 import { toast } from 'react-toastify';
 import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
 import { useTranslation } from 'next-i18next';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import CartIcon from '@components/icons/cart-icon';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import TagLabel from '@components/ui/tag-label';

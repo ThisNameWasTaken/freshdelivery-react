@@ -3,7 +3,7 @@ import cn from 'classnames';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { useUI } from '@contexts/ui.context';
 import { useEffect, useState } from 'react';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 
 function SidebarMenuItem({ className, item, depth = 0 }: any) {

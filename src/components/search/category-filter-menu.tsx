@@ -3,7 +3,7 @@ import cn from 'classnames';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { useUI } from '@contexts/ui.context';
 import { useEffect, useMemo, useState } from 'react';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { FaCheck } from 'react-icons/fa';
 

@@ -7,7 +7,7 @@ import Logo from '@components/ui/logo';
 import { useSignUpMutation, SignUpInputType } from '@framework/auth/use-signup';
 import Link from '@components/ui/link';
 import { useTranslation } from 'next-i18next';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { useModalAction } from '@components/common/modal/modal.context';
 import Switch from '@components/ui/switch';
 import CloseButton from '@components/ui/close-button';

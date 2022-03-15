@@ -11,7 +11,7 @@ import usePrice from '@framework/product/use-price';
 import { getVariations } from '@framework/utils/get-variations';
 import { useTranslation } from 'next-i18next';
 import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import CartIcon from '@components/icons/cart-icon';
 import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';

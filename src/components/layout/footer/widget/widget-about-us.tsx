@@ -2,7 +2,7 @@ import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import Logo from '@components/ui/logo';
 import Text from '@components/ui/text';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { ROUTES } from '@utils/routes';
 
 interface AboutProps {

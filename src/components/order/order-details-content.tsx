@@ -1,5 +1,5 @@
 import usePrice from '@framework/product/use-price';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 
 export const OrderDetailsContent: React.FC<{ item?: any }> = ({ item }) => {
   const { price } = usePrice({

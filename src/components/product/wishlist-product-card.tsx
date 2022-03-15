@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { FC } from 'react';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';

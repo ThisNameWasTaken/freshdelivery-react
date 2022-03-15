@@ -1,5 +1,5 @@
 import Link from '@components/ui/link';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { IoIosCloseCircle } from 'react-icons/io';
 import { useCart } from '@contexts/cart/cart.context';
 import usePrice from '@framework/product/use-price';

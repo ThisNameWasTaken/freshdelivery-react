@@ -1,5 +1,5 @@
 import { Item } from '@contexts/cart/cart.utils';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { generateCartItemName } from '@utils/generate-cart-item-name';
 import usePrice from '@framework/product/use-price';
 

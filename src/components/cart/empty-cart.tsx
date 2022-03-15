@@ -1,4 +1,4 @@
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import Text from '@components/ui/text';
 import Heading from '@components/ui/heading';

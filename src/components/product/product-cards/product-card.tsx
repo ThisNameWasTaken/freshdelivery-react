@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import Image from '@components/ui/image';
+import Image from 'next/image';
 import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import { useModalAction } from '@components/common/modal/modal.context';
