@@ -4,7 +4,7 @@ import { footer } from './data';
 const { widgets } = footer;
 
 const Footer: React.FC = () => (
-  <footer className="mt-[50px] lg:mt-14 2xl:mt-16">
+  <footer>
     <Widgets widgets={widgets} />
     <Copyright />
   </footer>
