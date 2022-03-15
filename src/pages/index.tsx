@@ -33,7 +33,7 @@ export default function Home() {
         className="min-h-[400px] lg:min-h-[450px] 2xl:min-h-[480px] pt-20 lg:pt-32 pb-14 lg:pb-24 mb-7 md:mb-8 xl:mb-10"
       />
       <Container>
-        <Element name="grid" className="flex mb-11 md:mb-14 xl:mb-16 pb-2.5">
+        <Element name="grid" className="flex mb-7 pb-2.5">
           <CategoryDropdownSidebar className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-[400px]" />
           <div className="minimal-main-content w-full xl:-ms-8">
             <BannerAllCarousel
