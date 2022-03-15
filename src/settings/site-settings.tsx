@@ -2,17 +2,16 @@ import { USFlag } from '@components/icons/language/USFlag';
 import { ESFlag } from '@components/icons/language/ESFlag';
 
 export const siteSettings = {
-  name: 'BoroBazar',
-  description:
-    'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
+  name: 'FreshDelivery',
+  description: 'Get your fresh food delivered to your doorstep.',
   author: {
-    name: 'RedQ, Inc.',
-    websiteUrl: 'https://redq.io',
+    name: 'Fresh Delivery',
+    websiteUrl: 'https://freshdelivery.vercel.app',
     address: '',
   },
   logo: {
     url: '/assets/images/logo.svg',
-    alt: 'BoroBazar',
+    alt: 'FreshDelivery',
     href: '/',
     width: 128,
     height: 30,

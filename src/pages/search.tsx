@@ -3,7 +3,6 @@ import Layout from '@components/layout/layout';
 import { ShopFilters } from '@components/search/filters';
 import { ProductGrid } from '@components/product/product-grid';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import DownloadApps from '@components/common/download-apps';
 import { GetStaticProps } from 'next';
 import { Element } from 'react-scroll';
 import SearchTopBar from '@components/search/search-top-bar';
@@ -21,7 +20,7 @@ export default function Search() {
     <>
       <Seo
         title="Search"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="search"
       />
       <Divider />
@@ -36,7 +35,6 @@ export default function Search() {
           </div>
         </Element>
       </Container>
-      <DownloadApps />
     </>
   );
 }

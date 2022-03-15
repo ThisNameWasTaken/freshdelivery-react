@@ -1,7 +1,6 @@
 import Container from '@components/ui/container';
 import Layout from '@components/layout/layout';
 import ProductSingleDetails from '@components/product/product';
-import DownloadApps from '@components/common/download-apps';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import Breadcrumb from '@components/ui/breadcrumb';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -22,7 +21,6 @@ export default function ProductPage() {
 
       <RelatedProductFeed uniqueKey="related-products" />
       <PopularProductFeed />
-      <DownloadApps />
     </>
   );
 }

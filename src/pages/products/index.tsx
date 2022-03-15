@@ -3,7 +3,6 @@ import Layout from '@components/layout/layout';
 import { ShopFilters } from '@components/search/filters';
 import { ProductGrid } from '@components/product/product-grid';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import DownloadApps from '@components/common/download-apps';
 import { GetStaticProps } from 'next';
 import PageHeroSection from '@components/ui/page-hero-section';
 import { useTranslation } from 'next-i18next';
@@ -17,7 +16,7 @@ export default function Products() {
     <>
       <Seo
         title="Products"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="products"
       />
       <PageHeroSection heroTitle={t('text-all-grocery-items')} />
@@ -32,7 +31,6 @@ export default function Products() {
           </div>
         </Element>
       </Container>
-      <DownloadApps />
     </>
   );
 }

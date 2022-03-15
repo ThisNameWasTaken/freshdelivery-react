@@ -1,7 +1,6 @@
 import Container from '@components/ui/container';
 import WidgetLink from './widget-link';
 import WidgetAbout from './widget-about-us';
-import WidgetSubscription from './widget-subscription';
 import { footer } from '../data';
 
 interface WidgetsProps {
@@ -28,7 +27,6 @@ const Widgets: React.FC<WidgetsProps> = ({ widgets }) => {
             className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2"
           />
         ))}
-        <WidgetSubscription className="col-span-full sm:col-span-1 md:col-start-4 xl:col-start-auto md:col-span-4 xl:col-span-3 2xl:ps-7 3xl:ps-16 pt-8 sm:pt-0 border-t sm:border-t-0 border-skin-three " />
       </div>
     </Container>
   );

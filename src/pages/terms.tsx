@@ -5,7 +5,6 @@ import { termsAndServices } from '@settings/terms-settings';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { GetStaticProps } from 'next';
-import DownloadApps from '@components/common/download-apps';
 import Heading from '@components/ui/heading';
 import Seo from '@components/seo/seo';
 
@@ -15,7 +14,7 @@ export default function TermsPage() {
     <>
       <Seo
         title="Terms & conditions"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="terms"
       />
       <PageHeroSection heroTitle="text-page-terms-condition" />
@@ -42,7 +41,6 @@ export default function TermsPage() {
           </div>
         </Container>
       </div>
-      <DownloadApps />
     </>
   );
 }

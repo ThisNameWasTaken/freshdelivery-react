@@ -3,7 +3,6 @@ import Layout from '@components/layout/layout';
 import Map from '@components/ui/map';
 import PageContactHeroSection from '@components/ui/page-contact-hero-section';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import DownloadApps from '@components/common/download-apps';
 import ContactForm from '@components/common/form/contact-form';
 import ContactSupport from '@components/contact/contact-support';
 import ContactInformation from '@components/contact/contact-information';
@@ -14,7 +13,7 @@ export default function ContactUsPage() {
     <>
       <Seo
         title="Contact Us"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="contact-us"
       />
       <PageContactHeroSection />
@@ -40,7 +39,6 @@ export default function ContactUsPage() {
           showInfoWindow={true}
         />
       </div>
-      <DownloadApps />
     </>
   );
 }

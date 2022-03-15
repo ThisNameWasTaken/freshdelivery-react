@@ -1,7 +1,6 @@
 import Layout from '@components/layout/layout';
 import Container from '@components/ui/container';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import DownloadApps from '@components/common/download-apps';
 import { homeFourHeroBanner as heroBanner } from '@framework/static/banner';
 import HeroBannerCard from '@components/hero/hero-banner-card';
 import { GetStaticProps } from 'next';
@@ -24,9 +23,9 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Grocery & Food Store"
-        description="Get your fresh food delivered to your doorstep."
-        path="/"
+        title="Minimal"
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
+        path="minimal"
       />
       <HeroBannerCard
         banner={heroBanner}
@@ -47,7 +46,6 @@ export default function Home() {
           </div>
         </Element>
       </Container>
-      <DownloadApps />
     </>
   );
 }

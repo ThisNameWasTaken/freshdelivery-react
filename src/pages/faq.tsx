@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Layout from '@components/layout/layout';
 import Container from '@components/ui/container';
 import PageHeroSection from '@components/ui/page-hero-section';
-import DownloadApps from '@components/common/download-apps';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps } from 'next';
 import Accordion from '@components/ui/accordion';
@@ -14,7 +13,7 @@ export default function TermsPage() {
     <>
       <Seo
         title="FAQ"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="faq"
       />
       <PageHeroSection heroTitle="text-page-faq" />
@@ -29,7 +28,6 @@ export default function TermsPage() {
           ))}
         </div>
       </Container>
-      <DownloadApps />
     </>
   );
 }
