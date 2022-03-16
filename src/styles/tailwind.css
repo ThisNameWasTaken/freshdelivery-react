@@ -141,7 +141,7 @@
 
   /* Mobile Drawer Menu */
   .mobile-menu > li > div > a {
-    @apply text-15px py-3.5 font-medium;
+    @apply text-base py-3.5 font-medium;
   }
   .mobile-menu li li {
     @apply text-sm;

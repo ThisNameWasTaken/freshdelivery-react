@@ -63,7 +63,7 @@ const Counter: React.FC<CounterProps> = ({
             'text-sm md:text-base w-6 md:w-8': variant === 'default',
             'text-base md:text-[17px] w-12 md:w-20 xl:w-28':
               variant === 'single',
-            'text-15px w-9': variant === 'cart',
+            'text-base w-9': variant === 'cart',
           }
         )}
       >

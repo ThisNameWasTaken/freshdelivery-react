@@ -57,7 +57,7 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ className = '' }) => {
       >
         <div className="flex flex-col space-y-5 md:space-y-6 lg:space-y-7">
           <div className="pb-1.5 flex items-center">
-            <label className="flex-shrink-0 block text-skin-base text-sm md:text-15px leading-none cursor-pointer pe-3">
+            <label className="flex-shrink-0 block text-skin-base text-sm md:text-base leading-none cursor-pointer pe-3">
               {t('forms:label-your-rating')}
             </label>
             {/* <StarRatingComponent

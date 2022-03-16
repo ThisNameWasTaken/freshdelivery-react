@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
     <footer className="pb-20 lg:pb-7">
       <Container>
         <div className="flex flex-col md:flex-row text-center md:justify-between border-t border-skin-three pt-6 lg:pt-7">
-          <Text className="text-skin-base text-sm leading-7 lg:leading-[27px] lg:text-15px">
+          <Text className="text-skin-base text-sm leading-7 lg:leading-[27px] lg:text-base">
             &copy;&nbsp;{t('text-copyright')} {year}&nbsp;
             <a
               className="text-skin-base transition-colors duration-200 ease-in-out hover:text-skin-primary"

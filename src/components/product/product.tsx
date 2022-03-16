@@ -144,7 +144,7 @@ const ProductSingleDetails: React.FC = () => {
               </h2>
             </div>
             {data?.unit && isEmpty(variations) ? (
-              <div className="text-sm md:text-15px font-medium">
+              <div className="text-sm md:text-base font-medium">
                 {data?.unit}
               </div>
             ) : (
@@ -162,7 +162,7 @@ const ProductSingleDetails: React.FC = () => {
                 </div>
                 {discount && (
                   <>
-                    <del className="text-sm md:text-15px ps-3 text-skin-base text-opacity-50">
+                    <del className="text-sm md:text-base ps-3 text-skin-base text-opacity-50">
                       {basePrice}
                     </del>
                     <span className="inline-block rounded font-bold text-xs md:text-sm bg-skin-tree bg-opacity-20 text-skin-tree uppercase px-2 py-1 ms-2.5">
@@ -286,7 +286,7 @@ const ProductSingleDetails: React.FC = () => {
           </div>
           {data?.tag && (
             <ul className="pt-5 xl:pt-6">
-              <li className="text-sm md:text-15px text-skin-base text-opacity-80 inline-flex items-center justify-center me-2 relative top-1">
+              <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center me-2 relative top-1">
                 <LabelIcon className="me-2" /> {t('text-tags')}:
               </li>
               {data?.tag?.map((item: any) => (

@@ -42,7 +42,7 @@ const CartButton: React.FC<CartButtonProps> = ({
         </span>
       </div>
       {!hideLabel && (
-        <span className="text-sm lg:text-15px text-skin-base font-normal ms-2">
+        <span className="text-sm lg:text-base text-skin-base font-normal ms-2">
           {t('text-cart')}
         </span>
       )}

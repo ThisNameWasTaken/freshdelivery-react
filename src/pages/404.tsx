@@ -36,7 +36,7 @@ export default function ErrorPage() {
           <h2 className="text-6xl md:text-7xl 2xl:text-8xl font-bold text-skin-base pt-5 xl:pt-9">
             {t('error-heading')}
           </h2>
-          <p className="text-15px md:text-base 2xl:text-[18px] leading-7 md:leading-8 pt-4 font-medium">
+          <p className="text-base md:text-base 2xl:text-[18px] leading-7 md:leading-8 pt-4 font-medium">
             {t('error-sub-heading')}
           </p>
         </div>

@@ -35,7 +35,7 @@ export default function AccountNavMobile({ options }: { options: Option[] }) {
         <div className="relative w-full font-body">
           <Listbox.Button className="text-skin-base relative w-full p-4 md:p-5 text-start  rounded focus:outline-none cursor-pointer border border-skin-base flex items-center">
             {selectedItem?.icon}
-            <span className="flex truncate items-center text-sm md:text-15px font-medium ps-2.5 relative">
+            <span className="flex truncate items-center text-sm md:text-base font-medium ps-2.5 relative">
               {t(selectedItem?.name)}
             </span>
             <span className="absolute inset-y-0 end-4 md:end-5 flex items-center pointer-events-none">
@@ -54,7 +54,7 @@ export default function AccountNavMobile({ options }: { options: Option[] }) {
           >
             <Listbox.Options
               static
-              className="absolute z-20 w-full py-2.5 mt-1.5 overflow-auto bg-skin-fill rounded-md shadow-dropDown max-h-72 focus:outline-none text-sm md:text-15px"
+              className="absolute z-20 w-full py-2.5 mt-1.5 overflow-auto bg-skin-fill rounded-md shadow-dropDown max-h-72 focus:outline-none text-sm md:text-base"
             >
               {options?.map((option, index) => (
                 <Listbox.Option
@@ -89,7 +89,7 @@ export default function AccountNavMobile({ options }: { options: Option[] }) {
                 </Listbox.Option>
               ))}
               <button
-                className="w-full flex items-center text-sm lg:text-15px text-skin-base py-3 px-4 md:px-5 cursor-pointer focus:outline-none"
+                className="w-full flex items-center text-sm lg:text-base text-skin-base py-3 px-4 md:px-5 cursor-pointer focus:outline-none"
                 onClick={() => logout()}
               >
                 <span className="flex-shrink-0 flex justify-center">

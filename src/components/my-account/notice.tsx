@@ -29,7 +29,7 @@ export default function LegalPage() {
                   {t(`${item.title}`)}
                 </h2>
                 <div
-                  className="text-skin-base opacity-70 text-sm leading-7 lg:text-14px lg:leading-loose"
+                  className="text-skin-base opacity-70 text-sm leading-7 lg:text-base lg:leading-loose"
                   dangerouslySetInnerHTML={{
                     __html: t(`${item.description}`),
                   }}

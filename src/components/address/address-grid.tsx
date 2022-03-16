@@ -19,7 +19,7 @@ const AddressGrid: React.FC<{ address?: any }> = ({ address }) => {
 
   const [selected, setSelected] = useState(address[0]);
   return (
-    <div className="text-15px h-full flex flex-col justify-between -mt-4 md:mt-0">
+    <div className="text-base h-full flex flex-col justify-between -mt-4 md:mt-0">
       <RadioGroup
         value={selected}
         onChange={setSelected}

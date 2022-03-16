@@ -22,7 +22,7 @@ export default function ProductDetailsTab() {
               key={item}
               className={({ selected }) =>
                 classNames(
-                  'relative inline-block transition-all text-15px lg:text-17px leading-5 text-skin-base focus:outline-none pb-3 lg:pb-5 hover:text-skin-primary',
+                  'relative inline-block transition-all text-base lg:text-17px leading-5 text-skin-base focus:outline-none pb-3 lg:pb-5 hover:text-skin-primary',
                   selected
                     ? 'font-semibold after:absolute after:w-full after:h-0.5 after:bottom-0 after:translate-y-[1px] after:start-0 after:bg-skin-primary'
                     : ''
@@ -35,7 +35,7 @@ export default function ProductDetailsTab() {
         </Tab.List>
         <Tab.Panels className="mt-6 lg:mt-9">
           <Tab.Panel className="lg:flex">
-            <div className="text-sm sm:text-15px text-skin-muted leading-[2em] space-y-4 lg:space-y-5 xl:space-y-7">
+            <div className="text-sm sm:text-base text-skin-muted leading-[2em] space-y-4 lg:space-y-5 xl:space-y-7">
               <p>
                 Go sporty this summer with this vintage navy and white striped
                 v-neck t-shirt from the Abercrombie & Fitch. Perfect for pairing
@@ -72,10 +72,10 @@ export default function ProductDetailsTab() {
                 Nutrition Facts
               </Heading>
               <div className="border border-skin-four rounded">
-                <table className="w-full text-skin-base text-15px">
+                <table className="w-full text-skin-base text-base">
                   <thead>
                     <tr className="border-b border-skin-four">
-                      <th className="px-4 lg:px-5 xl:px-6 pt-3 pb-4 lg:pb-6 text-start text-sm lg:text-15px xl:text-base font-medium">
+                      <th className="px-4 lg:px-5 xl:px-6 pt-3 pb-4 lg:pb-6 text-start text-sm lg:text-base xl:text-base font-medium">
                         Amount per serving
                         <span className="block font-semibold text-lg lg:text-xl xl:text-2xl pt-0.5">
                           Calories

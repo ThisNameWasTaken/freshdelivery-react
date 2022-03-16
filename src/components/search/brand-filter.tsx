@@ -86,14 +86,14 @@ export const BrandFilter = () => {
                         <span className="inline-block pe-1">
                           {t('text-see-less')}
                         </span>
-                        <IoIosArrowUp className="text-skin-base text-opacity-60 text-15px" />
+                        <IoIosArrowUp className="text-skin-base text-opacity-60 text-base" />
                       </>
                     ) : (
                       <>
                         <span className="inline-block pe-1">
                           {t('text-see-more')}
                         </span>
-                        <IoIosArrowDown className="text-skin-base text-opacity-60 text-15px" />
+                        <IoIosArrowDown className="text-skin-base text-opacity-60 text-base" />
                       </>
                     )}
                   </Disclosure.Button>

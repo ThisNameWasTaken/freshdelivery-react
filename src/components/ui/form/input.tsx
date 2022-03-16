@@ -15,7 +15,7 @@ export interface Props extends InputHTMLAttributes<HTMLInputElement> {
   variant?: 'normal' | 'solid' | 'outline';
 }
 const classes = {
-  root: 'py-2 px-4 w-full appearance-none transition duration-150 ease-in-out border text-input text-13px lg:text-sm font-body rounded placeholder-[#B3B3B3] min-h-12 transition duration-200 ease-in-out text-skin-base',
+  root: 'py-2 px-4 w-full appearance-none transition duration-150 ease-in-out border text-input text-base lg:text-sm font-body rounded placeholder-[#B3B3B3] min-h-12 transition duration-200 ease-in-out text-skin-base',
   normal:
     'bg-gray-100 border-gray-300 focus:shadow focus:bg-skin-fill focus:border-skin-primary',
   solid:
@@ -79,7 +79,7 @@ const Input = React.forwardRef<HTMLInputElement, Props>(
           {...rest}
         />
         {error && (
-          <p className="my-2 text-13px text-skin-red text-opacity-70">
+          <p className="my-2 text-base text-skin-red text-opacity-70">
             {t(error)}
           </p>
         )}

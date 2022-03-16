@@ -60,7 +60,7 @@ function SidebarMenuItem({ className, item, depth = 0 }: any) {
         className={`flex justify-between items-center transition ${
           className
             ? className
-            : 'text-sm md:text-15px hover:bg-skin-two border-t border-skin-base first:border-t-0 px-3.5 2xl:px-4 py-3 xl:py-3.5 2xl:py-2.5 3xl:py-3'
+            : 'text-sm md:text-base hover:bg-skin-two border-t border-skin-base first:border-t-0 px-3.5 2xl:px-4 py-3 xl:py-3.5 2xl:py-2.5 3xl:py-3'
         } ${isOpen ? 'bg-skin-two' : 'text-skin-base text-opacity-70'}`}
       >
         <button

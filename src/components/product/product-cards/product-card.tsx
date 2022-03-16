@@ -100,7 +100,7 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
 
       <div className="flex flex-col px-3 md:px-4 lg:px-[18px] pb-5 lg:pb-6 lg:pt-1.5 h-full">
         <div className="space-s-2 mb-1 lg:mb-1.5">
-          <span className="inline-block font-semibold text-sm sm:text-15px lg:text-base text-skin-base">
+          <span className="inline-block font-semibold text-sm sm:text-base lg:text-base text-skin-base">
             {product_type === 'variable' ? `${minPrice} - ${maxPrice}` : price}
           </span>
           {basePrice && (
@@ -109,10 +109,10 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
             </del>
           )}
         </div>
-        <h2 className="text-skin-base text-13px sm:text-sm lg:text-15px leading-5 sm:leading-6 mb-1.5">
+        <h2 className="text-skin-base text-base sm:text-sm lg:text-base leading-5 sm:leading-6 mb-1.5">
           {name}
         </h2>
-        <div className="text-13px sm:text-sm mt-auto">{unit}</div>
+        <div className="text-base sm:text-sm mt-auto">{unit}</div>
       </div>
     </article>
   );

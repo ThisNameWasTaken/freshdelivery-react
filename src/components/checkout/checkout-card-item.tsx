@@ -19,10 +19,10 @@ export const CheckoutItem: React.FC<{ item: Item }> = ({ item }) => {
           height={64}
         />
       </div>
-      <h6 className="text-15px text-skin-base font-normal ps-3">
+      <h6 className="text-base text-skin-base font-normal ps-3">
         {generateCartItemName(item.name, item.attributes)}
       </h6>
-      <div className="flex ms-auto text-15px text-skin-base font-normal  ps-2 flex-shrink-0">
+      <div className="flex ms-auto text-base text-skin-base font-normal  ps-2 flex-shrink-0">
         {price}
       </div>
     </div>

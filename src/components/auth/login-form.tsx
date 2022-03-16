@@ -80,11 +80,11 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
             <h4 className="text-skin-base font-semibold text-xl sm:text-2xl sm:pt-3 ">
               {t('common:text-welcome-back')}
             </h4>
-            <div className="text-sm sm:text-15px text-body text-center mt-3 mb-1">
+            <div className="text-sm sm:text-base text-body text-center mt-3 mb-1">
               {t('common:text-don’t-have-account')}
               <button
                 type="button"
-                className="text-skin-primary sm:text-15px text-sm ms-1 font-semibold  hover:no-underline focus:outline-none"
+                className="text-skin-primary sm:text-base text-sm ms-1 font-semibold  hover:no-underline focus:outline-none"
                 onClick={handleSignUp}
               >
                 {t('common:text-create-account')}

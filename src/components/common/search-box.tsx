@@ -42,7 +42,7 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
           <input
             id={searchId}
             className={cn(
-              'text-heading outline-none w-full h-[52px] ps-5 md:ps-6 pe-14 md:pe-16 bg-skin-full text-skin-base text-sm lg:text-15px rounded-md transition-all duration-200 focus:border-skin-primary focus:ring-1 focus:ring-skin-form',
+              'text-heading outline-none w-full h-[52px] ps-5 md:ps-6 pe-14 md:pe-16 bg-skin-full text-skin-base text-sm lg:text-base rounded-md transition-all duration-200 focus:border-skin-primary focus:ring-1 focus:ring-skin-form',
               {
                 'border border-skin-base': variant === 'border',
                 'bg-skin-one': variant === 'fill',

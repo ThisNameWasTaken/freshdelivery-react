@@ -46,7 +46,7 @@ const DeliveryInstructions: React.FC<{ data?: any }> = ({ data }) => {
             />
             <label
               htmlFor="default-type"
-              className="align-middle ms-3 font-medium text-skin-base text-15px"
+              className="align-middle ms-3 font-medium text-skin-base text-base"
             >
               {t('forms:label-leave-at-my-door')}
             </label>

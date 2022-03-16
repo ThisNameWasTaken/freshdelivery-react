@@ -28,7 +28,7 @@ export default function Cart() {
         <div className="flex items-center">
           {!isEmpty && (
             <button
-              className="flex flex-shrink items-center text-15px transition duration-150 ease-in focus:outline-none text-skin-base opacity-50 hover:opacity-100 -me-1.5"
+              className="flex flex-shrink items-center text-base transition duration-150 ease-in focus:outline-none text-skin-base opacity-50 hover:opacity-100 -me-1.5"
               aria-label={t('text-clear-all')}
               onClick={resetCart}
             >
@@ -73,7 +73,7 @@ export default function Cart() {
           <Link
             href={isEmpty === false ? ROUTES.CHECKOUT : '/'}
             className={cn(
-              'w-full px-5 py-3 md:py-4 flex items-center justify-center bg-heading rounded font-semibold text-sm sm:text-15px text-skin-inverted bg-skin-primary focus:outline-none transition duration-300 hover:bg-opacity-90',
+              'w-full px-5 py-3 md:py-4 flex items-center justify-center bg-heading rounded font-semibold text-sm sm:text-base text-skin-inverted bg-skin-primary focus:outline-none transition duration-300 hover:bg-opacity-90',
               {
                 'cursor-not-allowed !text-skin-base !text-opacity-25 bg-skin-button-disable hover:bg-skin-button-disable':
                   isEmpty,

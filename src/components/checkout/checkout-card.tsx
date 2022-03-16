@@ -40,10 +40,10 @@ const CheckoutCard: React.FC = () => {
     <>
       <div className="border border-skin-base bg-skin-fill rounded-md py-1 xl:py-6 px-4 xl:px-7">
         <div className="flex py-4 rounded-md text-sm font-semibold text-heading">
-          <span className="text-15px text-skin-base font-medium">
+          <span className="text-base text-skin-base font-medium">
             {t('text-product')}
           </span>
-          <span className="ms-auto flex-shrink-0 text-15px text-skin-base font-medium ">
+          <span className="ms-auto flex-shrink-0 text-base text-skin-base font-medium ">
             {t('text-sub-total')}
           </span>
         </div>

@@ -24,7 +24,7 @@ const SearchTopBar = () => {
         <span className="ps-2.5">{t('text-filters')}</span>
       </button>
       <div className="flex w-full items-center justify-end lg:justify-between">
-        <div className="flex-shrink-0 text-skin-base font-medium text-15px leading-4 md:me-6 hidden lg:block mt-0.5">
+        <div className="flex-shrink-0 text-skin-base font-medium text-base leading-4 md:me-6 hidden lg:block mt-0.5">
           2,683 {t('text-items-found')}
         </div>
         <ListBox

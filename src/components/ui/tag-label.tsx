@@ -20,7 +20,7 @@ const TagLabel: React.FC<Props> = ({ className, data }) => {
   return (
     <div
       className={cn(
-        'font-medium text-13px md:text-sm rounded hover:bg-skin-button-secondary block border border-sink-base px-2 py-1 transition',
+        'font-medium text-base md:text-sm rounded hover:bg-skin-button-secondary block border border-sink-base px-2 py-1 transition',
         className
       )}
       role="button"

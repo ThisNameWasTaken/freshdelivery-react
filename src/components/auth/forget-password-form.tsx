@@ -79,7 +79,7 @@ const ForgetPasswordForm = () => {
           {t('common:text-or')}
         </span>
       </div>
-      <div className="text-sm sm:text-15px text-skin-muted text-center">
+      <div className="text-sm sm:text-base text-skin-muted text-center">
         {t('common:text-back-to')}{' '}
         <button
           type="button"

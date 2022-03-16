@@ -31,7 +31,7 @@ export default function TermsPage() {
                   {t(item.title)}
                 </Heading>
                 <div
-                  className="text-skin-muted text-sm lg:text-15px leading-7 space-y-5"
+                  className="text-skin-muted text-sm lg:text-base leading-7 space-y-5"
                   dangerouslySetInnerHTML={{
                     __html: t(item.description),
                   }}

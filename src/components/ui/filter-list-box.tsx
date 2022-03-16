@@ -42,7 +42,7 @@ export default function ListBox({ options }: { options: Option[] }) {
       {({ open }) => (
         <div className="relative ms-2 lg:ms-0 min-w-[160px]">
           <div className="flex items-center">
-            <div className="flex-shrink-0 text-15px me-2 text-skin-base text-opacity-70">
+            <div className="flex-shrink-0 text-base me-2 text-skin-base text-opacity-70">
               {t('text-sort-by')}:
             </div>
             <Listbox.Button className="pe-5 text-skin-base text-sm font-semibold relative w-full text-start bg-skin-fill rounded-lg shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm cursor-pointer">

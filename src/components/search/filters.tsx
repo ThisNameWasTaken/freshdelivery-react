@@ -18,7 +18,7 @@ export const ShopFilters: React.FC = () => {
           <div className="flex items-center justify-between mb-4 -mt-1">
             <Heading>{t('text-filters')}</Heading>
             <button
-              className="flex-shrink text-13px transition duration-150 ease-in focus:outline-none hover:text-skin-base"
+              className="flex-shrink text-base transition duration-150 ease-in focus:outline-none hover:text-skin-base"
               aria-label={t('text-clear-all')}
               onClick={() => {
                 router.push(pathname);

@@ -16,13 +16,13 @@ const AuthMenu: React.FC<Props> = ({
   return isAuthorized ? (
     <Link
       href={href}
-      className="text-sm lg:text-15px text-skin-base font-normal focus:outline-none ms-2"
+      className="text-sm lg:text-base text-skin-base font-normal focus:outline-none ms-2"
     >
       {children}
     </Link>
   ) : (
     <button
-      className="text-sm lg:text-15px text-skin-base font-normal focus:outline-none ms-2"
+      className="text-sm lg:text-base text-skin-base font-normal focus:outline-none ms-2"
       aria-label="Authentication"
       {...btnProps}
     />

@@ -24,7 +24,7 @@ const SearchProduct: React.FC<SearchProductProps> = ({ item }) => {
         />
       </div>
       <div className="flex flex-col w-full overflow-hidden">
-        <h3 className="truncate text-skin-base text-15px">{item.name}</h3>
+        <h3 className="truncate text-skin-base text-base">{item.name}</h3>
       </div>
     </Link>
   );

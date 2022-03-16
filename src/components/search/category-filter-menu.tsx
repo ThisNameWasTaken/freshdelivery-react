@@ -85,7 +85,7 @@ function CategoryFilterMenuItem({
       <li
         onClick={onClick}
         className={cn(
-          'flex justify-between items-center transition text-sm md:text-15px',
+          'flex justify-between items-center transition text-sm md:text-base',
           { 'bg-skin-two': isOpen },
           className
         )}
@@ -110,7 +110,7 @@ function CategoryFilterMenuItem({
           <span className="text-skin-base capitalize py-0.5">{name}</span>
           {depth > 0 && (
             <span
-              className={`w-[22px] h-[22px] text-13px flex items-center justify-center border-2 border-skin-four rounded-full ms-auto transition duration-500 ease-in-out group-hover:border-skin-yellow text-skin-inverted ${
+              className={`w-[22px] h-[22px] text-base flex items-center justify-center border-2 border-skin-four rounded-full ms-auto transition duration-500 ease-in-out group-hover:border-skin-yellow text-skin-inverted ${
                 selectedCategories.includes(slug) &&
                 'border-skin-yellow bg-skin-yellow'
               }`}

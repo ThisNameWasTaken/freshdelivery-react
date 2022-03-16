@@ -39,12 +39,12 @@ const WishlistProductCard: FC<ProductProps> = ({ product, className }) => {
         </div>
 
         <div className="flex flex-col ms-2 2xl:ms-3.5 h-full">
-          <h2 className="text-skin-base text-13px sm:text-sm lg:text-15px leading-5 sm:leading-6 mb-1.5">
+          <h2 className="text-skin-base text-base sm:text-sm lg:text-base leading-5 sm:leading-6 mb-1.5">
             {name}
           </h2>
-          <div className="text-13px sm:text-sm mb-1 lg:mb-2">{unit}</div>
+          <div className="text-base sm:text-sm mb-1 lg:mb-2">{unit}</div>
           <div className="space-s-2 ">
-            <span className="inline-block font-semibold text-sm sm:text-15px lg:text-base text-skin-base">
+            <span className="inline-block font-semibold text-sm sm:text-base lg:text-base text-skin-base">
               {price}
             </span>
             {discount && (
@@ -65,14 +65,14 @@ const WishlistProductCard: FC<ProductProps> = ({ product, className }) => {
           <>
             <IoIosHeartEmpty className="w-5 h-5 mt-0.5" />
 
-            <span className=" ms-3 text-skin-base font-medium text-15px -mt-0.5 md:mt-0">
+            <span className=" ms-3 text-skin-base font-medium text-base -mt-0.5 md:mt-0">
               {t('text-favorite')}
             </span>
           </>
         ) : (
           <>
             <IoIosHeart className="text-skin-primary w-5 h-5 mt-0.5" />
-            <span className="text-skin-primary ms-3 font-semibold text-15px -mt-0.5 md:mt-0">
+            <span className="text-skin-primary ms-3 font-semibold text-base -mt-0.5 md:mt-0">
               {t('text-favorited')}
             </span>
           </>

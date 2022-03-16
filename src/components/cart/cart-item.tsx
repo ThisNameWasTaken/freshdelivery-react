@@ -45,11 +45,11 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
         <div className="ps-3 md:ps-4">
           <Link
             href={`${ROUTES.PRODUCT}/${item?.slug}`}
-            className="block text-skin-base text-13px sm:text-sm lg:text-15px transition-all leading-5 hover:text-skin-primary"
+            className="block text-skin-base text-base sm:text-sm lg:text-base transition-all leading-5 hover:text-skin-primary"
           >
             {item?.name}
           </Link>
-          <div className="text-13px sm:text-sm text-skin-muted mt-1.5 block mb-2">
+          <div className="text-base sm:text-sm text-skin-muted mt-1.5 block mb-2">
             {item.unit} X {item.quantity}
           </div>
           <Counter

@@ -16,8 +16,8 @@ const Text: React.FC<TextProps> = ({
     className={cn(
       'text-skin-muted text-sm leading-7',
       {
-        'lg:leading-[27px] lg:text-15px': variant === 'body',
-        'lg:text-15px xl:text-base': variant === 'medium',
+        'lg:leading-[27px] lg:text-base': variant === 'body',
+        'lg:text-base xl:text-base': variant === 'medium',
         'lg:leading-[1.85em]': variant === 'small',
       },
       className

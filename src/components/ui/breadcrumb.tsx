@@ -62,7 +62,7 @@ export const BreadcrumbItems = (props: any) => {
 
 const Breadcrumb: React.FC<{ separator?: string }> = ({
   separator = (
-    <IoChevronForward className="text-skin-base text-opacity-40 text-15px" />
+    <IoChevronForward className="text-skin-base text-opacity-40 text-base" />
   ),
 }) => {
   const breadcrumbs = useBreadcrumb();
@@ -75,7 +75,7 @@ const Breadcrumb: React.FC<{ separator?: string }> = ({
         activeClassName="font-semibold text-heading"
       >
         <a className="inline-flex items-center">
-          <IoHomeOutline className="me-1.5 text-skin-base text-15px" />
+          <IoHomeOutline className="me-1.5 text-skin-base text-base" />
           {t('breadcrumb-home')}
         </a>
       </ActiveLink>

@@ -18,7 +18,7 @@ const ProductAttributes: React.FC<Props> = ({
     <>
       {Object.keys(variations).map((variationName, index) => (
         <div className={cn(className)} key={index}>
-          <h4 className="text-15px text-skin-base text-opacity-70 font-normal mb-3 capitalize">
+          <h4 className="text-base text-skin-base text-opacity-70 font-normal mb-3 capitalize">
             {variationName.split('-').join(' ')}:
           </h4>
 
@@ -27,7 +27,7 @@ const ProductAttributes: React.FC<Props> = ({
               <li
                 key={attribute.id}
                 className={cn(
-                  'cursor-pointer rounded border h-9 md:h-10 p-1 mb-2 md:mb-3 me-2 flex justify-center items-center font-medium text-sm md:text-15px text-skin-base transition duration-200 ease-in-out hover:text-skin-primary hover:border-skin-primary px-3',
+                  'cursor-pointer rounded border h-9 md:h-10 p-1 mb-2 md:mb-3 me-2 flex justify-center items-center font-medium text-sm md:text-base text-skin-base transition duration-200 ease-in-out hover:text-skin-primary hover:border-skin-primary px-3',
                   {
                     'border-skin-primary text-skin-primary':
                       attributes[variationName] === attribute.value,

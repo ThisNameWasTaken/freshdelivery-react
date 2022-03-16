@@ -34,7 +34,7 @@ export default function VariationPrice({
       </div>
       {discount && (
         <>
-          <del className="text-sm md:text-15px ps-3 text-skin-base text-opacity-50">
+          <del className="text-sm md:text-base ps-3 text-skin-base text-opacity-50">
             {basePrice}
           </del>
           <span className="inline-block rounded font-bold text-xs md:text-sm bg-skin-tree bg-opacity-20 text-skin-tree uppercase px-2 py-1 ms-2.5">

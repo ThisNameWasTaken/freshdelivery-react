@@ -52,7 +52,7 @@ export const Accordion: React.FC<CollapseProps> = ({
               >
                 {open && (
                   <Disclosure.Panel static>
-                    <div className="px-5 pb-4 2xl:pb-7  2xl:px-6  -mt-1 2xl:mt-0 leading-7 text-sm 2xl:text-15px  text-skin-base opacity-70">
+                    <div className="px-5 pb-4 2xl:pb-7  2xl:px-6  -mt-1 2xl:mt-0 leading-7 text-sm 2xl:text-base  text-skin-base opacity-70">
                       {t(content)}
                     </div>
                   </Disclosure.Panel>

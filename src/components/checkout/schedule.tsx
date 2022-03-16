@@ -59,7 +59,7 @@ export default function Schedule() {
                     </RadioGroup.Label>
                     <RadioGroup.Description
                       as="span"
-                      className={`text-15px ${
+                      className={`text-base ${
                         checked ? 'text-skin-inverted' : 'text-gray-500'
                       }`}
                     >

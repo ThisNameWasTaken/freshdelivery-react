@@ -7,7 +7,7 @@ export const CheckBox = React.forwardRef<HTMLInputElement, CheckBoxProps>(
   ({ label, ...rest }, ref) => {
     const { t } = useTranslation();
     return (
-      <label className="group flex items-center justify-between text-skin-base text-sm md:text-15px cursor-pointer transition-all hover:text-opacity-80 border-b border-skin-base py-3.5 last:border-b-0 last:pb-0 first:pt-0">
+      <label className="group flex items-center justify-between text-skin-base text-sm md:text-base cursor-pointer transition-all hover:text-opacity-80 border-b border-skin-base py-3.5 last:border-b-0 last:pb-0 first:pt-0">
         <span className="me-3.5 -mt-0.5">{label ? t(label) : label}</span>
         <input
           type="checkbox"

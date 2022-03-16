@@ -25,7 +25,7 @@ export default function AccountNav({ options }: { options: Option[] }) {
         return (
           <Link key={item.slug} href={item.slug}>
             <a
-              className={`flex items-center cursor-pointer text-sm lg:text-15px text-skin-base py-3.5 px-3.5 xl:px-4 2xl:px-5 mb-1 ${
+              className={`flex items-center cursor-pointer text-sm lg:text-base text-skin-base py-3.5 px-3.5 xl:px-4 2xl:px-5 mb-1 ${
                 mainPath === menuPath
                   ? 'bg-skin-two font-medium'
                   : 'font-normal'
@@ -40,7 +40,7 @@ export default function AccountNav({ options }: { options: Option[] }) {
         );
       })}
       <button
-        className="flex items-center text-sm lg:text-15px text-skin-base py-3.5 px-3.5 xl:px-4 2xl:px-5 mb-1 cursor-pointer focus:outline-none"
+        className="flex items-center text-sm lg:text-base text-skin-base py-3.5 px-3.5 xl:px-4 2xl:px-5 mb-1 cursor-pointer focus:outline-none"
         onClick={() => logout()}
       >
         <span className="w-9 xl:w-10 flex-shrink-0 flex justify-center">
