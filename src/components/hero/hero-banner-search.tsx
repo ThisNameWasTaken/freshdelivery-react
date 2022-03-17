@@ -1,7 +1,7 @@
 import { useTranslation } from 'next-i18next';
-import SearchIcon from '@components/icons/search-icon';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
+import { IoSearchOutline } from 'react-icons/io5';
 
 const HeroSearchBox = () => {
   const { t } = useTranslation('forms');
@@ -35,7 +35,7 @@ const HeroSearchBox = () => {
         title="Search"
         className="outline-none absolute top-0 end-0 w-14 md:w-16 h-full flex items-center justify-center transition duration-200 ease-in-out hover:text-heading focus:outline-none"
       >
-        <SearchIcon className="w-5 h-5 text-skin-base text-opacity-40" />
+        <IoSearchOutline className="w-5 h-5 text-skin-base text-opacity-40" />
       </button>
     </form>
   );

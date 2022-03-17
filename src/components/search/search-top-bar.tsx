@@ -1,12 +1,11 @@
 import { Drawer } from '@components/common/drawer/drawer';
-import FilterIcon from '@components/icons/filter-icon';
-import Text from '@components/ui/text';
 import { useUI } from '@contexts/ui.context';
 import FilterSidebar from '@components/search/filter-sidebar';
 import ListBox from '@components/ui/filter-list-box';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { getDirection } from '@utils/get-direction';
+import { IoFilterOutline } from 'react-icons/io5';
 
 const SearchTopBar = () => {
   const { openFilter, displayFilter, closeFilter } = useUI();
@@ -17,10 +16,10 @@ const SearchTopBar = () => {
   return (
     <div className="flex justify-between items-center mb-6">
       <button
-        className="lg:hidden text-skin-base text-sm px-4 py-2 font-semibold border border-skin-base rounded-md flex items-center transition duration-200 ease-in-out focus:outline-none hover:border-skin-primary hover:text-skin-primary"
+        className="lg:hidden text-skin-base text-base px-4 py-2 font-semibold border border-skin-base rounded-md flex items-center transition duration-200 ease-in-out focus:outline-none hover:border-skin-primary hover:text-skin-primary"
         onClick={openFilter}
       >
-        <FilterIcon />
+        <IoFilterOutline className="w-[22px] h-[22px]" />
         <span className="ps-2.5">{t('text-filters')}</span>
       </button>
       <div className="flex w-full items-center justify-end lg:justify-between">

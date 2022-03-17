@@ -1,8 +1,7 @@
 import cn from 'classnames';
 import React, { InputHTMLAttributes, useState } from 'react';
-import { Eye } from '@components/icons/eye-icon';
-import { EyeOff } from '@components/icons/eye-off-icon';
 import { useTranslation } from 'next-i18next';
+import { IoEyeOffOutline, IoEyeOutline } from 'react-icons/io5';
 
 export interface Props extends InputHTMLAttributes<HTMLInputElement> {
   className?: string;
@@ -59,9 +58,9 @@ const PasswordInput = React.forwardRef<HTMLInputElement, Props>(
             onClick={() => setShow((prev) => !prev)}
           >
             {show ? (
-              <EyeOff className="w-6 h-6" />
+              <IoEyeOffOutline className="w-6 h-6 text-[#8C969F]" />
             ) : (
-              <Eye className="w-6 h-6" />
+              <IoEyeOutline className="w-6 h-6 text-[#8C969F]" />
             )}
           </label>
         </div>

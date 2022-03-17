@@ -2,7 +2,7 @@ import Scrollbar from '@components/ui/scrollbar';
 import { useCart } from '@contexts/cart/cart.context';
 import { useUI } from '@contexts/ui.context';
 import usePrice from '@framework/product/use-price';
-import { IoClose } from 'react-icons/io5';
+import { IoClose, IoTrash } from 'react-icons/io5';
 import CartItem from './cart-item';
 import EmptyCart from './empty-cart';
 import Link from '@components/ui/link';
@@ -11,7 +11,6 @@ import cn from 'classnames';
 import { useTranslation } from 'next-i18next';
 import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
-import DeleteIcon from '@components/icons/delete-icon';
 
 export default function Cart() {
   const { t } = useTranslation('common');
@@ -32,7 +31,7 @@ export default function Cart() {
               aria-label={t('text-clear-all')}
               onClick={resetCart}
             >
-              <DeleteIcon />
+              <IoTrash />
               <span className="ps-1">{t('text-clear-all')}</span>
             </button>
           )}

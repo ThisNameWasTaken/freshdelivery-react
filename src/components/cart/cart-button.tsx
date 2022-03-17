@@ -1,8 +1,8 @@
-import CartIcon from '@components/icons/cart-icon';
 import { useCart } from '@contexts/cart/cart.context';
 import { useUI } from '@contexts/ui.context';
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';
+import { IoCartOutline } from 'react-icons/io5';
 
 type CartButtonProps = {
   className?: string;
@@ -13,7 +13,7 @@ type CartButtonProps = {
 
 const CartButton: React.FC<CartButtonProps> = ({
   className,
-  iconClassName = 'text-skin-base text-opacity-40',
+  iconClassName = 'text-skin-base w-[24px] h-[24px] text-opacity-40',
   hideLabel,
   isShowing,
 }) => {
@@ -36,7 +36,7 @@ const CartButton: React.FC<CartButtonProps> = ({
       aria-label="cart-button"
     >
       <div className="flex items-center relative">
-        <CartIcon className={cn(iconClassName)} />
+        <IoCartOutline className={cn('w-[24px] h-[24px]', iconClassName)} />
         <span className="cart-counter-badge flex items-center justify-center bg-skin-primary text-skin-inverted absolute -top-2.5 start-2.5 rounded-full font-bold">
           {totalItems}
         </span>

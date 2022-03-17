@@ -1,7 +1,6 @@
 import cn from 'classnames';
-import MinusIcon from '@components/icons/minus-icon';
-import PlusIcon from '@components/icons/plus-icon';
 import { useTranslation } from 'next-i18next';
+import { IoAddOutline, IoRemoveOutline } from 'react-icons/io5';
 
 type ButtonEvent = (
   e: React.MouseEvent<HTMLButtonElement | MouseEvent>
@@ -54,7 +53,7 @@ const Counter: React.FC<CounterProps> = ({
         )}
       >
         <span className="sr-only">{t('button-minus')}</span>
-        <MinusIcon width={size} height={size} opacity="1" />
+        <IoRemoveOutline width={size} height={size} opacity="1" />
       </button>
       <span
         className={cn(
@@ -86,7 +85,7 @@ const Counter: React.FC<CounterProps> = ({
         title={disabled ? 'Out Of Stock' : ''}
       >
         <span className="sr-only">{t('button-plus')}</span>
-        <PlusIcon width={size} height={size} opacity="1" />
+        <IoAddOutline width={size} height={size} opacity="1" />
       </button>
     </div>
   );

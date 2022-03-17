@@ -12,12 +12,10 @@ import { getVariations } from '@framework/utils/get-variations';
 import { useTranslation } from 'next-i18next';
 import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
 import Image from 'next/image';
-import CartIcon from '@components/icons/cart-icon';
 import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
 import TagLabel from '@components/ui/tag-label';
-import LabelIcon from '@components/icons/label-icon';
-import { IoArrowRedoOutline } from 'react-icons/io5';
+import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import SocialShareBox from '@components/ui/social-share-box';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
@@ -268,7 +266,7 @@ export default function ProductPopup() {
                   disabled={!isSelected}
                   loading={addToCartLoader}
                 >
-                  <CartIcon color="#ffffff" className="me-3" />
+                  <IoCart color="#ffffff" className="me-3 w-[24px] h-[24px]" />
                   {t('text-add-to-cart')}
                 </Button>
                 <div className="grid grid-cols-2 gap-2.5">
@@ -312,8 +310,8 @@ export default function ProductPopup() {
               </div>
               {tag && (
                 <ul className="pt-5 xl:pt-6">
-                  <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center me-2 relative top-1">
-                    <LabelIcon className="me-2" /> {t('text-tags')}:
+                  <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center align-middle me-2 relative">
+                    {t('text-tags')}:
                   </li>
                   {tag?.map((item: any) => (
                     <li className="inline-block p-[3px]" key={`tag-${item.id}`}>

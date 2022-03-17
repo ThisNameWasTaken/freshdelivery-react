@@ -1,8 +1,4 @@
 import Link from '@components/ui/link';
-import SearchIcon from '@components/icons/search-icon';
-import UserIcon from '@components/icons/user-icon';
-import MenuIcon from '@components/icons/menu-icon';
-import HomeIcon from '@components/icons/home-icon';
 import { useUI } from '@contexts/ui.context';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
@@ -11,6 +7,12 @@ import { Drawer } from '@components/common/drawer/drawer';
 import { getDirection } from '@utils/get-direction';
 import { useModalAction } from '@components/common/modal/modal.context';
 import { useTranslation } from 'next-i18next';
+import {
+  IoHomeOutline,
+  IoMenuOutline,
+  IoPersonOutline,
+  IoSearchOutline,
+} from 'react-icons/io5';
 const CartButton = dynamic(() => import('@components/cart/cart-button'), {
   ssr: false,
 });
@@ -49,18 +51,18 @@ const BottomNavigation: React.FC = () => {
           className="flex flex-col items-center justify-center flex-shrink-0 outline-none focus:outline-none"
           onClick={handleMobileMenu}
         >
-          <MenuIcon />
+          <IoMenuOutline className="w-[24px] h-[24px]" />
         </button>
         <button
           className="flex items-center justify-center flex-shrink-0 h-auto relative focus:outline-none"
           onClick={toggleMobileSearch}
           aria-label="Search Button"
         >
-          <SearchIcon />
+          <IoSearchOutline className="w-[24px] h-[24px]" />
         </button>
         <Link href={ROUTES.HOME} className="flex-shrink-0">
           <span className="sr-only">{t('breadcrumb-home')}</span>
-          <HomeIcon />
+          <IoHomeOutline className="w-[24px] h-[24px]" />
         </Link>
         <CartButton hideLabel={true} iconClassName="text-opacity-100" />
         <AuthMenu
@@ -68,11 +70,11 @@ const BottomNavigation: React.FC = () => {
           href={ROUTES.ACCOUNT}
           btnProps={{
             className: 'flex-shrink-0 focus:outline-none',
-            children: <UserIcon />,
+            children: <IoPersonOutline className="w-[24px] h-[24px]" />,
             onClick: handleLogin,
           }}
         >
-          <UserIcon />
+          <IoPersonOutline className="w-[22px] h-[22px]" />
         </AuthMenu>
       </div>
       <Drawer

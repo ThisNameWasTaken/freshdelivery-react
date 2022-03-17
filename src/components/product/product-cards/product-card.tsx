@@ -4,11 +4,11 @@ import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import { useModalAction } from '@components/common/modal/modal.context';
 import { useWindowSize } from 'react-use';
-import PlusIcon from '@components/icons/plus-icon';
 import { useCart } from '@contexts/cart/cart.context';
 import { AddToCart } from '@components/product/add-to-cart';
 import { useTranslation } from 'next-i18next';
 import { productPlaceholder } from '@assets/placeholders';
+import { IoAddOutline } from 'react-icons/io5';
 
 interface ProductProps {
   product: Product;
@@ -39,7 +39,7 @@ function RenderPopupOrAddToCart({ data }: { data: Product }) {
         aria-label="Count Button"
         onClick={handlePopupView}
       >
-        <PlusIcon width={iconSize} height={iconSize} opacity="1" />
+        <IoAddOutline width={iconSize} height={iconSize} opacity="1" />
       </button>
     );
   }

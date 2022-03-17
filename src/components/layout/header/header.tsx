@@ -7,12 +7,12 @@ import { useUI } from '@contexts/ui.context';
 import { addActiveScroll } from '@utils/add-active-scroll';
 import Container from '@components/ui/container';
 import Logo from '@components/ui/logo';
-import UserIcon from '@components/icons/user-icon';
 import HeaderMenu from '@components/layout/header/header-menu';
 import LanguageSwitcher from '@components/ui/language-switcher';
 import { useModalAction } from '@components/common/modal/modal.context';
 import cn from 'classnames';
 import Search from '@components/common/search';
+import { IoPersonOutline } from 'react-icons/io5';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
 const CartButton = dynamic(() => import('@components/cart/cart-button'), {
   ssr: false,
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
             <LanguageSwitcher />
             <CartButton className="hidden lg:flex" />
             <div className="hidden lg:flex items-center flex-shrink-0 ">
-              <UserIcon className="text-skin-base text-opacity-40" />
+              <IoPersonOutline className="text-skin-base text-opacity-40 w-[22px] h-[22px]" />
               <AuthMenu
                 isAuthorized={isAuthorized}
                 href={ROUTES.ACCOUNT}

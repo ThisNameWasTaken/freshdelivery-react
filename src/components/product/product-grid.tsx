@@ -55,7 +55,6 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = '' }) => {
             ));
           })
         )}
-        {/* end of error state */}
       </div>
       {hasNextPage && (
         <div className="text-center pt-8 xl:pt-10">

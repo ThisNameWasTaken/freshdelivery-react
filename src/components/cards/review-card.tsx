@@ -2,7 +2,7 @@ import type { FC } from 'react';
 import { useTranslation } from 'next-i18next';
 import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
-import StarIcon from '@components/icons/star-icon';
+import { IoStar } from 'react-icons/io5';
 
 interface ReviewProps {
   item: any;
@@ -17,7 +17,7 @@ const ReviewCard: FC<ReviewProps> = ({ item, className = '' }) => {
     >
       <div className="flex space-s-1 mb-3.5">
         {[...Array(5)].map((_, idx) => (
-          <StarIcon
+          <IoStar
             key={idx}
             color={idx < item.rating ? '#F3B81F' : '#DFE6ED'}
             className="w-3.5 lg:w-4 h-3.5 lg:h-4"

@@ -101,8 +101,8 @@ export const siteSettings = {
             subMenu: [
               {
                 id: 1,
-                path: '/my-account/account-settings',
-                label: 'menu-my-account',
+                path: '/account/settings',
+                label: 'menu-account',
               },
               {
                 id: 2,

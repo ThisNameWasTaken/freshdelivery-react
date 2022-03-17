@@ -15,11 +15,9 @@ import { toast } from 'react-toastify';
 import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
-import CartIcon from '@components/icons/cart-icon';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import TagLabel from '@components/ui/tag-label';
-import LabelIcon from '@components/icons/label-icon';
-import { IoArrowRedoOutline } from 'react-icons/io5';
+import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
 import SocialShareBox from '@components/ui/social-share-box';
 import ProductDetailsTab from '@components/product/product-details/product-tab';
 import VariationPrice from './variation-price';
@@ -242,7 +240,10 @@ const ProductSingleDetails: React.FC = () => {
               disabled={!isSelected}
               loading={addToCartLoader}
             >
-              <CartIcon color="#ffffff" className="me-3" />
+              <IoCartOutline
+                color="#ffffff"
+                className="me-3 w-[24px] h-[24px]"
+              />
               {t('text-add-to-cart')}
             </Button>
             <div className="grid grid-cols-2 gap-2.5">
@@ -286,8 +287,8 @@ const ProductSingleDetails: React.FC = () => {
           </div>
           {data?.tag && (
             <ul className="pt-5 xl:pt-6">
-              <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center me-2 relative top-1">
-                <LabelIcon className="me-2" /> {t('text-tags')}:
+              <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center align-middle me-2 relative">
+                {t('text-tags')}:
               </li>
               {data?.tag?.map((item: any) => (
                 <li className="inline-block p-[3px]" key={`tag-${item.id}`}>

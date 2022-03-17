@@ -1,7 +1,7 @@
 import Counter from '@components/ui/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
-import PlusIcon from '@components/icons/plus-icon';
+import { IoAddOutline } from 'react-icons/io5';
 import { useWindowSize } from 'react-use';
 
 interface Props {
@@ -39,7 +39,7 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
       onClick={handleAddClick}
       disabled={disabled || outOfStock}
     >
-      <PlusIcon width={iconSize} height={iconSize} opacity="1" />
+      <IoAddOutline width={iconSize} height={iconSize} opacity="1" />
     </button>
   ) : (
     <Counter

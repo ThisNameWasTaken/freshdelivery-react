@@ -8,7 +8,6 @@ import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
 import cn from 'classnames';
 // import StarRatingComponent from 'react-star-rating-component';
-import StarIcon from '@components/icons/star-icon';
 
 interface ReviewFormProps {
   className?: string;
