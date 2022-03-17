@@ -1,7 +1,7 @@
 import React from 'react';
-import { getToken } from '@framework/utils/get-token';
+import { getToken } from '@framework/utils/http';
 import { CartProvider } from './cart/cart.context';
-import { ModalProvider } from '@components/common/modal/modal.context';
+import { ModalProvider } from '@components/modal/modal.context';
 
 export interface State {
   isAuthorized: boolean;

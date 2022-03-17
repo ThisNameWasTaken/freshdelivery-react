@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import { siteSettings } from '@settings/site-settings';
-import Scrollbar from '@components/ui/scrollbar';
+import Scrollbar from '@components/scrollbar';
 import { IoIosArrowDown } from 'react-icons/io';
-import Logo from '@components/ui/logo';
+import Logo from '@components/logo';
 import { useUI } from '@contexts/ui.context';
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';

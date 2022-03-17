@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 import { useUI } from '@contexts/ui.context';
-import { Drawer } from '@components/common/drawer/drawer';
+import { Drawer } from '@components/drawer/drawer';
 import { useRouter } from 'next/router';
 import { getDirection } from '@utils/get-direction';
 const Cart = dynamic(() => import('@components/cart/cart'));

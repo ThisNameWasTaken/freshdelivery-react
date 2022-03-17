@@ -8,7 +8,7 @@ import {
   Autoplay,
   Pagination,
   Grid,
-} from '@components/ui/carousel/slider';
+} from '@components/carousel/slider';
 import { useRouter } from 'next/router';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { getDirection } from '@utils/get-direction';

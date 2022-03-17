@@ -1,13 +1,13 @@
 import type { FC } from 'react';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import Alert from '@components/ui/alert';
-import Button from '@components/ui/button';
+import Alert from '@components/alert';
+import Button from '@components/button';
 import ProductCard from '@components/product/product-cards/product-card';
-import ProductCardLoader from '@components/ui/loaders/product-card-loader';
+import ProductCardLoader from '@components/loaders/product-card-loader';
 import cn from 'classnames';
 import { useProductsQuery } from '@framework/product/get-all-products';
-import { LIMITS } from '@framework/utils/limits';
+import { LIMITS } from '@framework/utils/http';
 import { Product } from '@framework/types';
 
 interface ProductGridProps {

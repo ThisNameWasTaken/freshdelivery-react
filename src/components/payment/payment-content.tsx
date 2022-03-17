@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { AiOutlinePlus } from 'react-icons/ai';
 import { RadioGroup } from '@headlessui/react';
-import { useModalAction } from '@components/common/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
 
 const PaymentBox: React.FC<{ items: any }> = ({ items }) => {
   const { openModal } = useModalAction();

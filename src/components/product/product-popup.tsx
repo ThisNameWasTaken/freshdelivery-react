@@ -2,30 +2,27 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import isEmpty from 'lodash/isEmpty';
 import { ROUTES } from '@utils/routes';
-import Button from '@components/ui/button';
-import Counter from '@components/ui/counter';
+import Button from '@components/button';
+import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import ProductAttributes from '@components/product/product-attributes';
 import { generateCartItem } from '@utils/generate-cart-item';
 import usePrice from '@framework/product/use-price';
-import { getVariations } from '@framework/utils/get-variations';
+import { groupBy } from 'lodash';
 import { useTranslation } from 'next-i18next';
-import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
+import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import Image from 'next/image';
-import Heading from '@components/ui/heading';
-import Text from '@components/ui/text';
-import TagLabel from '@components/ui/tag-label';
+import Heading from '@components/heading';
+import Text from '@components/text';
+import TagLabel from '@components/tag-label';
 import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
-import SocialShareBox from '@components/ui/social-share-box';
+import SocialShareBox from '@components/social-share-box';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import { toast } from 'react-toastify';
 import { useWindowSize } from 'react-use';
-import {
-  useModalAction,
-  useModalState,
-} from '@components/common/modal/modal.context';
-import CloseButton from '@components/ui/close-button';
+import { useModalAction, useModalState } from '@components/modal/modal.context';
+import CloseButton from '@components/close-button';
 import VariationPrice from './variation-price';
 import isEqual from 'lodash/isEqual';
 import { productGalleryPlaceholder } from '@assets/placeholders';
@@ -70,7 +67,9 @@ export default function ProductPopup() {
     baseAmount: data.price,
     currencyCode: 'USD',
   });
-  const variations = getVariations(data.variations);
+  const variations = data.variations
+    ? groupBy(data.variations, 'attribute.slug')
+    : {};
   const { slug, image, name, unit, description, gallery, tag, quantity } = data;
   const productUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${ROUTES.PRODUCT}/${slug}`;
   const handleChange = () => {

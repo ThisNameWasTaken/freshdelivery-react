@@ -1,12 +1,12 @@
 import Layout from '@components/layout/layout';
-import Container from '@components/ui/container';
+import Container from '@components/container';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { homeFourHeroBanner as heroBanner } from '@framework/static/banner';
 import HeroBannerCard from '@components/hero/hero-banner-card';
 import { GetStaticProps } from 'next';
 import { Element } from 'react-scroll';
 import AllProductFeed from '@components/product/feeds/all-products-feed';
-import BannerAllCarousel from '@components/common/banner-all-carousel';
+import BannerAllCarousel from '@components/banner-carousel';
 import { bannerDiscount } from '@framework/static/banner';
 import CategoryDropdownSidebar from '@components/category/category-dropdown-sidebar';
 import BannerCard from '@components/cards/banner-card';
@@ -14,10 +14,10 @@ import { homeTwoBanner as banner } from '@framework/static/banner';
 import Seo from '@components/seo/seo';
 import { QueryClient } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
-import { API_ENDPOINTS } from '@framework/utils/api-endpoints';
+import { API_ENDPOINTS } from '@framework/utils/http';
 import { fetchProducts } from '@framework/product/get-all-products';
 import { fetchCategories } from '@framework/category/get-all-categories';
-import { LIMITS } from '@framework/utils/limits';
+import { LIMITS } from '@framework/utils/http';
 
 export default function Home() {
   return (

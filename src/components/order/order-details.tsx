@@ -3,7 +3,7 @@ import usePrice from '@framework/product/use-price';
 import { OrderItem } from '@framework/types';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 const OrderItemCard = ({ product }: { product: OrderItem }) => {
   const { price: itemTotal } = usePrice({
     amount: product.price * product.quantity,

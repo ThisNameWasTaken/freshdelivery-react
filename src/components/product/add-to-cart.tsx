@@ -1,4 +1,4 @@
-import Counter from '@components/ui/counter';
+import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
 import { IoAddOutline } from 'react-icons/io5';

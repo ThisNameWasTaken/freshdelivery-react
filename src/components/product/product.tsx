@@ -1,24 +1,24 @@
 import { useState } from 'react';
-import Button from '@components/ui/button';
-import Counter from '@components/ui/counter';
+import Button from '@components/button';
+import Counter from '@components/counter';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
 import { useWindowSize } from 'react-use';
 import { useProductQuery } from '@framework/product/get-product';
-import { getVariations } from '@framework/utils/get-variations';
+import { groupBy } from 'lodash';
 import usePrice from '@framework/product/use-price';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
 import ProductAttributes from '@components/product/product-attributes';
 import isEmpty from 'lodash/isEmpty';
 import { toast } from 'react-toastify';
-import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
+import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
-import TagLabel from '@components/ui/tag-label';
+import TagLabel from '@components/tag-label';
 import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
-import SocialShareBox from '@components/ui/social-share-box';
+import SocialShareBox from '@components/social-share-box';
 import ProductDetailsTab from '@components/product/product-details/product-tab';
 import VariationPrice from './variation-price';
 import isEqual from 'lodash/isEqual';
@@ -52,8 +52,9 @@ const ProductSingleDetails: React.FC = () => {
     setShareButtonStatus(!shareButtonStatus);
   };
   if (isLoading) return <p>Loading...</p>;
-  const variations = getVariations(data?.variations);
-
+  const variations = data?.variations
+    ? groupBy(data?.variations, 'attribute.slug')
+    : {};
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
       Object.keys(variations).every((variation) =>

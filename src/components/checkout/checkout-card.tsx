@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import usePrice from '@framework/product/use-price';
 import { useCart } from '@contexts/cart/cart.context';
-import Text from '@components/ui/text';
-import Button from '@components/ui/button';
+import Text from '@components/text';
+import Button from '@components/button';
 import { CheckoutItem } from '@components/checkout/checkout-card-item';
 import { CheckoutCardFooterItem } from './checkout-card-footer-item';
 import { useTranslation } from 'next-i18next';

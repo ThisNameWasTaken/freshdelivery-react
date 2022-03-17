@@ -1,11 +1,11 @@
 import { ShopFilters } from '@components/search/filters';
-import Scrollbar from '@components/ui/scrollbar';
+import Scrollbar from '@components/scrollbar';
 import { useUI } from '@contexts/ui.context';
 import { IoArrowBack, IoArrowForward } from 'react-icons/io5';
 import { useTranslation } from 'next-i18next';
 import { getDirection } from '@utils/get-direction';
 import { useRouter } from 'next/router';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 
 const FilterSidebar = () => {
   const { closeFilter } = useUI();

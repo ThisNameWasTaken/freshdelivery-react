@@ -1,6 +1,6 @@
 import { QueryOptionsType, Product } from '@framework/types';
 import http from '@framework/utils/http';
-import { API_ENDPOINTS } from '@framework/utils/api-endpoints';
+import { API_ENDPOINTS } from '@framework/utils/http';
 import { useQuery } from 'react-query';
 
 export const fetchSearchedProducts = async ({ queryKey }: any) => {
@@ -8,6 +8,7 @@ export const fetchSearchedProducts = async ({ queryKey }: any) => {
   const { data } = await http.get(API_ENDPOINTS.SEARCH);
   return data;
 };
+
 export const useSearchQuery = (options: QueryOptionsType) => {
   return useQuery<Product[], Error>(
     [API_ENDPOINTS.SEARCH, options],

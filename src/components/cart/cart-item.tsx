@@ -1,10 +1,10 @@
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import Image from 'next/image';
 import { IoIosCloseCircle } from 'react-icons/io';
 import { useCart } from '@contexts/cart/cart.context';
 import usePrice from '@framework/product/use-price';
 import { ROUTES } from '@utils/routes';
-import Counter from '@components/ui/counter';
+import Counter from '@components/counter';
 
 type CartItemProps = {
   item: any;

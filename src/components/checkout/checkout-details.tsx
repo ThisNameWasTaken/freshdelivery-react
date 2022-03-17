@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Button from '@components/ui/button';
-import Heading from '@components/ui/heading';
+import Button from '@components/button';
+import Heading from '@components/heading';
 import Contact from '@components/contact/contact';
 import Address from './address';
 import DeliveryNotes from './delivery-instruction';

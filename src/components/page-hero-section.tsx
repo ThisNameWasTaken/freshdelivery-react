@@ -1,7 +1,7 @@
 import { useTranslation } from 'next-i18next';
 import { Attachment } from '@framework/types';
 import { useWindowSize } from 'react-use';
-import Breadcrumb from '@components/ui/breadcrumb';
+import Breadcrumb from '@components/breadcrumb';
 import cn from 'classnames';
 
 interface HeaderProps {

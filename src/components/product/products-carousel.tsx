@@ -1,12 +1,12 @@
-import SectionHeader from '@components/common/section-header';
+import SectionHeader from '@components/section-header';
 import ProductCard from '@components/product/product-cards/product-card';
 import { Product } from '@framework/types';
-import Carousel from '@components/ui/carousel/carousel';
-import { SwiperSlide } from '@components/ui/carousel/slider';
-import Alert from '@components/ui/alert';
-import SeeAll from '@components/ui/see-all';
+import Carousel from '@components/carousel/carousel';
+import { SwiperSlide } from '@components/carousel/slider';
+import Alert from '@components/alert';
+import SeeAll from '@components/see-all';
 import { useWindowSize } from 'react-use';
-import ProductCardLoader from '@components/ui/loaders/product-card-loader';
+import ProductCardLoader from '@components/loaders/product-card-loader';
 import cn from 'classnames';
 import { useRouter } from 'next/router';
 import { getDirection } from '@utils/get-direction';

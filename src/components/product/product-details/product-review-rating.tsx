@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useTranslation } from 'next-i18next';
 import ReviewCard from '@components/cards/review-card';
-import ReviewForm from '@components/common/form/review-form';
+import ReviewForm from '@components/form/review-form';
 
 const data = [
   {

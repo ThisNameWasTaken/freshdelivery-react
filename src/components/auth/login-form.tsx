@@ -1,15 +1,15 @@
 import { useState } from 'react';
-import Input from '@components/ui/form/input';
-import PasswordInput from '@components/ui/form/password-input';
-import Button from '@components/ui/button';
+import Input from '@components/form/input';
+import PasswordInput from '@components/form/password-input';
+import Button from '@components/button';
 import { useForm } from 'react-hook-form';
 import { useLoginMutation, LoginInputType } from '@framework/auth/use-login';
-import Logo from '@components/ui/logo';
+import Logo from '@components/logo';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
-import { useModalAction } from '@components/common/modal/modal.context';
-import Switch from '@components/ui/switch';
-import CloseButton from '@components/ui/close-button';
+import { useModalAction } from '@components/modal/modal.context';
+import Switch from '@components/switch';
+import CloseButton from '@components/close-button';
 import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import cn from 'classnames';
 

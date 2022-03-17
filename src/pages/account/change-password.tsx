@@ -1,7 +1,7 @@
 import Layout from '@components/layout/layout';
-import PasswordInput from '@components/ui/form/password-input';
-import Button from '@components/ui/button';
-import Heading from '@components/ui/heading';
+import PasswordInput from '@components/form/password-input';
+import Button from '@components/button';
+import Heading from '@components/heading';
 import AccountLayout from '@components/account/account-layout';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'next-i18next';

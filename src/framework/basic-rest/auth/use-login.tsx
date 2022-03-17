@@ -1,4 +1,4 @@
-import { useModalAction } from '@components/common/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
 import { useUI } from '@contexts/ui.context';
 import Cookies from 'js-cookie';
 import { useMutation } from 'react-query';

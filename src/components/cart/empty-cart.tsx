@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
-import Text from '@components/ui/text';
-import Heading from '@components/ui/heading';
+import Text from '@components/text';
+import Heading from '@components/heading';
 
 const EmptyCart: React.FC = () => {
   const { t } = useTranslation('common');

@@ -2,7 +2,7 @@ import cn from 'classnames';
 import Image from 'next/image';
 import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
-import { useModalAction } from '@components/common/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
 import { useWindowSize } from 'react-use';
 import { useCart } from '@contexts/cart/cart.context';
 import { AddToCart } from '@components/product/add-to-cart';

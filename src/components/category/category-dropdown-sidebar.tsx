@@ -1,7 +1,7 @@
-import Alert from '@components/ui/alert';
-import Scrollbar from '@components/ui/scrollbar';
-import SidebarMenu from '@components/ui/sidebar-menu';
-import CategoryListCardLoader from '@components/ui/loaders/category-list-card-loader';
+import Alert from '@components/alert';
+import Scrollbar from '@components/scrollbar';
+import SidebarMenu from '@components/sidebar-menu';
+import CategoryListCardLoader from '@components/loaders/category-list-card-loader';
 import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import cn from 'classnames';
 

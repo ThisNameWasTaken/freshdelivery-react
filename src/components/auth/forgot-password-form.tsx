@@ -1,10 +1,10 @@
-import Button from '@components/ui/button';
-import Input from '@components/ui/form/input';
-import Logo from '@components/ui/logo';
+import Button from '@components/button';
+import Input from '@components/form/input';
+import Logo from '@components/logo';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'next-i18next';
-import { useModalAction } from '@components/common/modal/modal.context';
-import CloseButton from '@components/ui/close-button';
+import { useModalAction } from '@components/modal/modal.context';
+import CloseButton from '@components/close-button';
 
 type FormValues = {
   email: string;

@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useTranslation } from 'next-i18next';
-import Heading from '@components/ui/heading';
-import Text from '@components/ui/text';
+import Heading from '@components/heading';
+import Text from '@components/text';
 import { IoStar } from 'react-icons/io5';
 
 interface ReviewProps {

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import cn from 'classnames';
 import { siteSettings } from '@settings/site-settings';
 

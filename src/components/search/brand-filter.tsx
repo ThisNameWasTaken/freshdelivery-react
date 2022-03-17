@@ -1,11 +1,11 @@
-import { CheckBox } from '@components/ui/form/checkbox';
+import { CheckBox } from '@components/form/checkbox';
 import { useBrandsQuery } from '@framework/brand/get-all-brands';
 import { Disclosure } from '@headlessui/react';
 import { useRouter } from 'next/router';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 import React from 'react';
 import { useTranslation } from 'next-i18next';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 
 export const BrandFilter = () => {
   const { t } = useTranslation('common');

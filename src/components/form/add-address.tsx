@@ -1,12 +1,12 @@
-import Input from '@components/ui/form/input';
-import Button from '@components/ui/button';
-import TextArea from '@components/ui/form/text-area';
+import Input from '@components/form/input';
+import Button from '@components/button';
+import TextArea from '@components/form/text-area';
 import { useForm } from 'react-hook-form';
-import { useModalState } from '@components/common/modal/modal.context';
-import { useModalAction } from '@components/common/modal/modal.context';
-import CloseButton from '@components/ui/close-button';
-import Heading from '@components/ui/heading';
-import Map from '@components/ui/map';
+import { useModalState } from '@components/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
+import CloseButton from '@components/close-button';
+import Heading from '@components/heading';
+import Map from '@components/map';
 import { useTranslation } from 'next-i18next';
 
 interface ContactFormValues {

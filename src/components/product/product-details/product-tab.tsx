@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Tab } from '@headlessui/react';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 import ProductReviewRating from './product-review-rating';
 
 function classNames(...classes: any) {

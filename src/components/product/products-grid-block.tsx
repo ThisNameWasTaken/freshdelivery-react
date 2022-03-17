@@ -1,8 +1,8 @@
-import SectionHeader from '@components/common/section-header';
+import SectionHeader from '@components/section-header';
 import ProductCard from '@components/product/product-cards/product-card';
-import ProductCardLoader from '@components/ui/loaders/product-card-loader';
+import ProductCardLoader from '@components/loaders/product-card-loader';
 import { Product } from '@framework/types';
-import Alert from '@components/ui/alert';
+import Alert from '@components/alert';
 
 interface ProductsProps {
   sectionHeading: string;

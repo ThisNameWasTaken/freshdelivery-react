@@ -1,4 +1,4 @@
-import Container from '@components/ui/container';
+import Container from '@components/container';
 import AccountNav from '@components/account/account-nav';
 import AccountNavMobile from './account-nav-mobile';
 import { ROUTES } from '@utils/routes';

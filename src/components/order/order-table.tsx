@@ -1,8 +1,8 @@
-import { Table } from '@components/ui/table';
-import Input from '@components/ui/form/input';
+import { Table } from '@components/table';
+import Input from '@components/form/input';
 import { useState } from 'react';
-import Pagination from '@components/ui/pagination';
-import ActionsButton from '@components/ui/action-button';
+import Pagination from '@components/pagination';
+import ActionsButton from '@components/action-button';
 import { TotalPrice } from '@components/order/price';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';

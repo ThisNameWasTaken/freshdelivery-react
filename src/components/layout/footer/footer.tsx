@@ -1,7 +1,7 @@
 import { useTranslation } from 'next-i18next';
-import Container from '@components/ui/container';
+import Container from '@components/container';
 import { siteSettings } from '@settings/site-settings';
-import Text from '@components/ui/text';
+import Text from '@components/text';
 
 const year = new Date().getFullYear();
 

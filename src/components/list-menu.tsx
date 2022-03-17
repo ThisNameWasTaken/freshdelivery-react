@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import { IoIosArrowForward } from 'react-icons/io';
-import Link from '@components/ui/link';
+import Link from '@components/link';
 
 const ListMenu = ({ dept, data, hasSubMenu, menuIndex }: any) => {
   const { t } = useTranslation('menu');

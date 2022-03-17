@@ -1,11 +1,11 @@
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import { useUI } from '@contexts/ui.context';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
 import dynamic from 'next/dynamic';
-import { Drawer } from '@components/common/drawer/drawer';
+import { Drawer } from '@components/drawer/drawer';
 import { getDirection } from '@utils/get-direction';
-import { useModalAction } from '@components/common/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
 import { useTranslation } from 'next-i18next';
 import {
   IoHomeOutline,

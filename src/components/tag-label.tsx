@@ -2,7 +2,7 @@ import { Tag } from '@framework/types';
 import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
 import { useRouter } from 'next/router';
-import { useModalAction } from '@components/common/modal/modal.context';
+import { useModalAction } from '@components/modal/modal.context';
 
 interface Props {
   data: Tag;

@@ -1,15 +1,15 @@
-import Input from '@components/ui/form/input';
-import PasswordInput from '@components/ui/form/password-input';
-import Button from '@components/ui/button';
-import Heading from '@components/ui/heading';
+import Input from '@components/form/input';
+import PasswordInput from '@components/form/password-input';
+import Button from '@components/button';
+import Heading from '@components/heading';
 import { useForm, Controller } from 'react-hook-form';
 import {
   useUpdateUserMutation,
   UpdateUserType,
 } from '@framework/customer/use-update-customer';
 import { useTranslation } from 'next-i18next';
-import Switch from '@components/ui/switch';
-import Text from '@components/ui/text';
+import Switch from '@components/switch';
+import Text from '@components/text';
 
 const defaultValues = {};
 

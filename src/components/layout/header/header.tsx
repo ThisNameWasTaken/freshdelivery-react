@@ -5,13 +5,13 @@ import { siteSettings } from '@settings/site-settings';
 import { ROUTES } from '@utils/routes';
 import { useUI } from '@contexts/ui.context';
 import { addActiveScroll } from '@utils/add-active-scroll';
-import Container from '@components/ui/container';
-import Logo from '@components/ui/logo';
+import Container from '@components/container';
+import Logo from '@components/logo';
 import HeaderMenu from '@components/layout/header/header-menu';
-import LanguageSwitcher from '@components/ui/language-switcher';
-import { useModalAction } from '@components/common/modal/modal.context';
+import LanguageSwitcher from '@components/language-switcher';
+import { useModalAction } from '@components/modal/modal.context';
 import cn from 'classnames';
-import Search from '@components/common/search';
+import Search from '@components/search';
 import { IoPersonOutline } from 'react-icons/io5';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
 const CartButton = dynamic(() => import('@components/cart/cart-button'), {

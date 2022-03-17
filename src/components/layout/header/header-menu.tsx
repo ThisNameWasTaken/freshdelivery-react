@@ -1,6 +1,6 @@
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import { FaChevronDown } from 'react-icons/fa';
-import ListMenu from '@components/ui/list-menu';
+import ListMenu from '@components/list-menu';
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';
 

@@ -5,8 +5,8 @@ import { useTranslation } from 'next-i18next';
 import { GetStaticProps } from 'next';
 import Seo from '@components/seo/seo';
 import WishlistCard from '@components/wishlist/wishlist-card';
-import Alert from '@components/ui/alert';
-import ProductCardLoader from '@components/ui/loaders/product-card-loader';
+import Alert from '@components/alert';
+import ProductCardLoader from '@components/loaders/product-card-loader';
 import { useWishlistProductsQuery } from '@framework/product/get-wishlist-product';
 
 export default function WishList() {

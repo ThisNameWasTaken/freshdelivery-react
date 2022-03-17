@@ -1,6 +1,6 @@
 import { QueryOptionsType, Brand } from '@framework/types';
 import http from '@framework/utils/http';
-import { API_ENDPOINTS } from '@framework/utils/api-endpoints';
+import { API_ENDPOINTS } from '@framework/utils/http';
 import { useQuery } from 'react-query';
 
 export const fetchBrands = async ({ queryKey }: any) => {

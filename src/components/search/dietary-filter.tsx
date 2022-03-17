@@ -1,11 +1,11 @@
 import React from 'react';
-import { CheckBox } from '@components/ui/form/checkbox';
+import { CheckBox } from '@components/form/checkbox';
 import { useDietaryQuery } from '@framework/dietary/get-all-dietary';
 import { useRouter } from 'next/router';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 import { Disclosure } from '@headlessui/react';
 import { useTranslation } from 'next-i18next';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 
 export const DietaryFilter = () => {
   const { t } = useTranslation('common');

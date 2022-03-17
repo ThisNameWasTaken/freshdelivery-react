@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import isEmpty from 'lodash/isEmpty';
 import { useTranslation } from 'next-i18next';
 import { DietaryFilter } from '@components/search/dietary-filter';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 
 export const ShopFilters: React.FC = () => {
   const router = useRouter();

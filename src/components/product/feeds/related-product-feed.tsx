@@ -1,6 +1,6 @@
 import ProductsCarousel from '@components/product/products-carousel';
 import { useRelatedProductsQuery } from '@framework/product/get-related-product';
-import { LIMITS } from '@framework/utils/limits';
+import { LIMITS } from '@framework/utils/http';
 
 interface RelatedProductsProps {
   carouselBreakpoint?: {} | any;

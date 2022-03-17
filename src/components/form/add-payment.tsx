@@ -1,7 +1,7 @@
-import Input from '@components/ui/form/input';
-import Button from '@components/ui/button';
+import Input from '@components/form/input';
+import Button from '@components/button';
 import { useForm } from 'react-hook-form';
-import { useModalState } from '@components/common/modal/modal.context';
+import { useModalState } from '@components/modal/modal.context';
 
 interface ContactFormValues {
   title: string;

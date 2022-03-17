@@ -1,8 +1,8 @@
 import { useAddressQuery } from '@framework/address/address';
 import AddressGrid from '@components/address/address-grid';
-import { useModalAction } from '@components/common/modal/modal.context';
-import CloseButton from '@components/ui/close-button';
-import Heading from '@components/ui/heading';
+import { useModalAction } from '@components/modal/modal.context';
+import CloseButton from '@components/close-button';
+import Heading from '@components/heading';
 import { useTranslation } from 'next-i18next';
 
 const Address: React.FC = () => {

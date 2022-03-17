@@ -1,7 +1,7 @@
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';
-import Heading from '@components/ui/heading';
-import Text from '@components/ui/text';
+import Heading from '@components/heading';
+import Text from '@components/text';
 
 interface Props {
   sectionHeading?: string;

@@ -1,4 +1,4 @@
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import React from 'react';
 
 interface Props {

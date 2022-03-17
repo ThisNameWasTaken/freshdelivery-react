@@ -1,9 +1,9 @@
 import { useTranslation } from 'next-i18next';
-import Heading from '@components/ui/heading';
+import Heading from '@components/heading';
 import CategoryFilterMenu from '@components/search/category-filter-menu';
-import Alert from '@components/ui/alert';
-import Scrollbar from '@components/ui/scrollbar';
-import CategoryListCardLoader from '@components/ui/loaders/category-list-card-loader';
+import Alert from '@components/alert';
+import Scrollbar from '@components/scrollbar';
+import CategoryListCardLoader from '@components/loaders/category-list-card-loader';
 import { useCategoriesQuery } from '@framework/category/get-all-categories';
 
 export const CategoryFilter = () => {

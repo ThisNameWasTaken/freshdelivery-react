@@ -1,4 +1,4 @@
-import Button from '@components/ui/button';
+import Button from '@components/button';
 import {
   Elements,
   CardElement,
@@ -13,9 +13,8 @@ const stripePromise = loadStripe(
 type Props = {
   buttonText?: string;
   getToken?: any;
-  closeModal?: any;
 };
-const StripeForm: React.FC<Props> = ({ buttonText, getToken, closeModal }) => {
+const StripeForm: React.FC<Props> = ({ buttonText, getToken }) => {
   // Get a reference to Stripe or Elements using hooks.
   const stripe = useStripe();
   const elements = useElements();
@@ -34,19 +33,16 @@ const StripeForm: React.FC<Props> = ({ buttonText, getToken, closeModal }) => {
     const { token } = await stripe.createToken(cardElement);
     getToken(token);
     if (token) {
-      if (closeModal) {
-        closeModal();
-      }
       console.log(token, 'token');
     }
   };
 
   return (
-    <div className="w-full md:w-[508px] mx-auto p-5 sm:p-8 bg-white rounded-xl">
+    <div className="w-full bg-white rounded-xl xl:w-[500px]">
       <h3 className="text-skin-base opacity-60 mb-3">Enter card info</h3>
       <CardElement />
       <Button
-        className="h-11 md:h-12 w-full mt-4"
+        className="h-11 md:h-12  mt-5"
         type="button"
         onClick={handleSubmit}
         variant="formButton"
@@ -62,13 +58,9 @@ type Item = {
     price: any;
     buttonText: string;
   };
-  closeModal?: any;
 };
 
-const StripePaymentForm = ({
-  item: { price, buttonText },
-  closeModal,
-}: Item) => {
+const StripePaymentForm = ({ item: { price, buttonText } }: Item) => {
   const sendTokenToServer = async (token: any) => {};
 
   return (
@@ -76,7 +68,6 @@ const StripePaymentForm = ({
       <StripeForm
         getToken={(token: any) => sendTokenToServer(token)}
         buttonText={buttonText}
-        closeModal={closeModal}
       />
     </Elements>
   );

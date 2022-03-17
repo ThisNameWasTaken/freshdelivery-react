@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import cn from 'classnames';
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import { useWindowSize } from 'react-use';
 import HeroSearchBox from '@components/hero/hero-banner-search';
 import { useTranslation } from 'next-i18next';

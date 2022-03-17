@@ -1,5 +1,5 @@
 import { BiCheck } from 'react-icons/bi';
-import Scrollbar from '@components/ui/scrollbar';
+import Scrollbar from '@components/scrollbar';
 
 type ProgressProps = {
   data: any;

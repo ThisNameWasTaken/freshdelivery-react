@@ -1,5 +1,5 @@
 import BannerCard from '@components/cards/banner-card';
-import Carousel from '@components/ui/carousel/carousel';
+import Carousel from '@components/carousel/carousel';
 import { SwiperSlide } from 'swiper/react';
 
 const breakpoints = {

@@ -1,7 +1,7 @@
-import { Drawer } from '@components/common/drawer/drawer';
+import { Drawer } from '@components/drawer/drawer';
 import { useUI } from '@contexts/ui.context';
 import FilterSidebar from '@components/search/filter-sidebar';
-import ListBox from '@components/ui/filter-list-box';
+import ListBox from '@components/filter-list-box';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { getDirection } from '@utils/get-direction';

@@ -1,4 +1,4 @@
-import Link from '@components/ui/link';
+import Link from '@components/link';
 import Image from 'next/image';
 import { useWindowSize } from 'react-use';
 import cn from 'classnames';
