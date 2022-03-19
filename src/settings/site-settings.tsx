@@ -53,33 +53,6 @@ export const siteSettings = {
         ],
       },
       {
-        id: 2,
-        path: '/search',
-        label: 'menu-dietary',
-        subMenu: [
-          {
-            id: 1,
-            path: '/search',
-            label: 'menu-vegetarian',
-          },
-          {
-            id: 2,
-            path: '/search',
-            label: 'menu-kakogenic',
-          },
-          {
-            id: 3,
-            path: '/search',
-            label: 'menu-mediterranean',
-          },
-          {
-            id: 4,
-            path: '/search',
-            label: 'menu-organic',
-          },
-        ],
-      },
-      {
         id: 3,
         path: '/search/',
         label: 'menu-search',

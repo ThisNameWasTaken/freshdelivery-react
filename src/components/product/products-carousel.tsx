@@ -4,7 +4,6 @@ import { Product } from '@framework/types';
 import Carousel from '@components/carousel/carousel';
 import { SwiperSlide } from '@components/carousel/slider';
 import Alert from '@components/alert';
-import SeeAll from '@components/see-all';
 import { useWindowSize } from 'react-use';
 import ProductCardLoader from '@components/loaders/product-card-loader';
 import cn from 'classnames';
@@ -107,9 +106,6 @@ const ProductsCarousel: React.FC<ProductsCarouselProps> = ({
                     <ProductCard product={product} />
                   </SwiperSlide>
                 ))}
-                <SwiperSlide className="p-2.5 flex items-center justify-center">
-                  <SeeAll href={categorySlug} />
-                </SwiperSlide>
                 {width! > 1024 && width! < 1921 && <SwiperSlide />}
               </>
             )}

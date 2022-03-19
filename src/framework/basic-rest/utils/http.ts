@@ -13,8 +13,6 @@ export const API_ENDPOINTS = {
   REGISTER: '/register',
   LOGOUT: '/logout',
   CATEGORIES: '/categories.json',
-  DIETARY: '/dietary.json',
-  BRANDS: '/brands.json',
   PRODUCTS: '/products.json',
   PRODUCT: '/product.json',
   RELATED_PRODUCTS: '/related_products.json',
