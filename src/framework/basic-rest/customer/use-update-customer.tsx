@@ -1,6 +1,6 @@
 import { useMutation } from 'react-query';
 
-export interface UpdateUserType {
+export type UpdateUserType = {
   firstName: string;
   lastName: string;
   displayName: string;
@@ -11,7 +11,7 @@ export interface UpdateUserType {
   gender: string;
   shareProfileData: boolean;
   setAdsPerformance: boolean;
-}
+};
 async function updateUser(input: UpdateUserType) {
   return input;
 }

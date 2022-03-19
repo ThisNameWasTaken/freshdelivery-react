@@ -18,13 +18,13 @@ import {
   TwitterIcon,
 } from 'react-share';
 
-interface Props {
+type Props = {
   className?: string;
   shareUrl?: string;
-}
-interface NewsLetterFormValues {
+};
+type NewsLetterFormValues = {
   shareLink: string;
-}
+};
 const defaultValues = {
   shareLink: '',
 };

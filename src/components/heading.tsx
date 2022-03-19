@@ -1,13 +1,13 @@
 import React, { JSXElementConstructor, CSSProperties } from 'react';
 import cn from 'classnames';
 
-interface Props {
+type Props = {
   variant?: Variant;
   className?: string;
   style?: CSSProperties;
   children?: React.ReactNode | any;
   html?: string;
-}
+};
 
 type Variant =
   | 'mediumHeading'

@@ -13,10 +13,10 @@ import CloseButton from '@components/close-button';
 import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import cn from 'classnames';
 
-interface LoginFormProps {
+type LoginFormProps = {
   isPopup?: boolean;
   className?: string;
-}
+};
 
 const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
   const { t } = useTranslation();

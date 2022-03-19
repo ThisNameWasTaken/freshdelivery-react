@@ -4,11 +4,11 @@ import { generateCartItem } from '@utils/generate-cart-item';
 import { IoAddOutline } from 'react-icons/io5';
 import { useWindowSize } from 'react-use';
 
-interface Props {
+type Props = {
   data: any;
   variation?: any;
   disabled?: boolean;
-}
+};
 
 export const AddToCart = ({ data, variation, disabled }: Props) => {
   const { width } = useWindowSize();

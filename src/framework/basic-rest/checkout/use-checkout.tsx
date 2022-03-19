@@ -1,6 +1,6 @@
 import { useMutation } from 'react-query';
 
-export interface CheckoutInputType {
+export type CheckoutInputType = {
   firstName: string;
   lastName: string;
   phone: string;
@@ -10,7 +10,7 @@ export interface CheckoutInputType {
   zipCode: string;
   save: boolean;
   note: string;
-}
+};
 async function checkout(input: CheckoutInputType) {
   return input;
 }

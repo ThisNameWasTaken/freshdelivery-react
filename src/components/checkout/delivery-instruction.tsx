@@ -3,10 +3,10 @@ import { useForm } from 'react-hook-form';
 import { useTranslation } from 'next-i18next';
 import Text from '@components/text';
 
-interface ContactFormValues {
+type ContactFormValues = {
   instructionNote: string;
   default: boolean;
-}
+};
 
 const DeliveryInstructions: React.FC<{ data?: any }> = ({ data }) => {
   const { t } = useTranslation();

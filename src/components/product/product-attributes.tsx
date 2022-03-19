@@ -1,11 +1,11 @@
 import cn from 'classnames';
 
-interface Props {
+type Props = {
   className?: string;
   variations: any;
   attributes: any;
   setAttributes: (key: any) => void;
-}
+};
 
 const ProductAttributes: React.FC<Props> = ({
   className = 'mb-2 pt-0.5',

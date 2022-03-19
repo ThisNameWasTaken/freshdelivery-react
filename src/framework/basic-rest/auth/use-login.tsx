@@ -3,11 +3,11 @@ import { useUI } from '@contexts/ui.context';
 import Cookies from 'js-cookie';
 import { useMutation } from 'react-query';
 
-export interface LoginInputType {
+export type LoginInputType = {
   email: string;
   password: string;
   remember_me: boolean;
-}
+};
 async function login(input: LoginInputType) {
   return {
     token: `${input.email}.${input.remember_me}`.split('').reverse().join(''),

@@ -4,10 +4,10 @@ import { ROUTES } from '@utils/routes';
 import { useRouter } from 'next/router';
 import { useModalAction } from '@components/modal/modal.context';
 
-interface Props {
+type Props = {
   data: Tag;
   className?: string;
-}
+};
 
 const TagLabel: React.FC<Props> = ({ className, data }) => {
   const { name } = data;

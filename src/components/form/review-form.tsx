@@ -9,15 +9,15 @@ import Text from '@components/text';
 import cn from 'classnames';
 // import StarRatingComponent from 'react-star-rating-component';
 
-interface ReviewFormProps {
+type ReviewFormProps = {
   className?: string;
-}
-interface ReviewFormValues {
+};
+type ReviewFormValues = {
   name: string;
   email: string;
   cookie: string;
   message: string;
-}
+};
 
 const ReviewForm: React.FC<ReviewFormProps> = ({ className = '' }) => {
   const { t } = useTranslation();

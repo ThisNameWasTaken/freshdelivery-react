@@ -2,10 +2,10 @@ import { useRouter } from 'next/router';
 import { IoClose } from 'react-icons/io5';
 import isEmpty from 'lodash/isEmpty';
 
-interface Props {
+type Props = {
   itemKey: string;
   itemValue: string;
-}
+};
 
 export const FilteredItem = ({ itemKey, itemValue }: Props) => {
   const router = useRouter();

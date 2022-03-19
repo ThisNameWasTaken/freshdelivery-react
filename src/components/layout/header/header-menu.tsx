@@ -4,10 +4,10 @@ import ListMenu from '@components/list-menu';
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';
 
-interface MenuProps {
+type MenuProps = {
   data: any;
   className?: string;
-}
+};
 
 const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
   const { t } = useTranslation('menu');

@@ -1,11 +1,11 @@
 import Link from '@components/link';
 import React from 'react';
 
-interface Props {
+type Props = {
   href: string;
   btnProps: React.ButtonHTMLAttributes<any>;
   isAuthorized: boolean;
-}
+};
 
 const AuthMenu: React.FC<Props> = ({
   isAuthorized,

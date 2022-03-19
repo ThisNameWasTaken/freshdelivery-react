@@ -5,11 +5,11 @@ import { useWindowSize } from 'react-use';
 import HeroSearchBox from '@components/hero/hero-banner-search';
 import { useTranslation } from 'next-i18next';
 
-interface BannerProps {
+type BannerProps = {
   banner?: any;
   className?: string;
   variant?: 'default' | 'slider' | 'medium';
-}
+};
 
 function getImage(deviceWidth: number, imgObj: any) {
   return deviceWidth < 480 ? imgObj.mobile : imgObj.desktop;

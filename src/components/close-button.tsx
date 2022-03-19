@@ -5,10 +5,10 @@ type ButtonEvent = (
   e: React.MouseEvent<HTMLButtonElement | MouseEvent>
 ) => void;
 
-interface CloseButtonProps {
+type CloseButtonProps = {
   className?: string;
   onClick?: ButtonEvent;
-}
+};
 
 const CloseButton: React.FC<CloseButtonProps> = ({ className, onClick }) => {
   return (

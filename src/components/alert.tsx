@@ -1,7 +1,7 @@
-interface AlertProps {
+type AlertProps = {
   message?: string;
   className?: string;
-}
+};
 
 const Alert: React.FC<AlertProps> = ({ message, className }) => {
   return (

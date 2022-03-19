@@ -6,12 +6,12 @@ import {
   InfoWindow,
 } from '@react-google-maps/api';
 
-interface UserMapData {
+type UserMapData = {
   lat: number;
   lng: number;
-}
+};
 
-interface Props {
+type Props = {
   lat: number;
   lng: number;
   height: string;
@@ -21,7 +21,7 @@ interface Props {
   formatted_address?: string;
   mapAddressFiled?: any;
   mapCurrentPosition?: any;
-}
+};
 
 const Map: React.FC<Props> = ({
   lat,

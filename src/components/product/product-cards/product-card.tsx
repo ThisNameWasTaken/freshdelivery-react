@@ -10,10 +10,10 @@ import { useTranslation } from 'next-i18next';
 import { productPlaceholder } from '@assets/placeholders';
 import { IoAddOutline } from 'react-icons/io5';
 
-interface ProductProps {
+type ProductProps = {
   product: Product;
   className?: string;
-}
+};
 function RenderPopupOrAddToCart({ data }: { data: Product }) {
   const { t } = useTranslation('common');
   const { id, quantity, product_type } = data ?? {};

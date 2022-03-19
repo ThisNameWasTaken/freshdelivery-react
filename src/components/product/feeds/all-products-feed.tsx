@@ -12,10 +12,10 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { LIMITS } from '@framework/utils/http';
 import { Product } from '@framework/types';
-interface ProductFeedProps {
+type ProductFeedProps = {
   element?: any;
   className?: string;
-}
+};
 const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
   const { t } = useTranslation('common');
 

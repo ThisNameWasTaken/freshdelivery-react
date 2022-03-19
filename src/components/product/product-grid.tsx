@@ -10,9 +10,9 @@ import { useProductsQuery } from '@framework/product/get-all-products';
 import { LIMITS } from '@framework/utils/http';
 import { Product } from '@framework/types';
 
-interface ProductGridProps {
+type ProductGridProps = {
   className?: string;
-}
+};
 
 export const ProductGrid: FC<ProductGridProps> = ({ className = '' }) => {
   const { t } = useTranslation('common');

@@ -5,9 +5,9 @@ import CategoryListCardLoader from '@components/loaders/category-list-card-loade
 import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import cn from 'classnames';
 
-interface CategorySidebarProps {
+type CategorySidebarProps = {
   className?: string;
-}
+};
 
 const CategoryDropdownSidebar: React.FC<CategorySidebarProps> = ({
   className,

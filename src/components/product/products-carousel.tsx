@@ -10,7 +10,7 @@ import cn from 'classnames';
 import { useRouter } from 'next/router';
 import { getDirection } from '@utils/get-direction';
 
-interface ProductsCarouselProps {
+type ProductsCarouselProps = {
   sectionHeading: string;
   categorySlug?: string;
   className?: string;
@@ -20,7 +20,7 @@ interface ProductsCarouselProps {
   limit?: number;
   uniqueKey?: string;
   carouselBreakpoint?: {} | any;
-}
+};
 
 const breakpoints = {
   '1921': {

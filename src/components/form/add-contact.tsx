@@ -5,11 +5,11 @@ import { useForm } from 'react-hook-form';
 import { useModalState, useModalAction } from '@components/modal/modal.context';
 import { useTranslation } from 'next-i18next';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   number: string;
   default: boolean;
-}
+};
 
 const AddContactForm: React.FC = () => {
   const { t } = useTranslation();

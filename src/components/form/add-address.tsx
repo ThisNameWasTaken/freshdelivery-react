@@ -9,13 +9,13 @@ import Heading from '@components/heading';
 import Map from '@components/map';
 import { useTranslation } from 'next-i18next';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   default: boolean;
   lat: number;
   lng: number;
   formatted_address?: string;
-}
+};
 
 const AddAddressForm: React.FC = () => {
   const { t } = useTranslation();

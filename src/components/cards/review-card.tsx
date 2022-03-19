@@ -4,10 +4,10 @@ import Heading from '@components/heading';
 import Text from '@components/text';
 import { IoStar } from 'react-icons/io5';
 
-interface ReviewProps {
+type ReviewProps = {
   item: any;
   className?: string;
-}
+};
 
 const ReviewCard: FC<ReviewProps> = ({ item, className = '' }) => {
   const { t } = useTranslation('common');

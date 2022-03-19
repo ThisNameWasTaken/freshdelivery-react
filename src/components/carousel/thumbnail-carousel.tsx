@@ -13,11 +13,11 @@ import { getDirection } from '@utils/get-direction';
 import { useRouter } from 'next/router';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
-interface Props {
+type Props = {
   gallery: any[];
   thumbnailClassName?: string;
   galleryClassName?: string;
-}
+};
 
 // product gallery breakpoints
 const galleryCarouselBreakpoints = {

@@ -1,9 +1,9 @@
 import { useMutation } from 'react-query';
 
-export interface ChangeEmailInputType {
+export type ChangeEmailInputType = {
   newEmail: string;
   oldEmail: string;
-}
+};
 async function changeEmail(input: ChangeEmailInputType) {
   return input;
 }

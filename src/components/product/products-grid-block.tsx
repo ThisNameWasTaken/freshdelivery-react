@@ -4,7 +4,7 @@ import ProductCardLoader from '@components/loaders/product-card-loader';
 import { Product } from '@framework/types';
 import Alert from '@components/alert';
 
-interface ProductsProps {
+type ProductsProps = {
   sectionHeading: string;
   sectionSubHeading?: string;
   headingPosition?: 'left' | 'center';
@@ -14,7 +14,7 @@ interface ProductsProps {
   error?: string;
   limit?: number;
   uniqueKey?: string;
-}
+};
 
 const ProductsGridBlock: React.FC<ProductsProps> = ({
   sectionHeading,

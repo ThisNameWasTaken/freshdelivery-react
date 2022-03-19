@@ -4,12 +4,12 @@ import { useWindowSize } from 'react-use';
 import Breadcrumb from '@components/breadcrumb';
 import cn from 'classnames';
 
-interface HeaderProps {
+type HeaderProps = {
   backgroundThumbnail?: Attachment | string;
   heroTitle?: string;
   mobileBackgroundThumbnail?: Attachment | string;
   variant?: 'default' | 'white';
-}
+};
 
 const PageHeroSection: React.FC<HeaderProps> = ({
   backgroundThumbnail = '/assets/images/page-hero-bg.png',

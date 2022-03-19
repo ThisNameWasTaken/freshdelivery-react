@@ -12,9 +12,9 @@ import {
   calculateTotal,
 } from './cart.utils';
 
-interface Metadata {
+type Metadata = {
   [key: string]: any;
-}
+};
 
 type Action =
   | { type: 'ADD_ITEM_WITH_QUANTITY'; item: Item; quantity: number }
@@ -24,14 +24,14 @@ type Action =
   | { type: 'REMOVE_ITEM'; id: Item['id'] }
   | { type: 'RESET_CART' };
 
-export interface State {
+export type State = {
   items: Item[];
   isEmpty: boolean;
   totalItems: number;
   totalUniqueItems: number;
   total: number;
   meta?: Metadata | null;
-}
+};
 export const initialState: State = {
   items: [],
   isEmpty: true,

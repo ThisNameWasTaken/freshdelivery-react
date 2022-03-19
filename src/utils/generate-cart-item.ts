@@ -1,5 +1,5 @@
 import isEmpty from 'lodash/isEmpty';
-interface Item {
+type Item = {
   id: string | number;
   name: string;
   slug: string;
@@ -11,15 +11,15 @@ interface Item {
   sale_price?: number;
   quantity?: number;
   [key: string]: unknown;
-}
-interface Variation {
+};
+type Variation = {
   id: string | number;
   title: string;
   price: number;
   sale_price?: number;
   quantity: number;
   [key: string]: unknown;
-}
+};
 export function generateCartItem(item: Item, variation: Variation) {
   const { id, name, slug, image, price, sale_price, quantity, unit } = item;
   if (!isEmpty(variation)) {

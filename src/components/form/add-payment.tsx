@@ -3,7 +3,7 @@ import Button from '@components/button';
 import { useForm } from 'react-hook-form';
 import { useModalState } from '@components/modal/modal.context';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   name: string;
   country: string;
@@ -11,7 +11,7 @@ interface ContactFormValues {
   number: number;
   zip: string;
   default: boolean;
-}
+};
 
 const AddPaymentForm: React.FC = () => {
   const { data } = useModalState();

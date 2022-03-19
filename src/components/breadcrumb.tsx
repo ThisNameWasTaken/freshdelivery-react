@@ -6,9 +6,9 @@ import { IoChevronForward } from 'react-icons/io5';
 import { IoHomeOutline } from 'react-icons/io5';
 import { ROUTES } from '@utils/routes';
 
-interface Props {
+type Props = {
   children: any;
-}
+};
 
 const BreadcrumbItem: React.FC<Props> = ({ children, ...props }) => {
   return (

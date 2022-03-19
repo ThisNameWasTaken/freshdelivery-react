@@ -2,11 +2,11 @@ import { Switch } from '@headlessui/react';
 import { useRouter } from 'next/router';
 import { getDirection } from '@utils/get-direction';
 
-interface SwitchProps {
+type SwitchProps = {
   srText?: string;
   checked?: boolean;
   onChange?: (value: boolean) => void;
-}
+};
 
 const SwitchComponent: React.FC<SwitchProps> = (
   { srText = 'toggle', checked, onChange },

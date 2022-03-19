@@ -3,7 +3,7 @@ import { getToken } from '@framework/utils/http';
 import { CartProvider } from './cart/cart.context';
 import { ModalProvider } from '@components/modal/modal.context';
 
-export interface State {
+export type State = {
   isAuthorized: boolean;
   displaySidebar: boolean;
   displayFilter: boolean;
@@ -15,7 +15,7 @@ export interface State {
   toastText: string;
   isStickyheader: boolean;
   data?: any;
-}
+};
 
 const initialState = {
   isAuthorized: getToken() ? true : false,

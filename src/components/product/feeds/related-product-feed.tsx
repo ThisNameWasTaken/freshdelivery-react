@@ -2,11 +2,11 @@ import ProductsCarousel from '@components/product/products-carousel';
 import { useRelatedProductsQuery } from '@framework/product/get-related-product';
 import { LIMITS } from '@framework/utils/http';
 
-interface RelatedProductsProps {
+type RelatedProductsProps = {
   carouselBreakpoint?: {} | any;
   className?: string;
   uniqueKey?: string;
-}
+};
 
 const RelatedProductFeed: React.FC<RelatedProductsProps> = ({
   carouselBreakpoint,

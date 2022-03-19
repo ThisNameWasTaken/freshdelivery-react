@@ -1,9 +1,9 @@
 import { useMutation } from 'react-query';
 
-export interface ChangePasswordInputType {
+export type ChangePasswordInputType = {
   newPassword: string;
   oldPassword: string;
-}
+};
 async function changePassword(input: ChangePasswordInputType) {
   return input;
 }

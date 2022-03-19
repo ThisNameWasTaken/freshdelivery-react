@@ -3,11 +3,11 @@ import Cookies from 'js-cookie';
 import Router from 'next/router';
 import { useMutation } from 'react-query';
 
-export interface LoginInputType {
+export type LoginInputType = {
   email: string;
   password: string;
   remember_me: boolean;
-}
+};
 async function logout() {
   return {
     ok: true,

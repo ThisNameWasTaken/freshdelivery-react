@@ -3,13 +3,13 @@ import Image from 'next/image';
 import { useWindowSize } from 'react-use';
 import cn from 'classnames';
 
-interface BannerProps {
+type BannerProps = {
   banner: any;
   variant?: 'rounded' | 'default';
   effectActive?: boolean;
   className?: string;
   classNameInner?: string;
-}
+};
 
 function getImage(deviceWidth: number, imgObj: any) {
   return deviceWidth < 480 ? imgObj.mobile : imgObj.desktop;

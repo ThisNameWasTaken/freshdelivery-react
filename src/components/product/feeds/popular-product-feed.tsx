@@ -3,9 +3,9 @@ import { usePopularProductsQuery } from '@framework/product/get-all-popular-prod
 import ProductsGridBlock from '@components/product/products-grid-block';
 import { LIMITS } from '@framework/utils/http';
 
-interface ProductFeedProps {
+type ProductFeedProps = {
   className?: string;
-}
+};
 
 const PopularProductFeed: FC<ProductFeedProps> = ({ className }) => {
   const limit = LIMITS.POPULAR_PRODUCTS_LIMITS;

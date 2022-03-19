@@ -3,12 +3,12 @@ import cn from 'classnames';
 import Heading from '@components/heading';
 import Text from '@components/text';
 
-interface Props {
+type Props = {
   sectionHeading?: string;
   sectionSubHeading?: string;
   className?: string;
   headingPosition?: 'left' | 'center';
-}
+};
 
 const SectionHeader: React.FC<Props> = ({
   sectionHeading = 'text-section-title',

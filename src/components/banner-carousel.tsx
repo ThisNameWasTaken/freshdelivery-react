@@ -28,11 +28,11 @@ const breakpoints = {
   },
 };
 
-interface BannerProps {
+type BannerProps = {
   data: any;
   className?: string;
   buttonSize?: 'default' | 'small';
-}
+};
 
 const BannerAllCarousel: React.FC<BannerProps> = ({
   data,
