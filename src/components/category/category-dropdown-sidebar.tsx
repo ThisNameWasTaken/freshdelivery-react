@@ -22,7 +22,10 @@ const CategoryDropdownSidebar: React.FC<CategorySidebarProps> = ({
 
   return (
     <aside
-      className={cn('lg:sticky lg:top-16 category-mobile-sidebar', className)}
+      className={cn(
+        'lg:sticky lg:top-[6rem] category-mobile-sidebar',
+        className
+      )}
     >
       <div className="max-h-full overflow-hidden rounded border border-skin-base">
         {error ? (
