@@ -16,7 +16,7 @@ import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
-import Tag from '@components/tag-label';
+import Tag from '@components/tag';
 import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
 import SocialShareBox from '@components/social-share-box';
 import ProductDetailsTab from '@components/product/product-details/product-tab';

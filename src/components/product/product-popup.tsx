@@ -14,7 +14,7 @@ import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import Image from 'next/image';
 import Heading from '@components/heading';
 import Text from '@components/text';
-import Tag from '@components/tag-label';
+import Tag from '@components/tag';
 import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import SocialShareBox from '@components/social-share-box';
