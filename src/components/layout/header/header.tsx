@@ -11,7 +11,7 @@ import HeaderMenu from '@components/layout/header/header-menu';
 import LanguageSwitcher from '@components/language-switcher';
 import { useModalAction } from '@components/modal/modal.context';
 import cn from 'classnames';
-import Search from '@components/search';
+import Search from '@components/search/search';
 import { IoPersonOutline } from 'react-icons/io5';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
 const CartButton = dynamic(() => import('@components/cart/cart-button'), {

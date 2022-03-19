@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import cn from 'classnames';
 import { useSearchQuery } from '@framework/product/use-search';
-import SearchBox from '@components/search-box';
-import SearchProduct from '@components/search-product';
+import SearchBox from '@components/search/search-box';
+import SearchProduct from '@components/search/search-product';
 import SearchResultLoader from '@components/loaders/search-result-loader';
 import useFreezeBodyScroll from '@utils/use-freeze-body-scroll';
 import Scrollbar from '@components/scrollbar';
