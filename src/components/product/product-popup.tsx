@@ -17,7 +17,6 @@ import Text from '@components/text';
 import Tag from '@components/tag';
 import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
-import SocialShareBox from '@components/social-share-box';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import { toast } from 'react-toastify';
 import { useWindowSize } from 'react-use';
@@ -296,14 +295,6 @@ export default function ProductPopup() {
                       <IoArrowRedoOutline className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
                       {t('text-share')}
                     </Button>
-                    <SocialShareBox
-                      className={`absolute z-10 end-0 w-[300px] md:min-w-[400px] transition-all duration-300 ${
-                        shareButtonStatus === true
-                          ? 'visible opacity-100 top-full'
-                          : 'opacity-0 invisible top-[130%]'
-                      }`}
-                      shareUrl={productUrl}
-                    />
                   </div>
                 </div>
               </div>

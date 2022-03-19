@@ -18,7 +18,6 @@ import Image from 'next/image';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import Tag from '@components/tag';
 import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
-import SocialShareBox from '@components/social-share-box';
 import ProductDetailsTab from '@components/product/product-details/product-tab';
 import VariationPrice from './variation-price';
 import isEqual from 'lodash/isEqual';
@@ -275,14 +274,6 @@ const ProductSingleDetails: React.FC = () => {
                   <IoArrowRedoOutline className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
                   {t('text-share')}
                 </Button>
-                <SocialShareBox
-                  className={`absolute z-10 end-0 w-[300px] md:min-w-[400px] transition-all duration-300 ${
-                    shareButtonStatus === true
-                      ? 'visible opacity-100 top-full'
-                      : 'opacity-0 invisible top-[130%]'
-                  }`}
-                  shareUrl={productUrl}
-                />
               </div>
             </div>
           </div>
