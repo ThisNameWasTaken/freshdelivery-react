@@ -69,7 +69,6 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
           })}
           onClick={() => clear()}
         />
-        {/* End of overlay */}
 
         <div className="w-full flex flex-col justify-center flex-shrink-0 relative z-30">
           <div className="flex flex-col mx-auto w-full">
@@ -84,42 +83,39 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
               variant={variant}
             />
           </div>
-          {/* End of searchbox */}
 
           {searchText && (
             <div className="w-full absolute top-[56px] start-0 py-2.5 bg-skin-fill rounded-md flex flex-col overflow-hidden shadow-dropDown z-30">
               <Scrollbar className="os-host-flexbox">
                 <div className="w-full h-[380px]">
                   {isLoading
-                    ? Array.from({ length: 15 }).map((_, idx) => (
+                    ? Array.from({ length: 15 }).map((_, i) => (
                         <div
-                          key={`search-result-loader-key-${idx}`}
+                          key={i}
                           className="py-2.5 ps-5 pe-10 scroll-snap-align-start"
                         >
-                          <SearchResultLoader
-                            key={idx}
-                            uniqueKey={`top-search-${idx}`}
-                          />
+                          <SearchResultLoader />
                         </div>
                       ))
-                    : data?.map((item, index) => (
+                    : data?.map((item) => (
                         <div
-                          key={`search-result-key-${index}`}
+                          key={item.id}
                           className="py-2.5 ps-5 pe-10 scroll-snap-align-start transition-colors duration-200 hover:bg-skin-two"
                           onClick={clear}
                         >
-                          <SearchProduct item={item} key={index} />
+                          <SearchProduct item={item} />
                         </div>
                       ))}
                 </div>
               </Scrollbar>
             </div>
           )}
-          {/* End of search result */}
         </div>
       </div>
     );
   }
 );
+
+Search.displayName = 'Search';
 
 export default Search;

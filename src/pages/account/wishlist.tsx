@@ -33,11 +33,8 @@ export default function WishList() {
           ) : (
             <div className="flex flex-col">
               {isLoading && !data?.length
-                ? Array.from({ length: 35 }).map((_, idx) => (
-                    <ProductCardLoader
-                      key={idx}
-                      uniqueKey={`product--key-${idx}`}
-                    />
+                ? Array.from({ length: 35 }).map((_, id) => (
+                    <ProductCardLoader key={id} />
                   ))
                 : data?.map((product: any) => (
                     <WishlistCard key={product.id} product={product} />

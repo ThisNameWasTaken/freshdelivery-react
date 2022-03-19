@@ -38,15 +38,12 @@ const ProductsGridBlock: React.FC<ProductsProps> = ({
         {error ? (
           <Alert message={error} className="col-span-full" />
         ) : loading && !products?.length ? (
-          Array.from({ length: limit! }).map((_, idx) => (
-            <ProductCardLoader
-              key={`${uniqueKey}-${idx}`}
-              uniqueKey={`${uniqueKey}-${idx}`}
-            />
+          Array.from({ length: limit! }).map((_, i) => (
+            <ProductCardLoader key={i} />
           ))
         ) : (
           products?.map((product: any) => (
-            <ProductCard key={`${uniqueKey}-${product.id}`} product={product} />
+            <ProductCard key={product.id} product={product} />
           ))
         )}
       </div>

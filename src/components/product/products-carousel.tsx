@@ -88,19 +88,16 @@ const ProductsCarousel: React.FC<ProductsCarouselProps> = ({
             }`}
           >
             {loading && !products?.length ? (
-              Array.from({ length: limit! }).map((_, idx) => (
-                <SwiperSlide
-                  key={`${uniqueKey}-${idx}`}
-                  className="px-1.5 md:px-2 xl:px-2.5 py-4"
-                >
-                  <ProductCardLoader uniqueKey={`${uniqueKey}-${idx}`} />
+              Array.from({ length: limit! }).map((_, id) => (
+                <SwiperSlide key={id} className="px-1.5 md:px-2 xl:px-2.5 py-4">
+                  <ProductCardLoader />
                 </SwiperSlide>
               ))
             ) : (
               <>
                 {products?.map((product: any, idx) => (
                   <SwiperSlide
-                    key={`${uniqueKey}-${idx}`}
+                    key={product.id}
                     className="px-1.5 md:px-2 xl:px-2.5 py-4"
                   >
                     <ProductCard product={product} />

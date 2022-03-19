@@ -62,12 +62,12 @@ const ThumbnailCarousel: React.FC<Props> = ({
         >
           {gallery?.map((item: any) => (
             <SwiperSlide
-              key={`product-gallery-${item.id}`}
+              key={item.id}
               className="flex items-center justify-center"
             >
               <Image
                 src={item?.original ?? productGalleryPlaceholder}
-                alt={`Product gallery ${item.id}`}
+                alt=""
                 width={650}
                 height={590}
                 className="rounded-lg"
@@ -105,12 +105,12 @@ const ThumbnailCarousel: React.FC<Props> = ({
         >
           {gallery?.map((item: any) => (
             <SwiperSlide
-              key={`product-thumb-gallery-${item.id}`}
+              key={item.id}
               className="flex items-center justify-center cursor-pointer rounded overflow-hidden border border-skin-base transition hover:opacity-75"
             >
               <Image
                 src={item?.thumbnail ?? productGalleryPlaceholder}
-                alt={`Product thumb gallery ${item.id}`}
+                alt=""
                 width={170}
                 height={170}
               />

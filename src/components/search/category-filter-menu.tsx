@@ -128,7 +128,7 @@ function CategoryFilterMenuItem({
               const childDepth = depth + 1;
               return (
                 <CategoryFilterMenuItem
-                  key={`${currentItem.name}${currentItem.slug}`}
+                  key={`${currentItem.name}-${currentItem.slug}`}
                   item={currentItem}
                   depth={childDepth}
                   className="px-0 border-t border-skin-base first:border-t-0 mx-[3px] bg-transparent"
@@ -146,10 +146,7 @@ function CategoryFilterMenu({ items, className }: any) {
   return (
     <ul className={cn(className)}>
       {items?.map((item: any) => (
-        <CategoryFilterMenuItem
-          key={`${item.slug}-key-${item.id}`}
-          item={item}
-        />
+        <CategoryFilterMenuItem key={`${item.slug}-${item.id}`} item={item} />
       ))}
     </ul>
   );

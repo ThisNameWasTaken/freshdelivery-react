@@ -33,7 +33,7 @@ export const BreadcrumbItems = (props: any) => {
   let children: any = React.Children.toArray(props.children);
 
   children = children.map((child: string, index: number) => (
-    <BreadcrumbItem key={`breadcrumb_item${index}`}>{child}</BreadcrumbItem>
+    <BreadcrumbItem key={child}>{child}</BreadcrumbItem>
   ));
 
   const lastIndex = children.length - 1;
@@ -43,9 +43,7 @@ export const BreadcrumbItems = (props: any) => {
     if (notLast) {
       acc.push(
         child,
-        <BreadcrumbSeparator key={`breadcrumb_sep${index}`}>
-          {props.separator}
-        </BreadcrumbSeparator>
+        <BreadcrumbSeparator key={index}>{props.separator}</BreadcrumbSeparator>
       );
     } else {
       acc.push(child);
@@ -67,7 +65,7 @@ const Breadcrumb: React.FC<{ separator?: string }> = ({
 }) => {
   const breadcrumbs = useBreadcrumb();
   const { t } = useTranslation('common');
-  ROUTES;
+
   return (
     <BreadcrumbItems separator={separator}>
       <ActiveLink

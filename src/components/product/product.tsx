@@ -16,7 +16,7 @@ import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
-import TagLabel from '@components/tag-label';
+import Tag from '@components/tag-label';
 import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
 import SocialShareBox from '@components/social-share-box';
 import ProductDetailsTab from '@components/product/product-details/product-tab';
@@ -176,7 +176,7 @@ const ProductSingleDetails: React.FC = () => {
           {Object.keys(variations).map((variation) => {
             return (
               <ProductAttributes
-                key={`popup-attribute-key${variation}`}
+                key={variation}
                 variations={variations}
                 attributes={attributes}
                 setAttributes={setAttributes}
@@ -292,8 +292,8 @@ const ProductSingleDetails: React.FC = () => {
                 {t('text-tags')}:
               </li>
               {data?.tag?.map((item: any) => (
-                <li className="inline-block p-[3px]" key={`tag-${item.id}`}>
-                  <TagLabel data={item} />
+                <li className="inline-block p-[3px]" key={item.id}>
+                  <Tag name={item.name} slug={item.slug} />
                 </li>
               ))}
             </ul>

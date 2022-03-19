@@ -14,7 +14,7 @@ import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import Image from 'next/image';
 import Heading from '@components/heading';
 import Text from '@components/text';
-import TagLabel from '@components/tag-label';
+import Tag from '@components/tag-label';
 import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import SocialShareBox from '@components/social-share-box';
@@ -200,7 +200,7 @@ export default function ProductPopup() {
               {Object.keys(variations).map((variation) => {
                 return (
                   <ProductAttributes
-                    key={`popup-attribute-key${variation}`}
+                    key={variation}
                     variations={variations}
                     attributes={attributes}
                     setAttributes={setAttributes}
@@ -313,8 +313,8 @@ export default function ProductPopup() {
                     {t('text-tags')}:
                   </li>
                   {tag?.map((item: any) => (
-                    <li className="inline-block p-[3px]" key={`tag-${item.id}`}>
-                      <TagLabel data={item} />
+                    <li className="inline-block p-[3px]" key={item.id}>
+                      <Tag name={item.name} slug={item.slug} />
                     </li>
                   ))}
                 </ul>

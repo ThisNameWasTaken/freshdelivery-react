@@ -39,19 +39,13 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = '' }) => {
             <Alert message={error?.message} />
           </div>
         ) : isLoading && !data?.pages?.length ? (
-          Array.from({ length: 30 }).map((_, idx) => (
-            <ProductCardLoader
-              key={`product--key-${idx}`}
-              uniqueKey={`product--key-${idx}`}
-            />
+          Array.from({ length: 30 }).map((_, i) => (
+            <ProductCardLoader key={i} />
           ))
         ) : (
           data?.pages?.map((page: any) => {
             return page?.data?.map((product: Product) => (
-              <ProductCard
-                key={`product--key-${product.id}`}
-                product={product}
-              />
+              <ProductCard key={product.id} product={product} />
             ));
           })
         )}

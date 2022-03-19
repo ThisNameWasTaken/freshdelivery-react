@@ -91,7 +91,7 @@ function SidebarMenuItem({ className, item, depth = 0 }: any) {
               const childDepth = depth + 1;
               return (
                 <SidebarMenuItem
-                  key={`${currentItem.name}${currentItem.slug}`}
+                  key={`${currentItem.name}-${currentItem.slug}`}
                   item={currentItem}
                   depth={childDepth}
                   className={cn('text-sm ps-14 py-2.5 pe-4')}

@@ -1,34 +1,21 @@
-import { Tag } from '@framework/types';
 import cn from 'classnames';
-import { ROUTES } from '@utils/routes';
-import { useRouter } from 'next/router';
-import { useModalAction } from '@components/modal/modal.context';
 
-type Props = {
-  data: Tag;
-  className?: string;
-};
+type TagProps = {
+  name: string;
+  slug: string;
+} & JSX.IntrinsicElements['div'];
 
-const TagLabel: React.FC<Props> = ({ className, data }) => {
-  const { name } = data;
-  const router = useRouter();
-  const { closeModal } = useModalAction();
-  function changeTags() {
-    closeModal();
-    router.push(ROUTES.SEARCH);
-  }
-  return (
-    <div
-      className={cn(
-        'font-medium text-base md:text-sm rounded hover:bg-skin-button-secondary block border border-sink-base px-2 py-1 transition',
-        className
-      )}
-      role="button"
-      onClick={changeTags}
-    >
-      {name}
-    </div>
-  );
-};
+const Tag: React.FC<TagProps> = ({ name, slug, className, ...props }) => (
+  <div
+    className={cn(
+      'font-medium text-base md:text-sm rounded hover:bg-skin-button-secondary block border border-sink-base px-2 py-1 transition',
+      className
+    )}
+    role="button"
+    {...props}
+  >
+    {name}
+  </div>
+);
 
-export default TagLabel;
+export default Tag;

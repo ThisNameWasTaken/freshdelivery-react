@@ -36,7 +36,7 @@ const ProductReviewRating: FC = () => {
     <div className="lg:flex">
       <div className="pt-2">
         {data?.map((item) => (
-          <ReviewCard item={item} key={`review-key-${item.id}`} />
+          <ReviewCard item={item} key={item.id} />
         ))}
       </div>
       <ReviewForm className="lg:w-[500px] xl:w-[540px] 2xl:w-[600px] 3xl:w-[730px] lg:ps-10 xl:ps-14 3xl:ps-20 flex-shrink-0 pt-10" />

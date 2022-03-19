@@ -52,11 +52,8 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
       ) : (
         <div className="grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
           {isLoading && !data?.pages?.length ? (
-            Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, idx) => (
-              <ProductCardLoader
-                key={`product--key-${idx}`}
-                uniqueKey={`product--key-${idx}`}
-              />
+            Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, i) => (
+              <ProductCardLoader key={i} />
             ))
           ) : (
             <>
@@ -64,19 +61,13 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
                 return (
                   <Fragment key={index}>
                     {page?.data?.slice(0, 18)?.map((product: Product) => (
-                      <ProductCard
-                        key={`product--key${product.id}`}
-                        product={product}
-                      />
+                      <ProductCard key={product.id} product={product} />
                     ))}
                     {element && <div className="col-span-full">{element}</div>}
                     {page?.data?.length! > 18 &&
                       slice(page?.data, 18, page?.data?.length).map(
                         (product: any) => (
-                          <ProductCard
-                            key={`product--key${product.id}`}
-                            product={product}
-                          />
+                          <ProductCard key={product.id} product={product} />
                         )
                       )}
                   </Fragment>
