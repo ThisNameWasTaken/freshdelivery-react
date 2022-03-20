@@ -5,6 +5,7 @@ import { useCart } from '@contexts/cart/cart.context';
 import usePrice from '@framework/product/use-price';
 import { ROUTES } from '@utils/routes';
 import Counter from '@components/counter';
+import { useState } from 'react';
 
 type CartItemProps = {
   item: any;
@@ -13,6 +14,7 @@ type CartItemProps = {
 const CartItem: React.FC<CartItemProps> = ({ item }) => {
   const { isInStock, addItemToCart, removeItemFromCart, clearItemFromCart } =
     useCart();
+  const [incremented, setIncremented] = useState(false);
   const { price: totalPrice } = usePrice({
     amount: item?.itemTotal,
     currencyCode: 'USD',
@@ -47,15 +49,24 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
             href={`${ROUTES.PRODUCT}/${item?.slug}`}
             className="block text-skin-base text-base sm:text-sm lg:text-base transition-all leading-5 hover:text-skin-primary"
           >
-            {item?.name}
+            {item?.name} HERE
           </Link>
           <div className="text-base sm:text-sm text-skin-muted mt-1.5 block mb-2">
             {item.unit} X {item.quantity}
           </div>
           <Counter
             value={item.quantity}
-            onIncrement={() => addItemToCart(item, 1)}
-            onDecrement={() => removeItemFromCart(item.id)}
+            onIncrement={() => {
+              addItemToCart(item, 1);
+              if (!incremented) {
+                setIncremented(true);
+              } else {
+                removeItemFromCart(item.id);
+              }
+            }}
+            onDecrement={() => {
+              removeItemFromCart(item.id);
+            }}
             variant="cart"
             disabled={outOfStock}
           />

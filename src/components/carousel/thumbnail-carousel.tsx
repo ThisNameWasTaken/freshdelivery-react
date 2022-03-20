@@ -70,7 +70,7 @@ const ThumbnailCarousel: React.FC<Props> = ({
                 alt=""
                 width={650}
                 height={590}
-                className="rounded-lg"
+                className="object-contain bg-transparent rounded-lg"
               />
             </SwiperSlide>
           ))}
@@ -113,6 +113,7 @@ const ThumbnailCarousel: React.FC<Props> = ({
                 alt=""
                 width={170}
                 height={170}
+                className="object-contain bg-transparent"
               />
             </SwiperSlide>
           ))}

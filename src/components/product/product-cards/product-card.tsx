@@ -83,7 +83,7 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
             width={230}
             height={200}
             quality={100}
-            className="object-cover bg-skin-thumbnail"
+            className="object-contain bg-transparent"
           />
         </div>
         <div className="w-full h-full absolute top-0 pt-2.5 md:pt-3.5 px-3 md:px-4 lg:px-[18px] z-10 -mx-0.5 sm:-mx-1">

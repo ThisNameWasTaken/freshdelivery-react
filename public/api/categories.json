@@ -109,6 +109,11 @@
           "id": 4,
           "name": "Butter",
           "slug": "butter"
+        },
+        {
+          "id": 5,
+          "name": "Eggs",
+          "slug": "eggs"
         }
       ]
     },

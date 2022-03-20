@@ -1,6 +1,7 @@
 import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
+import { useState } from 'react';
 import { IoAddOutline } from 'react-icons/io5';
 import { useWindowSize } from 'react-use';
 
@@ -20,11 +21,17 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
     isInCart,
   } = useCart();
   const item = generateCartItem(data!, variation);
+  const [incremented, setIncremented] = useState(false);
   const handleAddClick = (
     e: React.MouseEvent<HTMLButtonElement | MouseEvent>
   ) => {
     e.stopPropagation();
     addItemToCart(item, 1);
+    if (!incremented) {
+      setIncremented(true);
+    } else {
+      removeItemFromCart(item.id);
+    }
   };
   const handleRemoveClick = (e: any) => {
     e.stopPropagation();
