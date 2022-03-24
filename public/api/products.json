@@ -379,5 +379,196 @@
         "slug": "eggs"
       }
     ]
+  },
+  {
+    "id": "p-10",
+    "name": "Cheese",
+    "slug": "cheese",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-10-1.png",
+      "original": "/assets/images/products/p-10-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-10-1.png",
+        "original": "/assets/images/products/p-10-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-2.png",
+        "original": "/assets/images/products/p-10-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-3.png",
+        "original": "/assets/images/products/p-10-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 4.99,
+    "sale_price": 4.99,
+    "unit": "300g",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Diary",
+        "slug": "diary"
+      },
+      {
+        "id": 2,
+        "name": "Cheese",
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "id": "p-11",
+    "name": "Eggs",
+    "slug": "eggs",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-11-1.png",
+      "original": "/assets/images/products/p-11-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-11-1.png",
+        "original": "/assets/images/products/p-11-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-2.png",
+        "original": "/assets/images/products/p-11-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-3.png",
+        "original": "/assets/images/products/p-11-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Diary",
+        "slug": "diary"
+      },
+      {
+        "id": 2,
+        "name": "Eggs",
+        "slug": "eggs"
+      }
+    ]
+  },
+  {
+    "id": "p-12",
+    "name": "Coca Cola",
+    "slug": "coca-cola",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-12-1.png",
+      "original": "/assets/images/products/p-12-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-12-1.png",
+        "original": "/assets/images/products/p-12-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-2.png",
+        "original": "/assets/images/products/p-12-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-3.png",
+        "original": "/assets/images/products/p-12-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.99,
+    "sale_price": 2.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Drinks",
+        "slug": "drinks"
+      },
+      {
+        "id": 2,
+        "name": "Soda",
+        "slug": "soda"
+      },
+      {
+        "id": 2,
+        "name": "Coke",
+        "slug": "coke"
+      }
+    ]
+  },
+  {
+    "id": "p-13",
+    "name": "Orange juice",
+    "slug": "orange-juice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-13-1.png",
+      "original": "/assets/images/products/p-13-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-13-1.png",
+        "original": "/assets/images/products/p-13-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-2.png",
+        "original": "/assets/images/products/p-13-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-3.png",
+        "original": "/assets/images/products/p-13-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 12.99,
+    "sale_price": 12.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Drinks",
+        "slug": "Drinks"
+      },
+      {
+        "id": 2,
+        "name": "Juice",
+        "slug": "juice"
+      },
+      {
+        "id": 3,
+        "name": "Orange",
+        "slug": "orange"
+      },
+      {
+        "id": 4,
+        "name": "Bio",
+        "slug": "bio"
+      }
+    ]
   }
 ]

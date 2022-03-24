@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 
 const backgroundThumbnail = '/assets/images/404-bg.png';
-const errorThumbnail = '/assets/images/404.png';
+const errorThumbnail = '/assets/images/404.svg';
 
 export default function ErrorPage() {
   const { t } = useTranslation('common');
@@ -15,7 +15,7 @@ export default function ErrorPage() {
     <>
       <Seo
         title="404"
-        description="Get your fresh food delivered to your doorstep."
+        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         path="404"
       />
 
@@ -29,8 +29,8 @@ export default function ErrorPage() {
           <Image
             src={errorThumbnail}
             alt={t('error-heading')}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
           />
 
           <h2 className="text-6xl md:text-7xl 2xl:text-8xl font-bold text-skin-base pt-5 xl:pt-9">

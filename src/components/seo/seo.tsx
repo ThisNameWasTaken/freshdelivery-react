@@ -13,20 +13,6 @@ const Seo = ({ title, description, path }: SeoProps) => {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/${path}`,
         title,
         description,
-        images: [
-          {
-            url: '/assets/images/og-image-01.png',
-            width: 800,
-            height: 600,
-            alt: 'Og Image Alt',
-          },
-          {
-            url: '/assets/images/og-image-02.png',
-            width: 900,
-            height: 800,
-            alt: 'Og Image Alt Second',
-          },
-        ],
       }}
     />
   );

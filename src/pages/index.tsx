@@ -9,8 +9,6 @@ import AllProductFeed from '@components/product/feeds/all-products-feed';
 import BannerAllCarousel from '@components/banner-carousel';
 import { bannerDiscount } from '@framework/static/banner';
 import CategoryDropdownSidebar from '@components/category/category-dropdown-sidebar';
-import BannerCard from '@components/cards/banner-card';
-import { homeTwoBanner as banner } from '@framework/static/banner';
 import Seo from '@components/seo/seo';
 import { QueryClient } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
@@ -40,9 +38,7 @@ export default function Home() {
               data={bannerDiscount}
               className="mb-12 xl:mb-14"
             />
-            <AllProductFeed
-              element={<BannerCard banner={banner} className="py-5" />}
-            />
+            <AllProductFeed />
           </div>
         </Element>
       </Container>

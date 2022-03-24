@@ -59,11 +59,6 @@ export const siteSettings = {
       },
       {
         id: 4,
-        path: '/shops/',
-        label: 'menu-shops',
-      },
-      {
-        id: 5,
         path: '/',
         label: 'menu-pages',
         subMenu: [
@@ -88,31 +83,6 @@ export const siteSettings = {
                 label: 'menu-sign-up',
               },
             ],
-          },
-          {
-            id: 2,
-            path: '/faq',
-            label: 'menu-faq',
-          },
-          {
-            id: 3,
-            path: '/about-us',
-            label: 'menu-about-us',
-          },
-          {
-            id: 4,
-            path: '/privacy',
-            label: 'menu-privacy-policy',
-          },
-          {
-            id: 5,
-            path: '/terms',
-            label: 'menu-terms-condition',
-          },
-          {
-            id: 6,
-            path: '/contact-us',
-            label: 'menu-contact-us',
           },
           {
             id: 7,

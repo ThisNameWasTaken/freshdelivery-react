@@ -7,7 +7,6 @@ import { useUI } from '@contexts/ui.context';
 import { addActiveScroll } from '@utils/add-active-scroll';
 import Container from '@components/container';
 import Logo from '@components/logo';
-import HeaderMenu from '@components/layout/header/header-menu';
 import LanguageSwitcher from '@components/language-switcher';
 import { useModalAction } from '@components/modal/modal.context';
 import cn from 'classnames';
@@ -45,11 +44,6 @@ const Header: React.FC = () => {
         {/* End of Mobile search */}
         <Container className="flex items-center justify-between lg:justify-center h-full w-full">
           <Logo className="-mt-1" />
-
-          <HeaderMenu
-            data={site_header.menu}
-            className="hidden lg:flex md:ps-6 xl:ps-10"
-          />
 
           <div className="flex flex-shrink-0 space-s-5 xl:space-s-7 ms-auto">
             <LanguageSwitcher />

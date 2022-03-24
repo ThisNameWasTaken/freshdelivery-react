@@ -212,7 +212,7 @@ export default function ProductPopup() {
                 {isEmpty(variations) && (
                   <>
                     {Number(quantity) > 0 || !outOfStock ? (
-                      <span className="text-sm font-medium text-skin-yellow-two">
+                      <span className="text-sm font-medium text-primary">
                         {t('text-only') +
                           ' ' +
                           quantity +
@@ -228,7 +228,7 @@ export default function ProductPopup() {
                 )}
 
                 {!isEmpty(selectedVariation) && (
-                  <span className="text-sm font-medium text-skin-yellow-two">
+                  <span className="text-sm font-medium text-primary">
                     {selectedVariation?.is_disable ||
                     selectedVariation.quantity === 0
                       ? t('text-out-stock')

@@ -7,45 +7,8 @@ import Logo from '@components/logo';
 import { useUI } from '@contexts/ui.context';
 import { useTranslation } from 'next-i18next';
 import cn from 'classnames';
-
-import {
-  IoLogoInstagram,
-  IoLogoTwitter,
-  IoLogoFacebook,
-  IoLogoYoutube,
-  IoClose,
-} from 'react-icons/io5';
-
-const social = [
-  {
-    id: 0,
-    link: 'https://www.facebook.com/redqinc/',
-    icon: <IoLogoFacebook />,
-    className: 'facebook',
-    title: 'text-facebook',
-  },
-  {
-    id: 1,
-    link: 'https://twitter.com/redqinc',
-    icon: <IoLogoTwitter />,
-    className: 'twitter',
-    title: 'text-twitter',
-  },
-  {
-    id: 2,
-    link: 'https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw',
-    icon: <IoLogoYoutube />,
-    className: 'youtube',
-    title: 'text-youtube',
-  },
-  {
-    id: 3,
-    link: 'https://www.instagram.com/redqinc/',
-    icon: <IoLogoInstagram />,
-    className: 'instagram',
-    title: 'text-instagram',
-  },
-];
+import { IoClose } from 'react-icons/io5';
+import CategoryDropdownSidebar from '@components/category/category-dropdown-sidebar';
 
 export default function MobileMenu() {
   const [activeMenus, setActiveMenus] = useState<any>([]);
@@ -153,40 +116,7 @@ export default function MobileMenu() {
           </button>
         </div>
 
-        <Scrollbar className="menu-scrollbar flex-grow mb-auto">
-          <div className="flex flex-col py-6 px-0 text-skin-base">
-            <ul className="mobile-menu">
-              {site_header.menu.map((menu, index) => {
-                const dept: number = 1;
-                const menuName: string = `sidebar-menu-${dept}-${index}`;
-
-                return (
-                  <ListMenu
-                    dept={dept}
-                    data={menu}
-                    hasSubMenu={menu.subMenu}
-                    menuName={menuName}
-                    key={menuName}
-                    menuIndex={index}
-                  />
-                );
-              })}
-            </ul>
-          </div>
-        </Scrollbar>
-
-        <div className="flex items-center justify-center bg-skin-fill border-t border-skin-base px-7 flex-shrink-0 space-s-1 py-5">
-          {social?.map((item, index) => (
-            <Link
-              href={item.link}
-              className={`text-heading space-s-6 transition duration-300 ease-in text-skin-base text-opacity-60 hover:text-skin-primary ${item.className}`}
-              key={index}
-            >
-              <span className="sr-only">{t(`${item.title}`)}</span>
-              {item.icon}
-            </Link>
-          ))}
-        </div>
+        <CategoryDropdownSidebar />
       </div>
     </>
   );

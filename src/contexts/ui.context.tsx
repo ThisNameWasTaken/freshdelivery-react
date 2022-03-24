@@ -45,12 +45,6 @@ type Action =
       type: 'CLOSE_SIDEBAR';
     }
   | {
-      type: 'OPEN_SHOP';
-    }
-  | {
-      type: 'CLOSE_SHOP';
-    }
-  | {
       type: 'OPEN_CART';
     }
   | {
@@ -131,19 +125,6 @@ function uiReducer(state: State, action: Action) {
       return {
         ...state,
         displaySidebar: false,
-        drawerView: null,
-      };
-    }
-    case 'OPEN_SHOP': {
-      return {
-        ...state,
-        displayShop: true,
-      };
-    }
-    case 'CLOSE_SHOP': {
-      return {
-        ...state,
-        displayShop: false,
         drawerView: null,
       };
     }
@@ -249,8 +230,7 @@ export const UIProvider: React.FC = (props) => {
   const unauthorize = () => dispatch({ type: 'SET_UNAUTHORIZED' });
   const openSidebar = () => dispatch({ type: 'OPEN_SIDEBAR' });
   const closeSidebar = () => dispatch({ type: 'CLOSE_SIDEBAR' });
-  const openShop = () => dispatch({ type: 'OPEN_SHOP' });
-  const closeShop = () => dispatch({ type: 'CLOSE_SHOP' });
+
   const toggleSidebar = () =>
     state.displaySidebar
       ? dispatch({ type: 'CLOSE_SIDEBAR' })
@@ -295,8 +275,6 @@ export const UIProvider: React.FC = (props) => {
       unauthorize,
       openSidebar,
       closeSidebar,
-      openShop,
-      closeShop,
       toggleSidebar,
       closeSidebarIfPresent,
       openCart,

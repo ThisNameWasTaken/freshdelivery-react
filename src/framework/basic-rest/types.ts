@@ -13,6 +13,7 @@ export type CategoriesQueryOptionsType = {
   status?: string;
   limit?: number;
 };
+
 export type ProductsQueryOptionsType = {
   type: string;
   text?: string;
@@ -20,6 +21,7 @@ export type ProductsQueryOptionsType = {
   status?: string;
   limit?: number;
 };
+
 export type QueryOptionsType = {
   text?: string;
   category?: string;
@@ -31,11 +33,13 @@ export type QueryParamsType = {
   queryKey: QueryKey;
   pageParam?: string;
 };
+
 export type Attachment = {
   id: string | number;
   thumbnail: string;
   original: string;
 };
+
 export type Category = {
   id: number | string;
   name: string;
@@ -48,6 +52,7 @@ export type Category = {
   productCount?: number;
   [key: string]: unknown;
 };
+
 export type Collection = {
   id: number | string;
   name: string;
@@ -58,11 +63,13 @@ export type Collection = {
   products?: Product[];
   productCount?: number;
 };
+
 export type Tag = {
   id: string | number;
   name: string;
   slug: string;
 };
+
 export type Product = {
   id: number | string;
   name: string;
@@ -84,12 +91,14 @@ export type Product = {
   variations?: object;
   [key: string]: unknown;
 };
+
 export type OrderItem = {
   id: number | string;
   name: string;
   price: number;
   quantity: number;
 };
+
 export type Order = {
   id: string | number;
   name: string;
@@ -103,29 +112,4 @@ export type Order = {
   };
   shipping_fee: number;
   payment_gateway: string;
-};
-
-export type ShopsQueryOptionsType = {
-  text?: string;
-  shop?: Shop;
-  status?: string;
-  limit?: number;
-};
-
-export type Shop = {
-  id: string | number;
-  owner_id: string | number;
-  owner_name: string;
-  address: string;
-  phone: string;
-  website: string;
-  ratings: string;
-  name: string;
-  slug: string;
-  description: string;
-  cover_image: Attachment;
-  logo: Attachment;
-  socialShare: any;
-  created_at: string;
-  updated_at: string;
 };
