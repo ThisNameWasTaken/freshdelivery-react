@@ -4,12 +4,12 @@ export const homeTwoBanner = {
   slug: '/search',
   image: {
     mobile: {
-      url: '/assets/images/banner/banner-mobile-6.png',
+      url: '/assets/images/banner/banner-mobile-6.jpg',
       width: 450,
       height: 370,
     },
     desktop: {
-      url: '/assets/images/banner/banner-6.png',
+      url: '/assets/images/banner/banner-6.jpg',
       width: 1460,
       height: 400,
     },
@@ -22,7 +22,7 @@ export const bannerGridMediumTwo = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/banner-mobile-1.png',
+        url: '/assets/images/banner/banner-mobile-1.jpg',
         width: 450,
         height: 220,
       },
@@ -39,7 +39,7 @@ export const bannerGridMediumTwo = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/banner-mobile-2.png',
+        url: '/assets/images/banner/banner-mobile-2.jpg',
         width: 450,
         height: 220,
       },
@@ -59,12 +59,12 @@ export const bannerGridTwo = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/banner-mobile-1.png',
+        url: '/assets/images/banner/banner-mobile-1.jpg',
         width: 450,
         height: 222,
       },
       desktop: {
-        url: '/assets/images/banner/banner-1.png',
+        url: '/assets/images/banner/banner-1.jpg',
         width: 910,
         height: 450,
       },
@@ -76,12 +76,12 @@ export const bannerGridTwo = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/banner-mobile-2.png',
+        url: '/assets/images/banner/banner-mobile-2.jpg',
         width: 450,
         height: 222,
       },
       desktop: {
-        url: '/assets/images/banner/banner-2.png',
+        url: '/assets/images/banner/banner-2.jpg',
         width: 910,
         height: 450,
       },
@@ -96,10 +96,10 @@ export const homeFourHeroBanner = {
   searchBox: true,
   image: {
     mobile: {
-      url: '/assets/images/hero/banner-3.png',
+      url: '/assets/images/hero/banner-3.jpg',
     },
     desktop: {
-      url: '/assets/images/hero/banner-3.png',
+      url: '/assets/images/hero/banner-3.jpg',
     },
   },
 };
@@ -111,12 +111,12 @@ export const bannerDiscount = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/discount/banner-1.png',
+        url: '/assets/images/banner/discount/banner-1.jpg',
         width: 475,
         height: 250,
       },
       desktop: {
-        url: '/assets/images/banner/discount/banner-1.png',
+        url: '/assets/images/banner/discount/banner-1.jpg',
         width: 475,
         height: 250,
       },
@@ -128,12 +128,12 @@ export const bannerDiscount = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/discount/banner-2.png',
+        url: '/assets/images/banner/discount/banner-2.jpg',
         width: 475,
         height: 250,
       },
       desktop: {
-        url: '/assets/images/banner/discount/banner-2.png',
+        url: '/assets/images/banner/discount/banner-2.jpg',
         width: 475,
         height: 250,
       },
@@ -145,12 +145,12 @@ export const bannerDiscount = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/discount/banner-3.png',
+        url: '/assets/images/banner/discount/banner-3.jpg',
         width: 475,
         height: 250,
       },
       desktop: {
-        url: '/assets/images/banner/discount/banner-3.png',
+        url: '/assets/images/banner/discount/banner-3.jpg',
         width: 475,
         height: 250,
       },
@@ -162,12 +162,12 @@ export const bannerDiscount = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/discount/banner-4.png',
+        url: '/assets/images/banner/discount/banner-4.jpg',
         width: 475,
         height: 250,
       },
       desktop: {
-        url: '/assets/images/banner/discount/banner-4.png',
+        url: '/assets/images/banner/discount/banner-4.jpg',
         width: 475,
         height: 250,
       },
@@ -179,12 +179,12 @@ export const bannerDiscount = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/banner/discount/banner-5.png',
+        url: '/assets/images/banner/discount/banner-5.jpg',
         width: 475,
         height: 250,
       },
       desktop: {
-        url: '/assets/images/banner/discount/banner-5.png',
+        url: '/assets/images/banner/discount/banner-5.jpg',
         width: 475,
         height: 250,
       },

@@ -14,7 +14,6 @@ export const API_ENDPOINTS = {
   LOGOUT: '/logout',
   CATEGORIES: '/categories.json',
   PRODUCTS: '/products.json',
-  PRODUCT: '/product.json',
   RELATED_PRODUCTS: '/related_products.json',
   POPULAR_PRODUCTS: '/products_popular.json',
   SEARCH: '/search.json',

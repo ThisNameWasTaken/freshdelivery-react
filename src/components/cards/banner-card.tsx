@@ -5,7 +5,6 @@ import cn from 'classnames';
 
 type BannerProps = {
   banner: any;
-  variant?: 'rounded' | 'default';
   effectActive?: boolean;
   className?: string;
   classNameInner?: string;
@@ -18,12 +17,11 @@ function getImage(deviceWidth: number, imgObj: any) {
 const BannerCard: React.FC<BannerProps> = ({
   banner,
   className,
-  variant = 'default',
   effectActive = true,
   classNameInner,
 }) => {
   const { width } = useWindowSize();
-  const { slug, title, image } = banner;
+  const { slug, image } = banner;
   const selectedImage = getImage(width!, image);
   return (
     <div className={cn('mx-auto', className)}>
@@ -38,11 +36,9 @@ const BannerCard: React.FC<BannerProps> = ({
           src={selectedImage.url}
           width={selectedImage.width}
           height={selectedImage.height}
-          alt={title}
+          alt=""
           quality={100}
-          className={cn('bg-skin-thumbnail object-cover w-full', {
-            'rounded-md': variant === 'rounded',
-          })}
+          className={cn('bg-skin-thumbnail object-cover w-full rounded-md')}
         />
         {effectActive && (
           <div className="absolute top-0 -start-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-30 group-hover:animate-shine" />

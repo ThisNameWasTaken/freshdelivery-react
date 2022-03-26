@@ -12,7 +12,6 @@ type SearchProps = {
   onChange: (e: React.FormEvent<HTMLInputElement>) => void;
   name: string;
   value: string;
-  variant?: 'border' | 'fill';
 };
 
 const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
@@ -20,7 +19,6 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
     {
       className,
       searchId = 'search',
-      variant = 'border',
       value,
       onSubmit,
       onClear,
@@ -41,11 +39,7 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
           <input
             id={searchId}
             className={cn(
-              'text-heading outline-none w-full h-[52px] ps-5 md:ps-6 pe-14 md:pe-16 bg-skin-full text-skin-base text-sm lg:text-base rounded-md transition-all duration-200 focus:border-skin-primary focus:ring-1 focus:ring-skin-form',
-              {
-                'border border-skin-base': variant === 'border',
-                'bg-skin-one': variant === 'fill',
-              }
+              'text-heading outline-none w-full h-[52px] ps-5 md:ps-6 pe-14 md:pe-16 bg-skin-full text-skin-base text-sm lg:text-base rounded-md transition-all duration-200 focus:border-skin-primary focus:ring-1 focus:ring-skin-form border border-skin-base'
             )}
             placeholder={t('placeholder-search')}
             aria-label={searchId}

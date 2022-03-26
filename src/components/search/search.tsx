@@ -7,22 +7,15 @@ import SearchResultLoader from '@components/loaders/search-result-loader';
 import useFreezeBodyScroll from '@utils/use-freeze-body-scroll';
 import Scrollbar from '@components/scrollbar';
 import { useUI } from '@contexts/ui.context';
+import { useWindowSize } from 'react-use';
 
 type Props = {
   className?: string;
   searchId?: string;
-  variant?: 'border' | 'fill';
 };
 
 const Search = React.forwardRef<HTMLDivElement, Props>(
-  (
-    {
-      className = 'md:w-[730px] 2xl:w-[800px]',
-      searchId = 'search',
-      variant = 'border',
-    },
-    ref
-  ) => {
+  ({ className = 'md:w-[730px] 2xl:w-[800px]', searchId = 'search' }, ref) => {
     const {
       displayMobileSearch,
       closeMobileSearch,
@@ -34,8 +27,10 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
     const { data, isLoading } = useSearchQuery({
       text: searchText,
     });
+    const windowSize = useWindowSize();
     useFreezeBodyScroll(
-      inputFocus === true || displaySearch || displayMobileSearch
+      windowSize.width < 1024 &&
+        (inputFocus === true || displaySearch || displayMobileSearch)
     );
     function handleSearch(e: React.SyntheticEvent) {
       e.preventDefault();
@@ -62,11 +57,14 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
         )}
       >
         <div
-          className={cn('overlay cursor-pointer', {
-            open: displayMobileSearch,
-            'input-focus-overlay-open': inputFocus === true,
-            'open-search-overlay': displaySearch,
-          })}
+          className={cn(
+            'overlay cursor-pointer',
+            windowSize.width < 1024 && {
+              open: displayMobileSearch,
+              'input-focus-overlay-open': inputFocus === true,
+              'open-search-overlay': displaySearch,
+            }
+          )}
           onClick={() => clear()}
         />
 
@@ -80,7 +78,6 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
               onChange={handleAutoSearch}
               onClear={clear}
               onFocus={() => enableInputFocus()}
-              variant={variant}
             />
           </div>
 

@@ -2,8 +2,8 @@ import type { FC } from 'react';
 import cn from 'classnames';
 import Link from '@components/link';
 import { useWindowSize } from 'react-use';
-import HeroSearchBox from '@components/hero/hero-banner-search';
 import { useTranslation } from 'next-i18next';
+import Search from '@components/search/search';
 
 type BannerProps = {
   banner?: any;
@@ -86,7 +86,7 @@ const HeroBannerCard: FC<BannerProps> = ({
           )}
           {banner.searchBox && (
             <div className="hidden lg:flex max-w-[620px] mx-auto md:pt-1 lg:pt-3">
-              <HeroSearchBox />
+              <Search />
             </div>
           )}
         </div>
