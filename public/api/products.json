@@ -38,8 +38,8 @@
       },
       {
         "id": 2,
-        "name": "Fresh food",
-        "slug": "fresh-food"
+        "name": "Fresh Vegetables",
+        "slug": "fresh-vegetables"
       }
     ]
   },
@@ -82,8 +82,8 @@
       },
       {
         "id": 2,
-        "name": "Fresh food",
-        "slug": "fresh-food"
+        "name": "Fresh Vegetables",
+        "slug": "fresh-vegetables"
       }
     ]
   },
@@ -126,8 +126,8 @@
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": "Fresh Fruits",
+        "slug": "fresh-fruits"
       }
     ]
   },
@@ -165,8 +165,8 @@
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": "Fresh Fruits",
+        "slug": "fresh-fruits"
       }
     ]
   },
@@ -204,8 +204,8 @@
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": "Fresh Fruits",
+        "slug": "fresh-fruits"
       }
     ]
   },
@@ -243,8 +243,8 @@
       },
       {
         "id": 2,
-        "name": "Frozen Food",
-        "slug": "frozen-food"
+        "name": "Frozen Vegetables",
+        "slug": "frozen-vegetables"
       }
     ]
   },
@@ -282,8 +282,8 @@
       },
       {
         "id": 2,
-        "name": "Frozen Food",
-        "slug": "frozen-food"
+        "name": "Frozen Fruits",
+        "slug": "frozen-fruits"
       },
       {
         "id": 3,

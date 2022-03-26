@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 
-function SidebarMenuItem({ className, item, depth = 0 }: any) {
+function SidebarMenuItem({ className, item, depth = 0, onClick }: any) {
   const { t } = useTranslation('common');
   const router = useRouter();
   const active = router?.query?.category;
@@ -20,28 +20,20 @@ function SidebarMenuItem({ className, item, depth = 0 }: any) {
   const { slug, name, children: items, icon } = item;
   const { displaySidebar, closeSidebar } = useUI();
 
-  function toggleCollapse() {
+  function onParentClick() {
+    onClick && onClick();
     setOpen((prevValue) => !prevValue);
   }
 
-  function onClick() {
-    if (Array.isArray(items) && !!items.length) {
-      toggleCollapse();
-    } else {
-      const { pathname, query } = router;
-      const { type, ...rest } = query;
-      router.push(
-        {
-          pathname,
-          query: { ...rest, category: slug },
-        },
-        undefined,
-        {
-          scroll: false,
-        }
-      );
-      displaySidebar && closeSidebar();
-    }
+  function onChildClick(slug: string) {
+    console.log(slug);
+    const { query } = router;
+    query.category = query.category === slug ? undefined : slug;
+    router.push({ query }, undefined, {
+      scroll: false,
+      shallow: true,
+    });
+    displaySidebar && closeSidebar();
   }
 
   let expandIcon;
@@ -56,7 +48,7 @@ function SidebarMenuItem({ className, item, depth = 0 }: any) {
   return (
     <>
       <li
-        onClick={onClick}
+        onClick={onParentClick}
         className={`flex justify-between items-center transition ${
           className
             ? className
@@ -91,6 +83,7 @@ function SidebarMenuItem({ className, item, depth = 0 }: any) {
               const childDepth = depth + 1;
               return (
                 <SidebarMenuItem
+                  onClick={() => onChildClick(currentItem.slug)}
                   key={`${currentItem.name}-${currentItem.slug}`}
                   item={currentItem}
                   depth={childDepth}

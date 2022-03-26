@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, useEffect } from 'react';
 import ProductCard from '@components/product/product-cards/product-card';
 import type { FC } from 'react';
 import { useProductsQuery } from '@framework/product/get-all-products';
@@ -57,22 +57,33 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
             ))
           ) : (
             <>
-              {data?.pages?.map((page: any, index) => {
-                return (
-                  <Fragment key={index}>
-                    {page?.data?.slice(0, 18)?.map((product: Product) => (
+              {data?.pages?.map((page: any, index) => (
+                <Fragment key={index}>
+                  {page?.data
+                    ?.filter((product: Product) =>
+                      !query.category
+                        ? true
+                        : product.tag?.find(
+                            (tag) => tag.slug === query.category
+                          )
+                    )
+                    ?.slice(0, 18)
+                    ?.map((product: Product) => (
                       <ProductCard key={product.id} product={product} />
                     ))}
-                    {element && <div className="col-span-full">{element}</div>}
-                    {page?.data?.length! > 18 &&
-                      slice(page?.data, 18, page?.data?.length).map(
-                        (product: any) => (
-                          <ProductCard key={product.id} product={product} />
-                        )
-                      )}
-                  </Fragment>
-                );
-              })}
+                  {element && <div className="col-span-full">{element}</div>}
+                  {page?.data?.filter((product: Product) =>
+                    !query.category
+                      ? true
+                      : product.tag?.find((tag) => tag.slug === query.category)
+                  )?.length! > 18 &&
+                    slice(page?.data, 18, page?.data?.length).map(
+                      (product: any) => (
+                        <ProductCard key={product.id} product={product} />
+                      )
+                    )}
+                </Fragment>
+              ))}
             </>
           )}
         </div>
