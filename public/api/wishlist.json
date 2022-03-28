@@ -1,665 +1,699 @@
 [
-    {
-      "id": "w1",
-      "name": "Ocean Mist Farms Green Leaf Lettuce",
-      "slug": "ocean-mist-farms-green-leaf-lettuce",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-1.png",
-        "original": "/assets/images/products/p-1-m.png"
-      },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
-        },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
-        },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 1.74,
-      "sale_price": 1.74,
-      "unit": "1 each",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+  {
+    "id": "p-1",
+    "name": {
+      "en": "Green Leaf Lettuce",
+      "ro": "Frunze de Salata Verde"
     },
-    {
-      "id": "w2",
-      "name": "Ocean Mist Farms Green Leaf Lettuce",
-      "slug": "ocean-mist-farms-green-leaf-lettuce",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-2.png",
-        "original": "/assets/images/products/p-2-m.png"
-      },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
-        },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
-        },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 1.74,
-      "sale_price": 1.74,
-      "unit": "1 each",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+    "slug": "green-leaf-lettuce",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-1-1.png",
+      "original": "/assets/images/products/p-1-1.png"
     },
-    {
-      "id": "w3",
-      "name": "Fresh Express Iceberg Garden Salad Blend",
-      "slug": "fresh-express-iceberg-garden-salad-blend",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
+    "gallery": [
+      {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-3.png",
-        "original": "/assets/images/products/p-3-m.png"
+        "thumbnail": "/assets/images/products/p-1-1.png",
+        "original": "/assets/images/products/p-1-1.png"
       },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-1-2.png",
+        "original": "/assets/images/products/p-1-2.png"
+      },
+      {
+        "id": 3,
+        "thumbnail": "/assets/images/products/p-1-3.png",
+        "original": "/assets/images/products/p-1-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.99,
+    "sale_price": 2.49,
+    "unit": "500g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
         },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
+        "slug": "vegetables"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
         },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 1.74,
-      "sale_price": 1.48,
-      "unit": "12 oz bag",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "12oz",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "24oz",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "36oz",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+        "slug": "fresh-vegetables"
+      }
+    ]
+  },
+  {
+    "id": "p-2",
+    "name": {
+      "en": "Fresh Tomatoes",
+      "ro": "Roșii Proaspete"
     },
-    {
-      "id": "w4",
-      "name": "Market Side Organic Spring Mix",
-      "slug": "market-side-organic-spring-mix",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-4.png",
-        "original": "/assets/images/products/p-4-m.png"
-      },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
-        },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
-        },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 3.46,
-      "sale_price": 3.46,
-      "unit": "5.5 oz",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+    "slug": "fresh-tomatoes",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-2-1.png",
+      "original": "/assets/images/products/p-2-1.png"
     },
-    {
-      "id": "w5",
-      "name": "Organic Spring Mix",
-      "slug": "organic-spring-mix",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
+    "gallery": [
+      {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-5.png",
-        "original": "/assets/images/products/p-5-m.png"
+        "thumbnail": "/assets/images/products/p-2-1.png",
+        "original": "/assets/images/products/p-2-1.png"
       },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-2-2.png",
+        "original": "/assets/images/products/p-2-2.png"
+      },
+      {
+        "id": 3,
+        "thumbnail": "/assets/images/products/p-2-3.png",
+        "original": "/assets/images/products/p-2-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
         },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
+        "slug": "vegetables"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
         },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 1.74,
-      "sale_price": 1.74,
-      "unit": "16 oz container",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+        "slug": "fresh-vegetables"
+      }
+    ]
+  },
+  {
+    "id": "p-3",
+    "name": {
+      "en": "Kiwi",
+      "ro": "Kiwi"
     },
-    {
-      "id": "w6",
-      "name": "Ocean Mist Farms Romaine Lettuce",
-      "slug": "ocean-mist-farms-romaine-lettuce",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-6.png",
-        "original": "/assets/images/products/p-6-m.png"
-      },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
-        },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
-        },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 1.98,
-      "sale_price": 1.98,
-      "unit": "1 ct",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+    "slug": "kiwi",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-3-1.png",
+      "original": "/assets/images/products/p-3-1.png"
     },
-    {
-      "id": "w7",
-      "name": "Broccoli Crown Bag",
-      "slug": "broccoli-crown-bag",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
+    "gallery": [
+      {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-7.png",
-        "original": "/assets/images/products/p-7-m.png"
+        "thumbnail": "/assets/images/products/p-3-1.png",
+        "original": "/assets/images/products/p-3-1.png"
       },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-3-2.png",
+        "original": "/assets/images/products/p-3-2.png"
+      },
+      {
+        "id": 3,
+        "thumbnail": "/assets/images/products/p-3-3.png",
+        "original": "/assets/images/products/p-3-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
         },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
+        "slug": "fruits"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
         },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
-        }
-      ],
-      "quantity": 70,
-      "price": 2.50,
-      "sale_price": 2.00,
-      "unit": "1 each",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
-        },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
-        },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
-        },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "id": "p-4",
+    "name": {
+      "en": "Banana",
+      "ro": "Banane"
     },
-    {
-      "id": "w8",
-      "name": "Calavo Hass Avocados Fresh Produce",
-      "slug": "calavo-hass-avocados-fresh-produce",
-      "description": "Contains Folic acid, Vitamin K, Carotenoids, Iron, Calcium, Mint facilitates digestion and acts as a remedy for treating acne and pimples. Treat them like a little bouquet and put them in the fridge. Snip off stalks as you need them. Alternatively, you can store them in the plastic bag.",
-      "image": {
+    "slug": "banana",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-4-1.png",
+      "original": "/assets/images/products/p-4-1.png"
+    },
+    "gallery": [
+      {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-8.png",
-        "original": "/assets/images/products/p-8-m.png"
+        "thumbnail": "/assets/images/products/p-4-1.png",
+        "original": "/assets/images/products/p-4-1.png"
       },
-      "gallery": [
-        {
-          "id": 1,
-          "thumbnail": "/assets/images/products/p-1-1.png",
-          "original": "/assets/images/products/p-1-1-m.png"
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-4-2.png",
+        "original": "/assets/images/products/p-4-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
         },
-        {
-          "id": 2,
-          "thumbnail": "/assets/images/products/p-1-2.png",
-          "original": "/assets/images/products/p-1-2-m.png"
+        "slug": "fruits"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
         },
-        {
-          "id": 3,
-          "thumbnail": "/assets/images/products/p-1-3.png",
-          "original": "/assets/images/products/p-1-3-m.png"
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "id": "p-5",
+    "name": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
+    "slug": "pineapple",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-5-1.png",
+      "original": "/assets/images/products/p-5-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-5-1.png",
+        "original": "/assets/images/products/p-5-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-5-2.png",
+        "original": "/assets/images/products/p-5-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "id": "p-6",
+    "name": {
+      "en": "Frozen broccoli",
+      "ro": "Broccoli congelat"
+    },
+    "slug": "frozen-brocoli",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-6-1.png",
+      "original": "/assets/images/products/p-6-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-6-1.png",
+        "original": "/assets/images/products/p-6-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-6-2.png",
+        "original": "/assets/images/products/p-6-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "slug": "frozen-vegetables"
+      }
+    ]
+  },
+  {
+    "id": "p-7",
+    "name": {
+      "en": "Frozen Smoothie Mix",
+      "ro": "Mix Smoothie Congelat"
+    },
+    "slug": "frozen-smoothie-mix",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-7-1.png",
+      "original": "/assets/images/products/p-7-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-7-1.png",
+        "original": "/assets/images/products/p-7-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-7-2.png",
+        "original": "/assets/images/products/p-7-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Frozen Fruits",
+          "ro": "Fructe Congelate"
+        },
+        "slug": "frozen-fruits"
+      },
+      {
+        "id": 3,
+        "name": "Smoothie",
+        "slug": "smoothie"
+      }
+    ]
+  },
+  {
+    "id": "p-8",
+    "name": {
+      "en": "Milk",
+      "ro": "Lapte"
+    },
+    "slug": "milk",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-8-1.png",
+      "original": "/assets/images/products/p-8-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-8-1.png",
+        "original": "/assets/images/products/p-8-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-8-2.png",
+        "original": "/assets/images/products/p-8-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-8-3.png",
+        "original": "/assets/images/products/p-8-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "id": "p-9",
+    "name": {
+      "en": "Eggs",
+      "ro": "Oua"
+    },
+    "slug": "eggs",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-9-1.png",
+      "original": "/assets/images/products/p-9-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-9-1.png",
+        "original": "/assets/images/products/p-9-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-9-2.png",
+        "original": "/assets/images/products/p-9-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-9-3.png",
+        "original": "/assets/images/products/p-9-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "500g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Eggs",
+          "ro": "Oua"
+        },
+        "slug": "eggs"
+      }
+    ]
+  },
+  {
+    "id": "p-10",
+    "name": {
+      "en": "Cheese",
+      "ro": "Cascaval"
+    },
+    "slug": "cheese",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-10-1.png",
+      "original": "/assets/images/products/p-10-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-10-1.png",
+        "original": "/assets/images/products/p-10-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-2.png",
+        "original": "/assets/images/products/p-10-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-3.png",
+        "original": "/assets/images/products/p-10-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 4.99,
+    "sale_price": 4.99,
+    "unit": "300g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
         }
-      ],
-      "quantity": 70,
-      "price": 6.98,
-      "sale_price": 8.30,
-      "unit": "4 count bag ",
-      "tag": [
-        {
-          "id": 1,
-          "name": "Fresh food",
-          "slug": "fresh-food"
+      }
+    ]
+  },
+  {
+    "id": "p-11",
+    "name": {
+      "en": "Chese",
+      "ro": "Branza"
+    },
+    "slug": "cow-chese",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-11-1.png",
+      "original": "/assets/images/products/p-11-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-11-1.png",
+        "original": "/assets/images/products/p-11-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-2.png",
+        "original": "/assets/images/products/p-11-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-3.png",
+        "original": "/assets/images/products/p-11-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "500g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
         },
-        {
-          "id": 2,
-          "name": "Organic",
-          "slug": "organic"
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Chese",
+          "ro": "Branza"
         },
-        {
-          "id": 3,
-          "name": "Cilantro",
-          "slug": "cilantro"
+        "slug": "eggs"
+      }
+    ]
+  },
+  {
+    "id": "p-12",
+    "name": {
+      "en": "Coca Cola",
+      "ro": "Coca Cola"
+    },
+    "slug": "coca-cola",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-12-1.png",
+      "original": "/assets/images/products/p-12-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-12-1.png",
+        "original": "/assets/images/products/p-12-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-2.png",
+        "original": "/assets/images/products/p-12-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-3.png",
+        "original": "/assets/images/products/p-12-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.99,
+    "sale_price": 2.99,
+    "unit": "0.5ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Drinks",
+          "ro": "Bauturi"
         },
-        {
-          "id": 4,
-          "name": "Dry Food",
-          "slug": "dry-food"
-        }
-      ],
-      "variations": [
-        {
-          "id": 1,
-          "value": "1ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
+        "slug": "drinks"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Soda",
+          "ro": "Bauturi carbogazoase"
         },
-        {
-          "id": 2,
-          "value": "5ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
+        "slug": "soda"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Coke",
+          "ro": "Cola"
         },
-        {
-          "id": 3,
-          "value": "10ct",
-          "attribute": {
-            "id": 1,
-            "name": "Available in",
-            "slug": "available-in"
-          }
-        }
-      ]
-    }]
+        "slug": "coke"
+      }
+    ]
+  },
+  {
+    "id": "p-13",
+    "name": {
+      "en": "Orange Juice",
+      "ro": "Suc de portocale"
+    },
+    "slug": "orange-juice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-13-1.png",
+      "original": "/assets/images/products/p-13-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-13-1.png",
+        "original": "/assets/images/products/p-13-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-2.png",
+        "original": "/assets/images/products/p-13-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-3.png",
+        "original": "/assets/images/products/p-13-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 12.99,
+    "sale_price": 12.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Drinks",
+          "ro": "Bauturi"
+        },
+        "slug": "Drinks"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "slug": "juice"
+      },
+      {
+        "id": 3,
+        "name": {
+          "en": "Orange",
+          "ro": "Portocale"
+        },
+        "slug": "orange"
+      },
+      {
+        "id": 4,
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
+      }
+    ]
+  }
+]

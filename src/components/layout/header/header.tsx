@@ -33,7 +33,7 @@ const Header: React.FC = () => {
       id="siteHeader"
       ref={siteHeaderRef}
       className={cn(
-        'header-four w-full sticky top-0 z-30',
+        'w-full sticky top-0 z-30',
         displayMobileSearch && 'active-mobile-search'
       )}
     >

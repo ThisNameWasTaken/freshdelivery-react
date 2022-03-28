@@ -16,7 +16,7 @@ export const siteSettings = {
     height: 30,
   },
   defaultLanguage: 'ro',
-  currencyCode: 'USD',
+  currencyCode: 'RON',
   site_header: {
     languageMenu: [
       {

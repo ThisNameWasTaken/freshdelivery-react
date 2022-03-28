@@ -1,8 +1,11 @@
 [
   {
     "id": "p-1",
-    "name": "Fresh Green Leaf Lettuce",
-    "slug": "fresh-green-leaf-lettuce",
+    "name": {
+      "en": "Green Leaf Lettuce",
+      "ro": "Frunze de Salata Verde"
+    },
+    "slug": "green-leaf-lettuce",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
     "image": {
       "id": 1,
@@ -33,19 +36,28 @@
     "tag": [
       {
         "id": 1,
-        "name": "Vegetables",
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
         "slug": "vegetables"
       },
       {
         "id": 2,
-        "name": "Fresh food",
-        "slug": "fresh-food"
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
+        },
+        "slug": "fresh-vegetables"
       }
     ]
   },
   {
     "id": "p-2",
-    "name": "Fresh Tomatoes",
+    "name": {
+      "en": "Fresh Tomatoes",
+      "ro": "Roșii Proaspete"
+    },
     "slug": "fresh-tomatoes",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
     "image": {
@@ -77,19 +89,28 @@
     "tag": [
       {
         "id": 1,
-        "name": "Vegetables",
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
         "slug": "vegetables"
       },
       {
         "id": 2,
-        "name": "Fresh food",
-        "slug": "fresh-food"
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
+        },
+        "slug": "fresh-vegetables"
       }
     ]
   },
   {
-    "id": "p-2",
-    "name": "Kiwi",
+    "id": "p-3",
+    "name": {
+      "en": "Kiwi",
+      "ro": "Kiwi"
+    },
     "slug": "kiwi",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
     "image": {
@@ -121,19 +142,28 @@
     "tag": [
       {
         "id": 1,
-        "name": "Fruits",
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
         "slug": "fruits"
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
       }
     ]
   },
   {
     "id": "p-4",
-    "name": "Banana",
+    "name": {
+      "en": "Banana",
+      "ro": "Banane"
+    },
     "slug": "banana",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
     "image": {
@@ -160,19 +190,28 @@
     "tag": [
       {
         "id": 1,
-        "name": "Fruits",
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
         "slug": "fruits"
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
       }
     ]
   },
   {
     "id": "p-5",
-    "name": "Pineapple",
+    "name": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
     "slug": "pineapple",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
     "image": {
@@ -199,13 +238,461 @@
     "tag": [
       {
         "id": 1,
-        "name": "Fruits",
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
         "slug": "fruits"
       },
       {
         "id": 2,
-        "name": "Fresh Food",
-        "slug": "fresh-food"
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "id": "p-6",
+    "name": {
+      "en": "Frozen broccoli",
+      "ro": "Broccoli congelat"
+    },
+    "slug": "frozen-brocoli",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-6-1.png",
+      "original": "/assets/images/products/p-6-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-6-1.png",
+        "original": "/assets/images/products/p-6-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-6-2.png",
+        "original": "/assets/images/products/p-6-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 1.99,
+    "sale_price": 1.69,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "slug": "frozen-vegetables"
+      }
+    ]
+  },
+  {
+    "id": "p-7",
+    "name": {
+      "en": "Frozen Smoothie Mix",
+      "ro": "Mix Smoothie Congelat"
+    },
+    "slug": "frozen-smoothie-mix",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-7-1.png",
+      "original": "/assets/images/products/p-7-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-7-1.png",
+        "original": "/assets/images/products/p-7-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-7-2.png",
+        "original": "/assets/images/products/p-7-2.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "1kg",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Frozen Fruits",
+          "ro": "Fructe Congelate"
+        },
+        "slug": "frozen-fruits"
+      },
+      {
+        "id": 3,
+        "name": "Smoothie",
+        "slug": "smoothie"
+      }
+    ]
+  },
+  {
+    "id": "p-8",
+    "name": {
+      "en": "Milk",
+      "ro": "Lapte"
+    },
+    "slug": "milk",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-8-1.png",
+      "original": "/assets/images/products/p-8-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-8-1.png",
+        "original": "/assets/images/products/p-8-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-8-2.png",
+        "original": "/assets/images/products/p-8-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-8-3.png",
+        "original": "/assets/images/products/p-8-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "id": "p-9",
+    "name": {
+      "en": "Eggs",
+      "ro": "Oua"
+    },
+    "slug": "eggs",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-9-1.png",
+      "original": "/assets/images/products/p-9-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-9-1.png",
+        "original": "/assets/images/products/p-9-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-9-2.png",
+        "original": "/assets/images/products/p-9-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-9-3.png",
+        "original": "/assets/images/products/p-9-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "500g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Eggs",
+          "ro": "Oua"
+        },
+        "slug": "eggs"
+      }
+    ]
+  },
+  {
+    "id": "p-10",
+    "name": {
+      "en": "Cheese",
+      "ro": "Cascaval"
+    },
+    "slug": "cheese",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-10-1.png",
+      "original": "/assets/images/products/p-10-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-10-1.png",
+        "original": "/assets/images/products/p-10-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-2.png",
+        "original": "/assets/images/products/p-10-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-10-3.png",
+        "original": "/assets/images/products/p-10-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 4.99,
+    "sale_price": 4.99,
+    "unit": "300g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "p-11",
+    "name": {
+      "en": "Chese",
+      "ro": "Branza"
+    },
+    "slug": "cow-chese",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-11-1.png",
+      "original": "/assets/images/products/p-11-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-11-1.png",
+        "original": "/assets/images/products/p-11-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-2.png",
+        "original": "/assets/images/products/p-11-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-11-3.png",
+        "original": "/assets/images/products/p-11-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 5.99,
+    "sale_price": 5.99,
+    "unit": "500g",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Chese",
+          "ro": "Branza"
+        },
+        "slug": "eggs"
+      }
+    ]
+  },
+  {
+    "id": "p-12",
+    "name": {
+      "en": "Coca Cola",
+      "ro": "Coca Cola"
+    },
+    "slug": "coca-cola",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-12-1.png",
+      "original": "/assets/images/products/p-12-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-12-1.png",
+        "original": "/assets/images/products/p-12-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-2.png",
+        "original": "/assets/images/products/p-12-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-12-3.png",
+        "original": "/assets/images/products/p-12-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.99,
+    "sale_price": 2.99,
+    "unit": "0.5ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Drinks",
+          "ro": "Bauturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Soda",
+          "ro": "Bauturi carbogazoase"
+        },
+        "slug": "soda"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Coke",
+          "ro": "Cola"
+        },
+        "slug": "coke"
+      }
+    ]
+  },
+  {
+    "id": "p-13",
+    "name": {
+      "en": "Orange Juice",
+      "ro": "Suc de portocale"
+    },
+    "slug": "orange-juice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam quae in, reiciendis laborum aspernatur similique esse sint assumenda mollitia tenetur? Ratione temporibus similique, magnam fuga cum quos omnis beatae.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/p-13-1.png",
+      "original": "/assets/images/products/p-13-1.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-13-1.png",
+        "original": "/assets/images/products/p-13-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-2.png",
+        "original": "/assets/images/products/p-13-2.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/products/p-13-3.png",
+        "original": "/assets/images/products/p-13-3.png"
+      }
+    ],
+    "quantity": 70,
+    "price": 12.99,
+    "sale_price": 12.99,
+    "unit": "1ltr",
+    "tag": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Drinks",
+          "ro": "Bauturi"
+        },
+        "slug": "Drinks"
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "slug": "juice"
+      },
+      {
+        "id": 3,
+        "name": {
+          "en": "Orange",
+          "ro": "Portocale"
+        },
+        "slug": "orange"
+      },
+      {
+        "id": 4,
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
       }
     ]
   }

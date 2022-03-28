@@ -4,7 +4,7 @@ import Image from 'next/image';
 import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
-import { useTranslation } from 'next-i18next';
+import { i18n, useTranslation } from 'next-i18next';
 
 type WishlistCardProps = {
   product: Product;
@@ -12,13 +12,14 @@ type WishlistCardProps = {
 
 const WishlistCard: FC<WishlistCardProps> = ({ product }) => {
   const { t } = useTranslation('common');
+  const language = i18n?.language || 'ro';
   const { name, image, unit } = product ?? {};
   const placeholderImage = `/assets/placeholder/product.svg`;
   const [favorite, setFavorite] = useState<boolean>(false);
   const { price, basePrice, discount } = usePrice({
     amount: product.sale_price ? product.sale_price : product.price,
     baseAmount: product.price,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
 
   return (
@@ -28,7 +29,7 @@ const WishlistCard: FC<WishlistCardProps> = ({ product }) => {
           <div className="flex overflow-hidden max-w-[80px]  transition duration-200 ease-in-out transform group-hover:scale-105">
             <Image
               src={image?.thumbnail ?? placeholderImage}
-              alt={name || 'Product Image'}
+              alt=""
               width={80}
               height={80}
               quality={100}
@@ -39,7 +40,7 @@ const WishlistCard: FC<WishlistCardProps> = ({ product }) => {
 
         <div className="flex flex-col ms-2 2xl:ms-3.5 h-full">
           <h2 className="text-skin-base text-base sm:text-sm lg:text-base leading-5 sm:leading-6 mb-1.5">
-            {name}
+            {name[language]}
           </h2>
           <div className="text-base sm:text-sm mb-1 lg:mb-2">{unit}</div>
           <div className="space-s-2 ">
@@ -61,20 +62,9 @@ const WishlistCard: FC<WishlistCardProps> = ({ product }) => {
         }}
       >
         {favorite ? (
-          <>
-            <IoIosHeartEmpty className="w-5 h-5 mt-0.5" />
-
-            <span className=" ms-3 text-skin-base font-medium text-base -mt-0.5 md:mt-0">
-              {t('text-favorite')}
-            </span>
-          </>
+          <IoIosHeartEmpty className="w-5 h-5 mt-0.5" />
         ) : (
-          <>
-            <IoIosHeart className="text-skin-primary w-5 h-5 mt-0.5" />
-            <span className="text-skin-primary ms-3 font-semibold text-base -mt-0.5 md:mt-0">
-              {t('text-favorited')}
-            </span>
-          </>
+          <IoIosHeart className="text-skin-primary w-5 h-5 mt-0.5" />
         )}
       </div>
     </div>

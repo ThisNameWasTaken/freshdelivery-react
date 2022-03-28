@@ -1,3 +1,4 @@
+import { i18n } from 'next-i18next';
 import { useMemo } from 'react';
 
 export function formatPrice({
@@ -50,14 +51,14 @@ export default function usePrice(
   } | null
 ) {
   const { amount, baseAmount, currencyCode } = data ?? {};
-  const locale = 'en';
+  const locale = i18n?.language || 'ro';
   const value = useMemo(() => {
     if (typeof amount !== 'number' || !currencyCode) return '';
 
     return baseAmount
       ? formatVariantPrice({ amount, baseAmount, currencyCode, locale })
       : formatPrice({ amount, currencyCode, locale });
-  }, [amount, baseAmount, currencyCode]);
+  }, [amount, baseAmount, currencyCode, locale]);
 
   return typeof value === 'string'
     ? { price: value, basePrice: null, discount: null }

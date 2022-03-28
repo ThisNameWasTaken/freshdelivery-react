@@ -6,9 +6,9 @@ import { useModalAction } from '@components/modal/modal.context';
 import { useWindowSize } from 'react-use';
 import { useCart } from '@contexts/cart/cart.context';
 import { AddToCart } from '@components/product/add-to-cart';
-import { useTranslation } from 'next-i18next';
+import { i18n, useTranslation } from 'next-i18next';
 import { productPlaceholder } from '@assets/placeholders';
-import { IoAddOutline } from 'react-icons/io5';
+import { IoAddOutline, IoCart } from 'react-icons/io5';
 
 type ProductProps = {
   product: Product;
@@ -39,7 +39,7 @@ function RenderPopupOrAddToCart({ data }: { data: Product }) {
         aria-label="Count Button"
         onClick={handlePopupView}
       >
-        <IoAddOutline width={iconSize} height={iconSize} opacity="1" />
+        <IoCart width={iconSize} height={iconSize} opacity="1" />
       </button>
     );
   }
@@ -49,18 +49,19 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
   const { name, image, unit, product_type } = product ?? {};
   const { openModal } = useModalAction();
   const { t } = useTranslation('common');
+  const language = i18n?.language || 'ro';
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   const { price: minPrice } = usePrice({
     amount: product?.min_price ?? 0,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   const { price: maxPrice } = usePrice({
     amount: product?.max_price ?? 0,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
 
   function handlePopupView() {
@@ -73,13 +74,13 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
         className
       )}
       onClick={handlePopupView}
-      title={name}
+      title={name[language]}
     >
       <div className="relative flex-shrink-0">
         <div className="flex overflow-hidden max-w-[230px] mx-auto transition duration-200 ease-in-out transform group-hover:scale-105 relative">
           <Image
             src={image?.thumbnail ?? productPlaceholder}
-            alt={name || 'Product Image'}
+            alt=""
             width={230}
             height={200}
             quality={100}
@@ -92,10 +93,11 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
               {t('text-on-sale')}
             </span>
           )}
-          <div className="inline-block product-count-button-position">
-            <RenderPopupOrAddToCart data={product} />
-          </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-2 right-2">
+        <RenderPopupOrAddToCart data={product} />
       </div>
 
       <div className="flex flex-col px-3 md:px-4 lg:px-[18px] pb-5 lg:pb-6 lg:pt-1.5 h-full">
@@ -110,7 +112,7 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
           )}
         </div>
         <h2 className="text-skin-base text-base sm:text-sm lg:text-base leading-5 sm:leading-6 mb-1.5">
-          {name}
+          {name[language]}
         </h2>
         <div className="text-base sm:text-sm mt-auto">{unit}</div>
       </div>

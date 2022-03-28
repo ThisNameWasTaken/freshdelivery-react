@@ -5,13 +5,13 @@ import Layout from '@components/layout/layout';
 import { useTranslation } from 'next-i18next';
 
 const deliveryDateSchedule = [
-  'Sat, Jul 03, 2021',
-  'Sun, Jul 04, 2021',
-  'Mon, Jul 05, 2021',
-  'Tus, Jul 06, 2021',
-  'Wed, Jul 07 ,2021 ',
+  'Mar, Mar 29, 2022 ',
+  'Mie, Mar 30, 2022',
+  'Joi, Mar 31, 2022',
+  'Vin, Apr 01, 2022',
+  'Sâm, Apr 02, 2022',
 ];
-const deliveryTimeSchedule = ['9am to 10am', '3pm to 5pm', '6pm to 8pm'];
+const deliveryTimeSchedule = ['09:00-12:00', '12:00-16:00', '16:00-19:00'];
 
 export default function Schedule() {
   const { t } = useTranslation('common');

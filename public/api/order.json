@@ -1,38 +1,49 @@
 {
   "id": 1,
-  "tracking_number": "XRQ4567",
+  "tracking_number": "ER3O8KJD0",
   "customer": {
     "id": 1,
-    "email": "customer@demo.com"
+    "email": "adriandinca2008@gmail.com"
   },
-  "total": 132,
-  "shipping_fee": 17,
-  "payment_gateway": "cash on delivery",
+  "total": 27.34,
+  "shipping_fee": 0,
+  "payment_gateway": "Numerar la livrare",
   "products": [
     {
       "id": 1,
-      "name": "Fresh Green Leaf Lettuce",
-      "quantity": 10,
-      "price": 5
+      "name": {
+        "en": "Banana",
+        "ro": "Banane"
+      },
+      "quantity": 2,
+      "price": 3.38
     },
     {
       "id": 2,
-      "name": "Leafy Romaine Mixed Lettuce",
-      "quantity": 10,
-      "price": 15
+      "name": {
+        "en": "Frozen Smoothie Mix",
+        "ro": "Mix Smoothie Congelat"
+      },
+      "quantity": 1,
+      "price": 5.99
     },
     {
       "id": 3,
-      "name": "Organic Girl Lettuce",
-      "quantity": 5,
-      "price": 25
+      "name": {
+        "en": "Milk",
+        "ro": "Lapte"
+      },
+      "quantity": 2,
+      "price": 11.98
     },
     {
       "id": 4,
-      "name": "Organic Firm Fresh White Lettuce - 36oz",
-      "quantity": 10,
-      "price": 35
+      "name": {
+        "en": "Eggs",
+        "ro": "Oua"
+      },
+      "quantity": 1,
+      "price": 5.99
     }
-  ],
-  "note": "new order"
+  ]
 }

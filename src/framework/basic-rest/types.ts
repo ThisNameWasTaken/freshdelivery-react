@@ -42,7 +42,7 @@ export type Attachment = {
 
 export type Category = {
   id: number | string;
-  name: string;
+  name: { [key: string]: string };
   slug: string;
   details?: string;
   image?: Attachment;
@@ -53,26 +53,15 @@ export type Category = {
   [key: string]: unknown;
 };
 
-export type Collection = {
-  id: number | string;
-  name: string;
-  slug: string;
-  details?: string;
-  image?: Attachment;
-  icon?: string;
-  products?: Product[];
-  productCount?: number;
-};
-
 export type Tag = {
   id: string | number;
-  name: string;
+  name: { [key: string]: string };
   slug: string;
 };
 
 export type Product = {
   id: number | string;
-  name: string;
+  name: { [key: string]: string };
   slug: string;
   price: number;
   quantity: number;
@@ -94,7 +83,7 @@ export type Product = {
 
 export type OrderItem = {
   id: number | string;
-  name: string;
+  name: { [key: string]: string };
   price: number;
   quantity: number;
 };

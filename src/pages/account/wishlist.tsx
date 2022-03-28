@@ -17,11 +17,7 @@ export default function WishList() {
 
   return (
     <>
-      <Seo
-        title="Wishlist"
-        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-        path="account/wishlist"
-      />
+      <Seo title="Wishlist" path="account/wishlist" />
       <AccountLayout>
         <h2 className="text-base md:text-lg xl:text-[20px] font-semibold text-skin-base  lg:pt-0">
           {t('common:text-account-wishlist')}

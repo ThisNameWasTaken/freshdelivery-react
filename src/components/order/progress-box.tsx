@@ -1,5 +1,6 @@
 import { BiCheck } from 'react-icons/bi';
 import Scrollbar from '@components/scrollbar';
+import { i18n } from 'next-i18next';
 
 type ProgressProps = {
   data: any;
@@ -7,6 +8,8 @@ type ProgressProps = {
 };
 
 const ProgressBox: React.FC<ProgressProps> = ({ status, data }) => {
+  const language = i18n?.language || 'ro';
+
   return (
     <Scrollbar
       className="w-full h-full"
@@ -34,7 +37,7 @@ const ProgressBox: React.FC<ProgressProps> = ({ status, data }) => {
                   ></div>
                 </div>
                 <p className="text-skin-base text-[12px] md:text-[14px] font-medium">
-                  {item?.name}
+                  {item?.name[language]}
                 </p>
               </div>
             ) : (
@@ -52,7 +55,7 @@ const ProgressBox: React.FC<ProgressProps> = ({ status, data }) => {
                   ></div>
                 </div>
                 <p className="text-skin-base text-[12px] md:text-[14px] font-medium">
-                  {item?.name}
+                  {item?.name[language]}
                 </p>
               </div>
             )}

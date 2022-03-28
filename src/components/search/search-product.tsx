@@ -2,12 +2,15 @@ import Image from 'next/image';
 import Link from '@components/link';
 import { ROUTES } from '@utils/routes';
 import { searchProductPlaceholder } from '@assets/placeholders';
+import { i18n } from 'next-i18next';
 
 type SearchProductProps = {
   item: any;
 };
 
 const SearchProduct: React.FC<SearchProductProps> = ({ item }) => {
+  const language = i18n?.language || 'ro';
+
   return (
     <Link
       href={`${ROUTES.PRODUCT}/${item?.slug}`}
@@ -19,12 +22,14 @@ const SearchProduct: React.FC<SearchProductProps> = ({ item }) => {
           width={48}
           height={48}
           loading="eager"
-          alt={item.name || 'Product Image'}
+          alt=""
           className="bg-skin-thumbnail object-cover"
         />
       </div>
       <div className="flex flex-col w-full overflow-hidden">
-        <h3 className="truncate text-skin-base text-base">{item.name}</h3>
+        <h3 className="truncate text-skin-base text-base">
+          {item.name[language]}
+        </h3>
       </div>
     </Link>
   );

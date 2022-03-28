@@ -18,7 +18,7 @@ export default function Cart() {
   const { items, total, isEmpty, resetCart } = useCart();
   const { price: cartTotal } = usePrice({
     amount: total,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   return (
     <div className="flex flex-col w-full h-full justify-between">
@@ -59,7 +59,7 @@ export default function Cart() {
       <div className="border-t border-skin-base px-5 md:px-7 pt-5 md:pt-6 pb-5 md:pb-6">
         <div className="flex pb-5 md:pb-7">
           <div className="pe-3">
-            <Heading className="mb-2.5">{t('text-sub-total')}:</Heading>
+            <Heading className="mb-2.5">{t('text-total')}:</Heading>
             <Text className="leading-6">
               {t('text-cart-final-price-discount')}
             </Text>

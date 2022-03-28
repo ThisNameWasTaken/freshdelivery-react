@@ -12,6 +12,7 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { LIMITS } from '@framework/utils/http';
 import { Product } from '@framework/types';
+import useProducts from 'src/hooks/useProducts';
 type ProductFeedProps = {
   element?: any;
   className?: string;
@@ -20,14 +21,11 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
   const { t } = useTranslation('common');
 
   const { query } = useRouter();
-  const {
-    isFetching: isLoading,
-    isFetchingNextPage: loadingMore,
-    fetchNextPage,
-    hasNextPage,
-    data,
-    error,
-  } = useProductsQuery({ limit: LIMITS.PRODUCTS_LIMITS, ...query });
+  const products = useProducts();
+
+  useEffect(() => {
+    console.log({ products });
+  }, [products]);
 
   const { openModal } = useModalAction();
 
@@ -38,7 +36,10 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
   return (
     <div className={cn(className)}>
       <div className="flex items-center justify-between pb-0.5 mb-4 lg:mb-5 xl:mb-6">
-        <SectionHeader sectionHeading="All Products" className="mb-0" />
+        <SectionHeader
+          sectionHeading={t('text-all-products')}
+          className="mb-0"
+        />
         <div
           className="lg:hidden transition-all text-skin-primary -mt-1.5 font-semibold text-sm md:text-base hover:text-skin-base"
           role="button"
@@ -47,47 +48,26 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
           {t('text-categories')}
         </div>
       </div>
-      {error ? (
-        <Alert message={error?.message} />
-      ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
-          {isLoading && !data?.pages?.length ? (
-            Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, i) => (
-              <ProductCardLoader key={i} />
-            ))
-          ) : (
-            <>
-              {data?.pages?.map((page: any, index) => (
-                <Fragment key={index}>
-                  {page?.data
-                    ?.filter((product: Product) =>
-                      !query.category
-                        ? true
-                        : product.tag?.find(
-                            (tag) => tag.slug === query.category
-                          )
-                    )
-                    ?.slice(0, 18)
-                    ?.map((product: Product) => (
-                      <ProductCard key={product.id} product={product} />
-                    ))}
-                  {element && <div className="col-span-full">{element}</div>}
-                  {page?.data?.filter((product: Product) =>
-                    !query.category
-                      ? true
-                      : product.tag?.find((tag) => tag.slug === query.category)
-                  )?.length! > 18 &&
-                    slice(page?.data, 18, page?.data?.length).map(
-                      (product: any) => (
-                        <ProductCard key={product.id} product={product} />
-                      )
-                    )}
-                </Fragment>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
+        {products.length === 0 ? (
+          Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, i) => (
+            <ProductCardLoader key={i} />
+          ))
+        ) : (
+          <>
+            {products
+              .filter(
+                (product: Product) =>
+                  !query.category ||
+                  product.tag?.find((tag) => tag.slug === query.category)
+              )
+              .map((product) => (
+                <ProductCard key={product.id} product={product} />
               ))}
-            </>
-          )}
-        </div>
-      )}
+          </>
+        )}
+      </div>
     </div>
   );
 };

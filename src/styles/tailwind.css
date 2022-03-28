@@ -84,7 +84,7 @@
     @apply shadow-header top-0 transition duration-200 ease-in-out;
   }
 
-  #siteHeader.header-four.is-scrolling .innerSticky {
+  #siteHeader.is-scrolling .innerSticky {
     @apply lg:pb-1.5;
     background-color: white !important;
   }

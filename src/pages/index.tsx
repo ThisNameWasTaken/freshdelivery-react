@@ -20,11 +20,6 @@ import { LIMITS } from '@framework/utils/http';
 export default function Home() {
   return (
     <>
-      <Seo
-        title="Minimal"
-        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-        path="minimal"
-      />
       <HeroBannerCard
         banner={heroBanner}
         className="min-h-[400px] lg:min-h-[450px] 2xl:min-h-[480px] pt-20 lg:pt-32 pb-14 lg:pb-24 mb-7 md:mb-8 xl:mb-10"

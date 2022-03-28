@@ -10,6 +10,7 @@ export const fetchCategories = async ({ queryKey }: any) => {
   } = await http.get(API_ENDPOINTS.CATEGORIES);
   return { categories: { data: data as Category[] } };
 };
+
 export const useCategoriesQuery = (options: CategoriesQueryOptionsType) => {
   return useQuery<{ categories: { data: Category[] } }, Error>(
     [API_ENDPOINTS.CATEGORIES, options],

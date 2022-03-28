@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "Home",
+        "title": "Acasa",
         "default": true,
         "address": {
-            "lat": 1.357334,
-            "lng": 103.821417,
-            "formatted_address" : "Wolfson Institute of Preventive Medicine, London EC1M 7BA, UK"
+            "lat": 44.436427,
+            "lng": 26.008609,
+            "formatted_address" : "Strada Margelelor 11, Sector 6, Bucuresti"
         }
     },
     {
         "id": 2,
-        "title": "Office",
+        "title": "Birou",
         "default": false,
         "address": {
-            "lat": 51.522379,
-            "lng": -0.099130,
-            "formatted_address" : "80 Windsor Park Rd, Singapore 574175"
+            "lat": 44.443898,
+            "lng": 26.060087,
+            "formatted_address" : "Orhideea Towers, Sector 6, Bucuresti"
         }
     }
 ]

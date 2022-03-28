@@ -2,7 +2,10 @@
   "data": [
     {
       "id": 1,
-      "name": "Vegetables",
+      "name": {
+        "en": "Vegetables",
+        "ro": "Legume"
+      },
       "slug": "vegetables",
       "image": {
         "id": 1,
@@ -13,19 +16,28 @@
       "children": [
         {
           "id": 1,
-          "name": "Fresh Vegetables",
+          "name": {
+            "en": "Fresh vegetables",
+            "ro": "Legume proaspete"
+          },
           "slug": "fresh-vegetables"
         },
         {
           "id": 2,
-          "name": "Frozen Vegetables",
+          "name": {
+            "en": "Frozen vegetables",
+            "ro": "Legume congelate"
+          },
           "slug": "frozen-vegetables"
         }
       ]
     },
     {
       "id": 2,
-      "name": "Fruits",
+      "name": {
+        "en": "Fruits",
+        "ro": "Fructe"
+      },
       "slug": "fruits",
       "image": {
         "id": 1,
@@ -36,19 +48,28 @@
       "children": [
         {
           "id": 1,
-          "name": "Fresh Fruits",
+          "name": {
+            "en": "Fresh fruits",
+            "ro": "Fructe proaspete"
+          },
           "slug": "fresh-fruits"
         },
         {
           "id": 2,
-          "name": "Frozen Fruits",
+          "name": {
+            "en": "Frozen fruits",
+            "ro": "Fructe congelate"
+          },
           "slug": "frozen-fruits"
         }
       ]
     },
     {
       "id": 3,
-      "name": "Fast Food",
+      "name": {
+        "en": "Fast Food",
+        "ro": "Fast Food"
+      },
       "slug": "fast-food",
       "image": {
         "id": 1,
@@ -59,29 +80,44 @@
       "children": [
         {
           "id": 1,
-          "name": "Burger",
+          "name": {
+            "en": "Burger",
+            "ro": "Burger"
+          },
           "slug": "burger"
         },
         {
           "id": 2,
-          "name": "Fries",
+          "name": {
+            "en": "Fires",
+            "ro": "Cartofi prajiti"
+          },
           "slug": "fries"
         },
         {
           "id": 3,
-          "name": "Burrito",
+          "name": {
+            "en": "Burrito",
+            "ro": "Burrito"
+          },
           "slug": "burrito"
         },
         {
           "id": 4,
-          "name": "Chicken Wrap",
+          "name": {
+            "en": "Chicken warp",
+            "ro": "Wrap cu pui"
+          },
           "slug": "chicken-wrap"
         }
       ]
     },
     {
       "id": 4,
-      "name": "Dairy",
+      "name": {
+        "en": "Dairy",
+        "ro": "Lactate"
+      },
       "slug": "dairy",
       "image": {
         "id": 1,
@@ -92,34 +128,52 @@
       "children": [
         {
           "id": 1,
-          "name": "Cheese",
+          "name": {
+            "en": "Cheese",
+            "ro": "Branza"
+          },
           "slug": "cheese"
         },
         {
           "id": 2,
-          "name": "Yogurt",
+          "name": {
+            "en": "Yogurt",
+            "ro": "Iaurt"
+          },
           "slug": "yogurt"
         },
         {
           "id": 3,
-          "name": "Milk",
+          "name": {
+            "en": "Milk",
+            "ro": "Lapte"
+          },
           "slug": "milk"
         },
         {
           "id": 4,
-          "name": "Butter",
+          "name": {
+            "en": "Butter",
+            "ro": "Unt"
+          },
           "slug": "butter"
         },
         {
           "id": 5,
-          "name": "Eggs",
+          "name": {
+            "en": "Eggs",
+            "ro": "Oua"
+          },
           "slug": "eggs"
         }
       ]
     },
     {
       "id": 5,
-      "name": "Drinks",
+      "name": {
+        "en": "Drinks",
+        "ro": "Bauturi"
+      },
       "slug": "drinks",
       "image": {
         "id": 1,
@@ -130,34 +184,52 @@
       "children": [
         {
           "id": 1,
-          "name": "Soda",
+          "name": {
+            "en": "Soda",
+            "ro": "Bauturi carbogazificate"
+          },
           "slug": "soda"
         },
         {
           "id": 2,
-          "name": "Smoothie",
+          "name": {
+            "en": "Smoothie",
+            "ro": "Smoothie"
+          },
           "slug": "smoothie"
         },
         {
           "id": 3,
-          "name": "Tea",
+          "name": {
+            "en": "Tea",
+            "ro": "Ceai"
+          },
           "slug": "tea"
         },
         {
           "id": 4,
-          "name": "Coffee",
+          "name": {
+            "en": "Coffee",
+            "ro": "Cafea"
+          },
           "slug": "coffee"
         },
         {
           "id": 5,
-          "name": "Alcoholic Drinks",
+          "name": {
+            "en": "Alcoholic Drinks",
+            "ro": "Bauturi alcoolice"
+          },
           "slug": "alcoholic-drinks"
         }
       ]
     },
     {
       "id": 6,
-      "name": "Meat",
+      "name": {
+        "en": "Meat",
+        "ro": "Carne"
+      },
       "slug": "meat",
       "image": {
         "id": 1,
@@ -168,29 +240,44 @@
       "children": [
         {
           "id": 1,
-          "name": "Chicken",
+          "name": {
+            "en": "Chicken",
+            "ro": "Pui"
+          },
           "slug": "chicken"
         },
         {
           "id": 2,
-          "name": "Beef",
+          "name": {
+            "en": "Beef",
+            "ro": "Vita"
+          },
           "slug": "beef"
         },
         {
           "id": 3,
-          "name": "Pork",
+          "name": {
+            "en": "Pork",
+            "ro": "Porc"
+          },
           "slug": "pork"
         },
         {
           "id": 4,
-          "name": "Fish",
+          "name": {
+            "en": "Fish",
+            "ro": "Peste"
+          },
           "slug": "fish"
         }
       ]
     },
     {
       "id": 7,
-      "name": "Bakery",
+      "name": {
+        "en": "Bakery",
+        "ro": "Brutarie"
+      },
       "slug": "bakery",
       "image": {
         "id": 1,
@@ -201,29 +288,44 @@
       "children": [
         {
           "id": 1,
-          "name": "Bread",
+          "name": {
+            "en": "Bread",
+            "ro": "Paine"
+          },
           "slug": "bread"
         },
         {
           "id": 2,
-          "name": "Cake",
+          "name": {
+            "en": "Cake",
+            "ro": "Torturi"
+          },
           "slug": "cake"
         },
         {
           "id": 3,
-          "name": "Cookie",
-          "slug": "cookie"
+          "name": {
+            "en": "Cookies",
+            "ro": "Biscuiti"
+          },
+          "slug": "cookies"
         },
         {
           "id": 4,
-          "name": "Pies",
-          "slug": "pies"
+          "name": {
+            "en": "Pie",
+            "ro": "Placinte"
+          },
+          "slug": "pie"
         }
       ]
     },
     {
       "id": 8,
-      "name": "Snacks",
+      "name": {
+        "en": "Snacks",
+        "ro": "Gustari"
+      },
       "slug": "snacks",
       "image": {
         "id": 1,
@@ -234,24 +336,36 @@
       "children": [
         {
           "id": 1,
-          "name": "Chips",
+          "name": {
+            "en": "Chips",
+            "ro": "Cipsuri"
+          },
           "slug": "chips"
         },
         {
           "id": 2,
-          "name": "Popcorn",
+          "name": {
+            "en": "Popcorn",
+            "ro": "Popcorn"
+          },
           "slug": "popcorn"
         },
         {
           "id": 3,
-          "name": "Nuts",
+          "name": {
+            "en": "Nuts",
+            "ro": "Alune"
+          },
           "slug": "nuts"
         }
       ]
     },
     {
       "id": 9,
-      "name": "Sweets",
+      "name": {
+        "en": "Sweets",
+        "ro": "Dulciuri"
+      },
       "slug": "sweets",
       "image": {
         "id": 1,
@@ -262,12 +376,18 @@
       "children": [
         {
           "id": 1,
-          "name": "Ice Cream",
+          "name": {
+            "en": "Ice Cream",
+            "ro": "Inghetata"
+          },
           "slug": "ice-cream"
         },
         {
           "id": 2,
-          "name": "Candy",
+          "name": {
+            "en": "Candy",
+            "ro": "Bomboane"
+          },
           "slug": "candy"
         }
       ]

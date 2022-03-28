@@ -8,11 +8,7 @@ import Seo from '@components/seo/seo';
 export default function AccountDetailsPage() {
   return (
     <>
-      <Seo
-        title="Account Settings"
-        description="Get your fresh food delivered to your doorstep."
-        path="account/settings"
-      />
+      <Seo title="Account Settings" path="account/settings" />
       <AccountLayout>
         <AccountDetails />
       </AccountLayout>

@@ -30,7 +30,7 @@ const Counter: React.FC<CounterProps> = ({
       className={cn(
         'flex items-center justify-between rounded overflow-hidden flex-shrink-0',
         {
-          'h-8 md:h-10 bg-skin-fill shadow-counter rounded-3xl':
+          'h-8 md:h-10 bg-skin-button-secondary rounded-3xl':
             variant === 'default',
           'h-11 md:h-14 bg-skin-button-secondary': variant === 'single',
           'inline-flex': variant === 'cart',
@@ -41,9 +41,9 @@ const Counter: React.FC<CounterProps> = ({
       <button
         onClick={onDecrement}
         className={cn(
-          'flex items-center justify-center flex-shrink-0 h-full transition-all ease-in-out duration-300 focus:outline-none focus-visible:outline-none',
+          'flex items-center justify-center flex-shrink-0 transition-all ease-in-out duration-300 focus:outline-none focus-visible:outline-none',
           {
-            'w-8 md:w-12 h-8 rounded-2xl text-heading hover:bg-skin-button-hover ms-1':
+            'w-10 h-10 rounded-full text-heading hover:bg-skin-button-hover':
               variant === 'default',
             'w-10 h-10 rounded-full transform scale-80 lg:scale-100 text-skin-base hover:bg-skin-button-hover ms-auto':
               variant === 'single',
@@ -53,7 +53,12 @@ const Counter: React.FC<CounterProps> = ({
         )}
       >
         <span className="sr-only">{t('button-minus')}</span>
-        <IoRemoveOutline width={size} height={size} opacity="1" />
+        <IoRemoveOutline
+          width={size}
+          height={size}
+          opacity="1"
+          className="absolute"
+        />
       </button>
       <span
         className={cn(
@@ -72,9 +77,9 @@ const Counter: React.FC<CounterProps> = ({
         onClick={onIncrement}
         disabled={disabled}
         className={cn(
-          'group flex items-center justify-center h-full flex-shrink-0 transition-all ease-in-out duration-300 focus:outline-none focus-visible:outline-none',
+          'group flex items-center justify-center flex-shrink-0 transition-all ease-in-out duration-300 focus:outline-none focus-visible:outline-none',
           {
-            'w-8 md:w-12 h-8 rounded-2xl text-heading hover:bg-skin-button-hover me-1':
+            'w-10 h-10 rounded-full text-heading hover:bg-skin-button-hover':
               variant === 'default',
             'w-10 h-10 rounded-full scale-80 lg:scale-100 text-heading hover:bg-skin-button-hover me-auto':
               variant === 'single',
@@ -85,7 +90,12 @@ const Counter: React.FC<CounterProps> = ({
         title={disabled ? 'Out Of Stock' : ''}
       >
         <span className="sr-only">{t('button-plus')}</span>
-        <IoAddOutline width={size} height={size} opacity="1" />
+        <IoAddOutline
+          width={size}
+          height={size}
+          opacity="1"
+          className="absolute"
+        />
       </button>
     </div>
   );

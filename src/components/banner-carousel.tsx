@@ -50,7 +50,7 @@ const BannerAllCarousel: React.FC<BannerProps> = ({
       >
         {data?.map((banner: any) => (
           <SwiperSlide key={banner.id}>
-            <BannerCard banner={banner} effectActive={true} />
+            <BannerCard banner={banner} />
           </SwiperSlide>
         ))}
       </Carousel>

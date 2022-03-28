@@ -1,7 +1,7 @@
 import isEmpty from 'lodash/isEmpty';
 type Item = {
   id: string | number;
-  name: string;
+  name: { [key: string]: string };
   slug: string;
   image: {
     thumbnail: string;
@@ -26,7 +26,7 @@ export function generateCartItem(item: Item, variation: Variation) {
     return {
       id: `${id}.${variation.id}`,
       productId: id,
-      name: `${name} - ${variation.title}`,
+      name,
       slug,
       unit,
       stock: variation.quantity,

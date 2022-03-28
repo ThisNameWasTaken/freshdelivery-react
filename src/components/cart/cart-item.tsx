@@ -6,6 +6,7 @@ import usePrice from '@framework/product/use-price';
 import { ROUTES } from '@utils/routes';
 import Counter from '@components/counter';
 import { useState } from 'react';
+import { i18n } from 'next-i18next';
 
 type CartItemProps = {
   item: any;
@@ -17,13 +18,15 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
   const [incremented, setIncremented] = useState(false);
   const { price: totalPrice } = usePrice({
     amount: item?.itemTotal,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   const outOfStock = !isInStock(item.id);
+  const language = i18n?.language || 'ro';
+
   return (
     <div
       className={`group w-full h-auto flex justify-start items-center bg-skin-fill py-4 md:py-7 border-b border-skin-one border-opacity-70 relative last:border-b-0`}
-      title={item?.name}
+      title={item?.name[language]}
     >
       <div className="relative flex rounded overflow-hidden flex-shrink-0 cursor-pointer w-[90px] md:w-[100px] h-[90px] md:h-[100px]">
         <Image
@@ -31,7 +34,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
           width={100}
           height={100}
           loading="eager"
-          alt={item.name || 'Product Image'}
+          alt=""
           className="object-cover bg-skin-thumbnail"
         />
         <div
@@ -49,7 +52,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
             href={`${ROUTES.PRODUCT}/${item?.slug}`}
             className="block text-skin-base text-base sm:text-sm lg:text-base transition-all leading-5 hover:text-skin-primary"
           >
-            {item?.name} HERE
+            {item?.name[language]}
           </Link>
           <div className="text-base sm:text-sm text-skin-muted mt-1.5 block mb-2">
             {item.unit} X {item.quantity}

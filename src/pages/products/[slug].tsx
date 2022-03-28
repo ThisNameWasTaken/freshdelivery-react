@@ -12,14 +12,14 @@ export default function ProductPage() {
   return (
     <>
       <Divider />
-      <div className="pt-6 lg:pt-7">
+      <div className="pt-[64px]">
         <Container>
           <Breadcrumb />
           <ProductSingleDetails />
         </Container>
       </div>
 
-      <RelatedProductFeed uniqueKey="related-products" />
+      <RelatedProductFeed />
       <PopularProductFeed />
     </>
   );

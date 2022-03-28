@@ -5,7 +5,6 @@ import cn from 'classnames';
 
 type BannerProps = {
   banner: any;
-  effectActive?: boolean;
   className?: string;
   classNameInner?: string;
 };
@@ -17,7 +16,6 @@ function getImage(deviceWidth: number, imgObj: any) {
 const BannerCard: React.FC<BannerProps> = ({
   banner,
   className,
-  effectActive = true,
   classNameInner,
 }) => {
   const { width } = useWindowSize();
@@ -40,9 +38,6 @@ const BannerCard: React.FC<BannerProps> = ({
           quality={100}
           className={cn('bg-skin-thumbnail object-cover w-full rounded-md')}
         />
-        {effectActive && (
-          <div className="absolute top-0 -start-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-30 group-hover:animate-shine" />
-        )}
       </Link>
     </div>
   );

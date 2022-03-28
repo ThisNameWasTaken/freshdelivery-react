@@ -14,7 +14,7 @@ const CheckoutCard: React.FC = () => {
   const { items, total, isEmpty } = useCart();
   const { price: subtotal } = usePrice({
     amount: total,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   function orderHeader() {
     !isEmpty && Router.push(ROUTES.ORDER);
@@ -22,18 +22,13 @@ const CheckoutCard: React.FC = () => {
   const checkoutFooter = [
     {
       id: 1,
-      name: t('text-sub-total'),
+      name: t('text-total'),
       price: subtotal,
     },
     {
       id: 2,
       name: t('text-shipping'),
-      price: '$0',
-    },
-    {
-      id: 3,
-      name: t('text-total'),
-      price: subtotal,
+      price: '0 RON',
     },
   ];
   return (
@@ -44,7 +39,7 @@ const CheckoutCard: React.FC = () => {
             {t('text-product')}
           </span>
           <span className="ms-auto flex-shrink-0 text-base text-skin-base font-medium ">
-            {t('text-sub-total')}
+            {t('text-total')}
           </span>
         </div>
         {!isEmpty ? (

@@ -14,7 +14,7 @@ export default function OrderInformation() {
   const { price: total } = usePrice(
     data && {
       amount: data.shipping_fee ? data.total + data.shipping_fee : data.total,
-      currencyCode: 'USD',
+      currencyCode: 'RON',
     }
   );
   if (isLoading) return <p>Loading...</p>;
@@ -38,7 +38,7 @@ export default function OrderInformation() {
           <span className="uppercase text-[11px] block text-skin-muted font-normal leading-5">
             {t('text-date')}:
           </span>
-          April 22, 2021
+          29 Mar 2022
         </li>
         <li className="text-skin-base font-semibold text-base lg:text-lg border-b md:border-b-0 md:border-r border-dashed border-gray-300 px-4 lg:px-6 xl:px-8 py-4 md:py-5 lg:py-6 last:border-0">
           <span className="uppercase text-[11px] block text-skin-muted font-normal leading-5">
@@ -59,10 +59,6 @@ export default function OrderInformation() {
           {data?.payment_gateway}
         </li>
       </ul>
-
-      <p className="text-skin-base text-sm md:text-base mb-8">
-        {t('text-pay-cash')}
-      </p>
 
       <OrderDetails />
     </div>

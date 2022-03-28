@@ -13,11 +13,7 @@ export default function ErrorPage() {
 
   return (
     <>
-      <Seo
-        title="404"
-        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-        path="404"
-      />
+      <Seo title="404" path="404" />
 
       <div
         className="text-center px-12 py-16 sm:py-20 lg:py-24 xl:py-32 flex items-center justify-center bg-cover bg-no-repeat bg-center"

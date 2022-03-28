@@ -2,7 +2,7 @@ import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
 import { useState } from 'react';
-import { IoAddOutline } from 'react-icons/io5';
+import { IoAddOutline, IoCart } from 'react-icons/io5';
 import { useWindowSize } from 'react-use';
 
 type Props = {
@@ -38,7 +38,6 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
     removeItemFromCart(item.id);
   };
   const outOfStock = isInCart(item?.id) && !isInStock(item.id);
-  const iconSize = width! > 480 ? '19' : '17';
   return !isInCart(item?.id) ? (
     <button
       className="bg-skin-primary rounded-full w-8 lg:w-10 h-8 lg:h-10 text-skin-inverted text-4xl flex items-center justify-center focus:outline-none"
@@ -46,7 +45,7 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
       onClick={handleAddClick}
       disabled={disabled || outOfStock}
     >
-      <IoAddOutline width={iconSize} height={iconSize} opacity="1" />
+      <IoCart width={22} height={22} opacity="1" className="scale-[0.6]" />
     </button>
   ) : (
     <Counter

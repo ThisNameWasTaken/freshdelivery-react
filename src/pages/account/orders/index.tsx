@@ -15,7 +15,7 @@ export default function OrdersTablePage() {
       <Seo
         title="Orders"
         description="Get your fresh food delivered to your doorstep."
-        path="my-account/orders"
+        path="account/orders"
       />
       <AccountLayout>
         {!isLoading ? (

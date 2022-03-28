@@ -9,7 +9,7 @@ import ProductAttributes from '@components/product/product-attributes';
 import { generateCartItem } from '@utils/generate-cart-item';
 import usePrice from '@framework/product/use-price';
 import { groupBy } from 'lodash';
-import { useTranslation } from 'next-i18next';
+import { i18n, useTranslation } from 'next-i18next';
 import ThumbnailCarousel from '@components/carousel/thumbnail-carousel';
 import Image from 'next/image';
 import Heading from '@components/heading';
@@ -49,6 +49,7 @@ const breakpoints = {
 
 export default function ProductPopup() {
   const { t } = useTranslation('common');
+  const language = i18n?.language || 'ro';
   const { data } = useModalState();
   const { width } = useWindowSize();
   const { closeModal } = useModalAction();
@@ -64,7 +65,7 @@ export default function ProductPopup() {
   const { price, basePrice, discount } = usePrice({
     amount: data.sale_price ? data.sale_price : data.price,
     baseAmount: data.price,
-    currencyCode: 'USD',
+    currencyCode: 'RON',
   });
   const variations = data.variations
     ? groupBy(data.variations, 'attribute.slug')
@@ -148,7 +149,7 @@ export default function ProductPopup() {
                 <div className="w-auto flex items-center justify-center">
                   <Image
                     src={image?.original ?? productGalleryPlaceholder}
-                    alt={name!}
+                    alt=""
                     width={650}
                     height={590}
                   />
@@ -164,7 +165,7 @@ export default function ProductPopup() {
                   role="button"
                 >
                   <h2 className="text-skin-base text-lg md:text-xl xl:text-2xl font-medium transition-colors duration-300 hover:text-skin-primary">
-                    {name}
+                    {name[language]}
                   </h2>
                 </div>
                 {unit && isEmpty(variations) ? (
@@ -207,42 +208,6 @@ export default function ProductPopup() {
                 );
               })}
 
-              <div className="pb-2">
-                {/* check that item isInCart and place the available quantity or the item quantity */}
-                {isEmpty(variations) && (
-                  <>
-                    {Number(quantity) > 0 || !outOfStock ? (
-                      <span className="text-sm font-medium text-primary">
-                        {t('text-only') +
-                          ' ' +
-                          quantity +
-                          ' ' +
-                          t('text-left-item')}
-                      </span>
-                    ) : (
-                      <div className="text-base text-red-500 whitespace-nowrap">
-                        {t('text-out-stock')}
-                      </div>
-                    )}
-                  </>
-                )}
-
-                {!isEmpty(selectedVariation) && (
-                  <span className="text-sm font-medium text-primary">
-                    {selectedVariation?.is_disable ||
-                    selectedVariation.quantity === 0
-                      ? t('text-out-stock')
-                      : `${
-                          t('text-only') +
-                          ' ' +
-                          selectedVariation.quantity +
-                          ' ' +
-                          t('text-left-item')
-                        }`}
-                  </span>
-                )}
-              </div>
-
               <div className="pt-1.5 lg:pt-3 xl:pt-4 space-y-2.5 md:space-y-3.5">
                 <Counter
                   variant="single"
@@ -267,36 +232,22 @@ export default function ProductPopup() {
                   <IoCart color="#ffffff" className="me-3 w-[24px] h-[24px]" />
                   {t('text-add-to-cart')}
                 </Button>
-                <div className="grid grid-cols-2 gap-2.5">
-                  <Button
-                    variant="border"
-                    onClick={addToWishlist}
-                    loading={addToWishlistLoader}
-                    className={`group hover:text-skin-primary ${
-                      favorite === true && 'text-skin-primary'
-                    }`}
-                  >
-                    {favorite === true ? (
-                      <IoIosHeart className="text-2xl md:text-[26px] me-2 transition-all" />
-                    ) : (
-                      <IoIosHeartEmpty className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
-                    )}
+                <Button
+                  variant="border"
+                  onClick={addToWishlist}
+                  loading={addToWishlistLoader}
+                  className={`w-full group hover:text-skin-primary ${
+                    favorite === true && 'text-skin-primary'
+                  }`}
+                >
+                  {favorite === true ? (
+                    <IoIosHeart className="text-2xl md:text-[26px] me-2 transition-all" />
+                  ) : (
+                    <IoIosHeartEmpty className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
+                  )}
 
-                    {t('text-wishlist')}
-                  </Button>
-                  <div className="relative group">
-                    <Button
-                      variant="border"
-                      className={`w-full hover:text-skin-primary ${
-                        shareButtonStatus === true && 'text-skin-primary'
-                      }`}
-                      onClick={handleChange}
-                    >
-                      <IoArrowRedoOutline className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
-                      {t('text-share')}
-                    </Button>
-                  </div>
-                </div>
+                  {t('text-wishlist')}
+                </Button>
               </div>
               {tag && (
                 <ul className="pt-5 xl:pt-6">
@@ -305,7 +256,7 @@ export default function ProductPopup() {
                   </li>
                   {tag?.map((item: any) => (
                     <li className="inline-block p-[3px]" key={item.id}>
-                      <Tag name={item.name} slug={item.slug} />
+                      <Tag name={item.name[language]} slug={item.slug} />
                     </li>
                   ))}
                 </ul>

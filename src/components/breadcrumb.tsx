@@ -32,8 +32,8 @@ const BreadcrumbSeparator: React.FC<Props> = ({ children, ...props }) => {
 export const BreadcrumbItems = (props: any) => {
   let children: any = React.Children.toArray(props.children);
 
-  children = children.map((child: string, index: number) => (
-    <BreadcrumbItem key={child}>{child}</BreadcrumbItem>
+  children = children.map((child: any, index: number) => (
+    <BreadcrumbItem key={child.props.href}>{child}</BreadcrumbItem>
   ));
 
   const lastIndex = children.length - 1;

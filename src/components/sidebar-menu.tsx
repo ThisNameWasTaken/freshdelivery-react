@@ -4,10 +4,11 @@ import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { useUI } from '@contexts/ui.context';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { useTranslation } from 'next-i18next';
+import { i18n, useTranslation } from 'next-i18next';
 
 function SidebarMenuItem({ className, item, depth = 0, onClick }: any) {
   const { t } = useTranslation('common');
+  const language = i18n?.language || 'ro';
   const router = useRouter();
   const active = router?.query?.category;
   const isActive =
@@ -64,14 +65,14 @@ function SidebarMenuItem({ className, item, depth = 0, onClick }: any) {
             <div className="inline-flex flex-shrink-0 2xl:w-12 2xl:h-12 3xl:w-auto 3xl:h-auto">
               <Image
                 src={icon ?? '/assets/placeholder/category-small.svg'}
-                alt={name || t('text-category-thumbnail')}
+                alt=""
                 width={40}
                 height={40}
               />
             </div>
           )}
           <span className="text-skin-base capitalize ps-2.5 md:ps-4 2xl:ps-3 3xl:ps-4">
-            {name}
+            {name[language]}
           </span>
           <span className="ms-auto">{expandIcon}</span>
         </button>
@@ -84,7 +85,7 @@ function SidebarMenuItem({ className, item, depth = 0, onClick }: any) {
               return (
                 <SidebarMenuItem
                   onClick={() => onChildClick(currentItem.slug)}
-                  key={`${currentItem.name}-${currentItem.slug}`}
+                  key={currentItem.slug}
                   item={currentItem}
                   depth={childDepth}
                   className={cn('text-sm ps-14 py-2.5 pe-4')}
@@ -102,7 +103,7 @@ function SidebarMenu({ items, className }: any) {
   return (
     <ul className={cn(className)}>
       {items?.map((item: any) => (
-        <SidebarMenuItem key={`${item.slug}-key-${item.id}`} item={item} />
+        <SidebarMenuItem key={item.slug} item={item} />
       ))}
     </ul>
   );
