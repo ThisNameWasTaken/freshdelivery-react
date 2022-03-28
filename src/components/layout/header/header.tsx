@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslation } from 'next-i18next';
-import { siteSettings } from '@settings/site-settings';
 import { ROUTES } from '@utils/routes';
 import { useUI } from '@contexts/ui.context';
 import { addActiveScroll } from '@utils/add-active-scroll';
@@ -18,7 +17,6 @@ const CartButton = dynamic(() => import('@components/cart/cart-button'), {
 });
 
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
-const { site_header } = siteSettings;
 
 const Header: React.FC = () => {
   const { t } = useTranslation('common');

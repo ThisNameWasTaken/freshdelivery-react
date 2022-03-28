@@ -1,5 +1,4 @@
-import { USFlag } from '@components/icons/language/USFlag';
-import { ESFlag } from '@components/icons/language/ESFlag';
+import Image from 'next/image';
 
 export const siteSettings = {
   name: 'FreshDelivery',
@@ -16,99 +15,37 @@ export const siteSettings = {
     width: 128,
     height: 30,
   },
-  defaultLanguage: 'en',
+  defaultLanguage: 'ro',
   currencyCode: 'USD',
   site_header: {
-    menu: [
-      {
-        id: 1,
-        path: '/search',
-        label: 'menu-categories',
-        subMenu: [
-          {
-            id: 1,
-            path: '/search',
-            label: 'menu-fresh-vegetables',
-          },
-          {
-            id: 2,
-            path: '/search',
-            label: 'menu-diet-nutrition',
-          },
-          {
-            id: 3,
-            path: '/search',
-            label: 'menu-healthy-foods',
-          },
-          {
-            id: 4,
-            path: '/search',
-            label: 'menu-grocery-items',
-          },
-          {
-            id: 5,
-            path: '/search',
-            label: 'menu-beaf-steak',
-          },
-        ],
-      },
-      {
-        id: 3,
-        path: '/search/',
-        label: 'menu-search',
-      },
-      {
-        id: 4,
-        path: '/',
-        label: 'menu-pages',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-users',
-            subMenu: [
-              {
-                id: 1,
-                path: '/account/settings',
-                label: 'menu-account',
-              },
-              {
-                id: 2,
-                path: '/signin',
-                label: 'menu-sign-in',
-              },
-              {
-                id: 3,
-                path: '/signup',
-                label: 'menu-sign-up',
-              },
-            ],
-          },
-          {
-            id: 7,
-            path: '/checkout',
-            label: 'menu-checkout',
-          },
-          {
-            id: 8,
-            path: '/404',
-            label: 'menu-404',
-          },
-        ],
-      },
-    ],
     languageMenu: [
       {
         id: 'en',
-        name: 'English - EN',
+        name: 'English',
         value: 'en',
-        icon: <USFlag />,
+        icon: (
+          <Image
+            className="object-cover"
+            src="/assets/images/flags/en.svg"
+            alt=""
+            width={100}
+            height={100}
+          />
+        ),
       },
       {
-        id: 'es',
-        name: 'Español - ES',
-        value: 'es',
-        icon: <ESFlag />,
+        id: 'ro',
+        name: 'Romana',
+        value: 'ro',
+        icon: (
+          <Image
+            className="object-cover"
+            src="/assets/images/flags/ro.svg"
+            alt=""
+            width={100}
+            height={100}
+          />
+        ),
       },
     ],
   },

@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import Link from '@components/link';
-import { siteSettings } from '@settings/site-settings';
-import Scrollbar from '@components/scrollbar';
 import { IoIosArrowDown } from 'react-icons/io';
 import Logo from '@components/logo';
 import { useUI } from '@contexts/ui.context';
@@ -12,7 +10,6 @@ import CategoryDropdownSidebar from '@components/category/category-dropdown-side
 
 export default function MobileMenu() {
   const [activeMenus, setActiveMenus] = useState<any>([]);
-  const { site_header } = siteSettings;
   const { closeSidebar } = useUI();
   const { t } = useTranslation('menu');
   const handleArrowClick = (menuName: string) => {

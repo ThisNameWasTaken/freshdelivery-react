@@ -82,7 +82,6 @@ const CheckoutCard: React.FC = () => {
         </Link>
         . {t('text-credit-debit')}
       </Text>
-      <Text className="mt-4">{t('text-bag-fee')}</Text>
     </>
   );
 };

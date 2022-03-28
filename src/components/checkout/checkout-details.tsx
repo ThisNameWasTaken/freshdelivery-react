@@ -84,7 +84,7 @@ const CheckoutDetails: React.FC = () => {
                     variant="formButton"
                     className="bg-skin-primary text-skin-inverted rounded font-semibold font-[14px] px-4 py-3 "
                   >
-                    {t('button-next-steps')}
+                    {t('button-next-step')}
                   </Button>
                 </div>
               ) : (

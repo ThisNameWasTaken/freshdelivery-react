@@ -27,7 +27,6 @@ export default function Home() {
       />
       <HeroBannerCard
         banner={heroBanner}
-        variant="medium"
         className="min-h-[400px] lg:min-h-[450px] 2xl:min-h-[480px] pt-20 lg:pt-32 pb-14 lg:pb-24 mb-7 md:mb-8 xl:mb-10"
       />
       <Container>
