@@ -2,8 +2,7 @@ import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
 import { generateCartItem } from '@utils/generate-cart-item';
 import { useState } from 'react';
-import { IoAddOutline, IoCart } from 'react-icons/io5';
-import { useWindowSize } from 'react-use';
+import { IoCart } from 'react-icons/io5';
 
 type Props = {
   data: any;
@@ -12,7 +11,6 @@ type Props = {
 };
 
 export const AddToCart = ({ data, variation, disabled }: Props) => {
-  const { width } = useWindowSize();
   const {
     addItemToCart,
     removeItemFromCart,
@@ -26,16 +24,16 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
     e: React.MouseEvent<HTMLButtonElement | MouseEvent>
   ) => {
     e.stopPropagation();
-    addItemToCart(item, 1);
+    addItemToCart(item as any, 1);
     if (!incremented) {
       setIncremented(true);
     } else {
-      removeItemFromCart(item.id);
+      removeItemFromCart(item?.id);
     }
   };
   const handleRemoveClick = (e: any) => {
     e.stopPropagation();
-    removeItemFromCart(item.id);
+    removeItemFromCart(item?.id);
   };
   const outOfStock = isInCart(item?.id) && !isInStock(item.id);
   return !isInCart(item?.id) ? (
@@ -49,7 +47,7 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
     </button>
   ) : (
     <Counter
-      value={getItemFromCart(item.id).quantity}
+      value={getItemFromCart(item?.id)?.quantity}
       onDecrement={handleRemoveClick}
       onIncrement={handleAddClick}
       disabled={outOfStock}

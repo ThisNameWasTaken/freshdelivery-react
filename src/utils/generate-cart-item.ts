@@ -20,9 +20,10 @@ type Variation = {
   quantity: number;
   [key: string]: unknown;
 };
-export function generateCartItem(item: Item, variation: Variation) {
+export function generateCartItem(item?: Item, variation?: Variation) {
+  if (!item) return {};
   const { id, name, slug, image, price, sale_price, quantity, unit } = item;
-  if (!isEmpty(variation)) {
+  if (variation && !isEmpty(variation)) {
     return {
       id: `${id}.${variation.id}`,
       productId: id,

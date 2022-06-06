@@ -3,12 +3,12 @@ import { cartReducer, State, initialState } from './cart.reducer';
 import { Item, getItem, inStock } from './cart.utils';
 import { useLocalStorage } from 'react-use';
 interface CartProviderState extends State {
-  addItemToCart: (item: Item, quantity: number) => void;
-  removeItemFromCart: (id: Item['id']) => void;
-  clearItemFromCart: (id: Item['id']) => void;
-  getItemFromCart: (id: Item['id']) => any | undefined;
-  isInCart: (id: Item['id']) => boolean;
-  isInStock: (id: Item['id']) => boolean;
+  addItemToCart: (item: Item | null | undefined, quantity: number) => void;
+  removeItemFromCart: (id: Item['id'] | null | undefined) => void;
+  clearItemFromCart: (id: Item['id'] | null | undefined) => void;
+  getItemFromCart: (id: Item['id'] | null | undefined) => any | undefined;
+  isInCart: (id: Item['id'] | null | undefined) => boolean;
+  isInStock: (id: Item['id'] | null | undefined) => boolean;
   resetCart: () => void;
 }
 export const cartContext = React.createContext<CartProviderState | undefined>(
@@ -39,22 +39,22 @@ export const CartProvider: React.FC = (props) => {
     saveCart(JSON.stringify(state));
   }, [state, saveCart]);
 
-  const addItemToCart = (item: Item, quantity: number) =>
-    dispatch({ type: 'ADD_ITEM_WITH_QUANTITY', item, quantity });
-  const removeItemFromCart = (id: Item['id']) =>
-    dispatch({ type: 'REMOVE_ITEM_OR_QUANTITY', id });
-  const clearItemFromCart = (id: Item['id']) =>
-    dispatch({ type: 'REMOVE_ITEM', id });
+  const addItemToCart = (item: Item | null | undefined, quantity: number) =>
+    !!item && dispatch({ type: 'ADD_ITEM_WITH_QUANTITY', item, quantity });
+  const removeItemFromCart = (id: Item['id'] | null | undefined) =>
+    !!id && dispatch({ type: 'REMOVE_ITEM_OR_QUANTITY', id });
+  const clearItemFromCart = (id: Item['id'] | null | undefined) =>
+    !!id && dispatch({ type: 'REMOVE_ITEM', id });
   const isInCart = useCallback(
-    (id: Item['id']) => !!getItem(state.items, id),
+    (id: Item['id'] | null | undefined) => !!id && !!getItem(state.items, id),
     [state.items]
   );
   const getItemFromCart = useCallback(
-    (id: Item['id']) => getItem(state.items, id),
+    (id: Item['id'] | null | undefined) => !!id && getItem(state.items, id),
     [state.items]
   );
   const isInStock = useCallback(
-    (id: Item['id']) => inStock(state.items, id),
+    (id: Item['id'] | null | undefined) => !!id && inStock(state.items, id),
     [state.items]
   );
   const resetCart = () => dispatch({ type: 'RESET_CART' });

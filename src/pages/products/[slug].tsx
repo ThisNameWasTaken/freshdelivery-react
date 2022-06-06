@@ -7,8 +7,16 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetServerSideProps } from 'next';
 import Divider from '@components/divider';
 import PopularProductFeed from '@components/product/feeds/popular-product-feed';
+import { useRouter } from 'next/router';
+import useProduct from 'src/hooks/useProduct';
 
 export default function ProductPage() {
+  const router = useRouter();
+  const {
+    query: { slug },
+  } = router;
+  const { product } = useProduct(slug as string);
+
   return (
     <>
       <Divider />
@@ -19,7 +27,7 @@ export default function ProductPage() {
         </Container>
       </div>
 
-      <RelatedProductFeed />
+      <RelatedProductFeed product={product} />
       <PopularProductFeed />
     </>
   );

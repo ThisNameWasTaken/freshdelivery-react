@@ -1,18 +1,16 @@
-import { Fragment, useEffect } from 'react';
+import { useEffect } from 'react';
 import ProductCard from '@components/product/product-cards/product-card';
 import type { FC } from 'react';
-import { useProductsQuery } from '@framework/product/get-all-products';
 import ProductCardLoader from '@components/loaders/product-card-loader';
 import SectionHeader from '@components/section-header';
 import { useModalAction } from '@components/modal/modal.context';
-import slice from 'lodash/slice';
-import Alert from '@components/alert';
 import cn from 'classnames';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { LIMITS } from '@framework/utils/http';
 import { Product } from '@framework/types';
 import useProducts from 'src/hooks/useProducts';
+import useRelatedProducts from 'src/hooks/useRelatedProducts';
 type ProductFeedProps = {
   element?: any;
   className?: string;
@@ -22,10 +20,11 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
 
   const { query } = useRouter();
   const products = useProducts();
+  const { relatedProducts, setTargetProduct } = useRelatedProducts();
 
   useEffect(() => {
-    console.log({ products });
-  }, [products]);
+    setTargetProduct(products[0]);
+  }, [products, setTargetProduct]);
 
   const { openModal } = useModalAction();
 
@@ -50,13 +49,11 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
-        {products.length === 0 ? (
-          Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, i) => (
-            <ProductCardLoader key={i} />
-          ))
-        ) : (
-          <>
-            {products
+        {products.length === 0
+          ? Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, i) => (
+              <ProductCardLoader key={i} />
+            ))
+          : products
               .filter(
                 (product: Product) =>
                   !query.category ||
@@ -65,8 +62,6 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
               .map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
-          </>
-        )}
       </div>
     </div>
   );

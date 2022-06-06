@@ -1,8 +1,7 @@
+import { Product } from '@framework/types';
 import { collection, getDocs } from 'firebase/firestore/lite';
 import { useEffect, useState } from 'react';
 import { db } from './firebase';
-
-type Product = any;
 
 const useProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -14,7 +13,7 @@ const useProducts = () => {
     productsSnapshot.forEach((doc) => {
       const product = doc.data();
       product.id = doc.id;
-      products.push(product);
+      products.push(product as Product);
     });
     setProducts(products);
   }

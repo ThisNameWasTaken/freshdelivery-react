@@ -99,7 +99,7 @@ export default function ProductPopup() {
     // setTimeout(() => {
     //   setAddToCartLoader(false);
     // }, 1500);
-    addItemToCart(item, selectedQuantity);
+    addItemToCart(item as any, selectedQuantity);
     toast(t('text-added-bag'), {
       progressClassName: 'fancy-progress-bar',
       position: width! > 768 ? 'bottom-right' : 'top-right',
@@ -282,6 +282,7 @@ export default function ProductPopup() {
           </div>
         </div>
         <RelatedProductFeed
+          product={data}
           carouselBreakpoint={breakpoints}
           className="mb-0.5 md:mb-2 lg:mb-3.5 xl:mb-4 2xl:mb-6"
         />

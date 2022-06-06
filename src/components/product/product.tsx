@@ -1,10 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from '@components/button';
 import Counter from '@components/counter';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
 import { useWindowSize } from 'react-use';
-import { useProductQuery } from '@framework/product/get-product';
 import { groupBy } from 'lodash';
 import usePrice from '@framework/product/use-price';
 import { useCart } from '@contexts/cart/cart.context';
@@ -17,10 +16,10 @@ import { i18n, useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import Tag from '@components/tag';
-import { IoArrowRedoOutline, IoCartOutline } from 'react-icons/io5';
-import ProductDetailsTab from '@components/product/product-details/product-tab';
+import { IoCartOutline } from 'react-icons/io5';
 import VariationPrice from './variation-price';
 import isEqual from 'lodash/isEqual';
+import useProduct from 'src/hooks/useProduct';
 
 const ProductSingleDetails: React.FC = () => {
   const { t } = useTranslation('common');
@@ -30,7 +29,7 @@ const ProductSingleDetails: React.FC = () => {
     query: { slug },
   } = router;
   const { width } = useWindowSize();
-  const { data, isLoading } = useProductQuery(slug as string);
+  const { product } = useProduct(slug as string);
   const { addItemToCart, isInCart, getItemFromCart, isInStock } = useCart();
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
@@ -42,18 +41,22 @@ const ProductSingleDetails: React.FC = () => {
   const [shareButtonStatus, setShareButtonStatus] = useState<boolean>(false);
   const productUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${ROUTES.PRODUCT}/${router.query.slug}`;
   const { price, basePrice, discount } = usePrice(
-    data && {
-      amount: data.sale_price ? data.sale_price : data.price,
-      baseAmount: data.price,
+    product && {
+      amount: product.sale_price ? product.sale_price : product.price,
+      baseAmount: product.price,
       currencyCode: 'RON',
     }
   );
   const handleChange = () => {
     setShareButtonStatus(!shareButtonStatus);
   };
-  if (isLoading) return <p>Loading...</p>;
-  const variations = data?.variations
-    ? groupBy(data?.variations, 'attribute.slug')
+
+  // useEffect(() => {
+  //   console.log({ product });
+  // }, [product]);
+
+  const variations = product?.variations
+    ? groupBy(product?.variations, 'attribute.slug')
     : {};
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
@@ -63,7 +66,7 @@ const ProductSingleDetails: React.FC = () => {
     : true;
   let selectedVariation: any = {};
   if (isSelected) {
-    const dataVaiOption: any = data?.variation_options;
+    const dataVaiOption: any = product?.variation_options;
     selectedVariation = dataVaiOption?.find((o: any) =>
       isEqual(
         o.options.map((v: any) => v.value).sort(),
@@ -71,8 +74,7 @@ const ProductSingleDetails: React.FC = () => {
       )
     );
   }
-  const item = generateCartItem(data!, selectedVariation);
-  const outOfStock = isInCart(item.id) && !isInStock(item.id);
+  const item = generateCartItem(product!, selectedVariation);
   function addToCart() {
     if (!isSelected) return;
     // to show btn feedback while product carting
@@ -81,7 +83,8 @@ const ProductSingleDetails: React.FC = () => {
       setAddToCartLoader(false);
     }, 1500);
 
-    const item = generateCartItem(data!, selectedVariation);
+    const item = generateCartItem(product!, selectedVariation);
+    if (!item.id) return;
     addItemToCart(item, quantity);
     toast('Added to the bag', {
       progressClassName: 'fancy-progress-bar',
@@ -117,16 +120,16 @@ const ProductSingleDetails: React.FC = () => {
     <div className="pt-6 md:pt-7 pb-2">
       <div className="lg:grid grid-cols-10 gap-7 2xl:gap-8">
         <div className="col-span-5 xl:col-span-6 overflow-hidden mb-6 md:mb-8 lg:mb-0">
-          {!!data?.gallery?.length ? (
+          {!!product?.gallery?.length ? (
             <ThumbnailCarousel
-              gallery={data?.gallery}
+              gallery={product?.gallery}
               thumbnailClassName="xl:w-[700px] 2xl:w-[900px]"
               galleryClassName="xl:w-[150px] 2xl:w-[170px]"
             />
           ) : (
             <div className="w-auto flex items-center justify-center">
               <Image
-                src={data?.image?.original ?? '/product-placeholder.svg'}
+                src={product?.image?.original ?? '/product-placeholder.svg'}
                 alt=""
                 width={900}
                 height={680}
@@ -139,18 +142,18 @@ const ProductSingleDetails: React.FC = () => {
           <div className="pb-3 lg:pb-5">
             <div className="md:mb-2.5 block -mt-1.5">
               <h2 className="text-skin-base text-lg md:text-xl xl:text-2xl font-medium transition-colors duration-300">
-                {data?.name[language]}
+                {product?.name[language]}
               </h2>
             </div>
-            {data?.unit && isEmpty(variations) ? (
+            {product?.unit && isEmpty(variations) ? (
               <div className="text-sm md:text-base font-medium">
-                {data?.unit}
+                {product?.unit}
               </div>
             ) : (
               <VariationPrice
                 selectedVariation={selectedVariation}
-                minPrice={data?.min_price}
-                maxPrice={data?.max_price}
+                minPrice={product?.min_price}
+                maxPrice={product?.max_price}
               />
             )}
 
@@ -193,10 +196,11 @@ const ProductSingleDetails: React.FC = () => {
                 setSelectedQuantity((prev) => (prev !== 1 ? prev - 1 : 1))
               }
               disabled={
-                isInCart(item.id)
-                  ? getItemFromCart(item.id).quantity + selectedQuantity >=
-                    Number(item.stock)
-                  : selectedQuantity >= Number(item.stock)
+                !item || isInCart(item?.id || 0)
+                  ? getItemFromCart(item?.id || 0).quantity +
+                      selectedQuantity >=
+                    Number(item?.stock)
+                  : selectedQuantity >= Number(item?.stock)
               }
             />
             <Button
@@ -228,12 +232,12 @@ const ProductSingleDetails: React.FC = () => {
               {t('text-wishlist')}
             </Button>
           </div>
-          {data?.tag && (
+          {product?.tag && (
             <ul className="pt-5 xl:pt-6">
               <li className="text-sm md:text-base text-skin-base text-opacity-80 inline-flex items-center justify-center align-middle me-2 relative">
                 {t('text-tags')}:
               </li>
-              {data?.tag?.map((item: any) => (
+              {product?.tag?.map((item: any) => (
                 <li className="inline-block p-[3px]" key={item.id}>
                   <Tag name={item.name[language]} slug={item.slug} />
                 </li>

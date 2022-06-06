@@ -13,6 +13,14 @@
 
 Pretty much in place
 
+### Related Products
+
+Should be products within the same category
+
+### Popular products
+
+Should be the most purchased products; Each order should trigger an update on the purchases counter for each product
+
 ### Categories
 
 Pretty much in place
