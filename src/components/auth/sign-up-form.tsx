@@ -4,7 +4,6 @@ import PasswordInput from '@components/form/password-input';
 import Button from '@components/button';
 import { useForm } from 'react-hook-form';
 import Logo from '@components/logo';
-import { useSignUpMutation, SignUpInputType } from '@framework/auth/use-signup';
 import Link from '@components/link';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
@@ -13,6 +12,7 @@ import Switch from '@components/switch';
 import CloseButton from '@components/close-button';
 import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
+import useAuth from 'src/hooks/useAuth';
 
 type SignUpFormProps = {
   isPopup?: boolean;
@@ -23,15 +23,15 @@ const SignUpForm: React.FC<SignUpFormProps> = ({
   isPopup = true,
   className,
 }) => {
+  const auth = useAuth();
   const { t } = useTranslation();
-  const { mutate: signUp, isLoading } = useSignUpMutation();
   const { closeModal, openModal } = useModalAction();
   const [remember, setRemember] = useState(false);
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<SignUpInputType>();
+  } = useForm();
 
   function handleSignIn() {
     return openModal('LOGIN_VIEW');
@@ -39,14 +39,8 @@ const SignUpForm: React.FC<SignUpFormProps> = ({
   function handleForgetPassword() {
     return openModal('FORGET_PASSWORD');
   }
-  function onSubmit({ name, email, password, remember_me }: SignUpInputType) {
-    signUp({
-      name,
-      email,
-      password,
-      remember_me,
-    });
-    console.log(name, email, password, 'sign form values');
+  function onSubmit({ name, email, password, remember_me }: any) {
+    auth.signUp({ email, password });
   }
   return (
     <div
@@ -146,8 +140,8 @@ const SignUpForm: React.FC<SignUpFormProps> = ({
               <div className="relative">
                 <Button
                   type="submit"
-                  loading={isLoading}
-                  disabled={isLoading}
+                  // loading={isLoading}
+                  // disabled={isLoading}
                   className="h-11 md:h-12 w-full mt-2 font-15px md:font-15px tracking-normal"
                   variant="formButton"
                 >

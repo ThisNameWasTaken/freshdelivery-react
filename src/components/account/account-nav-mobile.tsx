@@ -3,8 +3,8 @@ import { Listbox, Transition } from '@headlessui/react';
 import { FaChevronDown } from 'react-icons/fa';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import { useLogoutMutation } from '@framework/auth/use-logout';
 import { IoLogOutOutline } from 'react-icons/io5';
+import useAuth from 'src/hooks/useAuth';
 type Option = {
   name: string;
   slug: string;
@@ -13,6 +13,7 @@ type Option = {
 
 export default function AccountNavMobile({ options }: { options: Option[] }) {
   const { t } = useTranslation('common');
+  const { signOut } = useAuth();
   const router = useRouter();
   const { pathname } = router;
   const currentSelectedItem = pathname
@@ -27,7 +28,6 @@ export default function AccountNavMobile({ options }: { options: Option[] }) {
     setSelectedItem(slugs);
     router.push(slugs.slug);
   }
-  const { mutate: logout } = useLogoutMutation();
 
   return (
     <Listbox value={selectedItem} onChange={handleItemClick}>
@@ -90,7 +90,7 @@ export default function AccountNavMobile({ options }: { options: Option[] }) {
               ))}
               <button
                 className="w-full flex items-center text-sm lg:text-base text-skin-base py-3 px-4 md:px-5 cursor-pointer focus:outline-none"
-                onClick={() => logout()}
+                onClick={signOut}
               >
                 <span className="flex-shrink-0 flex justify-center">
                   <IoLogOutOutline className="w-5 md:w-[22px] h-5 md:h-[22px] text-[#8C969F]" />

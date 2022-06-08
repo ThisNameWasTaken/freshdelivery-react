@@ -3,7 +3,6 @@ import Input from '@components/form/input';
 import PasswordInput from '@components/form/password-input';
 import Button from '@components/button';
 import { useForm } from 'react-hook-form';
-import { useLoginMutation, LoginInputType } from '@framework/auth/use-login';
 import Logo from '@components/logo';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
@@ -12,6 +11,7 @@ import Switch from '@components/switch';
 import CloseButton from '@components/close-button';
 import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import cn from 'classnames';
+import useAuth from 'src/hooks/useAuth';
 
 type LoginFormProps = {
   isPopup?: boolean;
@@ -21,30 +21,31 @@ type LoginFormProps = {
 const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
   const { t } = useTranslation();
   const { closeModal, openModal } = useModalAction();
-  const { mutate: login, isLoading } = useLoginMutation();
   const [remember, setRemember] = useState(false);
+  const { signIn, signInWithGoogle } = useAuth();
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<LoginInputType>();
+  } = useForm();
 
-  function onSubmit({ email, password, remember_me }: LoginInputType) {
-    login({
+  async function onSubmit({
+    email,
+    password,
+  }: {
+    email: string;
+    password: string;
+  }) {
+    await signIn({
       email,
       password,
-      remember_me,
     });
     closeModal();
-    console.log(email, password, remember_me, 'data');
   }
-  function handelSocialLogin() {
-    login({
-      email: 'demo@demo.com',
-      password: 'demo',
-      remember_me: true,
-    });
+
+  async function handleSocialSignIn() {
+    await signInWithGoogle();
     closeModal();
   }
   function handleSignUp() {
@@ -143,8 +144,8 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
               <div className="relative">
                 <Button
                   type="submit"
-                  loading={isLoading}
-                  disabled={isLoading}
+                  // loading={isLoading}
+                  // disabled={isLoading}
                   className="h-11 md:h-12 w-full mt-2 font-15px md:font-15px tracking-normal"
                   variant="formButton"
                 >
@@ -162,19 +163,19 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
           <div className="flex justify-center mt-5 space-x-2.5">
             <button
               className="group flex items-center justify-center cursor-pointer h-10 w-10 rounded-full border border-skin-one hover:border-skin-primary transition-all focus:border-skin-primary focus:text-skin-primary focus:outline-none"
-              onClick={handelSocialLogin}
+              onClick={handleSocialSignIn}
             >
               <FaFacebook className="h-4 w-4 text-skin-base text-opacity-50 transition-all group-hover:text-skin-primary " />
             </button>
             <button
               className="group flex items-center justify-center cursor-pointer h-10 w-10 rounded-full border border-skin-one hover:border-skin-primary transition-all focus:border-skin-primary focus:text-skin-primary focus:outline-none"
-              onClick={handelSocialLogin}
+              onClick={handleSocialSignIn}
             >
               <FaTwitter className="h-4 w-4 text-skin-base text-opacity-50 transition-all group-hover:text-skin-primary" />
             </button>
             <button
               className="group flex items-center justify-center cursor-pointer h-10 w-10 rounded-full border border-skin-one hover:border-skin-primary transition-all focus:border-skin-primary focus:text-skin-primary focus:outline-none"
-              onClick={handelSocialLogin}
+              onClick={handleSocialSignIn}
             >
               <FaLinkedinIn className="h-4 w-4 text-skin-base text-opacity-50 transition-all group-hover:text-skin-primary" />
             </button>

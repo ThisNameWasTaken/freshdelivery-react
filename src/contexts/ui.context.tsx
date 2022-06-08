@@ -1,7 +1,7 @@
-import React from 'react';
-import { getToken } from '@framework/utils/http';
+import React, { useEffect } from 'react';
 import { CartProvider } from './cart/cart.context';
 import { ModalProvider } from '@components/modal/modal.context';
+import useUser from 'src/hooks/useUser';
 
 export type State = {
   isAuthorized: boolean;
@@ -18,7 +18,7 @@ export type State = {
 };
 
 const initialState = {
-  isAuthorized: getToken() ? true : false,
+  isAuthorized: false,
   displaySidebar: false,
   displayFilter: false,
   displayCart: false,
@@ -225,6 +225,16 @@ function uiReducer(state: State, action: Action) {
 
 export const UIProvider: React.FC = (props) => {
   const [state, dispatch] = React.useReducer(uiReducer, initialState);
+
+  const user = useUser();
+
+  useEffect(() => {
+    if (!user) {
+      unauthorize();
+    } else {
+      authorize();
+    }
+  }, [user]);
 
   const authorize = () => dispatch({ type: 'SET_AUTHORIZED' });
   const unauthorize = () => dispatch({ type: 'SET_UNAUTHORIZED' });
