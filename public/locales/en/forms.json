@@ -14,6 +14,8 @@
   "label-password": "Password",
   "label-old-password": "Old Password",
   "label-new-password": "New Password",
+  "label-title": "Title",
+  "label-comment": "Comment",
   "label-subject": "Subject",
   "label-message": "Message",
   "label-message-star": "Message *",

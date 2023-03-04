@@ -1,4 +1,3 @@
-import { useModalAction } from '@components/modal/modal.context';
 import { useUI } from '@contexts/ui.context';
 import {
   createUserWithEmailAndPassword,
@@ -8,10 +7,11 @@ import {
   signOut as firebaseSignOut,
 } from 'firebase/auth';
 import { auth } from 'src/hooks/firebase';
+import { useRouter } from 'next/router';
 
 const useAuth = () => {
   const { authorize, unauthorize } = useUI();
-  const { closeModal } = useModalAction();
+  const router = useRouter();
 
   async function signIn({
     email,
@@ -22,10 +22,11 @@ const useAuth = () => {
   }) {
     try {
       const user = await signInWithEmailAndPassword(auth, email, password);
-      console.log({ user });
       authorize();
+      return user;
     } catch (err) {
       console.error(err);
+      return { err };
     }
   }
 
@@ -34,7 +35,7 @@ const useAuth = () => {
       const provider = new GoogleAuthProvider();
       const user = await signInWithPopup(auth, provider);
       authorize();
-      console.log({ user });
+      return user;
     } catch (err) {
       console.error(err);
     }
@@ -44,6 +45,7 @@ const useAuth = () => {
     try {
       await firebaseSignOut(auth);
       unauthorize();
+      router.push('/');
     } catch (err) {
       console.error(err);
     }
@@ -58,11 +60,12 @@ const useAuth = () => {
   }) {
     try {
       const user = await createUserWithEmailAndPassword(auth, email, password);
-      console.log({ user });
       await signIn({ email, password });
       authorize();
+      return user;
     } catch (err) {
       console.error(err);
+      return { err };
     }
   }
 

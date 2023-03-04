@@ -14,6 +14,8 @@
   "label-password": "Parolă",
   "label-old-password": "Parolă veche",
   "label-new-password": "Parolă nouă",
+  "label-title": "Titlu",
+  "label-comment": "Comentariu",
   "label-subject": "Subiect",
   "label-message": "Mesaj",
   "label-message-star": "Mesaj *",

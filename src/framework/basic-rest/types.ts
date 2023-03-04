@@ -81,6 +81,15 @@ export type Product = {
   [key: string]: unknown;
 };
 
+export type Review = {
+  id: string;
+  rating: number;
+  title?: string;
+  comment?: string;
+  userId: number;
+  productId: number;
+};
+
 export type OrderItem = {
   id: number | string;
   name: { [key: string]: string };

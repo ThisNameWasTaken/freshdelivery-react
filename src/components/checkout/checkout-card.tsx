@@ -16,7 +16,7 @@ const CheckoutCard: React.FC = () => {
     amount: total,
     currencyCode: 'RON',
   });
-  function orderHeader() {
+  function placeOrder() {
     !isEmpty && Router.push(ROUTES.ORDER);
   }
   const checkoutFooter = [
@@ -57,7 +57,7 @@ const CheckoutCard: React.FC = () => {
           className={`w-full mt-8 mb-5 bg-skin-primary text-skin-inverted rounded font-semibold px-4 py-3 transition-all ${
             isEmpty && 'opacity-40 cursor-not-allowed'
           }`}
-          onClick={orderHeader}
+          onClick={placeOrder}
         >
           {t('button-order-now')}
         </Button>

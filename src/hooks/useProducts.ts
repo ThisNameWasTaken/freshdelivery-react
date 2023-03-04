@@ -16,6 +16,16 @@ const useProducts = () => {
       products.push(product as Product);
     });
     setProducts(products);
+
+    console.log(products?.[9]);
+
+    // try {
+    //   const res = await fetch('http://localhost:5000/recommended-products/4');
+    //   const data = await res.json();
+    //   console.log(data);
+    // } catch (err) {
+    //   console.error(err);
+    // }
   }
 
   useEffect(() => {

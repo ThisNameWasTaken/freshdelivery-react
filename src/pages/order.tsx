@@ -12,7 +12,7 @@ import { ROUTES } from '@utils/routes';
 export default function Order() {
   const { resetCart } = useCart();
   useEffect(() => {
-    resetCart();
+    // resetCart();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (

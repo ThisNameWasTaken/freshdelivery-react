@@ -15,7 +15,7 @@ import Image from 'next/image';
 import Heading from '@components/heading';
 import Text from '@components/text';
 import Tag from '@components/tag';
-import { IoArrowRedoOutline, IoCart } from 'react-icons/io5';
+import { IoCart } from 'react-icons/io5';
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import { toast } from 'react-toastify';
@@ -25,6 +25,10 @@ import CloseButton from '@components/close-button';
 import VariationPrice from './variation-price';
 import isEqual from 'lodash/isEqual';
 import { productGalleryPlaceholder } from '@assets/placeholders';
+import SuggestionsProductFeed from './feeds/suggestions-product-feed';
+import useReviews from 'src/hooks/useReviews';
+import ReviewForm from '@components/form/review-form';
+import ReviewCard from '@components/cards/review-card';
 
 const breakpoints = {
   '1536': {
@@ -54,6 +58,7 @@ export default function ProductPopup() {
   const { width } = useWindowSize();
   const { closeModal } = useModalAction();
   const router = useRouter();
+  const { reviews, addReview, isReviewed } = useReviews(data);
   const { addItemToCart, isInCart, getItemFromCart, isInStock } = useCart();
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
@@ -281,11 +286,23 @@ export default function ProductPopup() {
             </div>
           </div>
         </div>
+        <SuggestionsProductFeed
+          carouselBreakpoint={breakpoints}
+          className="mb-0.5 md:mb-2 lg:mb-3.5 xl:mb-4 2xl:mb-6"
+        />
         <RelatedProductFeed
           product={data}
           carouselBreakpoint={breakpoints}
           className="mb-0.5 md:mb-2 lg:mb-3.5 xl:mb-4 2xl:mb-6"
         />
+        <div className="p-5 px-[40px]">
+          {reviews.map((review) => (
+            <ReviewCard key={review.id} item={review} />
+          ))}
+          {!isReviewed && (
+            <ReviewForm className="mb-[40px]" addReview={addReview} />
+          )}
+        </div>
       </div>
     </div>
   );

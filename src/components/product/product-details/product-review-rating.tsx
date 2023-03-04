@@ -2,6 +2,7 @@ import type { FC } from 'react';
 import { useTranslation } from 'next-i18next';
 import ReviewCard from '@components/cards/review-card';
 import ReviewForm from '@components/form/review-form';
+import SectionHeader from '@components/section-header';
 
 const data = [
   {
@@ -39,7 +40,8 @@ const ProductReviewRating: FC = () => {
           <ReviewCard item={item} key={item.id} />
         ))}
       </div>
-      <ReviewForm className="lg:w-[500px] xl:w-[540px] 2xl:w-[600px] 3xl:w-[730px] lg:ps-10 xl:ps-14 3xl:ps-20 flex-shrink-0 pt-10" />
+      {/* <ReviewForm
+      className="lg:w-[500px] xl:w-[540px] 2xl:w-[600px] 3xl:w-[730px] lg:ps-10 xl:ps-14 3xl:ps-20 flex-shrink-0 pt-10" /> */}
     </div>
   );
 };
