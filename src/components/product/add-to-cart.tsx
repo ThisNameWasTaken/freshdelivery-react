@@ -1,7 +1,7 @@
 import Counter from '@components/counter';
 import { useCart } from '@contexts/cart/cart.context';
+import { Item } from '@contexts/cart/cart.utils';
 import { generateCartItem } from '@utils/generate-cart-item';
-import { useState } from 'react';
 import { IoCart } from 'react-icons/io5';
 
 type Props = {
@@ -19,22 +19,19 @@ export const AddToCart = ({ data, variation, disabled }: Props) => {
     isInCart,
   } = useCart();
   const item = generateCartItem(data!, variation);
-  const [incremented, setIncremented] = useState(false);
   const handleAddClick = (
     e: React.MouseEvent<HTMLButtonElement | MouseEvent>
   ) => {
     e.stopPropagation();
-    addItemToCart(item as any, 1);
-    if (!incremented) {
-      setIncremented(true);
-    } else {
-      removeItemFromCart(item?.id);
-    }
+    addItemToCart(item as Item, 1);
   };
-  const handleRemoveClick = (e: any) => {
+  const handleRemoveClick = (
+    e: React.MouseEvent<HTMLButtonElement | MouseEvent>
+  ) => {
     e.stopPropagation();
     removeItemFromCart(item?.id);
   };
+  // console.log({ item });
   const outOfStock = isInCart(item?.id) && !isInStock(item.id);
   return !isInCart(item?.id) ? (
     <button

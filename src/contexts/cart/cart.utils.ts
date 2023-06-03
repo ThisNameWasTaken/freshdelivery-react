@@ -15,16 +15,29 @@ export function addItemWithQuantity(
 ) {
   if (quantity <= 0)
     throw new Error("cartQuantity can't be zero or less than zero");
-  const existingItemIndex = items.findIndex(
-    (existingItem) => existingItem.id === item.id
-  );
 
-  if (existingItemIndex > -1) {
-    const newItems = [...items];
-    newItems[existingItemIndex].quantity! += quantity;
-    return newItems;
+  let didFindMatch = false;
+
+  const newItems = items.map((existingItem) => {
+    if (existingItem.id === item.id) {
+      didFindMatch = true;
+      return {
+        ...existingItem,
+        quantity: (existingItem.quantity || 0) + quantity,
+      };
+    }
+
+    return existingItem;
+  });
+
+  if (!didFindMatch) {
+    newItems.push({
+      ...item,
+      quantity,
+    });
   }
-  return [...items, { ...item, quantity }];
+
+  return newItems;
 }
 
 export function removeItemOrQuantity(
@@ -43,7 +56,7 @@ export function removeItemOrQuantity(
     return [...acc, item];
   }, []);
 }
-// Simple CRUD for Item
+
 export function addItem(items: Item[], item: Item) {
   return [...items, item];
 }
