@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "clean": "rimraf \"{.next,dist,build,out,node_modules}\"",
-    "dev": "next dev -p 3001",
-    "build": "next build",
-    "start": "next start",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev -p 3001",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "check-types": "tsc --pretty --noEmit",
