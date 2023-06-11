@@ -18,7 +18,7 @@ type Props = {
   zoom?: number;
   showInfoWindow?: boolean;
   children?: any;
-  formatted_address?: string;
+  formattedAddress?: string;
   mapAddressFiled?: any;
   mapCurrentPosition?: any;
 };
@@ -64,7 +64,7 @@ const Map: React.FC<Props> = ({
       .then((response: any) => {
         if (response.results[0]) {
           if (mapCurrentPosition !== undefined) {
-            mapCurrentPosition(response.results[0]?.formatted_address);
+            mapCurrentPosition(response.results[0]?.formattedAddress);
           }
           setSelectedMarker(response.results[0]);
           setMapPosition(latLng);
@@ -95,7 +95,7 @@ const Map: React.FC<Props> = ({
               position={mapPosition || center}
               onCloseClick={() => setInfoWindowToggle(false)}
             >
-              <p>{selectedMarker?.formatted_address}</p>
+              <p>{selectedMarker?.formattedAddress}</p>
             </InfoWindow>
           )}
         </Marker>

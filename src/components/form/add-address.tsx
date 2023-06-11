@@ -14,7 +14,7 @@ type ContactFormValues = {
   default: boolean;
   lat: number;
   lng: number;
-  formatted_address?: string;
+  formattedAddress?: string;
 };
 
 const AddAddressForm: React.FC = () => {
@@ -36,9 +36,9 @@ const AddAddressForm: React.FC = () => {
     defaultValues: {
       title: data || data?.title ? data?.title : '',
       default: data || data?.default ? data?.default : '',
-      formatted_address:
-        data || data?.address?.formatted_address
-          ? data?.address?.formatted_address
+      formattedAddress:
+        data || data?.address?.formattedAddress
+          ? data?.address?.formattedAddress
           : '',
     },
   });
@@ -66,15 +66,15 @@ const AddAddressForm: React.FC = () => {
             zoom={15}
             showInfoWindow={false}
             mapCurrentPosition={(value: string) =>
-              setValue('formatted_address', value)
+              setValue('formattedAddress', value)
             }
           />
           <TextArea
             label="Address"
-            {...register('formatted_address', {
+            {...register('formattedAddress', {
               required: 'forms:address-required',
             })}
-            error={errors.formatted_address?.message}
+            error={errors.formattedAddress?.message}
             className="text-skin-base"
             variant="solid"
           />

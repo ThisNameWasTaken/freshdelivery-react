@@ -90,6 +90,17 @@ export type Review = {
   productId: number;
 };
 
+export type Address = {
+  id: string;
+  title: string;
+  default: boolean;
+  address: {
+    lat: number;
+    lng: number;
+    formattedAddress: string;
+  };
+};
+
 export type OrderItem = {
   id: number | string;
   name: { [key: string]: string };
