@@ -50,15 +50,12 @@ export default function Home() {
 
     if (!products) return;
 
-    console.log(products);
-
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
-    const productsCollection = collection(db, 'products');
+    const productsCollection = collection(db, '_products');
 
     products.forEach(({ id, ...product }) => {
-      console.log(product);
       addDoc(productsCollection, product);
     });
   }
@@ -68,15 +65,12 @@ export default function Home() {
 
     if (!categories) return;
 
-    console.log(categories);
-
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
     const categoriesCollection = collection(db, 'categories');
 
     categories.forEach(({ id, ...category }) => {
-      console.log(category);
       addDoc(categoriesCollection, category);
     });
   }

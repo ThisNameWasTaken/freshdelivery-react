@@ -272,7 +272,7 @@ export default function ProductPopup() {
                   {t('text-product-details')}:
                 </Heading>
                 <Text variant="small">
-                  {description.split(' ').slice(0, 40).join(' ')}
+                  {description[language].split(' ').slice(0, 40).join(' ')}
                   {'...'}
                   <span
                     onClick={navigateToProductPage}
@@ -286,12 +286,12 @@ export default function ProductPopup() {
             </div>
           </div>
         </div>
-        <SuggestionsProductFeed
+        <RelatedProductFeed
+          product={data}
           carouselBreakpoint={breakpoints}
           className="mb-0.5 md:mb-2 lg:mb-3.5 xl:mb-4 2xl:mb-6"
         />
-        <RelatedProductFeed
-          product={data}
+        <SuggestionsProductFeed
           carouselBreakpoint={breakpoints}
           className="mb-0.5 md:mb-2 lg:mb-3.5 xl:mb-4 2xl:mb-6"
         />

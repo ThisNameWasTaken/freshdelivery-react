@@ -12,7 +12,7 @@ const useRelatedProducts = (product?: Product) => {
   async function updateProducts() {
     if (!targetProduct) return;
 
-    const productsCollection = collection(db, 'products');
+    const productsCollection = collection(db, '_products');
     const sameCategoryQuery = query(
       productsCollection,
       where('tag', 'array-contains-any', targetProduct.tag)

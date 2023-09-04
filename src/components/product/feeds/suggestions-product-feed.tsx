@@ -2,6 +2,7 @@ import ProductsCarousel from '@components/product/products-carousel';
 import { Product } from '@framework/types';
 import { LIMITS } from '@framework/utils/http';
 import useSuggestedProducts from 'src/hooks/useSuggestedProducts';
+import useUser from 'src/hooks/useUser';
 
 type SuggestionsProductProps = {
   carouselBreakpoint?: {} | any;
@@ -14,9 +15,11 @@ const SuggestionsProductFeed: React.FC<SuggestionsProductProps> = ({
   carouselBreakpoint,
   className,
   uniqueKey = 'related-product-popup',
-  product,
 }) => {
   const suggestedProducts = useSuggestedProducts();
+  const user = useUser();
+
+  if (!user) return <></>;
 
   return (
     <ProductsCarousel

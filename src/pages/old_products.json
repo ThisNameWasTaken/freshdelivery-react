@@ -1,0 +1,490 @@
+[
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-132-1.png",
+      "original": "/assets/images/products/p-132-1.png",
+      "id": 1
+    },
+    "unit": "1 buc",
+    "quantity": 70,
+    "price": 12.99,
+    "name": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
+    "description": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "id": 1,
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "id": 2,
+        "slug": "fresh-fruits"
+      }
+    ],
+    "sale_price": 12.99,
+    "slug": "pineapple",
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-132-1.png",
+        "original": "/assets/images/products/p-132-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-132-2.png",
+        "original": "/assets/images/products/p-132-2.png",
+        "id": 2
+      }
+    ]
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-86-1.png",
+      "original": "/assets/images/products/p-86-1.png",
+      "id": 1
+    },
+    "unit": "500g",
+    "quantity": 70,
+    "price": 5.99,
+    "name": {
+      "en": "Frozen broccoli",
+      "ro": "Broccoli congelat"
+    },
+    "description": {
+      "en": "Similar to cauliflower, broccoli is a mix of vitamins, minerals and enzymes, along with very few calories.\n\nSuitable in meatballs and muffins, soufflés and tarts, salads and pasta, pizza, pudding and pancakes, it is complemented by wonderful with any type of meat.\n\nBroccoli Vapeur from Bonduelle is steamed using Vapeur technology and requires a short preparation time, it is ready in just 3 minutes.\n\nThe product is quickly frozen, contains no preservatives and does not refreeze after defrosting.",
+      "ro": "Similar cu conopida, broccoli-ul este un mix de vitamine, minerale și enzime, alături de foarte puține calorii.\n\nPotrivit în chiftele și brioșe, sufleuri și tarte, salate și paste, pizza, budincă și clătite, el se completează de minune și cu orice tip de carne.\n\nBroccoli Vapeur de la Bonduelle este pregătit la aburi prin tehnologia Vapeur și necesită timp de preparare scurt, este gata în doar 3 minute.\n\nProdusul este congelat rapid, nu conține conservanți și nu se recongelează după decongelare."
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "id": 1,
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "id": 2,
+        "slug": "frozen-vegetables"
+      }
+    ],
+    "sale_price": 5.99,
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-86-1.png",
+        "original": "/assets/images/products/p-86-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-86-2.png",
+        "original": "/assets/images/products/p-86-2.png",
+        "id": 2
+      }
+    ],
+    "slug": "frozen-broccoli"
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-2-1.png",
+      "original": "/assets/images/products/p-2-1.png",
+      "id": 1
+    },
+    "unit": "1kg",
+    "quantity": 70,
+    "price": 7.99,
+    "name": {
+      "en": "Fresh Tomatoes",
+      "ro": "Roșii Proaspete"
+    },
+    "description": {
+      "en": "Romanian tomatoes are the perfect choice for those moments when you want to prepare a healthy and delicious meal, without too much hassle.",
+      "ro": "Roșiile românești sunt alegerea perfectă pentru acele momente când vrei să prepari o masă sănătosă și deliciosă, fără prea multă bătaie de cap."
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "id": 1,
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
+        },
+        "id": 2,
+        "slug": "fresh-vegetables"
+      }
+    ],
+    "sale_price": 7.99,
+    "slug": "fresh-tomatoes",
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-12-1.png",
+        "original": "/assets/images/products/p-12-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-12-2.png",
+        "original": "/assets/images/products/p-12-2.png",
+        "id": 2
+      },
+      {
+        "thumbnail": "/assets/images/products/p-12-3.png",
+        "original": "/assets/images/products/p-12-3.png",
+        "id": 3
+      }
+    ]
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-93-1.png",
+      "original": "/assets/images/products/p-93-1.png",
+      "id": 1
+    },
+    "unit": "500g",
+    "quantity": 70,
+    "price": 6.99,
+    "name": {
+      "en": "Kiwi",
+      "ro": "Kiwi"
+    },
+    "description": {
+      "en": "Kiwi 500g",
+      "ro": "Kiwi 500g"
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "id": 1,
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "id": 2,
+        "slug": "fresh-fruits"
+      }
+    ],
+    "sale_price": 6.99,
+    "slug": "kiwi",
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-93-1.png",
+        "original": "/assets/images/products/p-93-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-93-2.png",
+        "original": "/assets/images/products/p-93-2.png",
+        "id": 2
+      },
+      {
+        "thumbnail": "/assets/images/products/p-93-3.png",
+        "original": "/assets/images/products/p-93-3.png",
+        "id": 3
+      }
+    ]
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-50-1.png",
+      "original": "/assets/images/products/p-50-1.png",
+      "id": 1
+    },
+    "unit": "10 buc",
+    "quantity": 70,
+    "price": 11.99,
+    "name": {
+      "en": "Eggs",
+      "ro": "Oua"
+    },
+    "description": {
+      "en": "The egg contains all eight essential amino acids and high quality protein. This food contains all the substances necessary for the development of children and adolescents, as well as for maintaining the health of adults. In addition, the egg contains vitamins A, B, D and E, minerals such as phosphorus, calcium and iron. Egg proteins are assimilated by the body better than meat proteins due to the richness in minerals and vitamins.",
+      "ro": "Oul conţine toţi cei opt aminoacizi esenţiali şi proteine de înaltă calitate. În acest aliment se găsesc toate substanţele necesare dezvoltării copiilor şi adolescenţilor, precum şi menţinerii stării de sănătate a adulţilor. În plus, oul conţine vitaminele A, B, D şi E, minerale, precum fosfor, calciu şi fier. Proteinele din ou sunt asimilate de organism mai bine decât proteinele din carne datorită bogăţiei în minerale şi vitamine."
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "id": 1,
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Eggs",
+          "ro": "Oua"
+        },
+        "id": 2,
+        "slug": "eggs"
+      }
+    ],
+    "sale_price": 11.99,
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-50-1.png",
+        "original": "/assets/images/products/p-50-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-50-2.png",
+        "original": "/assets/images/products/p-50-2.png",
+        "id": 2
+      },
+      {
+        "thumbnail": "/assets/images/products/p-50-3.png",
+        "original": "/assets/images/products/p-50-3.png",
+        "id": 2
+      }
+    ],
+    "slug": "eggs"
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-133-1.png",
+      "original": "/assets/images/products/p-133-1.png",
+      "id": 1
+    },
+    "unit": "4x125g",
+    "quantity": 70,
+    "price": 23.89,
+    "name": {
+      "en": "Frozen Smoothie Mix",
+      "ro": "Mix Smoothie Congelat"
+    },
+    "description": {
+      "en": "With Edenia Smoothie Red Strength you simply and quickly get a dose of vitamins in their natural form, directly from fresh, quickly frozen fruit.\n\nThe mixture of strawberries, bananas and blueberries, combined in ideal portions by specialists, is suitable for a good functioning of the immune system.\n\nOne bag contains 4 fruit smoothie portions of 125g each.",
+      "ro": "Cu Edenia Smoothie Red Strenght îți iei simplu și rapid o doză de vitamine în forma lor naturală, direct din fructe proaspete, congelate rapid.\n\nAmestecul de căpșuni, banane și afine, combinate în porții ideale de către specialiști, este potrivit pentru o bună funcționare a sistemului imunitar.\n\nO pungă conține 4 porții de fructe pentru smoothie a câte 125g."
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "id": 1,
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Frozen Fruits",
+          "ro": "Fructe Congelate"
+        },
+        "id": 2,
+        "slug": "frozen-fruits"
+      },
+      {
+        "name": "Smoothie",
+        "id": 3,
+        "slug": "smoothie"
+      }
+    ],
+    "sale_price": 23.89,
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-133-1.png",
+        "original": "/assets/images/products/p-133-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-133-2.png",
+        "original": "/assets/images/products/p-133-2.png",
+        "id": 2
+      }
+    ],
+    "slug": "frozen-smoothie-mix"
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-64-1.png",
+      "original": "/assets/images/products/p-64-1.png",
+      "id": 1
+    },
+    "unit": "1kg",
+    "quantity": 70,
+    "price": 5.99,
+    "name": {
+      "en": "Banana",
+      "ro": "Banane"
+    },
+    "description": {
+      "en": "Banana",
+      "ro": "Banane"
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "id": 1,
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "id": 2,
+        "slug": "fresh-fruits"
+      }
+    ],
+    "sale_price": 5.99,
+    "slug": "banana",
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-64-1.png",
+        "original": "/assets/images/products/p-64-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-64-2.png",
+        "original": "/assets/images/products/p-64-2.png",
+        "id": 2
+      }
+    ]
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-74-1.png",
+      "original": "/assets/images/products/p-74-1.png",
+      "id": 1
+    },
+    "unit": "1ltr",
+    "quantity": 70,
+    "price": 12.99,
+    "name": {
+      "en": "Orange Juice",
+      "ro": "Suc de portocale"
+    },
+    "description": {
+      "en": "The sun-ripened oranges for Pfanner BIO 100% orange juice come from selected cultivation areas.\n\nJuicy and fruity organic oranges are harvested in the country of origin, carefully processed and bottled in Austria.\n\nThe BIO seal guarantees that the fruit they come from a particularly natural farming method and are processed according to BIO guidelines.\n\nOrganic farming generally does without genetic engineering, including chemically synthetic pesticides and mineral nitrogen fertilizers.\n\nThis not only helps to preserve biodiversity, but also to protect the environment.",
+      "ro": "Portocalele coapte la soare pentru sucul de portocale Pfanner BIO 100% provin din zone de cultură selectate.\n\nPortocalele organice suculente și fructate sunt recoltate în țara de origine, procesate și îmbuteliate cu grijă în Austria.\n\nSigiliul BIO garantează că fructele provin dintr-o metodă de agricultură deosebit de naturală și sunt prelucrate în conformitate cu ghidurile BIO.\n\nAgricultura ecologică se descurcă în general fără inginerie genetică, inclusiv pesticide sintetice chimic și îngrășăminte minerale cu azot.\n\nAcest lucru nu numai că ajută la conservarea biodiversității, dar și la protejarea mediului."
+    },
+    "sale_price": 12.99,
+    "slug": "bio-orange-juice",
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-74-1.png",
+        "original": "/assets/images/products/p-74-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-74-2.png",
+        "original": "/assets/images/products/p-74-2.png",
+        "id": 2
+      },
+      {
+        "thumbnail": "/assets/images/products/p-74-3.png",
+        "original": "/assets/images/products/p-74-3.png",
+        "id": 2
+      }
+    ],
+    "tag": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Bauturi"
+        },
+        "id": 1,
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "id": 2,
+        "slug": "juice"
+      },
+      {
+        "name": {
+          "en": "Orange",
+          "ro": "Portocale"
+        },
+        "id": 3,
+        "slug": "orange"
+      },
+      {
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "id": 4,
+        "slug": "bio"
+      }
+    ]
+  },
+  {
+    "image": {
+      "thumbnail": "/assets/images/products/p-113-1.png",
+      "original": "/assets/images/products/p-113-1.png",
+      "id": 1
+    },
+    "unit": "250g",
+    "quantity": 50,
+    "price": 52.99,
+    "name": {
+      "en": "Sweetener",
+      "ro": "Îndulcitor"
+    },
+    "description": {
+      "en": "Sukrin+ is a calorie-free, stevia-combined sweetener that is twice as sweet as sugar. Sukrin+ combines the sugar-like consistency with the sweetness of stevia, eliminating the bitter taste characteristic of stevia products.",
+      "ro": "Sukrin+ este un îndulcitor combinat cu stevia, fără calorii, de două ori mai dulce decât zahărul. Sukrin+ combină consistența asemănătoare zahărului cu dulceața din stevia, eliminând gustul amar caracteristic produselor cu stevia."
+    },
+    "tag": [
+      {
+        "name": {
+          "en": "Dulciuri",
+          "ro": "Sweets"
+        },
+        "id": 1,
+        "slug": "sweets"
+      }
+    ],
+    "sale_price": 52.99,
+    "gallery": [
+      {
+        "thumbnail": "/assets/images/products/p-113-1.png",
+        "original": "/assets/images/products/p-113-1.png",
+        "id": 1
+      },
+      {
+        "thumbnail": "/assets/images/products/p-113-2.png",
+        "original": "/assets/images/products/p-113-2.png",
+        "id": 2
+      },
+      {
+        "thumbnail": "/assets/images/products/p-113-3.png",
+        "original": "/assets/images/products/p-113-3.png",
+        "id": 3
+      }
+    ],
+    "slug": "sweetener"
+  }
+]

@@ -4,6 +4,7 @@ import { OrderItem } from '@framework/types';
 import { useRouter } from 'next/router';
 import { i18n, useTranslation } from 'next-i18next';
 import Heading from '@components/heading';
+import useOrder from 'src/hooks/useOrder';
 const OrderItemCard = ({ product }: { product: OrderItem }) => {
   const { price: itemTotal } = usePrice({
     amount: product.price * product.quantity,
@@ -28,15 +29,16 @@ const OrderDetails: React.FC<{ className?: string }> = ({ className = '' }) => {
   const {
     query: { id },
   } = useRouter();
-  const { data: order, isLoading } = useOrderQuery(id?.toString()!);
-  const { price: subtotal } = usePrice(
+  const order = useOrder(id as string);
+  const { price: total } = usePrice(
     order && {
-      amount: order.total,
+      amount: order.items.reduce(
+        (sum, { price, quantity }) => sum + price * quantity,
+        +(order?.deliveryTip || 0)
+      ),
       currencyCode: 'RON',
     }
   );
-
-  if (isLoading) return <p>Loading...</p>;
 
   return (
     <div className={className}>
@@ -55,18 +57,20 @@ const OrderDetails: React.FC<{ className?: string }> = ({ className = '' }) => {
           </tr>
         </thead>
         <tbody>
-          {order?.products.map((product, index) => (
+          {order?.items.map((product, index) => (
             <OrderItemCard key={index} product={product} />
           ))}
         </tbody>
         <tfoot>
           <tr className="odd:bg-skin-secondary">
             <td className="p-4 italic">{t('text-total')}:</td>
-            <td className="p-4">{subtotal}</td>
+            <td className="p-4">{total}</td>
           </tr>
           <tr className="odd:bg-skin-secondary">
             <td className="p-4 italic">{t('text-payment-method')}:</td>
-            <td className="p-4">{order?.payment_gateway}</td>
+            <td className="p-4">
+              {order?.isPayedFor ? 'Card' : 'Numerar la livrare'}
+            </td>
           </tr>
         </tfoot>
       </table>

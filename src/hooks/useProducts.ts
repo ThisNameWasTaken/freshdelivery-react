@@ -7,7 +7,7 @@ const useProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
   async function updateProducts() {
-    const productsCollection = collection(db, 'products');
+    const productsCollection = collection(db, '_products');
     const productsSnapshot = await getDocs(productsCollection);
     const products: Product[] = [];
     productsSnapshot.forEach((doc) => {
@@ -16,8 +16,6 @@ const useProducts = () => {
       products.push(product as Product);
     });
     setProducts(products);
-
-    console.log(products?.[9]);
 
     // try {
     //   const res = await fetch('http://localhost:5000/recommended-products/4');

@@ -7,7 +7,7 @@ const useProduct = (slug: string) => {
   const [product, setProduct] = useState<Product>();
 
   async function updateProduct() {
-    const productsCollection = collection(db, 'products');
+    const productsCollection = collection(db, '_products');
     const productQuery = query(productsCollection, where('slug', '==', slug));
     const productSnapshot = await getDocs(productQuery);
     const product = productSnapshot.docs[0].data();

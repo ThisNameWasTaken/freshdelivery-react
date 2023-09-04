@@ -10,47 +10,29 @@ import {
 import { useEffect, useState } from 'react';
 import { db } from './firebase';
 import useUser from './useUser';
+import useProducts from './useProducts';
+import { useQuery } from 'react-query';
+
+async function fetchSuggestedProducts() {
+  const res = await fetch('http://localhost:5000/recommended-products/1042');
+
+  const json = await res.json();
+
+  return json;
+}
 
 const useSuggestedProducts = () => {
   const user = useUser();
-  const [suggestedProducts, setSuggestedProducts] = useState<Product[]>();
+  const id = '1042';
+  const { data } = useQuery(`suggested-products-${id}`, fetchSuggestedProducts);
 
-  async function updateProducts() {
-    if (!user) return;
+  const products = useProducts();
 
-    const recommendationsSnapshot = await getDoc(
-      doc(db, 'recommendations', user.uid)
-    );
-    const data = recommendationsSnapshot.data();
-    const slugs: string[] = data?.recommendations || [];
-    const productsCollection = collection(db, 'products');
+  const fetchedIds = Array.isArray(data);
 
-    const products: Product[] = [];
-
-    const recommendationDocs = await Promise.all(
-      slugs.map((slug) => {
-        const sameCategoryQuery = query(
-          productsCollection,
-          where('slug', '==', slug)
-        );
-        return getDocs(sameCategoryQuery);
-      })
-    );
-
-    recommendationDocs.forEach((collection) => {
-      collection.docs.forEach((doc) => {
-        const product = doc.data();
-        product.id = doc.id;
-        products.push(product as Product);
-      });
-    });
-
-    setSuggestedProducts(products);
-  }
-
-  useEffect(() => {
-    updateProducts();
-  }, [user]);
+  const suggestedProducts = products.filter(
+    !fetchedIds ? () => true : (product) => data.includes(product.id)
+  );
 
   return suggestedProducts;
 };

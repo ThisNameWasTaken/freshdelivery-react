@@ -2,7 +2,6 @@ import { Table } from '@components/table';
 import Input from '@components/form/input';
 import { useState } from 'react';
 import Pagination from '@components/pagination';
-import ActionsButton from '@components/action-button';
 import { TotalPrice } from '@components/order/price';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
@@ -10,11 +9,15 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 import timezone from 'dayjs/plugin/timezone';
 import { GrNext, GrPrevious } from 'react-icons/gr';
 import { BsSearch } from 'react-icons/bs';
+import { Order } from 'src/hooks/useOrders';
+import orderStatus from '../../../public/api/order-status.json';
+import { useUI } from '@contexts/ui.context';
+
+dayjs.extend(relativeTime);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 export const CreatedAt: React.FC<{ createdAt?: any }> = ({ createdAt }) => {
-  dayjs.extend(relativeTime);
-  dayjs.extend(utc);
-  dayjs.extend(timezone);
   return (
     <span className="whitespace-nowrap">
       {dayjs.utc(createdAt).tz(dayjs.tz.guess()).fromNow()}
@@ -23,89 +26,82 @@ export const CreatedAt: React.FC<{ createdAt?: any }> = ({ createdAt }) => {
 };
 
 export const Status: React.FC<{ item?: any }> = ({ item }) => {
+  const diff = dayjs().diff(item.placedAt);
+
+  let status = orderStatus[1];
+
+  if (diff >= 60 * 1000) {
+    status = orderStatus[2];
+  }
+
+  if (diff >= 5 * 60 * 60 * 1000) {
+    status = orderStatus[3];
+  }
+
+  if (!status) return <></>;
+
   return (
-    <span className={item?.status?.name?.replace(/\s/g, '_').toLowerCase()}>
-      <span
-        className="bullet"
-        style={{ backgroundColor: item?.status?.color }}
-      />
-      {item?.status?.name}
+    <span className={status.name}>
+      <span className="bullet" style={{ backgroundColor: status.color }} />
+      {status.name}
     </span>
   );
 };
 
 const columns = [
   {
-    title: 'Order Number',
-    dataIndex: 'tracking_number',
-    key: 'tracking_number',
+    title: 'Order Id',
+    dataIndex: 'id',
+    key: 'id',
     className: 'id-cell',
   },
   {
     title: 'Order Date',
-    dataIndex: 'created_at',
-    key: 'created_at',
-    render: function createdAt(items: any) {
-      return <CreatedAt createdAt={items} />;
+    dataIndex: 'placedAt',
+    key: 'placedAt',
+    render: function createdAt(order: Order) {
+      return <CreatedAt createdAt={order} />;
     },
   },
   {
     title: 'Status',
     key: 'status',
-    render: function status(item: any) {
-      return <Status item={item} />;
+    render: function status(order: Order) {
+      return <Status item={order} />;
     },
-  },
-  {
-    title: 'Delivery Time',
-    dataIndex: 'delivery_time',
-    key: 'delivery_time',
   },
   {
     title: 'Total Price',
     key: 'total',
-    render: function totalPrice(items: any) {
-      return <TotalPrice items={items} />;
+    render: function totalPrice(order: Order) {
+      return <TotalPrice items={order.items} />;
     },
-  },
-  {
-    dataIndex: '',
-    key: 'operations',
-    render: function actionsButton(item: any) {
-      return <ActionsButton item={item} />;
-    },
-    className: 'operations-cell',
   },
 ];
 
-const OrderTable: React.FC<{ orders?: any }> = ({ orders }) => {
+const OrderTable: React.FC<{ orders?: Order[] | null }> = ({ orders }) => {
+  const { openDrawer, setDrawerView } = useUI();
   const [currentPage, setCurrentPage] = useState(1);
-  const [value, setValue] = useState('');
+  const [filter, setFilter] = useState('');
   const countPerPage = 5;
-  let [filterData, setDataValue] = useState(orders.slice(0, countPerPage));
+  const to = countPerPage * currentPage;
+  const from = to - countPerPage;
+  const filterData = !filter
+    ? orders
+    : orders?.filter((item) =>
+        item.id.toLowerCase().includes(filter.toLowerCase())
+      );
+  const paginatedData = filterData?.slice(from, to);
 
-  const updatePage = (p: any) => {
+  const updatePage = (p: number) => {
     setCurrentPage(p);
-    const to = countPerPage * p;
-    const from = to - countPerPage;
-    setDataValue(orders.slice(from, to));
   };
 
   const onChangeSearch = (e: any) => {
     setCurrentPage(1);
-    let filter: any = orders
-      .filter((item: any) =>
-        item.tracking_number
-          .toLowerCase()
-          .includes(e.target.value.toLowerCase())
-      )
-      .slice(0, countPerPage);
-    setValue(e.target.value);
-    if (!e.target.value) {
-      updatePage(1);
-    }
-    setDataValue(filter);
+    setFilter(e.target.value);
   };
+
   const onSubmitHandle = (e: any) => {
     e.preventDefault();
   };
@@ -123,7 +119,7 @@ const OrderTable: React.FC<{ orders?: any }> = ({ orders }) => {
           <Input
             name="search"
             type="search"
-            value={value}
+            value={filter}
             onChange={onChangeSearch}
             placeholder="Search Order list"
             inputClassName=" h-[46px] w-full placeholder-[rgba(0, 0, 0, .3)] bg-white border border-[#E3E8EC] rounded-md order-search focus:border-2 focus:outline-none focus:border-skin-primary"
@@ -134,11 +130,18 @@ const OrderTable: React.FC<{ orders?: any }> = ({ orders }) => {
         <Table
           className="order-list-table"
           columns={columns}
-          data={filterData}
+          data={paginatedData}
           rowKey="id"
+          onRow={(data, index) => ({
+            onClick() {
+              setDrawerView('ORDER_DETAILS');
+              const order = data;
+              openDrawer(order);
+            },
+          })}
         />
       </div>
-      {!value.trim() && (
+      {!filter.trim() && (
         <div className="text-end mt-5">
           <Pagination
             current={currentPage}

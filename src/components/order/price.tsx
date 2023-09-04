@@ -1,11 +1,9 @@
 import usePrice from '@framework/product/use-price';
 import { calculateTotal } from '@contexts/cart/cart.utils';
 
-export const TotalPrice: React.FC<{ items?: any }> = ({ items }) => {
+export const TotalPrice: React.FC<{ items?: any[] }> = ({ items }) => {
   const { price } = usePrice({
-    amount: Math.round(
-      calculateTotal(items?.products) + items?.delivery_fee - items?.discount
-    ),
+    amount: Math.round(calculateTotal(items || [])),
     currencyCode: 'RON',
   });
   return <span className="total_price">{price}</span>;

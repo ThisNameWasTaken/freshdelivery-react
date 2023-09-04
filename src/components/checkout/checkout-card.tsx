@@ -6,29 +6,26 @@ import Button from '@components/button';
 import { CheckoutItem } from '@components/checkout/checkout-card-item';
 import { CheckoutCardFooterItem } from './checkout-card-footer-item';
 import { useTranslation } from 'next-i18next';
-import Router from 'next/router';
 import { ROUTES } from '@utils/routes';
+import useOrders from 'src/hooks/useOrders';
 
 const CheckoutCard: React.FC = () => {
   const { t } = useTranslation('common');
   const { items, total, isEmpty } = useCart();
+  const orders = useOrders();
   const { price: subtotal } = usePrice({
     amount: total,
     currencyCode: 'RON',
   });
   function placeOrder() {
-    !isEmpty && Router.push(ROUTES.ORDER);
+    if (isEmpty) return;
+    orders.placeOrder();
   }
   const checkoutFooter = [
     {
       id: 1,
       name: t('text-total'),
       price: subtotal,
-    },
-    {
-      id: 2,
-      name: t('text-shipping'),
-      price: '0 RON',
     },
   ];
   return (

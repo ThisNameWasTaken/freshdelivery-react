@@ -2,14 +2,14 @@ import React from 'react';
 import Layout from '@components/layout/layout';
 import AccountLayout from '@components/account/account-layout';
 import OrderTable from '@components/order/order-table';
-import { useOrdersQuery } from '@framework/order/get-all-orders';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Seo from '@components/seo/seo';
+import useOrders from 'src/hooks/useOrders';
 
 // props change to orders.
 
 export default function OrdersTablePage() {
-  const { data, isLoading } = useOrdersQuery({});
+  const { orders } = useOrders();
   return (
     <>
       <Seo
@@ -18,11 +18,7 @@ export default function OrdersTablePage() {
         path="account/orders"
       />
       <AccountLayout>
-        {!isLoading ? (
-          <OrderTable orders={data?.data} />
-        ) : (
-          <div>Loading...</div>
-        )}
+        <OrderTable orders={orders} />
       </AccountLayout>
     </>
   );

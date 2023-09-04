@@ -10,10 +10,13 @@ import {
 import { useEffect, useState } from 'react';
 import { db } from './firebase';
 import useUser from './useUser';
+import { ROUTES } from '@utils/routes';
+import Router from 'next/router';
 
-export type OrderItem = Product & { quntity: number };
+export type OrderItem = Product & { quantity: number };
 
 export type Order = {
+  id: string;
   items: OrderItem[];
   userId: string;
   deliveryHours: '09:00-12:00' | '12:00-16:00' | '16:00-19:00';
@@ -23,6 +26,7 @@ export type Order = {
   deliveryInstructions?: string;
   leaveAtDoorstep: boolean;
   deliveryTip?: string;
+  placedAt: number;
 };
 
 const useOrders = () => {
@@ -67,10 +71,12 @@ const useOrders = () => {
         contactNumber: '+40 777 888 888',
         isPayedFor: false,
         leaveAtDoorstep: false,
+        placedAt: Date.now(),
       };
-      await addDoc(ordersCollection, order);
+      const doc = await addDoc(ordersCollection, order);
       // @ts-ignore
-      setLastOrder(order);
+      setLastOrder({ ...order, id: doc.id });
+      await Router.push(`${ROUTES.ORDER}?id=${doc.id}`);
       resetCart();
     } catch (err) {
       console.error(err);

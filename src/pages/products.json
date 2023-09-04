@@ -1,0 +1,3836 @@
+[
+  {
+    "wordToSearch": "Produse alimentare instant",
+    "name": {
+      "en": "Instant ramen miso soup",
+      "ro": "Supă Ramen instant Miso"
+    },
+    "price": 11.9,
+    "unit": "66g",
+    "description": {
+      "en": "Ajinomoto was established in Japan in 1903 by Saburosuke Suzuki II, who wanted to sell the AJI-no-Moto® spice.This is the first Umami spice in the world that was based on the discovery made by Dr. Kikunae Ikeda, the one who created the glutemical acid extracted from Kombu.The products developed by Ajinomoto are based on Eat Well, Live Well and want to ensure both a special taste, unique as close to the taste of the original/traditional Japanese product, but also an appropriate nutritional character, as healthy for each product..\n\nThe packaging contains 1 serving (320 ml of product ready for serving).",
+      "ro": "Firma Ajinomoto a fost înființată în Japonia în anul 1903 de către Saburosuke Suzuki II, care a dorit să vândă condimentul AJI-NO-MOTO® în toată lumea. Acesta este primul condiment UMAMI din lume ce avea la bază descoperirea făcută de dr Dr. Kikunae Ikeda, cel care a creeat acidul glutemic extras din kombu. Produsele dezvoltate de firma Ajinomoto au la bază deviza Eat Well, Live Well și doresc să asigure atât un gust deosebit, unic cât mai aproape de gustul produsului japonez original/tradițional, dar și un caracter nutrițonal adecvat, cât mai sănătos pentru fiecare produs în parte.\n\nAmbalajul conține 1 porție (320 ml de produs gata de servire)."
+    },
+    "images": [
+      "/assets/images/products/p-1-1.png",
+      "/assets/images/products/p-1-2.png",
+      "/assets/images/products/p-1-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Ready to Eat",
+          "ro": "Ready to Eat"
+        },
+        "slug": "ready-to-eat"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "praf de copt",
+    "name": {
+      "en": "baking powder",
+      "ro": "Praf de copt"
+    },
+    "price": 1.47,
+    "unit": "3x10g",
+    "description": {
+      "en": "Dr. Oetker baking powder helps to increase and relax all types of dough.",
+      "ro": "Praful de copt de la Dr. Oetker ajută la creșterea și afânarea tuturor tipurilor de aluaturi."
+    },
+    "images": [
+      "/assets/images/products/p-7-1.png",
+      "/assets/images/products/p-7-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "curatator de baie",
+    "name": {
+      "en": "Cleaning spray for bathroom surfaces",
+      "ro": "Spray de curățare pentru suprafețele din baie"
+    },
+    "price": 22.99,
+    "unit": "750ml",
+    "description": {
+      "en": "Eliminate worries about cleaning the bath when using Ajax cleaning spray for the bathroom surfaces.This bathroom cleaning detergent was created by experts, with a 100% decalcification power to easily remove the limestone, the traces of soap and soap.Beyond the fact that it is excellent for your bathroom, the bathroom cleansing spray was also made with the thought of the planet.It is enriched by plants, it has 99% ingredients of natural origin and a 99% biodegradable formula.\n\nMoreover, this powerful bathroom, ecological and vegan detergent has been held responsibly and is packaged in a 100% recycled plastic bottle, which you can recycle again with the sprayer, after you have removed the plastic label.",
+      "ro": "Elimină grijile legate de curățarea băii atunci când folosești Ajax spray de curățare pentru suprafețele din baie. Acest detergent de curățare a băii a fost creat de către experți, având o putere de decalcifiere de 100% pentru a elimina cu ușurință calcarul, urmele de apă și săpun. Dincolo de faptul că este excelent pentru baie ta, spray-ul de curățare pentru baie a fost fabricat și cu gândul la planetă. Este îmbogățit de plante, are 99% ingrediente de origine naturală și o formulă 99% biodegradabilă.\n\nMai mult, acest puternic detergent pentru baie, ecologic și vegan a fost fabricat în mod responsabil și este ambalat într-un flacon din plastic 100% reciclat, pe care îl puteți recicla din nou împreună cu pulverizatorul, după ce ați îndepărtat eticheta din plastic."
+    },
+    "images": [
+      "/assets/images/products/p-8-1.png",
+      "/assets/images/products/p-8-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "vită",
+    "name": {
+      "en": "Small pork, beef and sheep",
+      "ro": "Mici de porc, vită și oaie"
+    },
+    "price": 28.99,
+    "unit": "1kg",
+    "description": {
+      "en": "Small pork, beef and sheep.\n\nFor over 50 years, Periș is careful not to miss the Romanian meat, whether we are talking about pork, beef or sheep.\n\nThe meat comes from Romanian farmers who grow animals at a natural rhythm.\n\nThe farm chain at the store is short, so the products are always fresh.",
+      "ro": "Mici din carne de porc, vită și oaie.\n\nDe peste 50 de ani Periș are grijă să nu vă lipsească niciodată de pe masă carnea românească, fie că vorbim de carne de porc, vită sau oaie.\n\nCarnea provine de la fermieri români care cresc animalele într-un ritm natural.\n\nLanțul de la fermă la magazin este scurt, astfel încât produsele sunt mereu proaspete."
+    },
+    "images": [
+      "/assets/images/products/p-9-1.png",
+      "/assets/images/products/p-9-2.png",
+      "/assets/images/products/p-9-3.png",
+      "/assets/images/products/p-9-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fructe de padure",
+    "name": {
+      "en": "Mixed frozen berries",
+      "ro": "Amestec fructe de pădure congelate"
+    },
+    "price": 14.99,
+    "unit": "450g",
+    "description": {
+      "en": "Mix frozen berries.Contains: strawberries, red currants, black currants, blackberries, blueberries and cherries.",
+      "ro": "Amestec fructe de pădure congelat. Conține: căpșuni, coacăze roșii, coacăze negre, mure, afine și vișine."
+    },
+    "images": [
+      "/assets/images/products/p-10-1.png",
+      "/assets/images/products/p-10-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "băuturi",
+    "name": {
+      "en": "Coca-Cola zero sugar",
+      "ro": "Coca-Cola zero zahăr"
+    },
+    "price": 8.89,
+    "unit": "2.5l",
+    "description": {
+      "en": "Coca-Cola zero sugar is the perfect drink for people who want the same sensation Coca-Cola with the benefit of zero sugar and zero calories.",
+      "ro": "Coca-Cola zero zahăr este băutura perfectă pentru oamenii care își doresc aceeași senzație Coca-Cola cu beneficiul zero zahăr și zero calorii."
+    },
+    "images": [
+      "/assets/images/products/p-11-1.png",
+      "/assets/images/products/p-11-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Soda",
+          "ro": "Băuturi carbogazoase"
+        },
+        "slug": "soda"
+      },
+      {
+        "name": {
+          "en": "Coke",
+          "ro": "Cola"
+        },
+        "slug": "coke"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "coniac",
+    "name": {
+      "en": "Cognac vs 40% alc",
+      "ro": "Coniac VS 40% alc"
+    },
+    "price": 173.99,
+    "unit": "0.7l",
+    "description": {
+      "en": "Martell VS (Very Special) was created for the first time more than 150 years ago, under the name 'Three Star', being today an assortment appreciated in all corners of the world.The cognac is outdated in Limousin oak barrels for a period of 5 to 7 years.",
+      "ro": "Martell VS (Very Special) a fost creat pentru prima dată acum mai bine de 150 de ani, sub denumirea ‘Three Star’, fiind şi astăzi un sortiment apreciat în toate colţurile lumii. Coniacul este învechit în butoaie din lemn de stejar Limousin pentru o perioadă de 5 până la 7 ani."
+    },
+    "images": [
+      "/assets/images/products/p-14-1.png",
+      "/assets/images/products/p-14-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "pâine maro",
+    "name": {
+      "en": "Frying bread with rosemary and sea salt",
+      "ro": "Pâine prăjită cu rozmarin și sare de mare"
+    },
+    "price": 11.5,
+    "unit": "190g",
+    "description": {
+      "en": "Delicate slices and crispy Wasa with rosemary topping and sea salt.For a perfect snack with or without topping!",
+      "ro": "Felii delicate și crocante Wasa cu topping de Rozmarin și sare de mare. Pentru o gustare perfectă cu sau fără topping!"
+    },
+    "images": [
+      "/assets/images/products/p-15-1.png",
+      "/assets/images/products/p-15-2.png",
+      "/assets/images/products/p-15-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustari"
+        },
+        "slug": "snacks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "unt",
+    "name": {
+      "en": "Pure butter 82% fat",
+      "ro": "Unt Pur 82% grăsime"
+    },
+    "price": 12.99,
+    "unit": "200g",
+    "description": {
+      "en": "This butter is high in fat, being ideal for the preparation of culinary recipes.\n\nNucet products belong to the herbalact dairy producer, a Romanian manufacturer, which offers over 20 assortments of milk and dairy products.\n\n\nWhat makes the products truly indigenous is the milk produced in the Nucet's own farm.\n\nTaking care of the environment and respecting the tradition of preparations in authentic Romanian spirit, according to recipes inspired by the Nucet Monastery, the portfolio includes products made according to old Romanian recipes, in the most modern European conditions.",
+      "ro": "Untul acesta este bogat în grăsimi,  fiind ideal pentru prepararea unor rețete culinare.\n\nProdusele Nucet aparțin producătorului de lactate Erbalact, un producător român, care oferă peste 20 de sortimente de lapte și produse lactate.\n\n\nCe face ca produsele să fie cu adevărat autohtone este laptele produs în ferma proprie Nucet.\n\nAvând grijă de mediu și respectând tradiția preparatelor în spirit autentic românesc, după rețete inspirate chiar de Mănăstirea Nucet, portofoliul cuprinde produse făcute după rețete vechi românești, în cele mai moderne condiții europene."
+    },
+    "images": [
+      "/assets/images/products/p-16-1.png",
+      "/assets/images/products/p-16-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Butter",
+          "ro": "Unt"
+        },
+        "slug": "butter"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "lapte de unt",
+    "name": {
+      "en": "Chocolate pralines with caramel milk and salted butter Pavés",
+      "ro": "Praline de ciocolată cu lapte cu caramel și unt sărat Pavés"
+    },
+    "price": 29.17,
+    "unit": "100g",
+    "description": {
+      "en": "Sigoji created an extraordinary product by combining chocolate with milk produced with cocoa from Cameroon farms, with caramel and salt flower from Guerande.A product that delights the taste buds of the most demanding gourmets.Paves pralines in square form are among the most gourmet products created by Sigoji.\n\nThis product offers an exceptional sensory tasting of Belgian chocolate pralines with milk, caramel and salty butter.",
+      "ro": "Sigoji a creat un produs extraordinar combinând ciocolata cu lapte produsă cu cacao din fermele din Camerun, cu caramel și floare de sare de la Guerande. Un produs care încântă papilele gustative a celor mai pretențioși gurmanzi. Pralinele Paves sub formă pătrată sunt printre cele mai gourmet produse create de Sigoji.\n\nAcest produs oferă o degustare senzorială excepțională a pralinelor de ciocolată belgiene cu lapte, caramel și unt sărat."
+    },
+    "images": [
+      "/assets/images/products/p-17-1.png",
+      "/assets/images/products/p-17-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Candy",
+          "ro": "Bomboane"
+        },
+        "slug": "candy"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "baton de tort",
+    "name": {
+      "en": "Salt (Quiche) tart lorraine with cheese, bacon and green onion",
+      "ro": "Tartă sărată (Quiche) Lorraine cu brânză, bacon și ceapă verde"
+    },
+    "price": 19.99,
+    "unit": "110g",
+    "description": {
+      "en": "Quiche Lorraine with cheese, bacon and green onion is a salted tart of French origin.It is based on tender and tasty dough, and tasty and creamy filling of cheese, bacon and green onion.It is the perfect snack when you want to enjoy a tasty and tasty breakfast.Whether you serve it hot or cold, the pampering is wonderful.Salt tart with carefully chosen ingredients, refined cheeses, fresh vegetables and bacon.The product can be served both cold and hot.",
+      "ro": "Quiche Lorraine cu brânză, bacon și ceapă verde este o tartă sărată de origine franțuzească. Ea are la bază aluat fraged și gustos, și umplutură savuroasă și cremoasă de brânză, bacon și ceapă verde. Este gustarea perfectă atunci când vrei să te bucuri de un mic dejun gustos și sățios. Fie că o servești caldă sau rece, răsfățul este minunat. Tartă sărată cu ingrediente atent alese, brânzeturi rafinate, legume proaspete și bacon. Produsul se poate servi atât rece cât și cald.\n"
+    },
+    "images": [
+      "/assets/images/products/p-18-1.png",
+      "/assets/images/products/p-18-2.png",
+      "/assets/images/products/p-18-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "bomboane",
+    "name": {
+      "en": "Candy with peanuts and caramel",
+      "ro": "Bomboane cu alune și caramel"
+    },
+    "price": 18.5,
+    "unit": "200g",
+    "description": {
+      "en": "Plure (10%) in a caramel cup (41%) filled with nut (37%) chocolate (12%).",
+      "ro": "Alună (10%) într-o cupă de caramel (41%) umplută cu cremă de nuga (37%) acoperită cu ciocolată (12%)."
+    },
+    "images": [
+      "/assets/images/products/p-20-1.png",
+      "/assets/images/products/p-20-2.png",
+      "/assets/images/products/p-20-3.png",
+      "/assets/images/products/p-20-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Candy",
+          "ro": "Bomboane"
+        },
+        "slug": "candy"
+      },
+      {
+        "name": {
+          "en": "Nuts",
+          "ro": "Alune"
+        },
+        "slug": "nuts"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "bere conservată",
+    "name": {
+      "en": "Pears halves with caramel, preserves",
+      "ro": "Pere jumătăți cu caramel, conservă"
+    },
+    "price": 84.99,
+    "unit": "2.6kg",
+    "description": {
+      "en": "The pears can be consumed as such or used in various cakes and cakes.\n\nIn addition to taste, the baked hair aroma will make the cakes irresistible even for the most demanding gourmet.",
+      "ro": "Perele pot fi consumate ca atare sau folosite în diverse tarte și prăjituri.\n\nPe lângă gust, aroma de pară coaptă va face prăjiturile irezistibile chiar și pentru cel mai pretențios gurmand."
+    },
+    "images": [
+      "/assets/images/products/p-21-1.png",
+      "/assets/images/products/p-21-2.png",
+      "/assets/images/products/p-21-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustări"
+        },
+        "slug": "snacks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "conserva de peste",
+    "name": {
+      "en": "Canned tomatoes chopped with pulp and basil",
+      "ro": "Conservă de roșii tocate cu pulpă și busuioc"
+    },
+    "price": 8.25,
+    "unit": "400g",
+    "description": {
+      "en": "Tomato pulp with basil from the heart of Italy.\n\nThe best tomatoes are cut with love into large pieces to keep the quality, texture and intense aroma of Italy.With a note of intense red, Cirio retains the natural goodness and freshness of the tomatoes collected and packaged on the same day, to provide an experience in every dish!",
+      "ro": "Pulpă de roșii cu busuioc din inima Italiei.\n\nCele mai bune roșii sunt tăiate cu dragoste în bucăți mari pentru a păstra calitatea, textura și aroma intensă a Italiei. Cu o notă de roșu intens, Cirio păstrează bunătatea și prospețimea naturală a roșiilor culese și ambalate în aceeași zi, pentru a oferi o experiență în fiecare fel de mâncare!"
+    },
+    "images": [
+      "/assets/images/products/p-22-1.png",
+      "/assets/images/products/p-22-2.png",
+      "/assets/images/products/p-22-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fruct la conservă",
+    "name": {
+      "en": "Fruit cocktail in syrup, canned",
+      "ro": "Cocktail de fructe în sirop, conservă"
+    },
+    "price": 6.79,
+    "unit": "425g",
+    "description": {
+      "en": "Fruit cocktail in slightly sweetened syrup.",
+      "ro": "Cocktail de fructe în sirop ușor îndulcit."
+    },
+    "images": [
+      "/assets/images/products/p-23-1.png",
+      "/assets/images/products/p-23-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "slug": "juice"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "legume conservate",
+    "name": {
+      "en": "Canned okra",
+      "ro": "Bame conservate"
+    },
+    "price": 21.69,
+    "unit": "620g",
+    "description": {
+      "en": "Okra are rich in soluble and insoluble fiber, vitamins and minerals, being extremely beneficial for health.\n\nThey contribute to the balance of the digestive and cardiovascular systems, stimulates skin health, reduces cholesterol levels and helps the immune system.",
+      "ro": "Bamele sunt bogate în fibre solubile și insolubile, vitamine și minerale, fiind extrem de benefice pentru sănătate.\n\nContribuie la echilibrul sistemului digestiv și cardiovascular, stimulează sănătatea pielii, reduce nivelul de colesterol și ajută sistemul imunitar."
+    },
+    "images": [
+      "/assets/images/products/p-24-1.png",
+      "/assets/images/products/p-24-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "Mâncare pentru pisici",
+    "name": {
+      "en": "Dry food for sterilized cats, One with beef and wheat",
+      "ro": "Hrană uscată pentru pisici sterilizate, One cu vită și grâu"
+    },
+    "price": 24.9,
+    "unit": "800g",
+    "description": {
+      "en": "Dry food from Purina for sterilized cats, specially designed to help maintain a healthy metabolism after castration or sterilization.It maintains the healthy urinary tract, being supported by the balanced minerals in the composition.Weight control is supported by a different protein and fat ratio when the feeding guide is followed.\n\nCreated by Veterinary Doctors and Nutritionists Purina, Purina One Bifensis contains, in addition to beneficial functional bacteria, all key nutrients that your cat needs, including Omega 6. Formula with double defense works in parallel inside, helping to support productionNatural antibodies and on the outside, by maintaining health for the skin and fur.",
+      "ro": "Hrană uscată de la Purina pentru pisici sterilizate, special concepută pentru a ajuta la menținerea unui metabolism sănătos după castrare sau sterilizare. Aceasta menține tractul urinar sănătos, fiind susținută de mineralele echilibrate din compoziție. Controlul greutății este susținut de un raport diferit de proteine și grăsime atunci când este urmat ghidul de hrănire.\n\nCreată de medicii veterinari și nutritionisții Purina, Purina One Bifensis conține, pe lângă bacterii funcționale benefice, toți nutrienții cheie de care pisica ta are nevoie, inclusiv acizii grași Omega 6. Formula sa cu dublă apărare funcționează în paralel la interior, ajutând la sprijinirea producției naturale de anticorpi și la exterior, prin menținerea sănătății pentru piele și blană."
+    },
+    "images": [
+      "/assets/images/products/p-25-1.png",
+      "/assets/images/products/p-25-2.png",
+      "/assets/images/products/p-25-3.png",
+      "/assets/images/products/p-25-4.png",
+      "/assets/images/products/p-25-5.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "cereale",
+    "name": {
+      "en": "Breakfast cereals",
+      "ro": "Cereale pentru mic dejun"
+    },
+    "price": 15.96,
+    "unit": "450g",
+    "description": {
+      "en": "Nestle Chocapic Breakfast cereals are tasty, have an intense chocolate taste and represent a source of vitamins in group B, calcium and iron.",
+      "ro": "Cerealele pentru mic dejun Nestle Chocapic sunt savuroase, au un gust intens de ciocolată și reprezintă o sursă de sașe vitamine din grupul B, calciu și fier.\n"
+    },
+    "images": [
+      "/assets/images/products/p-26-1.png",
+      "/assets/images/products/p-26-2.png",
+      "/assets/images/products/p-26-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "gumă de mestecat",
+    "name": {
+      "en": "Chewing gum with strawberry flavor",
+      "ro": "Gumă de mestecat cu aromă de căpșuni"
+    },
+    "price": 3.99,
+    "unit": "35g",
+    "description": {
+      "en": "Hubba bubba chewing gum, which reminds you of the taste of childhood.",
+      "ro": "Guma de mestecat Hubba Bubba, care îți amintește de gustul copilăriei."
+    },
+    "images": [
+      "/assets/images/products/p-27-1.png",
+      "/assets/images/products/p-27-2.png",
+      "/assets/images/products/p-27-3.png",
+      "/assets/images/products/p-27-4.png"
+    ]
+  },
+  {
+    "wordToSearch": "pui",
+    "name": {
+      "en": "Chicken tenders",
+      "ro": "Mușchiuleț de pui"
+    },
+    "price": 11.77,
+    "unit": "370g",
+    "description": {
+      "en": "Cocorico has launched the Portei products, created especially for the client's needs.They represent the answer to the request for freshness and quality, specially created for those who want to buy exactly as much as they need and when they need, for a healthy lifestyle.\n\nPerfect for single people, who do not cook for families with more people or simply for those who want diversity of chicken.\n\nThe new 370g portions products provide the daily protein requirement, save space, reduce food waste and are the right choice for foods that require several types of chicken.",
+      "ro": "Cocorico a lansat produsele Porții, create special pentru nevoile clientului. Ele reprezintă răspunsul la cererea de prospețime și calitate, create special pentru cei care își doresc să cumpere exact cât au nevoie și când au nevoie, pentru un stil de viață sănătos.\n\nPerfecte pentru persoanele singure, ce nu gătesc pentru familii cu persoane mai multe sau pur și simplu pentru cei care doresc diversitate de la carnea de pui.\n\nNoile produse Porții 370g furnizează necesarul zilnic de proteine, economisesc spațiul, diminuează risipa alimentară și sunt alegerea potrivită totodată pentru mâncărurile care necesită mai multe tipuri de carne de pui."
+    },
+    "images": [
+      "/assets/images/products/p-28-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Chicken",
+          "ro": "Pui"
+        },
+        "slug": "chicken"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ciocolată",
+    "name": {
+      "en": "Chocolate cream nuts",
+      "ro": "Nuci cu cremă de ciocolată"
+    },
+    "price": 21.99,
+    "unit": "200g",
+    "description": {
+      "en": "Traditional dessert with crunchy coating and chocolate cream, ripe nuts and rum aroma.\n\nFilled nuts are very loved by Romanians and are never missing from the table, especially for holidays.",
+      "ro": "Desert tradițional cu înveliș crocant și cremă de ciocolată, cu nuci coapte și aromă de rom.\n\nNucile umplute sunt foarte iubite de români și nu lipsesc niciodată de pe masă, mai ales de sărbători."
+    },
+    "images": [
+      "/assets/images/products/p-29-1.png",
+      "/assets/images/products/p-29-2.png",
+      "/assets/images/products/p-29-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fruct citric",
+    "name": {
+      "en": "Greek yogurt with citrus and seeds",
+      "ro": "Iaurt grecesc cu citrice și semințe"
+    },
+    "price": 3.99,
+    "unit": "125g",
+    "description": {
+      "en": "Would you like something exotic and super delicious?Then enjoy the Greek yogurt with citrus and seeds.The sour taste of citrus fruits along with flax seeds and chia, make this yogurt with Greek specific Mediterranean delight!Try it!Convince yourself!",
+      "ro": "Ai vrea ceva exotic și super delicios? Atunci bucură-te de iaurtul cu specific grecesc cu citrice și semințe. Gustul acrișor de citrice împreună cu semințe de în și chia,fac din acest iaurt cu specific grecesc un aderat deliciu mediteraneean! Încearcă-l! Convinge-te!"
+    },
+    "images": [
+      "/assets/images/products/p-31-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Yogurt",
+          "ro": "Iaurt"
+        },
+        "slug": "yogurt"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "curățător",
+    "name": {
+      "en": "Pamatuf for cleaning Trap & Lock dust with a short handle + 1 reserve",
+      "ro": "Pămătuf pentru curățarea prafului Trap & lock cu un mâner scurt + 1 rezervă"
+    },
+    "price": 8.49,
+    "description": {
+      "en": "Say goodbye to dust, dirt and hair and enjoy cleaning.\n\nSwiffer Duster is the instrument that captures and blocks the dust, hair and allergens caused by mites, but also those caused by cats and dogs, on the surfaces due to the thousands of fluffy fiber.\n\nSwiffer dust cloths have unique fibers that adapt their shape to enter the corners, so that you get rid of dust and hair from practically any surface, without stretching it in the rest of the house.\n\nTips to know: It is particularly easy to clean the hair of animals, because most animals flutter all the time, or if you suffer from dust allergies.\n\nIt works so well that it may even start to like to delete the dust.\n\nUse Swiffer Duster reserves with Swiffer Duster handle.",
+      "ro": "Spuneți adio prafului, murdăriei și părului și bucurați-vă de curățenie.\n\nSwiffer Duster este instrumentul care captează şi blochează praful, părul şi alergenii cauzați de acarieni, dar şi cei cauzați de pisici şi câini, de pe suprafeţe datorită miilor de fibre pufoase.\n\nLavetele pentru praf Swiffer au fibre unice care își adaptează forma pentru a intra în colțuri, astfel încât să scăpați de praf și păr de pe practic orice suprafață, fără a-l întinde în restul casei.\n\nSfaturi de știut: este deosebit de ușor să curățați părul de animale, deoarece majoritatea animalelor năpârlesc tot timpul, sau dacă suferiți de alergii la praf.\n\nFuncţioneaza atât de bine încât poate chiar va începe să vă placă să ștergeți praful.\n\nUtilizați rezervele Swiffer Duster cu mânerul Swiffer Duster."
+    },
+    "images": [
+      "/assets/images/products/p-32-1.png",
+      "/assets/images/products/p-32-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "folie alimentară/pungi",
+    "name": {
+      "en": "food foil",
+      "ro": "Folie alimentară"
+    },
+    "price": 8.15,
+    "description": {
+      "en": "Food foil, very resistant, retains the freshness of food, esterable and self -based, does not allow air to penetrate.",
+      "ro": "Folie alimentară, foarte rezistentă, păstrează prospețimea alimentelor, etirabilă și autoaderentă, nu permite pătrunderea aerului."
+    },
+    "images": [
+      "/assets/images/products/p-33-1.png",
+      "/assets/images/products/p-33-2.png"
+    ],
+    "tags": []
+  },
+  {
+    "wordToSearch": "băuturi cu cacao",
+    "name": {
+      "en": "Bio oatmeal with cocoa",
+      "ro": "Băutură bio din ovăz cu cacao"
+    },
+    "price": 13.99,
+    "unit": "1ltr",
+    "description": {
+      "en": "Ecological oatmeal beverage with cocoa, without cholesterol, 100% vegetable, obtained from ecological cereals.",
+      "ro": "Băutură ecologică din ovăz cu cacao, fără colesterol, 100% vegetal, obținut din cereale ecologice.\n"
+    },
+    "images": [
+      "/assets/images/products/p-34-1.png",
+      "/assets/images/products/p-34-2.png",
+      "/assets/images/products/p-34-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Coffee",
+          "ro": "Cafea"
+        },
+        "slug": "coffee"
+      },
+      {
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "cafea",
+    "name": {
+      "en": "Milk Barista uht for coffee 3.5% fat",
+      "ro": "Lapte Barista UHT pentru cafea 3,5% grăsime"
+    },
+    "price": 9.99,
+    "unit": "1ltr",
+    "description": {
+      "en": "Ideal for coffee -based specialties.",
+      "ro": "Ideal pentru specialități pe bază de cafea."
+    },
+    "images": [
+      "/assets/images/products/p-35-1.png",
+      "/assets/images/products/p-35-2.png",
+      "/assets/images/products/p-35-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Coffee",
+          "ro": "Cafea"
+        },
+        "slug": "coffee"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "lapte condensat",
+    "name": {
+      "en": "Condensed milk",
+      "ro": "Lapte condensat"
+    },
+    "price": 29.99,
+    "unit": "397g",
+    "description": {
+      "en": "Milk fat 8% minimum.Fat in dry substance 20% minimum.",
+      "ro": "Grăsime din lapte 8% minim. Grăsime în substanță uscată 20% minim."
+    },
+    "images": [
+      "/assets/images/products/p-36-1.png",
+      "/assets/images/products/p-36-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "vase de gătit",
+    "name": {
+      "en": "Concentrated chicken bones for cooking",
+      "ro": "Supă concentrată din oase de pui pentru gătit"
+    },
+    "price": 13.49,
+    "unit": "314ml",
+    "description": {
+      "en": "The Zwup - chicken cooking fund is a product obtained by long -term boiling of the chicken cutlery.\n\nZWUP - chicken is added to the preparation of complex dishes (soup, sauces, pilafs, stews, soups, etc.), to accentuate the taste and for added valuable nutrients.",
+      "ro": "Fondul pentru gătit ZWUP - Pui este un produs obținut prin fierberea de lungă durată a tacâmului de pui.\n\nZWUP - Pui se adaugă la prepararea mâncărurilor complexe (supe-cremă, sosuri, pilafuri, tocănițe, ciorbe etc.), pentru accentuarea gustului și pentru un plus de nutrienți valoroși."
+    },
+    "images": [
+      "/assets/images/products/p-38-1.png",
+      "/assets/images/products/p-38-2.png",
+      "/assets/images/products/p-38-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Chicken",
+          "ro": "Pui"
+        },
+        "slug": "chicken"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "cremă",
+    "name": {
+      "en": "Fresh cheese cream with cream",
+      "ro": "Cremă de brânză proaspătă cu smântână"
+    },
+    "price": 6.89,
+    "unit": "150g",
+    "description": {
+      "en": "Made from cow's milk and natural ingredients, cream with cream is such a fluffy and delicate cheese cream that it simply melts in the mouth.\n\n\nDiscover the taste of nature and pamper yourself with the fluffy recipe of Almette fresh cheese cream and in other combinations: with greenery, yogurt, horseradish or green onion and basil.",
+      "ro": "Făcută din lapte de vacă și ingrediente naturale, Almette cu smântână este o cremă de brânză atât de pufoasă și delicată, încât pur și simplu se topește în gură.\n\n\nDescoperă gustul naturii și răsfață-te cu rețeta pufoasă de cremă de brânză proaspătă Almette și în alte combinații: cu verdeață, cu iaurt, cu hrean, cu ceapă verde sau cu roșii și busuioc."
+    },
+    "images": [
+      "/assets/images/products/p-39-1.png",
+      "/assets/images/products/p-39-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      },
+      {
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "caș",
+    "name": {
+      "en": "Flinted cheese",
+      "ro": "Caș zvântat"
+    },
+    "price": 17.79,
+    "unit": "225g",
+    "description": {
+      "en": "The cheese from the dairy with caimac is natural, without added proteins, stabilizers or preservatives.\n\nVery little poor, it is ideal for children.\n\nGood for fast snacks.It can be consumed as such or in oven snacks, pizza or pasta.\n\nCaimac's lactation has a 100% natural, Romanian, Romanian specialized dairy portfolio, created with passion and responsibility, from milk from the cows on its own farm.",
+      "ro": "Cașul zvântat de la Lăptăria cu caimac este natural, fără proteine adăugate, stabilizatori sau conservanți. \n\nFoarte puțin sărăt, este ideal pentru copii. \n\nBun pentru gustări rapide. Se poate consuma ca atare sau in gustări la cuptor, peste pizza sau paste.\n\nLăptăria cu caimac are în portofoliu lactate de specialitate 100% naturale, românești, create cu pasiune și responsabilitate, din lapte de la vacile din ferma proprie."
+    },
+    "images": [
+      "/assets/images/products/p-41-1.png",
+      "/assets/images/products/p-41-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      },
+      {
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "decalcificator",
+    "name": {
+      "en": "Bio Decalcifier with fast action for household appliances",
+      "ro": "Bio decalcificator cu acțiune rapidă pentru aparate de uz casnic"
+    },
+    "price": 19.5,
+    "unit": "250ml",
+    "description": {
+      "en": "Clean the limestone deposited on electrical appliances such as: coffee filter, espresso machine, egg boiler, water boiler, etc.",
+      "ro": "Curăță calcarul depus pe aparate electrice ca: filtru de cafea, espressor, fierbător ouă, fierbător de apă, etc."
+    },
+    "images": [
+      "/assets/images/products/p-43-1.png",
+      "/assets/images/products/p-43-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
+      },
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "desert",
+    "name": {
+      "en": "Dessert with peanuts and Maxi King caramel",
+      "ro": "Desert cu alune și caramel Maxi King"
+    },
+    "price": 2.85,
+    "unit": "35g",
+    "description": {
+      "en": "Kinder Maxi King is a snack that combines a unique and intriguing mixture of ingredients: a peanut and chocolate cover, a thin napolitan and a creamy milk and caramel filling.",
+      "ro": "Kinder Maxi King este o gustare ce îmbină un amestec unic și intrigant de ingrediente: un înveliș de alune și ciocolată, o napolitană subțire și o umplutură cremoasă de lapte și caramel.\n"
+    },
+    "images": [
+      "/assets/images/products/p-45-1.png",
+      "/assets/images/products/p-45-2.png",
+      "/assets/images/products/p-45-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "detergent",
+    "name": {
+      "en": "Maxpower Pomegranate dish detergent",
+      "ro": "Detergent de vase MaxPower Pomegranate"
+    },
+    "price": 15.99,
+    "unit": "650ml",
+    "description": {
+      "en": "Transform the dishwasher in a pleasure with Fairy Max Power due to the easiest to use in the fair range.\n\nThe design is upside down and comes without a lid, for fast and easy dosage.\n\nFor flawless cleaning, Fairy removes difficult fat and dirt, ensuring a quick washing.\n\nA single drop creates sufficient foam for the vessels to be clean and impeccable.",
+      "ro": "Transformă spălatul vaselor într-o plăcere cu Fairy Max Power datorită sticlei cel mai ușor de utilizat din gama Fairy.\n\nDesignul este cu susul în jos și vine fără capac, pentru dozare rapidă și ușoară.\n\nPentru o curățare impecabilă, Fairy îndepărtează grăsimea și murdăria dificilă, asigurând o spălare rapidă.\n\nO singură picătură creează spumă suficientă pentru că vasele să fie curate și impecabile."
+    },
+    "images": [
+      "/assets/images/products/p-46-1.png",
+      "/assets/images/products/p-46-2.png",
+      "/assets/images/products/p-46-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "bucate",
+    "name": {
+      "en": "Mini ice cream cornets with vanilla aroma and chocolate pieces",
+      "ro": "Mini cornete de îngheţată cu aromă de vanilie şi cu bucăţi de ciocolată"
+    },
+    "price": 23.49,
+    "unit": "8x25ml",
+    "description": {
+      "en": "Mini cornets (24%) of vanilla flavor ice cream and chocolate chocolate (4%), wrapped in chocolate with alpine milk (22%).",
+      "ro": "Mini cornete (24%) de îngheţată cu aromă de vanilie şi cu bucăţi de ciocolată cu lapte alpin (4%), învelite în ciocolată cu lapte alpin (22%)."
+    },
+    "images": [
+      "/assets/images/products/p-48-1.png",
+      "/assets/images/products/p-48-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Ice Cream",
+          "ro": "Înghețată"
+        },
+        "slug": "ice-cream"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "mâncare pentru câini",
+    "name": {
+      "en": "Reward for dogs, pressed bone beef 10cm",
+      "ro": "Recompensă pentru câini, os presat carne vită 10cm"
+    },
+    "price": 4.19,
+    "unit": "100g",
+    "description": {
+      "en": "Pressed bone made of 100% beef leather.Proteins: 75%, 2%fat, 1%fiber, 2%ash, humidity 14%.",
+      "ro": "Os presat din piele de vită 100% piele de vită. Proteine: 75%, Grăsime 2%, Fibre 1%, Cenușă 2%, Umiditate 14%."
+    },
+    "images": [
+      "/assets/images/products/p-49-1.png",
+      "/assets/images/products/p-49-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "produse terminate",
+    "name": {
+      "en": "Tartful salt mixture",
+      "ro": "Amestec tartinabil sărat"
+    },
+    "price": 17.99,
+    "unit": "200g",
+    "description": {
+      "en": "Tartonable right from the moment it is removed from the refrigerator, it is the perfect pair of fried bread.It is ideal for preparing butter creams with fresh greens such as parsley, dill or chip.",
+      "ro": "Tartinabil chiar din momentul în care este scos din frigider, este perechea perfectă a pâinii prăjite. Este ideal pentru prepararea cremelor de unt cu verdețuri proaspete cum ar fi pătrunjelul, mărarul sau chivesul."
+    },
+    "images": [
+      "/assets/images/products/p-52-1.png",
+      "/assets/images/products/p-52-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "peşte",
+    "name": {
+      "en": "Piece of fish",
+      "ro": "Chifteluțe din pește"
+    },
+    "price": 20.99,
+    "unit": "170g",
+    "description": {
+      "en": "Meatballs obtained from carp and phytophagus fillets, fried in refined sunflower oil.\n\nThe product can be consumed as such or can be warmed in the microwave.",
+      "ro": "Chifteluțe obținute din fileuri de crap și fitofag, prăjite în ulei rafinat de floarea soarelui.\n\nProdusul se poate consuma ca atare sau se poate încălzi la cuptorul cu microunde.\n"
+    },
+    "images": [
+      "/assets/images/products/p-53-1.png",
+      "/assets/images/products/p-53-2.png",
+      "/assets/images/products/p-53-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Fish",
+          "ro": "Pește"
+        },
+        "slug": "fish"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "făină",
+    "name": {
+      "en": "Higher white wheat flour",
+      "ro": "Făină de grâu albă superioară"
+    },
+    "price": 5.49,
+    "unit": "1kg",
+    "description": {
+      "en": "From this upper flour, you get a dough that is easily kneaded and grows beautifully.\n\nWhen you leave it to the dough, the dough doubles its volume and becomes ideal for modeling.",
+      "ro": "Din această făină superioară, obții un aluat care se frământă cu ușurință și crește frumos.\n\nCând îl lași la dospit, aluatul își dublează volumul și devine ideal pentru modelat."
+    },
+    "images": [
+      "/assets/images/products/p-54-1.png",
+      "/assets/images/products/p-54-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "frankfurter",
+    "name": {
+      "en": "Crenvurști Frankfurter",
+      "ro": "Crenvurști Frankfurter"
+    },
+    "price": 8.39,
+    "unit": "180g",
+    "description": {
+      "en": "Pork branches in natural membrane.",
+      "ro": "Crenvurști din carne de porc în membrană naturală."
+    },
+    "images": [
+      "/assets/images/products/p-57-1.png",
+      "/assets/images/products/p-57-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "pui congelat",
+    "name": {
+      "en": "Chicken Coquet",
+      "ro": "Pui Coquelet"
+    },
+    "price": 27.89,
+    "unit": "550g",
+    "description": {
+      "en": "French specialty with tradition, Coquet is a raised farm chicken.He is famous for his authentic taste of country chicken, with fine and fragile meat.Being fed with corn, it has a slightly yellowish color.",
+      "ro": "Specialitate franțuzească cu tradiție, Coquelet este un pui de fermă crescut în Bretagne. Este renumit pentru gustul lui autentic de pui de țară, cu carne fină și fragedă. Fiind hrănit cu porumb, are o culoare ușor gălbuie."
+    },
+    "images": [
+      "/assets/images/products/p-58-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Chicken",
+          "ro": "Pui"
+        },
+        "slug": "chicken"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "desert congelat",
+    "name": {
+      "en": "Pastry dough",
+      "ro": "Aluat foietaj"
+    },
+    "price": 11.49,
+    "unit": "800g",
+    "description": {
+      "en": "Manifest your creativity in the kitchen, with the help of the dough for the mill. Prepare the most delicious snacks in unique, sweet or salty combinations.",
+      "ro": "Manifestă-ți creativitatea în bucătărie, cu ajutorul aluatului pentru foietaj Morărița. Pregătește cele mai delicioase gustări în combinații inedite, dulci sau sărate.\n"
+    },
+    "images": [
+      "/assets/images/products/p-59-1.png",
+      "/assets/images/products/p-59-2.png",
+      "/assets/images/products/p-59-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      },
+      {
+        "name": {
+          "en": "Pie",
+          "ro": "Plăcinte"
+        },
+        "slug": "pie"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "mese congelate",
+    "name": {
+      "en": "Crispy chicken wings",
+      "ro": "Aripioare de pui crispy"
+    },
+    "price": 39.99,
+    "unit": "1kg",
+    "description": {
+      "en": "Chicken wings covered with a crisp crust.\nThe wings are fresh, obtained from chickens and eviscerated within 12 hours after loading in the chicken farm.\nThe wings are subjected to the technological process: rolling in brine and additives, crisp wrapping, oil frying, cooking by applying steam, freezing and packaging technology.",
+      "ro": "Aripioare de pui acoperite cu o crustă crocantă de pesmet.\nAripile sunt proaspete, obținute de la pui tăiați și eviscerați în 12 ore de la încărcarea în ferma de pui.\nAripile sunt supuse procesului tehnologic: rostogolire în saramură și aditivi, învelire crocantă, prăjire în ulei, gătire prin aplicarea tehnologiei cu abur, congelare și ambalare."
+    },
+    "images": [
+      "/assets/images/products/p-62-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Chicken",
+          "ro": "Pui"
+        },
+        "slug": "chicken"
+      },
+      {
+        "name": {
+          "en": "Fast Food",
+          "ro": "Fast Food"
+        },
+        "slug": "fast-food"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "produse congelate din cartofi",
+    "name": {
+      "en": "Potatoes straw, prepare and frozen 10mm",
+      "ro": "Cartofi pai, preprăjiți și congelați 10mm"
+    },
+    "price": 14.99,
+    "unit": "1kg",
+    "description": {
+      "en": "This product is obtained from potatoes that are washed, sorted, cleaned, cut, whitening, dry, fried in vegetable oil, freezed and packaged.",
+      "ro": "Acest produs este obținut din cartofi care sunt spălați, sortați, curățați, tăiați, albiți, uscați, prăjiți în ulei vegetal, congelați rapid și ambalați.\n"
+    },
+    "images": [
+      "/assets/images/products/p-63-1.png",
+      "/assets/images/products/p-63-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "slug": "frozen-vegetables"
+      },
+      {
+        "name": {
+          "en": "Fast Food",
+          "ro": "Fast Food"
+        },
+        "slug": "fast-food"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "suc de fructe/legume",
+    "name": {
+      "en": "Fruit juice Mystic Dragon",
+      "ro": "Suc de fructe Mystic Dragon"
+    },
+    "price": 3.05,
+    "unit": "200ml",
+    "description": {
+      "en": "Discover the original Capri Sun.Perfect for family days, at noon, picnics, activities after school, on the go or just because you want.Tasty, refreshing and loved by generations.",
+      "ro": "Descoperiți originalul Capri Sun. Perfect pentru zilele în familie, la prânz, picnicuri, activități după școală, din mers sau doar pentru că ai chef. Gustos, răcoritor și iubit de generații."
+    },
+    "images": [
+      "/assets/images/products/p-65-1.png",
+      "/assets/images/products/p-65-2.png",
+      "/assets/images/products/p-65-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "slug": "juice"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "strugurii",
+    "name": {
+      "en": "White grapes without pips",
+      "ro": "Struguri albi fără sâmburi"
+    },
+    "price": 9.99,
+    "unit": "500g",
+    "description": {
+      "en": "White grapes without pips 500g.",
+      "ro": "Struguri albi fără sâmburi 500g.\n"
+    },
+    "images": [
+      "/assets/images/products/p-66-1.png",
+      "/assets/images/products/p-66-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Fresh Fruits",
+          "ro": "Fructe Proaspete"
+        },
+        "slug": "fresh-fruits"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "șuncă",
+    "name": {
+      "en": "Prague ham",
+      "ro": "Șuncă Praga"
+    },
+    "price": 11.49,
+    "unit": "150g",
+    "description": {
+      "en": "Prague Matache Măcelaru's ham is made of pork pulp and subtly seasoned with delicate spices for you to enjoy a perfect snack at any time.",
+      "ro": "Șunca Praga Matache Măcelaru’ este preparată din pulpă de porc și asezonată subtil cu mirodenii delicate pentru ca tu să te bucuri oricând de o gustare perfectă."
+    },
+    "images": [
+      "/assets/images/products/p-68-1.png",
+      "/assets/images/products/p-68-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "carne de hamburger",
+    "name": {
+      "en": "Beef meat for burger",
+      "ro": "Carne de vita pentru burger"
+    },
+    "price": 22.59,
+    "unit": "2x150g",
+    "description": {
+      "en": "Beef hamburger with salt, without other spices. Produced with meat matured under special temperature/humidity/ventilation conditions.\n\nRomanian product.\n\nSAMCOM are specialists in the meat industry, always showing professionalism and quality in delivering the best beef in Romania.",
+      "ro": "Hamburger de vită cu sare, fară alte condimente. Produs cu carne maturată în condiții speciale de temperatură/umiditate/ventilație.\n\nProdus românesc.\n\nSAMCOM sunt specialiști în industria cărnii, dând mereu dovadă de profesionalism și calitate în livrarea celei mai bune cărni de vită din România."
+    },
+    "images": [
+      "/assets/images/products/p-69-1.png",
+      "/assets/images/products/p-69-2.png",
+      "/assets/images/products/p-69-3.png",
+      "/assets/images/products/p-69-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      },
+      {
+        "name": {
+          "en": "Fast Food",
+          "ro": "Fast Food"
+        },
+        "slug": "fast-food"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "branza tare",
+    "name": {
+      "en": "Formagia cheese",
+      "ro": "Brânză Formagia"
+    },
+    "price": 14.99,
+    "unit": "180g",
+    "description": {
+      "en": "Formagia cheese is maturated at least 9 months and is produced after a traditional recipe, with great care.\n\nIt has the delicate taste of cow's milk, with a spicy aroma note and a subtle accent of fruit.\n\nThis fine combination turns cooking into a real pleasure, with a note of Italian imagination.\n\nFormagia means cheese and life, in Italian style.The Formagia brand was created out of love for Italian style kitchen, making the meals extremely fast and easy.Formagia's cheeses combine the highest quality with a unique Italian character.",
+      "ro": "Brânză Formagia se maturează minim 9 luni și este produsă după o rețeta tradițională, cu multă atenție. \n\nAre gustul delicat al laptelui de vacă, cu o notă de aromă picantă și un accent subtil de fructe. \n\nAceastă combinație fină transformă gătitul într-o adevărată plăcere, cu o notă de imaginație italiană.\n\nFormagia înseamnă brânză și viață, în stil italian. Marca Formagia a fost creată din dragoste pentru bucătăria în stil italian, făcând mesele extrem de rapide și ușoare. Brânzeturile Formagia combină cea mai înaltă calitate cu un caracter italian, unic."
+    },
+    "images": [
+      "/assets/images/products/p-70-1.png",
+      "/assets/images/products/p-70-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ierburi",
+    "name": {
+      "en": "Provence herbs",
+      "ro": "Ierburi de Provence"
+    },
+    "price": 3.89,
+    "unit": "10g",
+    "description": {
+      "en": "This successful mix of Provence herbs will carry you directly in the heart of France, in its villages with special flavors, where it is cooked over low heat, so that the best taste of these herbs is highlighted.It is a traditional French mixture that best suits baked potatoes, fish, vegetables, salads, cheese and pizza.",
+      "ro": "Acest mix reușit de Ierburi de Provence te va purta direct în inima Franței, în satele sale cu arome deosebite, unde se gătește la foc mic, astfel încât cel mai bun gust al acestor ierburi să fie scos în evidență. Este un amestec tradițional franțuzesc care se potrivește cel mai bine cu cartofi copți, pește, legume, salate, brânzeturi și pizza."
+    },
+    "images": [
+      "/assets/images/products/p-71-1.png",
+      "/assets/images/products/p-71-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "Miere",
+    "name": {
+      "en": "Pineapple and honey lemonade",
+      "ro": "Limonadă ananas și miere"
+    },
+    "price": 13.99,
+    "unit": "500ml",
+    "description": {
+      "en": "Remineralized and filtered water by double osmosis, organic lemon juice and a splash of honey from a small producer in Romania.\n\nPineapple freshly cleaned of leaves, chopped and added to the recipe, not \"pineapple essences\" or canned pineapple.\n\nThe glass packing is washed, rinsed and sterilized",
+      "ro": "Apă remineralizată și filtrată prin dublu osmoză, suc de lămâie bio și un strop de miere de la un producător mic din România.\n\nAnanas proaspăt curățat de frunze, tăiat mărunt și  adăugat în rețetă, nu \"esențe de ananas\" sau ananas de la conservă.\n\nAmbalajul de sticlă este spălat, clătit și sterilizat"
+    },
+    "images": [
+      "/assets/images/products/p-72-1.png",
+      "/assets/images/products/p-72-2.png",
+      "/assets/images/products/p-72-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Juice",
+          "ro": "Sucuri"
+        },
+        "slug": "juice"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "înghețată",
+    "name": {
+      "en": "Mini ice cream cornets with vanilla aroma and chocolate pieces",
+      "ro": "Mini cornete de îngheţată cu aromă de vanilie şi cu bucăţi de ciocolată"
+    },
+    "price": 23.49,
+    "unit": "8x25ml",
+    "description": {
+      "en": "Mini cornets (24%) of vanilla flavor ice cream and chocolate chocolate (4%), wrapped in chocolate with alpine milk (22%).",
+      "ro": "Mini cornete (24%) de îngheţată cu aromă de vanilie şi cu bucăţi de ciocolată cu lapte alpin (4%), învelite în ciocolată cu lapte alpin (22%)."
+    },
+    "images": [
+      "/assets/images/products/p-75-1.png",
+      "/assets/images/products/p-75-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Ice Cream",
+          "ro": "Înghețată"
+        },
+        "slug": "ice-cream"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "cafea instant",
+    "name": {
+      "en": "Instant coffee",
+      "ro": "Cafea instant"
+    },
+    "price": 14.5,
+    "unit": "100g",
+    "description": {
+      "en": "A tasty coffee, 100% traditional Brazilian, the delight of your relaxation moments.",
+      "ro": "O cafea savuroasă, 100% tradițional braziliană, deliciul clipelor tale de relaxare."
+    },
+    "images": [
+      "/assets/images/products/p-76-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Coffee",
+          "ro": "Cafea"
+        },
+        "slug": "coffee"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "gem",
+    "name": {
+      "en": "Biscuits with apple jam",
+      "ro": "Biscuiți cu gem de mere"
+    },
+    "price": 12.9,
+    "unit": "250g",
+    "description": {
+      "en": "Caor di mela biscuits are flavored pastry delicacies, filled with 100% Italian apple jam, decorated with cubes, collected exclusively from the Emilia Romagna region.",
+      "ro": "Biscuiții Cuor di Mela sunt delicatese de patiserie aromată, umpluți cu gem de mere 100% italiene, ornați cu mere cubulețe, colectate exclusiv din regiunea Emilia Romagna."
+    },
+    "images": [
+      "/assets/images/products/p-77-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Cookies",
+          "ro": "Biscuiți"
+        },
+        "slug": "cookies"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ketchup",
+    "name": {
+      "en": "Tomato ketchup",
+      "ro": "Ketchup de roșii"
+    },
+    "price": 8.15,
+    "unit": "342g",
+    "description": {
+      "en": "Grosous, rich ketchup that comes from sweet, succulent tomatoes, sun -baked tomatoes.",
+      "ro": "Ketchup gros, bogat, care provine din roșii dulci, suculente, roșii coapte la soare."
+    },
+    "images": [
+      "/assets/images/products/p-78-1.png",
+      "/assets/images/products/p-78-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      },
+      {
+        "name": {
+          "en": "Fast Food",
+          "ro": "Fast Food"
+        },
+        "slug": "fast-food"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "prosoape de bucătărie",
+    "name": {
+      "en": "Monorola Practical kitchen towels 2 layers, 355 sheets",
+      "ro": "Monorolă prosoape de bucătărie Practico 2 straturi, 355 foi"
+    },
+    "unit": "355 buc",
+    "price": 14.9,
+    "description": {
+      "en": "The practical OTI towels are strongly absorbing, keeping their resistance, so we can rely on them in the most difficult situations.\n\nIn solving household chores, it is always necessary for a useful product that helps in a lot of situations: deleting plates, hands, vegetables and freshly washed vegetables, food stains, condensation.",
+      "ro": "Prosoapele Oti Practico sunt puternic absorbante, păstrându-și rezistența, astfel încât ne putem baza pe ele în cele mai dificile situații.\n\nÎn rezolvarea treburilor casnice este nevoie întotdeauna de un produs util ce ajută într-o mulțime de situații: ștergerea farfuriilor, a mâinilor, a legumelor și fructelor proaspăt spălate, a petelor de mâncare, a condensului."
+    },
+    "images": [
+      "/assets/images/products/p-79-1.png",
+      "/assets/images/products/p-79-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "lichior",
+    "name": {
+      "en": "Liqueur 21% alc",
+      "ro": "Lichior 21% alc"
+    },
+    "price": 72.5,
+    "unit": "700ml",
+    "description": {
+      "en": "Malibu is the rum that brings the joy of summer throughout the year, it is the basis of the most famous summer cocktails, and a successful example would be the pine.Malibu at the base is a rum that after the distillation is left for a maximum of one year and then add the coconut extract.This drink is the number 1 for sale in the category of drinks, its features turn it into a versatile drink with unique flavors and notes.",
+      "ro": "Malibu este romul ce aduce bucuria verii pe tot parcursul anului, este baza celor mai renumite cocktailuri de vară, iar un exemplu reușit ar fi Pină Colada. Malibu la bază este un rom care după distilare se lasă la maturat maxim un an iar apoi se adaugă extract din nucă de cocos. Aceasta băutură este numărul 1 la vânzare pe categoria să de băuturi, caracteristiciile sale o transformă într-o băutură versatilă cu arome și note unice."
+    },
+    "images": [
+      "/assets/images/products/p-82-1.png",
+      "/assets/images/products/p-82-2.png",
+      "/assets/images/products/p-82-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "lichior (aperitiv)",
+    "name": {
+      "en": "Liqueur 45% alc",
+      "ro": "Lichior 45% alc"
+    },
+    "price": 78.99,
+    "unit": "700ml",
+    "description": {
+      "en": "Pastis de Marseille is an assortment with a strong flavor of licorice and star anise, which is served diluted with very cold water.Ricard specialists travel to southern China to select the best star anise, which is locally distilled to keep its aroma and transformed into anise oil.As for the flavor of licorice, even things are not more handy here, but it is known that to create a product of the highest quality, it takes time, dedication and top ingredients.Thus, the sweet wood is picked from the banks of the Euphrates keeping only the roots, which are subsequently dried in the sun.\n\nThe two ingredients are perfectly dosed and harmonized to create this iconic drink that respects the original recipe created by Paul Ricard in 1932.\n\n\n\n\nTasting notes:\n\nSmell: fresh and intense, dominated by rich anise and licorice notes.\n\nTaste: powerful aniseed flavors, complemented with fennel, peppermint, licorice and lemon accents.\n\nColor: amber.A splash of water blurs the drink.",
+      "ro": "Pastis de Marseille este un sortiment cu aromă puternică de licorice şi anason stelat, care se serveşte diluat cu apă foarte rece. Specialiştii Ricard călătoresc în sudul Chinei pentru a selecta cel mai bun anason stelat, care este distilat local pentru a-i păstra cât mai bine aroma şi transformat în ulei de anason. În ceea ce priveşte aroma de licorice, nici aici lucrurile nu sunt mai la îndemână, însă se ştie că pentru a crea un produs de cea mai bună calitate, e nevoie de timp, dedicare şi ingrediente de top. Astfel, lemnul dulce este cules de pe malurile Eufratului păstrând doar rădăcinile, care sunt ulterior uscate la soare.\n\nCele două ingrediente sunt perfect dozate şi armonizate pentru a crea această băutură iconică ce respectă reţeta originală creată de Paul Ricard în anul 1932.\n\n\n\n\nNotele degustării:\n\nMiros: Proaspăt şi intens, dominat de note bogate de anason şi licorice.\n\nGust: Arome puternice de anason, completate cu accente de fenicul, mentă, licorice şi lămâie.\n\nCuloare: Ambră. Un strop de apă înceţoşează băutura."
+    },
+    "images": [
+      "/assets/images/products/p-84-1.png",
+      "/assets/images/products/p-84-2.png"
+    ]
+  },
+  {
+    "wordToSearch": "demachiant",
+    "name": {
+      "en": "Baphasic eye cleaner",
+      "ro": "Demachiant bifazic pentru ochi"
+    },
+    "price": 17.99,
+    "unit": "125ml",
+    "description": {
+      "en": "NIVEA eye makeup removal removes even the most resistant makeup.The sensitive area of the eyes is efficient and delicate, and the genes are protected.Characteristics: The formula enriched with blue extract quickly dissolves even the very water -resistant mascara and protects the genes due to the biphasic formula.It does not leave a fat sensation on the skin.For delicate makeup and neat genes.",
+      "ro": "Demachiantul pentru ochi bifazic Nivea îndepărtează chiar și cel mai rezistent machiaj. Zona sensibilă a ochilor este curățată eficient și delicat, iar genele sunt protejate. Caracteristici: formula îmbogățită cu extract de albăstrele dizolvă rapid chiar și rimelul foarte rezistent la apă și protejează genele datorită formulei bifazice. Nu lasă o senzație grasă pe piele. Pentru demachiere delicată și gene îngrijite."
+    },
+    "images": [
+      "/assets/images/products/p-87-1.png",
+      "/assets/images/products/p-87-2.png"
+    ]
+  },
+  {
+    "wordToSearch": "margarină",
+    "name": {
+      "en": "Product tartinable vegetable appetite",
+      "ro": "Produs tartinabil vegetal Apetit"
+    },
+    "price": 3.99,
+    "unit": "250g",
+    "description": {
+      "en": "Product suitable for a vegetarian and post regimen.",
+      "ro": "Produs potrivit pentru un regim vegetarian și pentru post."
+    },
+    "images": [
+      "/assets/images/products/p-89-1.png",
+      "/assets/images/products/p-89-2.png",
+      "/assets/images/products/p-89-3.png",
+      "/assets/images/products/p-89-4.png",
+      "/assets/images/products/p-89-5.png",
+      "/assets/images/products/p-89-6.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "maioneză",
+    "name": {
+      "en": "Mayo sauce",
+      "ro": "Sos de maioneză"
+    },
+    "price": 11.5,
+    "unit": "210ml",
+    "description": {
+      "en": "Hellmann's mayonnaise sauce has a creamy consistency and a special taste.Chicken eggs were used in the open air.",
+      "ro": "Sosul de maioneză Hellmann's are o consistenţă cremoasă și un gust deosebit. Au fost folosite ouă de găini crescute în aer liber."
+    },
+    "images": [
+      "/assets/images/products/p-90-1.png",
+      "/assets/images/products/p-90-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      },
+      {
+        "name": {
+          "en": "Fast Food",
+          "ro": "Fast Food"
+        },
+        "slug": "fast-food"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "carne",
+    "name": {
+      "en": "Minced beef",
+      "ro": "Carne tocată de vită"
+    },
+    "price": 22.29,
+    "unit": "500g",
+    "description": {
+      "en": "Refrigerated product packaged in protective atmosphere.\n\nRomanian product.\n\nThe color and smell can be influenced by packing;They return after a maximum of 15 minutes from the opening of the packaging.\n\nFat content less than 20%.\n\nCollagen/protein ratio less than 15%.\n\nSamcom are specialists in the meat industry, always proving professionalism and quality in the delivery of the best beef in Romania.",
+      "ro": "Produs refrigerat ambalat în atmosferă protectoare.\n\nProdus românesc.\n\nCuloarea și mirosul pot fi influențate de ambalare; acestea revin după maxim 15 minute de la deschidere ambalajului.\n\nConținut de grăsime mai mic de 20%.\n\nRaport colagen/proteină mai mic de 15%.\n\nSAMCOM sunt specialiști în industria cărnii, dând mereu dovadă de profesionalism și calitate în livrarea celei mai bune cărni de vită din România. "
+    },
+    "images": [
+      "/assets/images/products/p-91-1.png",
+      "/assets/images/products/p-91-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "tartine de carne",
+    "name": {
+      "en": "Pastable pork from pork, turkey and pork liver,",
+      "ro": "Pateu tartinabil din carne de porc, curcan și ficat de porc"
+    },
+    "price": 9.99,
+    "unit": "125g",
+    "description": {
+      "en": "Fine, tartable pate made of pork liver and turkey meat that is based on a recipe adapted to the needs of the little ones.The product is extremely attractive to consumers and thanks to the reusable teddy bear.\nIt does not contain flavor enhancers, artificial dyes, synthetic flavors, gluten and lactose.",
+      "ro": "Pateu fin, tartinabil realizat din ficat de porc și carne de curcan ce are la bază o rețetă adaptată nevoilor celor mici. Produsul este extrem de atractiv pentru consumatori și datorită ambalajului reutilizabil în formă de ursuleț.\nNU conţine potenţiatori de aromă, coloranţi artificiali, arome sintetice, gluten şi lactoză."
+    },
+    "images": [
+      "/assets/images/products/p-92-1.png",
+      "/assets/images/products/p-92-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "muştar",
+    "name": {
+      "en": "Classic mustard",
+      "ro": "Muștar clasic"
+    },
+    "price": 5.99,
+    "unit": "300g",
+    "description": {
+      "en": "Simple and tasty, the famous mustard in Tecuci is closer to you.",
+      "ro": "Simplu și gustos, celebrul muștar din Tecuci e mai aproape de tine."
+    },
+    "images": [
+      "/assets/images/products/p-94-1.png",
+      "/assets/images/products/p-94-2.png",
+      "/assets/images/products/p-94-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "servetele",
+    "name": {
+      "en": "White facial wipes",
+      "ro": "Șervețele faciale albe"
+    },
+    "unit": "150buc",
+    "price": 5.15,
+    "description": {
+      "en": "The facial napkins OTI are ideal for wiping your nose or cleaning the face.\n\nDue to their delicate but resistant texture at the same time, they are the best choice.\n\nTo be absent at any time in life (at home, picnic, office).",
+      "ro": "Șervețelele faciale OTI sunt ideale pentru ștergerea nasului sau demachierea feței.\n\nDatorită texturii lor delicate, dar rezistente în același timp, sunt cea mai bună alegere.\n\nDe nelipsit în orice moment din viață (acasă, la picnic, la birou)."
+    },
+    "images": [
+      "/assets/images/products/p-95-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "presă",
+    "name": {
+      "en": "Refined oil of first press sunflower",
+      "ro": "Ulei rafinat de floarea-soarelui de primă presă"
+    },
+    "price": 9.99,
+    "unit": "1ltr",
+    "description": {
+      "en": "Unisol from first press oil.",
+      "ro": "Unisol din ulei de primă presă."
+    },
+    "images": [
+      "/assets/images/products/p-96-1.png",
+      "/assets/images/products/p-96-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "gustare cu nuci",
+    "name": {
+      "en": "Brazilian nuts",
+      "ro": "Nuci braziliene"
+    },
+    "price": 24.99,
+    "unit": "200g",
+    "description": {
+      "en": "Brazil's nuts are rich in selenium.\n\nA walnut may contain 175% of the CDI (calculated daily intake).\n\nSelenium is an essential trace element, vital to the immune system, thyroid gland and cell growth.",
+      "ro": "Nucile de Brazilia sunt bogate în seleniu.\n\nO nucă poate conține 175% din CDI (aportul zilnic calculat).\n\nSeleniul este un oligoelement esențial, vital pentru sistemul imunitar, glanda tiroidă și creșterea celulelor."
+    },
+    "images": [
+      "/assets/images/products/p-97-1.png",
+      "/assets/images/products/p-97-2.png",
+      "/assets/images/products/p-97-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustări"
+        },
+        "slug": "snacks"
+      },
+      {
+        "name": {
+          "en": "Nuts",
+          "ro": "Alune"
+        },
+        "slug": "nuts"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "nuci/prune uscate",
+    "name": {
+      "en": "Chocolate cream nuts",
+      "ro": "Nuci cu cremă de ciocolată"
+    },
+    "price": 21.99,
+    "unit": "200g",
+    "description": {
+      "en": "Traditional dessert with crunchy coating and chocolate cream, ripe nuts and rum aroma.\n\nFilled nuts are very loved by Romanians and are never missing from the table, especially for holidays.",
+      "ro": "Desert tradițional cu înveliș crocant și cremă de ciocolată, cu nuci coapte și aromă de rom.\n\nNucile umplute sunt foarte iubite de români și nu lipsesc niciodată de pe masă, mai ales de sărbători."
+    },
+    "images": [
+      "/assets/images/products/p-98-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Candy",
+          "ro": "Bomboane"
+        },
+        "slug": "candy"
+      },
+      {
+        "name": {
+          "en": "Nuts",
+          "ro": "Alune"
+        },
+        "slug": "nuts"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ulei",
+    "name": {
+      "en": "Tuna in olive oil",
+      "ro": "Ton în ulei de măsline"
+    },
+    "price": 20.22,
+    "unit": "160g",
+    "description": {
+      "en": "The unique and unmistakable aroma of the Rio Mare tuna, famous for its distinctive pink color and for its high quality.The high quality is guaranteed by the strict controls and the particularly rigorous cleaning processes;The tuna is preserved only in quality olive oil to which is added a high salt tip.",
+      "ro": "Aroma unică și inconfundabilă a tonului Rio Mare, renumit pentru culoarea sa roz distinctivă și pentru calitatea sa ridicată. Calitatea ridicată este garantată de controalele stricte și de procesele de curățare deosebit de riguroase; tonul este conservat doar în ulei de măsline de calitate la care se adaugă un vârf de sare de mare."
+    },
+    "images": [
+      "/assets/images/products/p-99-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Fish",
+          "ro": "Pește"
+        },
+        "slug": "fish"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ceapa",
+    "name": {
+      "en": "Green onion",
+      "ro": "Ceapă verde"
+    },
+    "price": 1.39,
+    "unit": "1buc",
+    "description": {
+      "en": "Green onion, freshly picked.",
+      "ro": "Ceapă verde, proaspăt culeasă."
+    },
+    "images": [
+      "/assets/images/products/p-100-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
+        },
+        "slug": "fresh-vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "alte legume",
+    "name": {
+      "en": "Cubes for Bio vegetable soup",
+      "ro": "Cuburi pentru supă de legume bio"
+    },
+    "price": 11.29,
+    "unit": "100g",
+    "description": {
+      "en": "Recipe made with four different vegetables: onion, celery, carrot and parsley.",
+      "ro": "Rețetă făcută cu patru legume diferite: ceapă, țelină, morcov și pătrunjel."
+    },
+    "images": [
+      "/assets/images/products/p-103-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      },
+      {
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fructe/legume ambalate",
+    "name": {
+      "en": "Guarded fruit aroma Goldbears",
+      "ro": "Bomboane gumate cu aromă de fructe Goldbears"
+    },
+    "price": 5.49,
+    "unit": "100g",
+    "description": {
+      "en": "Gurable candy with fruit flavored, with soft texture.",
+      "ro": "Bomboane gumate cu aromă de fructe, cu textură moale."
+    },
+    "images": [
+      "/assets/images/products/p-104-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Candy",
+          "ro": "Bomboane"
+        },
+        "slug": "candy"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "Paste",
+    "name": {
+      "en": "Paste Spaghetti",
+      "ro": "Paste Spaghetti"
+    },
+    "price": 4.99,
+    "unit": "500g",
+    "description": {
+      "en": "Spaghetti are originally from Naples, Antonio Viviani being the one who named them in 1842, because they looked like pieces of string (\"spago\" in Italian).Their traditional diameter, medium in the universe of long pasta, makes them one of the most versatile types of pasta.",
+      "ro": "Spaghetti sunt originare din Napoli, Antonio Viviani fiind cel care le-a numit astfel în 1842, pentru că păreau niște bucăți de sfoară (“spago” în italiană). Diametrul lor tradițional, mediu în universul pastelor lungi, le face să fie unul dintre cele mai versatile tipuri de paste."
+    },
+    "images": [
+      "/assets/images/products/p-105-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "patiserie",
+    "name": {
+      "en": "Mini pastry with telemea",
+      "ro": "Mini patiserie cu telemea"
+    },
+    "price": 19.99,
+    "unit": "500g",
+    "description": {
+      "en": "Minipatiserie with Morarița telemea are the ideal choice for a moment of pampering, along with a glass of milk or yogurt.Serve them warm or cold, keep them all just for you or, better, share them with your lustful friends!",
+      "ro": "Minipatiserie cu telemea Morărița sunt alegerea ideală pentru un moment de răsfăț, alături de un pahar cu lapte sau iaurt. Servește-le calde sau reci, păstrează-le pe toate doar pentru tine sau, mai bine, împarte-le cu prietenii tăi pofticioși!\n"
+    },
+    "images": [
+      "/assets/images/products/p-106-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      },
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "îngrijirea animalelor de companie",
+    "name": {
+      "en": "Wet wipes for pets",
+      "ro": "Șervețele umede pentru animale de companie"
+    },
+    "price": 38.99,
+    "unit": "80 buc",
+    "description": {
+      "en": "Dermatologically tested products.\n\n\nCoal -based formula absorbs and eliminates unpleasant odors!\n\n\nAntibacterial effect!\n\nNo alcohol and parabens\nDelicate and soft, it does not affect the skin.\n\n\nPH specific to pets!\n\n\nSeal lid to keep moisture!\n\n\nIndicated even for animals with sensitive skin!",
+      "ro": "Produse testate dermatologic.\n\n\nFormula pe bază de cărbune absoarbe și elimina mirosurile neplăcute!\n\n\nEfect antibacterian!\n\nFără Alcool și Parabeni\nDelicate și catifelate, nu afectează pielea.\n\n\nPH specific animalelor de companie!\n\n\nCapac de sigilare pentru a păstra umiditatea!\n\n\nIndicate chiar și pentru animalele cu piele sensibilă!"
+    },
+    "images": [
+      "/assets/images/products/p-107-1.png",
+      "/assets/images/products/p-107-2.png",
+      "/assets/images/products/p-107-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "legume murate",
+    "name": {
+      "en": "Pickled mushrooms Nameko",
+      "ro": "Ciuperci murate Nameko"
+    },
+    "price": 21.5,
+    "unit": "580ml",
+    "description": {
+      "en": "Tasty and consistent, mushrooms have many benefits, contribute to maintaining a balanced diet and are all recognized for their special nutritional values. Nameko pickled mushrooms, with a slightly sour taste, can be a gasket, salad or snack itself.",
+      "ro": "Gustoase și consistente, ciupercile au numeroase beneficii, contribuie la menținerea unei alimentații echilibrate și toate sunt recunoscute pentru valorile lor nutriționale deosebite. Ciupercile murate Nameko, cu un gust ușor acrișor, pot constitui o garnitură, o salată sau o gustare în sine."
+    },
+    "images": [
+      "/assets/images/products/p-109-1.png",
+      "/assets/images/products/p-109-2.png",
+      "/assets/images/products/p-109-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fructe cu samburi",
+    "name": {
+      "en": "Cherries without pips",
+      "ro": "Vișine fără sâmburi"
+    },
+    "price": 16.98,
+    "unit": "400g",
+    "description": {
+      "en": "The cherries of the peasant house can be consumed as such, used for compotes, sweets, cakes, fruit salads, smoothie, juices.\n\n\n\nThe peasant house honors the name it bears and the Romanian tradition, collecting vegetables and fruits when they are perfectly ripe, thus excluding any use of dyes or aroma potentiators.\n\n\n\nSubsequently, they are frozen by a rapid freezing technique, within the first 3 hours after harvesting, ensuring the nutritional properties of food.\n\n\n\nThe packaging of the products is done carefully, and with the help of ultra-modern technologies, maintaining the superior quality of the vegetables.",
+      "ro": "Vișinele Casa Țărănească pot fi consumate ca atare, folosite la compoturi, dulcețuri, prăjituri, salate de fructe, smoothie, sucuri.\n\n\n\nCasa Țărănească face cinste numelui pe care îl poartă și tradiției românești, culegând legumele și fructele când sunt perfect coapte, excluzând astfel orice folosire a coloranților sau a potențiatorilor de aromă.\n\n\n\nUlterior, acestea sunt congelate printr-o tehnică de congelare rapidă, în primele 3 ore de la recoltare, asigurând păstrarea proprietăților nutritive ale alimentelor.\n\n\n\nAmbalarea produselor se face cu grijă, și cu ajutorul unor tehnologii ultra-moderne, păstrând calitatea superioară a legumelor.\n\n"
+    },
+    "images": [
+      "/assets/images/products/p-110-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Fruits",
+          "ro": "Fructe"
+        },
+        "slug": "fruits"
+      },
+      {
+        "name": {
+          "en": "Frozen Fruits",
+          "ro": "Fructe Congelate"
+        },
+        "slug": "frozen-fruits"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "Popcorn",
+    "name": {
+      "en": "Popcorn with salt",
+      "ro": "Popcorn cu sare"
+    },
+    "price": 3.99,
+    "unit": "80g",
+    "description": {
+      "en": "Good movies start with Chio Popcorn! Try Chio Microwave Popcorn with salt.",
+      "ro": "Filmele bune încep cu Chio Popcorn! Încearcă Chio Popcorn Microunde cu sare."
+    },
+    "images": [
+      "/assets/images/products/p-111-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustări"
+        },
+        "slug": "snacks"
+      },
+      {
+        "name": {
+          "en": "Popcorn",
+          "ro": "Popcorn"
+        },
+        "slug": "popcorn"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "porc",
+    "name": {
+      "en": "Pork tenderloin",
+      "ro": "Mușchiuleț de porc"
+    },
+    "price": 31.29,
+    "unit": "500g",
+    "description": {
+      "en": "Pork muscle packaged in casserole with protective atmosphere.",
+      "ro": "Mușchiuleț de porc ambalat în caserolă cu atmosferă protectoare."
+    },
+    "images": [
+      "/assets/images/products/p-112-1.png",
+      "/assets/images/products/p-112-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "produse din cartofi",
+    "name": {
+      "en": "Spice for fried potatoes",
+      "ro": "Condiment cartofi prăjiți"
+    },
+    "price": 9.89,
+    "unit": "140g",
+    "description": {
+      "en": "A combination of spices for added flavor when preparing fried potatoes or any other potato -based food.",
+      "ro": "O combinație de condimente pentru un plus de savoare atunci când pregătiți cartofi prăjiți sau orice altă mâncare pe bază de cartofi."
+    },
+    "images": [
+      "/assets/images/products/p-114-1.png",
+      "/assets/images/products/p-114-2.png",
+      "/assets/images/products/p-114-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "branza procesata",
+    "name": {
+      "en": "Pressed cheese not raclette min.48% fat",
+      "ro": "Brânză presată negătită Raclette min. 48% grăsime"
+    },
+    "price": 36.99,
+    "unit": "400g",
+    "description": {
+      "en": "Raclette cheese, special for thermal preparation.\n\nCombine the cheese after melting with potatoes, vegetables, biscuits or whatever you want.",
+      "ro": "Brânză raclette, specială pentru preparare termică.\n\nCombinați brânza după ce s-a topit cu cartofi, legume, biscuiți sau cu orice doriți, după poftă."
+    },
+    "images": [
+      "/assets/images/products/p-116-1.png",
+      "/assets/images/products/p-116-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "prosecco",
+    "name": {
+      "en": "Sparkling white wine Prosecco Treviso",
+      "ro": "Vin spumant alb brut Prosecco Treviso"
+    },
+    "price": 45.99,
+    "unit": "750ml",
+    "description": {
+      "en": "Sparkling wine obtained from Glera grapes, from the Treviso area, the famous historical Prosecco growth area.",
+      "ro": "Vin spumant obținut din struguri Glera, din zona Treviso, celebra zonă istorică de creștere Prosecco."
+    },
+    "images": [
+      "/assets/images/products/p-117-1.png",
+      "/assets/images/products/p-117-2.png",
+      "/assets/images/products/p-117-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "praf de budincă",
+    "name": {
+      "en": "Pudding powder with strawberry taste",
+      "ro": "Praf de budincă cu gust de căpşuni"
+    },
+    "price": 0.99,
+    "unit": "40g",
+    "description": {
+      "en": "The pudding is a traditional product and represents the favorite dessert of the whole family.\n\nThe pudding, the dessert offered and enjoyed with love is easy to prepare and sweetens the moments spent with loved ones.",
+      "ro": "Budinca este un produs tradițional și reprezintă desertul preferat al întregii familii.\n\nBudinca, desertul oferit și savurat cu dragoste este ușor de preparat și îndulcește momentele petrecute cu cei dragi."
+    },
+    "images": [
+      "/assets/images/products/p-118-1.png",
+      "/assets/images/products/p-118-2.png",
+      "/assets/images/products/p-118-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "vin roșu/ruș",
+    "name": {
+      "en": "Red wine Sangiovese",
+      "ro": "Vin roșu Sangiovese"
+    },
+    "price": 8.95,
+    "unit": "750ml",
+    "description": {
+      "en": "A wine born in the heart of Tuscany, on the hills of Greve in Chianti, 300 meters above sea level.\n\nIt presents a sporty character, appreciated both for its structure and freshness, and for its bouquet reminiscent of sweet violets and small red fruits.",
+      "ro": "Un vin născut în inima Toscanei, pe dealurile Greve în Chianti, la 300 de metri deasupra nivelului mării.\n\nPrezintă un caracter sportiv, apreciat atât pentru structură și prospețime, cât și pentru buchetul care amintește de violete dulci și fructe roșii mici."
+    },
+    "images": [
+      "/assets/images/products/p-120-1.png",
+      "/assets/images/products/p-120-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "orez",
+    "name": {
+      "en": "Rice",
+      "ro": "Orez"
+    },
+    "price": 12.5,
+    "unit": "1kg",
+    "description": {
+      "en": "The grains are large, remain whole and do not stick between them.",
+      "ro": "Boabele sunt mari, rămân întregi și nu se lipesc între ele."
+    },
+    "images": [
+      "/assets/images/products/p-121-1.png",
+      "/assets/images/products/p-121-2.png",
+      "/assets/images/products/p-121-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "rulouri de produse",
+    "name": {
+      "en": "Gluten-free corn rollers filled with coconut cream",
+      "ro": "Rulouri din porumb fără gluten umplute cu cremă de cocos"
+    },
+    "price": 2.25,
+    "unit": "18g",
+    "description": {
+      "en": "Corn rolls filled with coconut flavored cream.Specially designed for people with gluten intolerance.",
+      "ro": "Rulouri din porumb umplute cu cremă cu aromă de cocos. Special concepute pentru persoanele cu intoleranță la gluten."
+    },
+    "images": [
+      "/assets/images/products/p-122-1.png",
+      "/assets/images/products/p-122-2.png",
+      "/assets/images/products/p-122-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "rulouri/ chifle",
+    "name": {
+      "en": "Mini rolls with feta cheese",
+      "ro": "Mini rulouri cu brânză Feta"
+    },
+    "price": 21.89,
+    "unit": "800g",
+    "description": {
+      "en": "Rolls-Mini filled with feta cheese.\n\nMini alpha rollers with feta p.d.o.They have a rich filling and intense taste.\n\nThey are made with fine ingredients, of the highest quality, in country style.\n\nIdeal for those who follow a vegetable diet.",
+      "ro": "Rolls-mini umplute cu  brânză feta.\n\nMini rulourile alfa cu feta P.D.O. au o umplutură bogată și un gust intens.\n\nSunt făcute cu ingrediente fine, de cea mai bună calitate, în stil country.\n\nIdeale și pentru cei care urmează o dietă vegeteriană."
+    },
+    "images": [
+      "/assets/images/products/p-123-1.png",
+      "/assets/images/products/p-123-2.png",
+      "/assets/images/products/p-123-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      },
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "rădăcinoase",
+    "name": {
+      "en": "Root rail",
+      "ro": "Păstârnac rădăcină"
+    },
+    "price": 8.49,
+    "unit": "500g",
+    "description": {
+      "en": "Root rail 500g",
+      "ro": "Păstârnac rădăcină 500g\n"
+    },
+    "images": [
+      "/assets/images/products/p-124-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "slug": "frozen-vegetables"
+      },
+      {
+        "name": {
+          "en": "Fresh Vegetables",
+          "ro": "Legume Proaspete"
+        },
+        "slug": "fresh-vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "spirt",
+    "name": {
+      "en": "Sanitary alcohol 70%",
+      "ro": "Alcool sanitar 70%"
+    },
+    "price": 6.99,
+    "unit": "500ml",
+    "description": {
+      "en": "Biocide product used as a disinfectant for external use with basic bacterial and fungicidal activity.\n\nIt is used undiluted, spraying directly on the disinfecting surface, then deleted.\n\nApplication area - Human hygienic disinfection of surfaces, equipment and furniture that does not come in contact with food and feed, disinfection of walls and floors.",
+      "ro": "Produs biocid utilizat ca dezinfectant de uz extern cu activitate bacteriană și fungicidă de bază.\n\nSe folosește nediluat, pulverizând direct pe suprafața de dezinfectat, apoi se șterge. \n\nAria de aplicare - dezinfecția igienică umană a suprafețelor, echipamentelor și mobilierului ce nu vine în contact cu alimente și furaje, dezinfecția pereților și podelelor."
+    },
+    "images": [
+      "/assets/images/products/p-125-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "rom",
+    "name": {
+      "en": "ROM COFFEE 37.5% alc.",
+      "ro": "Rom Coffee 37.5% alc."
+    },
+    "price": 89.99,
+    "unit": "700ml",
+    "description": {
+      "en": "The rebels, the unconventional, the revolutionaries, these are the ones who appreciate at its true value Romul Dead Man's Fingers.Made by the rebels, for the rebels, the rum was born in The Rum & Crab Shack from St.IVES, Cornwall, the United Kingdom, to provide a modern alternative to the products on the market.Therefore, this rum has adopted various forms and flavors, to the taste of those who are far from the classic things.Dead Man's Fingers Coffee Rum, for example, was designed with coffee cream.For the basis of this expression, a blend of Roma from the Caribbean is used, which is then infused with fried coffee, and the result is fabulous.\n\nThe character of the rum perfectly balances the vanilla flavors with those of raisins and a subtle chocolate with oranges.The slightly spicy style, with notes of cloves and cumin, makes us look at this assortment as an excellent digestive, bottled in a statement for the pirates of our day.\n\n\n\n\nTasting notes:\n\nSmell: Fresh notes of fried coffee, complemented with fine touches of vanilla\n\nTaste: The aromas bring the coffee back, braided with vanilla accents, raisins, chocolate, cumin and cloves\n\nFinish: slightly spicy\n\nColor: amber",
+      "ro": "Rebelii, neconvenționalii, revoluționarii, aceștia sunt cei care apreciază la adevărata sa valoare romul Dead Man's Fingers. Realizat de către rebeli, pentru rebeli, romul a luat naștere în localul The Rum & Crab Shack din St. Ives, Cornwall, Marea Britanie, pentru a oferi o alternativă modernă la produsele existente pe piață. De aceea, acest rom a adoptat diverse forme și arome, pe gustul celor care sunt departe de lucrurile clasice. Dead Man's Fingers Coffee Rum de exemplu, a fost gândit având în centru cremozitatea cafelei. Pentru baza acestei expresii se folosește un blend de romuri din Caraibe, care se infuzează apoi cu cafea prăjită, iar rezultatul este unul fabulos.\n\nCaracterul romului echilibrează perfect aromele de vanilie cu cele de stafide și un iz subtil de ciocolată cu portocale. Stilul ușor condimentat, cu note de cuișoare și chimion ne face să privim însă acest sortiment şi ca pe un excelent digestiv, îmbuteliat într-o sticlă statement destinată piraților zilelor noastre.\n\n\n\n\nNotele degustării: \n\nMiros: Note proaspete de cafea prăjită, completate cu atingeri fine de vanilie\n\nGust: Aromele readuc în scenă cafeaua, împletită cu accente de vanilie, stafide, ciocolată, chimion și cuișoare\n\nFinish: Ușor condimentat\n\nCuloare: Ambră"
+    },
+    "images": [
+      "/assets/images/products/p-126-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      },
+      {
+        "name": {
+          "en": "Coffee",
+          "ro": "Cafea"
+        },
+        "slug": "coffee"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "Dressing pentru salata",
+    "name": {
+      "en": "Sauce for salad Caesar",
+      "ro": "Sos pentru salată Caesar"
+    },
+    "price": 3.49,
+    "unit": "50ml",
+    "description": {
+      "en": "Dressing for salad based on yogurt with cheese aroma.",
+      "ro": "Dressing pentru salată pe bază de iaurt cu aromă de brânză."
+    },
+    "images": [
+      "/assets/images/products/p-127-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "sare",
+    "name": {
+      "en": "Puffle with salt",
+      "ro": "Pufuleți cu sare"
+    },
+    "price": 1.59,
+    "unit": "85g",
+    "description": {
+      "en": "Globally, the puffs are bought by millions of consumers, thanks to their very high quality as well as the recipe and unique technology, which gives them a distinctive and delicious taste.The corn is chosen from the best farmers and the extrusion technology is patented internationally, unique in the world, and creates the fine and crisp texture for which tasto puffs are preferred by consumers everywhere.",
+      "ro": "La nivel global, pufuleții sunt cumpărați de milioane de consumatori, mulțumită calității lor foarte înalte precum și rețetei și tehnologiei unice, care le oferă un gust distinctiv și delicios. Mălaiul este ales de la cei mai buni agricultori iar tehnologia de extrudare este patentată la nivel internațional, unică în lume, și crează textura fină și crocantă pentru care pufuleții Gusto sunt preferați de consumatorii de pretutindeni."
+    },
+    "images": [
+      "/assets/images/products/p-128-1.png",
+      "/assets/images/products/p-128-2.png",
+      "/assets/images/products/p-128-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustări"
+        },
+        "slug": "snacks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "gustare sarata",
+    "name": {
+      "en": "Fried peanuts and salted 500g",
+      "ro": "Arahide prăjite și sărate 500g"
+    },
+    "price": 10.19,
+    "unit": "1kg",
+    "description": {
+      "en": "Crispy, tasty and natural peanuts, having many benefits and nutrients essential for an optimal health level.You can enjoy a good portion of delicious peanuts, which will give you energy and optimism wherever you are.",
+      "ro": "Arahide crocante, gustoase și naturale, având multe beneficii și nutrienți esențiali pentru un nivel de sănătate optim. Te poți bucura de o porție bună de arahide delicioase, care îți vor da energie și optimism oriunde vei fi."
+    },
+    "images": [
+      "/assets/images/products/p-129-1.png",
+      "/assets/images/products/p-129-2.png",
+      "/assets/images/products/p-129-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Snacks",
+          "ro": "Gustări"
+        },
+        "slug": "snacks"
+      },
+      {
+        "name": {
+          "en": "Nuts",
+          "ro": "Alune"
+        },
+        "slug": "nuts"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "sosuri",
+    "name": {
+      "en": "Tomato sauce",
+      "ro": "Sos roșii"
+    },
+    "price": 11.87,
+    "unit": "700g",
+    "description": {
+      "en": "Tomato sauce from the heart of Italy. The tomatoes have an unmistakable consistency, texture and shape, providing a thick sauce that you can literally eat with a fork. The tomatoes are of the best quality and are picked when they are perfectly ripe. They are passed through a sieve to create an authentic Italian sauce.",
+      "ro": "Sos de roșii din inima Italiei. Roșiile dispun de o inconfundabilă consistență, textură și forma, oferind un sos dens, pe care îl puteți literalmente mânca cu furculița. Roșiile sunt de de cea mai bună calitate si sunt culese in momentul în care sunt perfect coapte. Sunt trecute printr-o sită pentru a crea un sos autentic italienesc."
+    },
+    "images": [
+      "/assets/images/products/p-130-1.png",
+      "/assets/images/products/p-130-2.png",
+      "/assets/images/products/p-130-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "cârnat",
+    "name": {
+      "en": "Sausage sticks",
+      "ro": "Cârnați sticks"
+    },
+    "price": 12.49,
+    "unit": "170g",
+    "description": {
+      "en": "The sausage sticks have pork and spices in the composition and are packaged in the protective atmosphere that gives them freshness.",
+      "ro": "Cârnații sticks au în compoziție carne de porc și condimente și sunt ambalați în atmosferă protectoare ce le conferă prospețime."
+    },
+    "images": [
+      "/assets/images/products/p-131-1.png",
+      "/assets/images/products/p-131-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Pork",
+          "ro": "Porc"
+        },
+        "slug": "pork"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "brânză feliată",
+    "name": {
+      "en": "Original sliced cheese 5 slices",
+      "ro": "Brânză feliată Original 5 felii"
+    },
+    "price": 10.49,
+    "unit": "100g",
+    "description": {
+      "en": "The original Leerdammer is a Dutch semiter cheese, with slightly sweet, irresistible taste, with nuts.It can be a tasty snack for any time.\n\nIt is rich in calcium and has no preservatives.\n\nContains 5 slices packed in a practical, reseasible package.",
+      "ro": "Leerdammer Original este o brânză semitare olandeză, cu gust ușor dulce, irezistibil, cu note de nuci. Poate fi o gustare savuroasă pentru orice moment.\n\nEste bogat în calciu și nu are conservanți.\n\nConține 5 felii ambalate într-un pachet practic, resigilabil."
+    },
+    "images": [
+      "/assets/images/products/p-136-1.png",
+      "/assets/images/products/p-136-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "produse de gustare",
+    "name": {
+      "en": "Noodle soup with cow meat",
+      "ro": "Supă de tăiței cu carne de vita"
+    },
+    "price": 6.16,
+    "unit": "buc",
+    "description": {
+      "en": "Demae ramen with beef is a sweet and tangy pampering that literally warms the body and soul.Its sweet and tart aroma, refined with carefully selected ingredients, is the highlight of the original Asian taste and pure joy.",
+      "ro": "Demae ramen cu vită este un răsfăț dulce și tangy care încălzește literalmente corpul și sufletul. Aroma sa dulce și tartă, rafinată cu ingrediente atent selectate, este punctul culminant al gustului asiatic original și al bucuriei pure."
+    },
+    "images": [
+      "/assets/images/products/p-137-1.png",
+      "/assets/images/products/p-137-2.png",
+      "/assets/images/products/p-137-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Ready to Eat",
+          "ro": "Ready to Eat"
+        },
+        "slug": "ready-to-eat"
+      },
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Beef",
+          "ro": "Vită"
+        },
+        "slug": "beef"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "săpun",
+    "name": {
+      "en": "Caring hand wash liquid soap",
+      "ro": "Săpun lichid Caring"
+    },
+    "price": 16.9,
+    "unit": "500ml",
+    "description": {
+      "en": "Dove Caring Hand Wash liquid soap cleans, with an antibacterial effect, but does not dry the skin, as the ordinary soaps do.\n\nThe formula with ¼ moisturizing cream makes a soft foam, which moisturizes the hands during cleaning, leaving them fine and silky.\n\nThe gentle formula allows frequent use.",
+      "ro": "Săpunul lichid Dove Caring Hand Wash curăță, având un efect antibacterian, dar nu usucă pielea, aşa cum fac săpunurile obișnuite.\n\nFormula cu ¼ cremă hidratantă face o spumă catifelată, care hidratează mâinile în timpul curăţării, lăsându-le fine şi mătăsoase.\n\nFormula blândă permite folosirea frecventă."
+    },
+    "images": [
+      "/assets/images/products/p-138-1.png",
+      "/assets/images/products/p-138-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "sifon",
+    "name": {
+      "en": "Natural non-carbonated mineral water",
+      "ro": "Apă minerală naturală necarbogazoasă"
+    },
+    "price": 3.89,
+    "description": {
+      "en": "Flat Aqua Carpatica is a trace mineral water (low mineral content) recommended for optimal hydration. In addition, due to its low sodium content, it is an ideal water for a dietetic diet and recommended in sports activities that require a sustained effort, as it contributes to a large extent to the maintenance of balance and the physical and mental health of athletes.",
+      "ro": "Aqua Carpatica plată este o apă oligominerală (cu conținut redus de minerale) recomandată pentru o hidratare optimă. În plus, datorită conținutului scăzut de sodiu, este o apă ideală pentru un regim alimentar dietetic și recomandată în cadrul activităților sportive ce necesită depunerea unui efort susținut, deoarece contribuie într-o mare măsură la menținerea echilibrului și a sănătății fizice și psihice a sportivilor."
+    },
+    "images": [
+      "/assets/images/products/p-139-1.png",
+      "/assets/images/products/p-139-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "brânză moale",
+    "name": {
+      "en": "Soft salad cheese, cubes",
+      "ro": "Brânză moale pentru salată, cuburi"
+    },
+    "price": 9.99,
+    "unit": "270g",
+    "description": {
+      "en": "Soft cheese in brine is a key ingredient in salads or cooked dishes. The cubes with a creamy texture make it easy to add to various dishes, straight from the package.\n\nGrikios products will help you discover the true taste of Greece, and every bite will transport you to the picturesque places of the archipelago. \n\nGrikios is a journey into a culinary world full of flavors, inspired by the diverse and energetic Mediterranean cuisine, simple and healthy recipes.",
+      "ro": "Brânza moale în saramură este un ingredient cheie în salate sau mâncăruri gătite. Cuburile cu textură cremoasă o fac ușor de adăugat în diverse preparate, direct din ambalaj.\n\nProdusele Grikios te vor ajuta să descoperi adevăratul gust al Greciei, iar fiecare mușcătură te va purta în locurile pitorești ale arhipelagului. \n\nGrikios este o călătorie într-o lume culinară plină de arome, inspirată de bucătaria mediteraneană diversificată și energică, de rețete simple și sănătoase."
+    },
+    "images": [
+      "/assets/images/products/p-140-1.png",
+      "/assets/images/products/p-140-2.png",
+      "/assets/images/products/p-140-3.png",
+      "/assets/images/products/p-140-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "balsam",
+    "name": {
+      "en": "Hammam laundry conditioner, 38 washes, ",
+      "ro": "Balsam de rufe Hammam, 38 de spălări"
+    },
+    "price": 17.98,
+    "unit": "760ml",
+    "description": {
+      "en": "The floral-oriental essence of the balm Tesori d'Arient Hammam combines the tip notes and almond flowers with the seductive mix of orange and jasmine flowers.\n\nThe balm formula is enriched with precious argan oil, thanks to which the clothes become soft, comfortable and easy to iron.",
+      "ro": "Esența floral-orientală a balsamului Tesori d'Oriente Hammam îmbină notele de vârf de mandarină și flori de migdal cu mixul seducător de flori de portocal și iasomie.\n\nFormula balsamului este îmbogățită cu ulei prețios de argan, datorită căruia rufele devin moi, confortabile și ușor de călcat."
+    },
+    "images": [
+      "/assets/images/products/p-141-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ciorbe",
+    "name": {
+      "en": "Vegetable mixture for beef soup",
+      "ro": "Amestec de legume pentru ciorbă de văcuță"
+    },
+    "price": 6.99,
+    "unit": "400g",
+    "description": {
+      "en": "Mix of vegetables for the beef soup, perfect for each housewife.",
+      "ro": "Amestec de legume pentru ciorba de văcuță, perfect pentru fiecare gospodină."
+    },
+    "images": [
+      "/assets/images/products/p-142-1.png",
+      "/assets/images/products/p-142-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Vegetables",
+          "ro": "Legume"
+        },
+        "slug": "vegetables"
+      },
+      {
+        "name": {
+          "en": "Frozen Vegetables",
+          "ro": "Legume Congelate"
+        },
+        "slug": "frozen-vegetables"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "bar de specialitate",
+    "name": {
+      "en": "Special salt for the dishwasher",
+      "ro": "Sare specială pentru mașina de spălat vase"
+    },
+    "price": 12.5,
+    "unit": "1.5kg",
+    "description": {
+      "en": "The hard water leads to the deposit of the limestone in hard -to -reach places, which can quickly decrease the efficiency of your dishwasher.\n\nFinish salt offers 100% superior protection of the machine due to the softening of water and preventing limestone to protect your dishwasher.\n\nIt also prevents the accumulation of stains and traces of water on your important dishes and glasses: Finish salt is specially created for your dishwasher, with a purity of 99%.",
+      "ro": "Apa dură duce la depunerea calcarului în locuri greu accesibile, ceea ce poate scădea rapid eficiența mașinii dvs. de spălat vase.\n\nFinish Sare oferă 100% Protecție superioară a mașinii datorită dedurizării apei și prevenirii depunerilor de calcar pentru a proteja mașina dvs. de spălat vase.\n\nÎmpiedică și acumularea petelor și urmelor de apă pe vasele și paharele dvs. Important: Finish Sare este creată special pentru mașina dvs. de spălat vase, având o puritate de 99%."
+    },
+    "images": [
+      "/assets/images/products/p-144-1.png",
+      "/assets/images/products/p-144-2.png",
+      "/assets/images/products/p-144-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "brânză de specialitate",
+    "name": {
+      "en": "Specialty of Provolone sweet cheeze",
+      "ro": "Specialitate de brânză Provolone dulce"
+    },
+    "price": 15.49,
+    "unit": "100g",
+    "description": {
+      "en": "Italian semi-hard cheese, from cow's milk, with a distinct taste and a gentle aroma.\n\n\n\nThe product is sliced, ideal for quick sandwiches and snacks.",
+      "ro": "Brânză semi-dură italiană, din lapte de vacă, cu un gust distinct și o aromă blândă.\n\n\n\nProdusul este feliat, ideal pentru sandvișuri și gustări rapide."
+    },
+    "images": [
+      "/assets/images/products/p-145-1.png",
+      "/assets/images/products/p-145-2.png",
+      "/assets/images/products/p-145-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Cheese",
+          "ro": "Branza"
+        },
+        "slug": "cheese"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ciocolata de specialitate",
+    "name": {
+      "en": "Crunchy coconut specialties",
+      "ro": "Specialități crocante de nucă de cocos"
+    },
+    "price": 8.65,
+    "unit": "80g",
+    "description": {
+      "en": "Raffaello recipe is a harmonious mixture of carefully selected ingredients: the coconut in the Pacific islands and white California.",
+      "ro": "Rețeta Raffaello este un amestec armonios de ingrediente atent selecționate: nuca de cocos din insulele Pacificului și migdale albe din California."
+    },
+    "images": [
+      "/assets/images/products/p-146-1.png",
+      "/assets/images/products/p-146-2.png",
+      "/assets/images/products/p-146-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Candy",
+          "ro": "Bomboane"
+        },
+        "slug": "candy"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "grăsime de specialitate",
+    "name": {
+      "en": "Coconut fat 22%",
+      "ro": "Grăsime de Cocos 22%"
+    },
+    "price": 19.22,
+    "unit": "400ml",
+    "description": {
+      "en": "A perfect complement to oriental cuisine, especially curry preparations.It is characterized by a delicate texture and a deep aroma.It can be used in soups, sauces, oriental preparations, desserts and cocktails.",
+      "ro": "Un complement perfect pentru bucătăria orientală, în special preparatele cu curry. Se caracterizează printr-o textură delicată și o aromă profundă. Poate fi folosit în supe, sosuri, preparate orientale, deserturi și cocktailuri."
+    },
+    "images": [
+      "/assets/images/products/p-147-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Butter",
+          "ro": "Unt"
+        },
+        "slug": "butter"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "condimente",
+    "name": {
+      "en": "Spices for chicken",
+      "ro": "Condimente pentru pui"
+    },
+    "price": 1.59,
+    "unit": "20g",
+    "description": {
+      "en": "Thanks to these spices, the chicken preparations acquire an amazing taste and aroma.With them, the meat can be spiced before it is baked, boiled, fried or fried.It can also be placed on sauces.",
+      "ro": "Mulțumită acestor condimente, preparatele din pui dobândesc un gust și o aromă uimitoare. Cu ele, carnea se poate condimenta înainte de a fi coaptă, fiartă, prăjită sau friptă. Se poate pune și la sosuri."
+    },
+    "images": [
+      "/assets/images/products/p-149-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "zahăr",
+    "name": {
+      "en": "Coca-Cola zero",
+      "ro": "Coca-Cola zero"
+    },
+    "price": 8.89,
+    "unit": "2.5ltr",
+    "description": {
+      "en": "Coca-Cola zero sugar is the perfect drink for people who want the same sensation Coca-Cola with the benefit of zero sugar and zero calories.",
+      "ro": "Coca-Cola zero zahăr este băutura perfectă pentru oamenii care își doresc aceeași senzație Coca-Cola cu beneficiul zero zahăr și zero calorii."
+    },
+    "images": [
+      "/assets/images/products/p-151-1.png",
+      "/assets/images/products/p-151-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Soda",
+          "ro": "Băuturi carbogazoase"
+        },
+        "slug": "soda"
+      },
+      {
+        "name": {
+          "en": "Coke",
+          "ro": "Cola"
+        },
+        "slug": "coke"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "tartine dulci",
+    "name": {
+      "en": "Small tart cups, sweet",
+      "ro": "Cupe tarte mici, dulci"
+    },
+    "price": 15.99,
+    "unit": "240g",
+    "description": {
+      "en": "Sweet tarts for your party!\n\nNo matter what are filled, these tarts look great on any plateau.\n\nThe guests will be delighted and especially impressed by your culinary talents.",
+      "ro": "Coji de tarte dulci pentru petrecerea ta!\n\nIndiferent cu ce sunt umplute, aceste tarte arată foarte bine pe orice platou.\n\nMusafirii vor fi încântați și mai ales impresionați de talentele voastre culinare.\n"
+    },
+    "images": [
+      "/assets/images/products/p-152-1.png",
+      "/assets/images/products/p-152-2.png",
+      "/assets/images/products/p-152-3.png",
+      "/assets/images/products/p-152-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "sirop",
+    "name": {
+      "en": "Cocoa ice cream with cocoa syrup",
+      "ro": "Înghețată de cacao cu sirop de cacao"
+    },
+    "price": 22.89,
+    "unit": "1ltr",
+    "description": {
+      "en": "Cocoa ice cream with cocoa syrup 12%.",
+      "ro": "Înghețată de cacao cu sirop de cacao 12%."
+    },
+    "images": [
+      "/assets/images/products/p-153-1.png",
+      "/assets/images/products/p-153-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Ice Cream",
+          "ro": "Înghețată"
+        },
+        "slug": "ice-cream"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "ceai",
+    "name": {
+      "en": "Lime green tea and peppermint",
+      "ro": "Ceai verde lime și mentă"
+    },
+    "price": 6.85,
+    "unit": "1.5ltr",
+    "description": {
+      "en": "Try the refreshing tea fought green tea lime and peppermint.Get inspired by the delicious combinations of green tea extract, fruit juice and aromatic plants.",
+      "ro": "Încearcă ceaiul răcoritor Fuzetea ceai verde lime și mentă. Inspiră-te din combinațiile delicioase de extract de ceai verde, suc de fructe și plante aromatice."
+    },
+    "images": [
+      "/assets/images/products/p-154-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Tea",
+          "ro": "Ceai"
+        },
+        "slug": "tea"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "supărări",
+    "name": {
+      "en": "Hammam laundry conditioner, 38 washes",
+      "ro": "Balsam de rufe Hammam, 38 de spălări"
+    },
+    "price": 17.98,
+    "unit": "760ml",
+    "description": {
+      "en": "The floral-oriental essence of the balm Tesori d'Arient Hammam combines the tip notes and almond flowers with the seductive mix of orange and jasmine flowers.\n\nThe balm formula is enriched with precious argan oil, thanks to which the clothes become soft, comfortable and easy to iron.",
+      "ro": "Esența floral-orientală a balsamului Tesori d'Oriente Hammam îmbină notele de vârf de mandarină și flori de migdal cu mixul seducător de flori de portocal și iasomie.\n\nFormula balsamului este îmbogățită cu ulei prețios de argan, datorită căruia rufele devin moi, confortabile și ușor de călcat."
+    },
+    "images": [
+      "/assets/images/products/p-155-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "curatator de toalete",
+    "name": {
+      "en": "Toilet cleaner gel",
+      "ro": "Gel pentru curățat vasul de toaletă"
+    },
+    "price": 10.9,
+    "unit": "700ml",
+    "description": {
+      "en": "",
+      "ro": "Datorită sistemului inovativ MULTI-JET, ACE WC Descaler fără înălbitor igienizeaza toaleta chiar și în cele mai greu accesibile locuri. Dintr-o singură aplicație, cele șase jeturi ajung cu ușurință chiar sub marginea vasului de toaletă și garantează o acoperire completă și uniformă a acestuia. Iar mulțumită \"Formulei Dezincrustante\" speciale, are o dublă acțiune, care acționează până sub nivelul apei chiar și fără să freci! Aliatul ideal pentru igienă completă a toaletelor."
+    },
+    "images": [
+      "/assets/images/products/p-156-1.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Cleaning",
+          "ro": "Curățenie"
+        },
+        "slug": "cleaning"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "fruct tropical",
+    "name": {
+      "en": "Ice cream cornet with vanilla aroma and tropical fruit sauce",
+      "ro": "Înghețată cornet cu aromă de vanilie și sos de fructe tropicale"
+    },
+    "price": 4.99,
+    "unit": "110ml",
+    "description": {
+      "en": "Vanilla flavored ice cream and tropical fruit sauce (25.7%), in napolitan cornet (15.3%) with cocoa icing (8.3%).",
+      "ro": "Înghețată cu aromă de vanilie și sos de fructe tropicale (25.7%), în cornet de napolitană (15.3%) cu glazură de cacao (8.3%).\n"
+    },
+    "images": [
+      "/assets/images/products/p-157-1.png",
+      "/assets/images/products/p-157-2.png",
+      "/assets/images/products/p-157-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      },
+      {
+        "name": {
+          "en": "Ice Cream",
+          "ro": "Înghețată"
+        },
+        "slug": "ice-cream"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "curcan",
+    "name": {
+      "en": "Sliced boneless turkey breast",
+      "ro": "Piept de curcan dezosat feliat"
+    },
+    "price": 34.99,
+    "unit": "650g",
+    "description": {
+      "en": "Skinless turkey breast, sliced, class A.\n\nRefrigerated product.\n\nLili Gray are dedicated to the concept of absolute quality, thus offering the best, fragile and tasty traditional Romanian poultry meat.\n\nThey offer a wide range of poultry products to European quality and food biosecurity standards.",
+      "ro": "Piept de curcan fără piele, feliat, clasa A.\n\nProdus refrigerat.\n\nLili Gri sunt dedicați conceptului de calitate absolută, oferind astfel cea mai bună, fragedă și gustoasă carne de pasăre tradițională românească.\n\nAceștia oferă o gamă variată de produse de carne de pasăre la standarde europene de calitate și biosecuritate alimentară."
+    },
+    "images": [
+      "/assets/images/products/p-158-1.png",
+      "/assets/images/products/p-158-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Meat",
+          "ro": "Carne"
+        },
+        "slug": "meat"
+      },
+      {
+        "name": {
+          "en": "Chicken",
+          "ro": "Pui"
+        },
+        "slug": "chicken"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "oţet",
+    "name": {
+      "en": "Apple vinegar",
+      "ro": "Oțet de mere"
+    },
+    "price": 4.89,
+    "unit": "500ml",
+    "description": {
+      "en": "Apple food vinegar is obtained 100% of apple juice by the classic method of natural fermentation.",
+      "ro": "Oțetul alimentar de mere este obținut 100% din suc de mere prin metoda clasică de fermentaţie naturală."
+    },
+    "images": [
+      "/assets/images/products/p-159-1.png",
+      "/assets/images/products/p-159-2.png",
+      "/assets/images/products/p-159-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "vafe",
+    "name": {
+      "en": "Vale with eco honey",
+      "ro": "Vafe cu miere eco"
+    },
+    "price": 9.99,
+    "unit": "60g",
+    "description": {
+      "en": "With a high honey content (16%), these waffles represent both an energy source and a delicate snack.Bio product.",
+      "ro": "Cu un conținut ridicat de miere (16%), aceste vafe reprezintă atât o sursă de energie cât și o gustare delicată. Produs BIO."
+    },
+    "images": [
+      "/assets/images/products/p-160-1.png",
+      "/assets/images/products/p-160-2.png",
+      "/assets/images/products/p-160-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Sweets",
+          "ro": "Dulciuri"
+        },
+        "slug": "sweets"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "frisca/smantana",
+    "name": {
+      "en": "Liquid cream for whipped cream, unsweetened, 32% fat",
+      "ro": "Smântână lichidă pentru frișcă, neîndulcită, 32% grăsime"
+    },
+    "price": 7.99,
+    "unit": "200ml",
+    "description": {
+      "en": "LaDORNA milk cream, natural and tasty, in a 200ml format. Because the right moment for a creamy and delicious cake is \"anytime\"! Do not forget to keep it in the refrigerator for at least 24 hours before using it. Check the preparation recommendations on the package to get the perfect whipped cream!",
+      "ro": "Frişcă din lapte LaDORNA, naturală şi gustoasă, într-un format de 200ml. Pentru că momentul potrivit pentru o prăjitură cremoasă şi delicioasă e “oricând”! Nu uita să o păstrezi la frigider minim 24 de ore înainte de a o utiliza. Consultă recomandările de preparare de pe ambalaj pentru a obține frișca perfectă!"
+    },
+    "images": [
+      "/assets/images/products/p-161-1.png",
+      "/assets/images/products/p-161-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "whisky",
+    "name": {
+      "en": "Mustard",
+      "ro": "Muștar"
+    },
+    "price": 7.05,
+    "unit": "190g",
+    "description": {
+      "en": "Sultanel mustard with a delicate whiskey aroma, is a more special variant than the classic mass mustard.\n\nIt is ideal for preparations or festive meals, more special.",
+      "ro": "Muștarul Sultanel cu aromă delicată de whisky, este o variantă mai specială decât clasicul muștar de masă.\n\nEste ideal pentru preparate sau mese festive, mai deosebite."
+    },
+    "images": [
+      "/assets/images/products/p-162-1.png",
+      "/assets/images/products/p-162-2.png",
+      "/assets/images/products/p-162-3.png",
+      "/assets/images/products/p-162-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Spices",
+          "ro": "Condimente"
+        },
+        "slug": "spices"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "pâine albă",
+    "name": {
+      "en": "White bread pave",
+      "ro": "Pâine albă Pave"
+    },
+    "price": 9.99,
+    "unit": "400g",
+    "description": {
+      "en": "Pave white handmade bread, freshly removed from the oven, lung with maia and Romanian ingredients.Crispy on the outside, thanks to the natural and fluffy maia on the inside, tasty and always fresh.",
+      "ro": "Pâine artizanală albă Pave, proaspăt scoasă din cuptor, plămădită cu maia și ingrediente românești. Crocantă la exterior, mulțumită maielei naturale și pufoasă la interior, gustoasă și întotdeauna proaspătă."
+    },
+    "images": [
+      "/assets/images/products/p-163-1.png",
+      "/assets/images/products/p-163-2.png",
+      "/assets/images/products/p-163-3.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Bakery",
+          "ro": "Brutărie"
+        },
+        "slug": "bakery"
+      },
+      {
+        "name": {
+          "en": "Bread",
+          "ro": "Pâine"
+        },
+        "slug": "bread"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "vin alb",
+    "name": {
+      "en": "White wine dry Chardonnay",
+      "ro": "Vin alb sec Chardonnay"
+    },
+    "price": 35.5,
+    "unit": "700ml",
+    "description": {
+      "en": "It has an light golden color, with shades of amber.\n\nThe intense aroma is dominated by exotic flowers and fruits.\n\nThe full, opulent taste is complex, with almond and vanilla notes, followed by a long post, harmoniously dominated by maturation shades.\n\nMatured for 6 months in oak barrique.",
+      "ro": "Are o culoare aurie deschisă, cu nuanțe de chihlimbar.\n\nAroma intensă este dominată de flori și fructe exotice.\n\nGustul plin, opulent, este complex, cu note de migdală și vanilie, fiind urmat de un postgust prelung, dominat armonios de nuanțe de maturare.\n\nMaturat timp de 6 luni în barrique de stejar."
+    },
+    "images": [
+      "/assets/images/products/p-164-1.png",
+      "/assets/images/products/p-164-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Drinks",
+          "ro": "Băuturi"
+        },
+        "slug": "drinks"
+      },
+      {
+        "name": {
+          "en": "Alcoholic Drinks",
+          "ro": "Băuturi alcoolice"
+        },
+        "slug": "alcoholic-drinks"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "tot laptele",
+    "name": {
+      "en": "Bio milk 3.8% fat",
+      "ro": "Lapte bio 3.8% grăsime"
+    },
+    "price": 15.79,
+    "unit": "1.6ltr",
+    "description": {
+      "en": "Pure ecological milk from the heart of Transylvania.A milk of the highest quality, collected only from carefully selected farms, which retain all the qualities given by nature.",
+      "ro": "Lapte ecologic pur din inima Ardealului. Un lapte de cea mai bună calitate, colectat numai de la fermele atent selecționate, care își păstrează toate calitățile dăruite de natură."
+    },
+    "images": [
+      "/assets/images/products/p-165-1.png",
+      "/assets/images/products/p-165-2.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Milk",
+          "ro": "Lapte"
+        },
+        "slug": "milk"
+      },
+      {
+        "name": {
+          "en": "Bio",
+          "ro": "Bio"
+        },
+        "slug": "bio"
+      }
+    ]
+  },
+  {
+    "wordToSearch": "iaurt",
+    "name": {
+      "en": "Greek yogurt, 2% fat",
+      "ro": "Iaurt cu specific grecesc, 2% grăsime"
+    },
+    "price": 11.89,
+    "unit": "4x150g",
+    "description": {
+      "en": "Enjoy the Greek yogurt with a low fat content.A dense texture and an absolutely delicious taste.Whether you enjoy a yogurt for breakfast with cereals and honey, at lunch in a dessert with fresh fruits or dinner, in the yogurt sauce in the raw salad, the beneficial active crops will help prevent the installation of bacteria in your body.",
+      "ro": "Bucură-te de iaurtul cu specific grecesc cu un conținut scăzut de grăsime. O textură densă și un gust absolut delicios. Fie că savurezi un iaurt la micul dejun cu cereale și miere, la prânz într-un desert cu fructe proaspete sau la cină, în sosul de iaurt din salata de crudități, culturile active benefice vor ajuta la prevenirea instalării bacteriilor în corpul tău."
+    },
+    "images": [
+      "/assets/images/products/p-166-1.png",
+      "/assets/images/products/p-166-2.png",
+      "/assets/images/products/p-166-3.png",
+      "/assets/images/products/p-166-4.png"
+    ],
+    "tags": [
+      {
+        "name": {
+          "en": "Dairy",
+          "ro": "Lactate"
+        },
+        "slug": "dairy"
+      },
+      {
+        "name": {
+          "en": "Yogurt",
+          "ro": "Iaurt"
+        },
+        "slug": "yogurt"
+      }
+    ]
+  }
+]
